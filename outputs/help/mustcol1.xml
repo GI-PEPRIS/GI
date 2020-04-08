@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <versiontype id="1">
+    <elementtype elementtypeid="65536">
+      <table name="i_el_survey" tid="19" tname="Survey" ttype="0" isuseradd="0"/>
+      <table name="i_el_seismic_deploy" tid="21" tname="Seismic Deploy" ttype="0" isuseradd="0">
+        <col colname="schemetype" colorder="2"/>
+        <col colname="geocommit" colorder="15"/>
+        <col colname="observesystemtype" colorder="17"/>
+      </table>
+      <table name="i_el_seismic_picture" tid="22" tname="Exploration Pictures" ttype="0" isuseradd="0"/>
+      <table name="i_el_exploration" tid="8" tname="Exploration History" ttype="1" isuseradd="0"/>
+      <table name="i_el_pool" tid="14" tname="Pool Sequence" ttype="1" isuseradd="0"/>
+      <table name="i_el_check" tid="20" tname="Survey Check" ttype="0" isuseradd="0"/>
+    </elementtype>
+  </versiontype>
+</config>

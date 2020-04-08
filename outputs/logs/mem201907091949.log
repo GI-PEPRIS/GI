@@ -1,0 +1,15 @@
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1951) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1951) : Initial memory status(29851520K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1951) : Leaving memory status(29849676K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(29849480K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(29843944K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(29843204K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(29842176K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(409) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(409) : Initial memory status(29856736K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(409) : Leaving memory status(30943340K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(206) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(206) : Initial memory status(30967576K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(206) : Leaving memory status(30967508K)

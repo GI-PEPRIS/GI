@@ -1,0 +1,409 @@
+>Running Here: d:\gi\any\db\src\anyaccessor.cpp(167)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select * from ref_table_version
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = 对象名 'ref_table_version' 无效。
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select 								categoryid, 								themeid, 								maplayerid from r_gis_maplayer_user_relation where username like 'sxj'
+>Running Here: d:\gi\any\db\src\anyaccessor.cpp(205)
+>Running Here: d:\gi\any\db\src\anyunitwork.cpp(207)

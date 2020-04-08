@@ -1,0 +1,5797 @@
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_bayes_net_branch]') AND type in (N'U'))
+DROP TABLE [a_bayes_net_branch]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_bayes_net_node]') AND type in (N'U'))
+DROP TABLE [a_bayes_net_node]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_correlation]') AND type in (N'U'))
+DROP TABLE [a_correlation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_decision_tree_branch]') AND type in (N'U'))
+DROP TABLE [a_decision_tree_branch]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_decision_tree_node]') AND type in (N'U'))
+DROP TABLE [a_decision_tree_node]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_jobstream]') AND type in (N'U'))
+DROP TABLE [a_jobstream]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_cost_basic]') AND type in (N'U'))
+DROP TABLE [a_npv_cost_basic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_cost_detail]') AND type in (N'U'))
+DROP TABLE [a_npv_cost_detail]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_cost_mmbs]') AND type in (N'U'))
+DROP TABLE [a_npv_cost_mmbs]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_edp_basic]') AND type in (N'U'))
+DROP TABLE [a_npv_edp_basic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_edp_schedule]') AND type in (N'U'))
+DROP TABLE [a_npv_edp_schedule]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_policy]') AND type in (N'U'))
+DROP TABLE [a_npv_policy]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_price]') AND type in (N'U'))
+DROP TABLE [a_npv_price]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_resource]') AND type in (N'U'))
+DROP TABLE [a_npv_resource]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_risk]') AND type in (N'U'))
+DROP TABLE [a_npv_risk]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_scenario]') AND type in (N'U'))
+DROP TABLE [a_npv_scenario]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_summary]') AND type in (N'U'))
+DROP TABLE [a_npv_summary]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_tax]') AND type in (N'U'))
+DROP TABLE [a_npv_tax]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_parameter]') AND type in (N'U'))
+DROP TABLE [a_parameter]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_pb_tree_branch]') AND type in (N'U'))
+DROP TABLE [a_pb_tree_branch]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_pb_tree_node]') AND type in (N'U'))
+DROP TABLE [a_pb_tree_node]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice]') AND type in (N'U'))
+DROP TABLE [a_practice]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_blobdata]') AND type in (N'U'))
+DROP TABLE [a_practice_blobdata]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_score]') AND type in (N'U'))
+DROP TABLE [a_practice_score]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_table]') AND type in (N'U'))
+DROP TABLE [a_practice_table]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_tablecheck]') AND type in (N'U'))
+DROP TABLE [a_practice_tablecheck]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_treetable]') AND type in (N'U'))
+DROP TABLE [a_practice_treetable]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_repository_genetic]') AND type in (N'U'))
+DROP TABLE [a_repository_genetic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_repository_pfolio]') AND type in (N'U'))
+DROP TABLE [a_repository_pfolio]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_repository_scenario]') AND type in (N'U'))
+DROP TABLE [a_repository_scenario]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_resource]') AND type in (N'U'))
+DROP TABLE [a_resource]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_resource_detail]') AND type in (N'U'))
+DROP TABLE [a_resource_detail]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_risk]') AND type in (N'U'))
+DROP TABLE [a_risk]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_template_blob]') AND type in (N'U'))
+DROP TABLE [a_template_blob]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_well_performance_practice]') AND type in (N'U'))
+DROP TABLE [a_well_performance_practice]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_well_performance_dre_result]') AND type in (N'U'))
+DROP TABLE [a_well_performance_dre_result]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_well_performance_dre_middle]') AND type in (N'U'))
+DROP TABLE [a_well_performance_dre_middle]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_boundary]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_boundary]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_depthmap]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_depthmap]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_draft]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_draft]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_facemap]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_facemap]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_fault]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_fault]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_horizon]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_horizon]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_layer]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_layer]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_model]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_model]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_setting]') AND type in (N'U'))
+DROP TABLE [d_basinsimulate_setting]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_contour_setting]') AND type in (N'U'))
+DROP TABLE [d_contour_setting]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_fault_feature]') AND type in (N'U'))
+DROP TABLE [d_ipt_fault_feature]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_fault_geometry]') AND type in (N'U'))
+DROP TABLE [d_ipt_fault_geometry]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_horizon_feature]') AND type in (N'U'))
+DROP TABLE [d_ipt_horizon_feature]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_horizon_geometry]') AND type in (N'U'))
+DROP TABLE [d_ipt_horizon_geometry]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_2dg]') AND type in (N'U'))
+DROP TABLE [d_seismic_2dg]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_3dg]') AND type in (N'U'))
+DROP TABLE [d_seismic_3dg]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_dataset]') AND type in (N'U'))
+DROP TABLE [d_seismic_dataset]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_gate]') AND type in (N'U'))
+DROP TABLE [d_seismic_gate]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_headinfo]') AND type in (N'U'))
+DROP TABLE [d_seismic_headinfo]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_ipt_em]') AND type in (N'U'))
+DROP TABLE [d_seismic_ipt_em]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_ipt_em_feature]') AND type in (N'U'))
+DROP TABLE [d_seismic_ipt_em_feature]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_ipt_em_property]') AND type in (N'U'))
+DROP TABLE [d_seismic_ipt_em_property]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_profileinfo]') AND type in (N'U'))
+DROP TABLE [d_seismic_profileinfo]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_project]') AND type in (N'U'))
+DROP TABLE [d_seismic_project]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_surveyinfo]') AND type in (N'U'))
+DROP TABLE [d_seismic_surveyinfo]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_surveyinfoblob]') AND type in (N'U'))
+DROP TABLE [d_seismic_surveyinfoblob]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_tracedata]') AND type in (N'U'))
+DROP TABLE [d_seismic_tracedata]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_wavlet]') AND type in (N'U'))
+DROP TABLE [d_seismic_wavlet]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_atttable]') AND type in (N'U'))
+DROP TABLE [d_well_atttable]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_basic]') AND type in (N'U'))
+DROP TABLE [d_well_basic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_basic_more]') AND type in (N'U'))
+DROP TABLE [d_well_basic_more]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_bore]') AND type in (N'U'))
+DROP TABLE [d_well_bore]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_burial_history]') AND type in (N'U'))
+DROP TABLE [d_well_burial_history]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_calibration]') AND type in (N'U'))
+DROP TABLE [d_well_calibration]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_cross_section]') AND type in (N'U'))
+DROP TABLE [d_well_cross_section]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_fault]') AND type in (N'U'))
+DROP TABLE [d_well_fault]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_fracture]') AND type in (N'U'))
+DROP TABLE [d_well_fracture]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_geochemical_para]') AND type in (N'U'))
+DROP TABLE [d_well_geochemical_para]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_geometry]') AND type in (N'U'))
+DROP TABLE [d_well_geometry]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_image]') AND type in (N'U'))
+DROP TABLE [d_well_image]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_interpretation]') AND type in (N'U'))
+DROP TABLE [d_well_interpretation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_logging]') AND type in (N'U'))
+DROP TABLE [d_well_logging]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_log_template]') AND type in (N'U'))
+DROP TABLE [d_well_log_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_mining_test]') AND type in (N'U'))
+DROP TABLE [d_well_mining_test]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_oil_test]') AND type in (N'U'))
+DROP TABLE [d_well_oil_test]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_path]') AND type in (N'U'))
+DROP TABLE [d_well_path]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_basic]') AND type in (N'U'))
+DROP TABLE [d_well_performance_basic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_casing]') AND type in (N'U'))
+DROP TABLE [d_well_performance_casing]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_deployment]') AND type in (N'U'))
+DROP TABLE [d_well_performance_deployment]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_geological_parameter]') AND type in (N'U'))
+DROP TABLE [d_well_performance_geological_parameter]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_pressure]') AND type in (N'U'))
+DROP TABLE [d_well_performance_pressure]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_pressure_gradient]') AND type in (N'U'))
+DROP TABLE [d_well_performance_pressure_gradient]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_production]') AND type in (N'U'))
+DROP TABLE [d_well_performance_production]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_trajectory]') AND type in (N'U'))
+DROP TABLE [d_well_performance_trajectory]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_tubing]') AND type in (N'U'))
+DROP TABLE [d_well_performance_tubing]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_pick]') AND type in (N'U'))
+DROP TABLE [d_well_pick]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_production]') AND type in (N'U'))
+DROP TABLE [d_well_production]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_property]') AND type in (N'U'))
+DROP TABLE [d_well_property]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_shale_operation]') AND type in (N'U'))
+DROP TABLE [d_well_shale_operation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_trace]') AND type in (N'U'))
+DROP TABLE [d_well_trace]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_variable]') AND type in (N'U'))
+DROP TABLE [d_well_variable]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_volume_sample]') AND type in (N'U'))
+DROP TABLE [d_well_volume_sample]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_zone]') AND type in (N'U'))
+DROP TABLE [d_well_zone]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el]') AND type in (N'U'))
+DROP TABLE [i_el]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_basic]') AND type in (N'U'))
+DROP TABLE [i_el_block_basic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_basin]') AND type in (N'U'))
+DROP TABLE [i_el_block_basin]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_primarystructure]') AND type in (N'U'))
+DROP TABLE [i_el_block_primarystructure]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_secondrystructure]') AND type in (N'U'))
+DROP TABLE [i_el_block_secondrystructure]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_thirdstructure]') AND type in (N'U'))
+DROP TABLE [i_el_block_thirdstructure]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_unit_exploration]') AND type in (N'U'))
+DROP TABLE [i_el_block_unit_exploration]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_cap]') AND type in (N'U'))
+DROP TABLE [i_el_cap]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_check]') AND type in (N'U'))
+DROP TABLE [i_el_check]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_document]') AND type in (N'U'))
+DROP TABLE [i_el_document]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_evaluation]') AND type in (N'U'))
+DROP TABLE [i_el_evaluation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_exploration]') AND type in (N'U'))
+DROP TABLE [i_el_exploration]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_factor]') AND type in (N'U'))
+DROP TABLE [i_el_factor]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_geology]') AND type in (N'U'))
+DROP TABLE [i_el_geology]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_geometry]') AND type in (N'U'))
+DROP TABLE [i_el_geometry]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_horizon]') AND type in (N'U'))
+DROP TABLE [i_el_horizon]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_overall]') AND type in (N'U'))
+DROP TABLE [i_el_overall]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_oversea_project]') AND type in (N'U'))
+DROP TABLE [i_el_oversea_project]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_pool]') AND type in (N'U'))
+DROP TABLE [i_el_pool]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_preservation]') AND type in (N'U'))
+DROP TABLE [i_el_preservation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_raster]') AND type in (N'U'))
+DROP TABLE [i_el_raster]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_repository]') AND type in (N'U'))
+DROP TABLE [i_el_repository]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_reservoir]') AND type in (N'U'))
+DROP TABLE [i_el_reservoir]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_resource]') AND type in (N'U'))
+DROP TABLE [i_el_resource]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_resource_shale]') AND type in (N'U'))
+DROP TABLE [i_el_resource_shale]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_segment]') AND type in (N'U'))
+DROP TABLE [i_el_segment]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_seismic_deploy]') AND type in (N'U'))
+DROP TABLE [i_el_seismic_deploy]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_seismic_picture]') AND type in (N'U'))
+DROP TABLE [i_el_seismic_picture]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_source]') AND type in (N'U'))
+DROP TABLE [i_el_source]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_survey]') AND type in (N'U'))
+DROP TABLE [i_el_survey]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap]') AND type in (N'U'))
+DROP TABLE [i_el_trap]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_development]') AND type in (N'U'))
+DROP TABLE [i_el_trap_development]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_exploration]') AND type in (N'U'))
+DROP TABLE [i_el_trap_exploration]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_geology_fault]') AND type in (N'U'))
+DROP TABLE [i_el_trap_geology_fault]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_project]') AND type in (N'U'))
+DROP TABLE [i_el_trap_project]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_reserve]') AND type in (N'U'))
+DROP TABLE [i_el_trap_reserve]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_reserve_discard]') AND type in (N'U'))
+DROP TABLE [i_el_trap_reserve_discard]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_survey]') AND type in (N'U'))
+DROP TABLE [i_el_trap_survey]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_wildcat_drill]') AND type in (N'U'))
+DROP TABLE [i_el_trap_wildcat_drill]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_wildcat_post]') AND type in (N'U'))
+DROP TABLE [i_el_trap_wildcat_post]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_wildcat_well]') AND type in (N'U'))
+DROP TABLE [i_el_trap_wildcat_well]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_volume_sample]') AND type in (N'U'))
+DROP TABLE [i_el_volume_sample]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_volume_stat]') AND type in (N'U'))
+DROP TABLE [i_el_volume_stat]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_activity]') AND type in (N'U'))
+DROP TABLE [r_activity]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_activity_menu]') AND type in (N'U'))
+DROP TABLE [r_activity_menu]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_activity_template]') AND type in (N'U'))
+DROP TABLE [r_activity_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_behar_kinetics]') AND type in (N'U'))
+DROP TABLE [r_behar_kinetics]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_fuzzy_member]') AND type in (N'U'))
+DROP TABLE [r_fuzzy_member]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_fuzzy_standard]') AND type in (N'U'))
+DROP TABLE [r_fuzzy_standard]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_geo_litho]') AND type in (N'U'))
+DROP TABLE [r_geo_litho]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_chunklocation]') AND type in (N'U'))
+DROP TABLE [r_gfs_chunklocation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_chunkuuid]') AND type in (N'U'))
+DROP TABLE [r_gfs_chunkuuid]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_geolocationgrid]') AND type in (N'U'))
+DROP TABLE [r_gfs_geolocationgrid]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_masterrecord]') AND type in (N'U'))
+DROP TABLE [r_gfs_masterrecord]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_chart]') AND type in (N'U'))
+DROP TABLE [r_gis_chart]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_color_range]') AND type in (N'U'))
+DROP TABLE [r_gis_color_range]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_geographic_coordinate]') AND type in (N'U'))
+DROP TABLE [r_gis_geographic_coordinate]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_layer_remark]') AND type in (N'U'))
+DROP TABLE [r_gis_layer_remark]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_projection]') AND type in (N'U'))
+DROP TABLE [r_gis_projection]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_sde_element]') AND type in (N'U'))
+DROP TABLE [r_gis_sde_element]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_style]') AND type in (N'U'))
+DROP TABLE [r_gis_style]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_heat_flow]') AND type in (N'U'))
+DROP TABLE [r_heat_flow]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_category]') AND type in (N'U'))
+DROP TABLE [r_kida_category]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_class]') AND type in (N'U'))
+DROP TABLE [r_kida_class]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_dataset]') AND type in (N'U'))
+DROP TABLE [r_kida_dataset]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_theme]') AND type in (N'U'))
+DROP TABLE [r_kida_theme]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_oversea_tableinfos]') AND type in (N'U'))
+DROP TABLE [r_oversea_tableinfos]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pb_user]') AND type in (N'U'))
+DROP TABLE [r_pb_user]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pepper_kinetics]') AND type in (N'U'))
+DROP TABLE [r_pepper_kinetics]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_basin_type]') AND type in (N'U'))
+DROP TABLE [r_pgeo_basin_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_exploration_degree]') AND type in (N'U'))
+DROP TABLE [r_pgeo_exploration_degree]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_formation_type]') AND type in (N'U'))
+DROP TABLE [r_pgeo_formation_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_geographic_environment]') AND type in (N'U'))
+DROP TABLE [r_pgeo_geographic_environment]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_play_type]') AND type in (N'U'))
+DROP TABLE [r_pgeo_play_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_structural_belt]') AND type in (N'U'))
+DROP TABLE [r_pgeo_structural_belt]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_tectonic_strength]') AND type in (N'U'))
+DROP TABLE [r_pgeo_tectonic_strength]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_thermal_history]') AND type in (N'U'))
+DROP TABLE [r_pgeo_thermal_history]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_trap_type]') AND type in (N'U'))
+DROP TABLE [r_pgeo_trap_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_composition_type]') AND type in (N'U'))
+DROP TABLE [r_ppsv_composition_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_fault_strength]') AND type in (N'U'))
+DROP TABLE [r_ppsv_fault_strength]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_migration_relation]') AND type in (N'U'))
+DROP TABLE [r_ppsv_migration_relation]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_migration_way]') AND type in (N'U'))
+DROP TABLE [r_ppsv_migration_way]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_water_type]') AND type in (N'U'))
+DROP TABLE [r_ppsv_water_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prefer_axis_template]') AND type in (N'U'))
+DROP TABLE [r_prefer_axis_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prefer_settings]') AND type in (N'U'))
+DROP TABLE [r_prefer_settings]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_probability]') AND type in (N'U'))
+DROP TABLE [r_probability]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_property_cap_rock_type]') AND type in (N'U'))
+DROP TABLE [r_property_cap_rock_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_diagenetic_phase]') AND type in (N'U'))
+DROP TABLE [r_prsv_diagenetic_phase]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_pore_type]') AND type in (N'U'))
+DROP TABLE [r_prsv_pore_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_rock_type]') AND type in (N'U'))
+DROP TABLE [r_prsv_rock_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_space_type]') AND type in (N'U'))
+DROP TABLE [r_prsv_space_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_face_type]') AND type in (N'U'))
+DROP TABLE [r_ps_face_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_organic_type]') AND type in (N'U'))
+DROP TABLE [r_ps_organic_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_pathway_type]') AND type in (N'U'))
+DROP TABLE [r_ps_pathway_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_rock_type]') AND type in (N'U'))
+DROP TABLE [r_ps_rock_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_supplyway_type]') AND type in (N'U'))
+DROP TABLE [r_ps_supplyway_type]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_quick_rule]') AND type in (N'U'))
+DROP TABLE [r_quick_rule]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_quick_standard]') AND type in (N'U'))
+DROP TABLE [r_quick_standard]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_quick_template]') AND type in (N'U'))
+DROP TABLE [r_quick_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_report_grid]') AND type in (N'U'))
+DROP TABLE [r_report_grid]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_report_grid_template]') AND type in (N'U'))
+DROP TABLE [r_report_grid_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_resource_class]') AND type in (N'U'))
+DROP TABLE [r_resource_class]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_resource_kind]') AND type in (N'U'))
+DROP TABLE [r_resource_kind]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_resource_unit]') AND type in (N'U'))
+DROP TABLE [r_resource_unit]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_rh_dimcol_template]') AND type in (N'U'))
+DROP TABLE [r_rh_dimcol_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_rh_template]') AND type in (N'U'))
+DROP TABLE [r_rh_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_rh_where_condition_template]') AND type in (N'U'))
+DROP TABLE [r_rh_where_condition_template]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_risk_factor]') AND type in (N'U'))
+DROP TABLE [r_risk_factor]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_seis_style]') AND type in (N'U'))
+DROP TABLE [r_seis_style]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_sediment_water_interface_temperayure]') AND type in (N'U'))
+DROP TABLE [r_sediment_water_interface_temperayure]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_water_paleo_depth]') AND type in (N'U'))
+DROP TABLE [r_water_paleo_depth]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_well_rock]') AND type in (N'U'))
+DROP TABLE [r_well_rock]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_database_version]') AND type in (N'U'))
+DROP TABLE [ref_database_version]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_face_definition]') AND type in (N'U'))
+DROP TABLE [ref_face_definition]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_key_generator]') AND type in (N'U'))
+DROP TABLE [ref_key_generator]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_oilfields]') AND type in (N'U'))
+DROP TABLE [ref_oilfields]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_pick_system]') AND type in (N'U'))
+DROP TABLE [ref_pick_system]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_sql_topic]') AND type in (N'U'))
+DROP TABLE [ref_sql_topic]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_sys_user]') AND type in (N'U'))
+DROP TABLE [ref_sys_user]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_lock_table]') AND type in (N'U'))
+DROP TABLE [ref_lock_table]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_well_logcurve]') AND type in (N'U'))
+DROP TABLE [ref_well_logcurve]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_well_logcurve]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_well_logcurve](
+	[curveid] [int] NOT NULL PRIMARY KEY,
+	[ename] [nvarchar](255) NULL,
+	[cname] [nvarchar](255) NULL,
+	[unit] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_sys_user]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_sys_user](
+	[userid] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](64) NULL,
+	[department] [nvarchar](255) NULL,
+	[priority] [int] NULL,
+	[authorities] [nvarchar](max) NULL,
+	[readvalidtables] [image] NULL,
+	[writevalidtables] [image] NULL,
+	[fieldid] [int] NOT NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_sql_topic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_sql_topic](
+	[topicid] [int] NOT NULL PRIMARY KEY,
+	[topicname] [nvarchar](255) NULL,
+	[aliasname] [nvarchar](255) NULL,
+	[selectcolumns] [nvarchar](max) NULL,
+	[fromtables] [nvarchar](max) NULL,
+	[wherecondition] [nvarchar](max) NULL,
+	[groupcolumns] [nvarchar](255) NULL,
+	[ordercolumns] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_pick_system]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_pick_system](
+	[eid] [int] NULL,
+	[pid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[type] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_oilfields]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_oilfields](
+	[fieldid] [int] NULL,
+	[fieldname] [nvarchar](255) NULL,
+	[viewall] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_key_generator]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_key_generator](
+	[keyid] [int] NOT NULL PRIMARY KEY,
+	[nextid] [int] NULL,
+	[maxid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[oilfieldid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_face_definition]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_face_definition](
+	[faceid] [int] NULL,
+	[facename] [nvarchar](255) NULL,
+	[facecolor] [int] NULL,
+	[lithname] [nvarchar](255) NULL,
+	[lithovariablenum] [int] NULL,
+	[toc] [float] NULL,
+	[itemnametoc] [nvarchar](255) NULL,
+	[viewnametoc] [nvarchar](255) NULL,
+	[interpolatetypetoc] [int] NULL,
+	[hio] [float] NULL,
+	[itemnamehio] [nvarchar](255) NULL,
+	[viewnamehio] [nvarchar](255) NULL,
+	[interpolatetypehio] [int] NULL,
+	[ineticname] [nvarchar](255) NULL,
+	[tocs] [image] NULL,
+	[hios] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_database_version]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_database_version](
+	[dbversion] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_well_rock]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_well_rock](
+	[rockid] [int] NULL,
+	[rockname] [nvarchar](255) NULL,
+	[rocktype] [int] NULL,
+	[rockdata] [image] NULL,
+	[whodo] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_water_paleo_depth]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_water_paleo_depth](
+	[wpdid] [int] NULL,
+	[modelid] [int] NULL,
+	[wpdname] [nvarchar](255) NULL,
+	[agefrom] [float] NULL,
+	[reference] [nvarchar](255) NULL,
+	[layername] [nvarchar](255) NULL,
+	[mode] [nvarchar](255) NULL,
+	[depth] [float] NULL,
+	[depthname] [nvarchar](255) NULL,
+	[depthviewname] [nvarchar](255) NULL,
+	[depthtype] [int] NULL,
+	[depths] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_seis_style]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_seis_style](
+	[filepath] [nvarchar](255) NULL,
+	[renderingtype] [int] NULL,
+	[isblended] [int] NULL,
+	[iscomplemented] [int] NULL,
+	[isshowgrid] [int] NULL,
+	[isshowintervalline] [int] NULL,
+	[isshowcursorline] [int] NULL,
+	[colorcodevals] [image] NULL,
+	[colorcodecolors] [image] NULL,
+	[xtrap] [int] NULL,
+	[ytrap] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_sediment_water_interface_temperayure]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_sediment_water_interface_temperayure](
+	[switid] [int] NULL,
+	[modelid] [int] NULL,
+	[switname] [nvarchar](255) NULL,
+	[agefrom] [float] NULL,
+	[mode] [nvarchar](255) NULL,
+	[tempterature] [float] NULL,
+	[depthname] [nvarchar](255) NULL,
+	[depthviewname] [nvarchar](255) NULL,
+	[depthtype] [int] NULL,
+	[depths] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_risk_factor]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_risk_factor](
+	[factorid] [int] NOT NULL PRIMARY KEY,
+	[parentid] [int] NULL,
+	[templateid] [int] NULL,
+	[scoretype] [int] NULL,
+	[name] [nvarchar](50) NULL,
+	[uppervalue] [float] NULL,
+	[lowervalue] [float] NULL,
+	[svalue] [nvarchar](255) NULL,
+	[weight] [float] NULL,
+	[iscommon] [tinyint] NULL,
+        [formula] [nvarchar](max) NULL,
+	[remarkblob] [image] NULL,
+	[layername] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_rh_where_condition_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_rh_where_condition_template](
+	[username] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[templatename] [nvarchar](255) NULL,
+	[lefttablename] [nvarchar](255) NULL,
+	[leftfieldname] [nvarchar](255) NULL,
+	[righttablename] [nvarchar](255) NULL,
+	[rightfieldname] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_rh_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_rh_template](
+	[username] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[templatename] [nvarchar](255) NULL,
+	[mrow] [int] NULL,
+	[col] [int] NULL,
+	[rowsize] [int] NULL,
+	[colsize] [int] NULL,
+	[stringvalue] [nvarchar](255) NULL,
+	[tablename] [nvarchar](255) NULL,
+	[fieldname] [nvarchar](255) NULL,
+	[isorderby] [int] NULL,
+	[isunion] [int] NULL,
+	[orderbyprior] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_rh_dimcol_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_rh_dimcol_template](
+	[username] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[templatename] [nvarchar](255) NULL,
+	[col] [int] NULL,
+	[dimlevel] [int] NULL,
+	[parentidtablename] [nvarchar](255) NULL,
+	[parentidfieldname] [nvarchar](255) NULL,
+	[idtablename] [nvarchar](255) NULL,
+	[idfieldname] [nvarchar](255) NULL,
+	[identifytablename] [nvarchar](255) NULL,
+	[identifyfieldname] [nvarchar](255) NULL,
+	[contenttablename] [nvarchar](255) NULL,
+	[contentfieldname] [nvarchar](255) NULL,
+	[isorderby] [int] NULL,
+	[isunion] [int] NULL,
+	[orderbyprior] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_resource_unit]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_resource_unit](
+	[unitid] [int] NOT NULL PRIMARY KEY,
+	[unittype] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_resource_kind]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_resource_kind](
+	[kindid] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_resource_class]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_resource_class](
+	[classid] [int] NOT NULL PRIMARY KEY,
+	[category] [nvarchar](255) NULL,
+	[class] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_report_grid_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_report_grid_template](
+	[username] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[templatename] [nvarchar](255) NULL,
+	[datatype] [nvarchar](255) NULL,
+	[tablename] [nvarchar](255) NULL,
+	[fieldname] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_report_grid]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_report_grid](
+	[formatname] [nvarchar](127) NULL,
+	[posx] [int] NULL,
+	[posy] [int] NULL,
+	[type] [int] NULL,
+	[sizex] [int] NULL,
+	[sizey] [int] NULL,
+	[rowsize] [int] NULL,
+	[colsize] [int] NULL,
+	[totalheight] [int] NULL,
+	[totalwidth] [int] NULL,
+	[blobdata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_quick_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_quick_template](
+	[templateid] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](128) NULL,
+	[whodo] [nvarchar](64) NULL,
+	[whendo] [int] NULL,
+	[type] [int] NULL,
+	[remark] [nvarchar](255) NULL,
+	[formula] [nvarchar](max) NULL,
+	[timeStamp] [timestamp] NULL,
+	[templatekind] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_quick_standard]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_quick_standard](
+	[scoreid] [int] NOT NULL PRIMARY KEY,
+	[templateid] [int] NULL,
+	[scoretype] [int] NULL,
+	[upperscore] [float] NULL,
+	[lowerscore] [float] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_quick_rule]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_quick_rule](
+	[scoreid] [int] NULL,
+	[factorid] [int] NULL,
+	[uppervalue] [float] NULL,
+	[lowervalue] [float] NULL,
+	[svalue] [nvarchar](255) NULL,
+	[favorability] [nvarchar](64) NULL,
+	[remarkdata] [nvarchar](max) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_supplyway_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ps_supplyway_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_rock_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ps_rock_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_pathway_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ps_pathway_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_organic_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ps_organic_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ps_face_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ps_face_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_space_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_prsv_space_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_rock_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_prsv_rock_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_pore_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_prsv_pore_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prsv_diagenetic_phase]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_prsv_diagenetic_phase](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_property_cap_rock_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_property_cap_rock_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_probability]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_probability](
+	[probid] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](50) NULL,
+	[paratype] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prefer_axis_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_prefer_axis_template](
+	[templateIdx] [int] NOT NULL,
+	[templatename] [nvarchar](255) NULL,
+	[xaxisoryaxis] [int] NULL,
+	[fieldformular] [nvarchar](max) NULL,
+	[fieldshowname] [nvarchar](255) NULL,
+	[fieldorder] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_prefer_settings]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_prefer_settings](
+	[practiceid] [int] NOT NULL PRIMARY KEY,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [float] NULL,
+	[remark] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[axisx] [int] NULL,
+	[axisy] [int] NULL,
+	[logx] [int] NULL,
+	[logy] [int] NULL,
+	[logaxis] [int] NULL,
+	[zerostart] [int] NULL,
+	[showname] [int] NULL,
+	[fourcolor] [int] NULL,
+	[showvalue] [int] NULL,
+	[hyperbolaorquarant] [int] NULL,
+	[hyperbolavalue] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_water_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ppsv_water_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_migration_way]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ppsv_migration_way](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_migration_relation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ppsv_migration_relation](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_fault_strength]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ppsv_fault_strength](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_ppsv_composition_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_ppsv_composition_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_trap_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_trap_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_thermal_history]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_thermal_history](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_tectonic_strength]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_tectonic_strength](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_structural_belt]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_structural_belt](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_play_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_play_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_geographic_environment]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_geographic_environment](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_formation_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_formation_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_exploration_degree]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_exploration_degree](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pgeo_basin_type]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pgeo_basin_type](
+	[id] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pepper_kinetics]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pepper_kinetics](
+	[pepperid] [int] NOT NULL PRIMARY KEY,
+	[peppercategory] [nvarchar](255) NULL,
+	[hi] [nvarchar](255) NULL,
+	[oil] [nvarchar](255) NULL,
+	[gas] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_pb_user]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_pb_user](
+	[probid] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](50) NULL,
+	[minx] [float] NULL,
+	[maxx] [float] NULL,
+	[data] [image] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_oversea_tableinfos]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_oversea_tableinfos](
+	[tabletype] [int] NOT NULL PRIMARY KEY,
+	[tablekind] [int] NULL,
+	[tablename] [nvarchar](255) NULL,
+	[tabledes] [nvarchar](255) NULL,
+	[tableremark] [nvarchar](255) NULL,
+	[tableatt] [int] NULL,
+	[isquantify] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_theme]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_kida_theme](
+	[themeid] [int] NOT NULL PRIMARY KEY,
+	[type] [int] NULL,
+	[name] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_dataset]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_kida_dataset](
+	[gateid] [int] NOT NULL PRIMARY KEY,
+	[layerid] [int] NULL,
+	[tileid] [int] NULL,
+	[xlayercount] [int] NULL,
+	[ylayercount] [int] NULL,
+	[layershift] [int] NULL,
+	[xtilecount] [int] NULL,
+	[ytilecount] [int] NULL,
+	[minx] [float] NULL,
+	[miny] [float] NULL,
+	[maxx] [float] NULL,
+	[maxy] [float] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_class]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_kida_class](
+	[classid] [int] NOT NULL PRIMARY KEY,
+	[categoryid] [int] NULL,
+	[themeid] [int] NULL,
+	[type] [int] NULL,
+	[name] [nvarchar](127) NULL,
+	[parentname] [nvarchar](127) NULL,
+	[source] [nvarchar](255) UNIQUE,
+	[minx] [float] NULL,
+	[miny] [float] NULL,
+	[maxx] [float] NULL,
+	[maxy] [float] NULL,
+	[layerorder] [int] NULL,
+	[isshown] [int] NULL,
+	[canselect] [int] NULL,
+	[remark] [nvarchar](255) NULL,
+	[lockuser] [nvarchar](255) NULL,
+	[lockreaduser] [nvarchar](255) NULL,
+	[seisparentid] [int] NULL,
+	[contourtype] [int] NULL,
+	[usernames] [nvarchar](255) NULL,
+	[readonlyusernames] [nvarchar](255) NULL,
+	[relatelayer] [nvarchar](255) NULL,
+	[projtype] [int] NULL,
+	[coordtype] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_kida_category]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_kida_category](
+	[categoryid] [int] NOT NULL PRIMARY KEY,
+	[categoryparentid] [int] NULL,
+	[type] [int] NULL,
+	[name] [nvarchar](127) NULL,
+	[categoryorder] [int] NULL,
+	[remark] [nvarchar](255) NULL,
+	[lockuser] [nvarchar](255) NULL,
+	[lockreaduser] [nvarchar](255) NULL,
+	[usernames] [nvarchar](255) NULL,
+	[readonlyusernames] [nvarchar](255) NULL,
+	[extentxmin] [float] NULL,
+	[extentxmax] [float] NULL,
+	[extentymin] [float] NULL,
+	[extentymax] [float] NULL,
+	[coordinatesystem] [nvarchar](255) NULL,
+	[project] [nvarchar](255) NULL,
+	[curvedesc] [nvarchar](max) NULL,
+	[isactivate] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_heat_flow]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_heat_flow](
+	[heatid] [int] NULL,
+	[modelid] [int] NULL,
+	[heatname] [nvarchar](255) NULL,
+	[agefrom] [float] NULL,
+	[mode] varchar(255),
+	[value] [float] NULL,
+	[depthname] [nvarchar](255) NULL,
+	[depthviewname] [nvarchar](255) NULL,
+	[depthtype] [int] NULL,
+	[depths] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_style]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_style](
+	[classid] [int] NULL,
+	[isselectstyle] [int] NULL,
+	[styleType] [int] NULL,
+	[width] [float] NULL,
+	[patternlength] [int] NULL,
+	[pattern] [float] NULL,
+	[pattern1] [float] NULL,
+	[color_red] [int] NULL,
+	[color_green] [int] NULL,
+	[color_blue] [int] NULL,
+	[color_alpha] [int] NULL,
+	[gradient_type] [int] NULL,
+	[gradient_firstx] [float] NULL,
+	[gradient_lastx] [float] NULL,
+	[gradient_begin_red] [int] NULL,
+	[gradient_begin_green] [int] NULL,
+	[gradient_begin_blue] [int] NULL,
+	[gradient_begin_alpha] [int] NULL,
+	[gradient_middle_red] [int] NULL,
+	[gradient_middle_green] [int] NULL,
+	[gradient_middle_blue] [int] NULL,
+	[gradient_middle_alpha] [int] NULL,
+	[gradient_end_red] [int] NULL,
+	[gradient_end_green] [int] NULL,
+	[gradient_end_blue] [int] NULL,
+	[gradient_end_alpha] [int] NULL,
+	[arrow_first] [float] NULL,
+	[arrow_second] [float] NULL,
+	[arrow_thrid] [float] NULL,
+	[arrow_fourth] [float] NULL,
+	[linecap] [int] NULL,
+	[linejoin] [int] NULL,
+	[linejoinmaxsize] [float] NULL,
+	[fldName] [nvarchar](255) NULL,
+	[fldIdx] [int] NULL,
+	[labelfont] [nvarchar](255) NULL,
+	[labelsize] [float] NULL,
+	[rotation] [float] NULL,
+	[outlinewidth] [float] NULL,
+	[outlinecolor_red] [int] NULL,
+	[outlinecolor_green] [int] NULL,
+	[outlinecolor_blue] [int] NULL,
+	[outlinecolor_alpha] [int] NULL,
+	[backgroundcolor_red] [int] NULL,
+	[backgroundcolor_green] [int] NULL,
+	[backgroundcolor_blue] [int] NULL,
+	[backgroundcolor_alpha] [int] NULL,
+	[scale] [float] NULL,
+	[gap] [float] NULL,
+	[radius] [float] NULL,
+	[polylinecolor_red] [int] NULL,
+	[polylinecolor_green] [int] NULL,
+	[polylinecolor_blue] [int] NULL,
+	[polylinecolor_alpha] [int] NULL,
+	[labelpos] [int] NULL,
+	[symbolstyle] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_sde_element]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_sde_element](
+	[classid] [int] NULL,
+	[elementid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_projection]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_projection](
+	[projtype] [int] NULL,
+	[projname] [nvarchar](255) NULL,
+	[proj] [nvarchar](255) NULL,
+	[lon0] [float] NULL,
+	[lat0] [float] NULL,
+	[lat1] [float] NULL,
+	[lat2] [float] NULL,
+	[x0] [float] NULL,
+	[y0] [float] NULL,
+	[projk] [float] NULL,
+	[projunits] [nvarchar](255) NULL,
+	[zonetype] [int] NULL,
+	[iscurrent] [int] NULL,
+	[issystem] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_layer_remark]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_layer_remark](
+	[classid] [int] NULL,
+	[description] [nvarchar](max) NULL,
+	[remark] [nvarchar](max) NULL,
+	[useshowscale] [int] NULL,
+	[maxshowscale] [float] NULL,
+	[minshowscale] [float] NULL,
+	[usetickshowscale] [int] NULL,
+	[maxtickshowscale] [float] NULL,
+	[mintickshowscale] [float] NULL,
+	[demisdiscrete] [int] NULL,
+	[featuretables] [image] NULL,
+	[channelorder] [image] NULL,
+	[demcolorcodevals] [image] NULL,
+	[demcolorcodecolors] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_geographic_coordinate]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_geographic_coordinate](
+	[coordtype] [int] NULL,
+	[coordname] [nvarchar](255) NULL,
+	[datum] [nvarchar](255) NULL,
+	[ellps] [nvarchar](255) NULL,
+	[ellpsa] [float] NULL,
+	[ellpsb] [float] NULL,
+	[rf] [float] NULL,
+	[ellpsname] [nvarchar](255) NULL,
+	[deltax] [float] NULL,
+	[deltay] [float] NULL,
+	[deltaz] [float] NULL,
+	[rx] [float] NULL,
+	[ry] [float] NULL,
+	[rz] [float] NULL,
+	[towgs84scale] [float] NULL,
+	[iscurrent] [int] NULL,
+	[issystem] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_color_range]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_color_range](
+	[classid] [int] NULL,
+	[fieldcolorsetting] [image] NULL,
+	[fieldsymbolstylesetting] [image] NULL,
+	[fieldsymbolsizesetting] [image] NULL,
+	[fieldlabelstylesetting] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_chart]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_chart](
+	[classid] [int] NULL,
+	[colorred] [int] NULL,
+	[colorgreen] [int] NULL,
+	[colorblue] [int] NULL,
+	[chartheight] [float] NULL,
+	[chartwidth] [float] NULL,
+	[fieldtoshow] [int] NULL,
+	[fieldnametoshow] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_masterrecord]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_masterrecord](
+	[metaname] [nvarchar](255) NULL,
+	[mnsdiridx] [int] NULL,
+	[mnsparentidx] [int] NULL,
+	[mnsname] [nvarchar](255) NULL,
+	[mnspath] [nvarchar](255) NULL,
+	[mcsrackid] [int] NULL,
+	[mcsip] [nvarchar](255) NULL,
+	[mcsport] [int] NULL,
+	[mcschunklocation] [nvarchar](255) NULL,
+	[mcsstatus] [int] NULL,
+	[mcsisprimary] [int] NULL,
+	[mcsconnections] [int] NULL,
+	[mcsdiskbandwidth] [int] NULL,
+	[mcsnetbandwidth] [int] NULL,
+	[mffilename] [nvarchar](255) NULL,
+	[mffilehandle] [nvarchar](255) NULL,
+	[mffromhandle] [nvarchar](255) NULL,
+	[mfreplicas] [int] NULL,
+	[mfblockcount] [int] NULL,
+	[mfdatatype] [int] NULL,
+	[mfmtimestamp] [float] NULL,
+	[mfctimestamp] [float] NULL,
+	[mfatimestamp] [float] NULL,
+	[mcfileoffset] [nvarchar](255) NULL,
+	[mcchunkhandle] [nvarchar](255) NULL,
+	[mcversion] [nvarchar](255) NULL,
+	[mcchunklength] [int] NULL,
+	[mcchunkfile] [nvarchar](255) NULL,
+	[mclocaldir] [nvarchar](255) NULL,
+	[mcquota] [nvarchar](255) NULL,
+	[msminx] [float] NULL,
+	[msmaxx] [float] NULL,
+	[msminy] [float] NULL,
+	[msmaxy] [float] NULL,
+	[msminz] [float] NULL,
+	[msmaxz] [float] NULL,
+	[marlock] [int] NULL,
+	[mawlock] [int] NULL,
+	[mawritinghandle] [nvarchar](255) NULL,
+	[maleasefrom] [float] NULL,
+	[maleaseto] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_geolocationgrid]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_geolocationgrid](
+	[gridlevel] [int] NULL,
+	[gridcode] [nvarchar](255) NULL,
+	[gridfilecount] [int] NULL,
+	[fileoffset] [int] NULL,
+	[filelength] [int] NULL,
+	[filegfsname] [nvarchar](255) NULL,
+	[rowkeyoffset] [int] NULL,
+	[rowkeycode] [image] NULL,
+	[gridfilelengthlimit] [int] NULL,
+	[gridmachinelocation] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_chunkuuid]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_chunkuuid](
+	[filename] [nvarchar](255) NULL,
+	[uuids] [image] NULL,
+	[uuidexists] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_chunklocation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_chunklocation](
+	[uuid] [nvarchar](255) NULL,
+	[chunklocations] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_geo_litho]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_geo_litho](
+	[lithoidx] [int] NULL,
+	[category] [nvarchar](255) NULL,
+	[sub_category] [nvarchar](255) NULL,
+	[name] [nvarchar](255) NULL,
+	[deposition_porosity] [float] NULL,
+	[athy_k_km] [float] NULL,		
+	[athy_k_mpa] [float] NULL,
+	[compress_y_max] [float] NULL,
+	[compress_y_min] [float] NULL,
+	[schneider_factor_ka] [float] NULL,
+	[schneider_factor_kb] [float] NULL,
+	[schneider_factor_fai] [float] NULL,
+	[reciprocal_compaction_factor] [float] NULL,
+	[vert_cond] [float] NULL,
+	[anisotr] [float] NULL,
+	[sp_heat_cap] [float] NULL,
+	[th_sort_fac] [float] NULL,
+	[litho_den] [float] NULL,
+	[litho_u] [float] NULL,
+	[litho_th] [float] NULL,
+	[litho_k] [float] NULL,
+	[radioactive_heat] [float] NULL,
+	[perm_anisotr] [float] NULL,
+	[porosity_pt_1] [float] NULL,
+	[porosity_pt_2] [float] NULL,
+	[porosity_pt_3] [float] NULL,
+	[permeability_pt_1] [float] NULL,
+	[permeability_pt_2] [float] NULL,
+	[permeability_pt_3] [float] NULL,
+	[entrypr_porosity_1] [float] NULL,
+	[entrypr_porosity_25] [float] NULL,
+	[a_to_entrypr] [float] NULL,
+	[b_to_entrypr] [float] NULL,
+	[formulas] [image] NULL,
+	[lith_names] [image] NULL,
+	[lith_ratios] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_fuzzy_standard]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_fuzzy_standard](
+	[scoreid] [int] NOT NULL PRIMARY KEY,
+	[templateid] [int] NULL,
+	[favorability] [nvarchar](64) NULL,
+	[upperscore] [float] NULL,
+	[lowerscore] [float] NULL,
+	[rightupper] [float] NULL,
+	[leftlower] [float] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_fuzzy_member]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_fuzzy_member](
+	[memberid] [int] NULL,
+	[factorid] [int] NULL,
+	[valuetype] [smallint] NULL,
+	[membertype] [smallint] NULL,
+	[membername] [nvarchar](64) NULL,
+	[favorability] [nvarchar](64) NULL,
+	[leftlower] [float] NULL,
+	[lowervalue] [float] NULL,
+	[uppervalue] [float] NULL,
+	[rightupper] [float] NULL,
+	[svalue] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_behar_kinetics]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_behar_kinetics](
+	[heharid] [int] NULL,
+	[hebarcategory] [nvarchar](255) NULL,
+	[hi] [nvarchar](255) NULL,
+	[activition_energy] [nvarchar](255) NULL,
+	[methane] [nvarchar](255) NULL,
+	[c2_c5] [nvarchar](255) NULL,
+	[c6_c14] [nvarchar](255) NULL,
+	[c15] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_activity_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_activity_template](
+	[username] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[templatename] [nvarchar](255) NULL,
+	[activityIdx] [int] NULL,
+	[parentIdx] [int] NULL,
+	[type] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL,
+	[indexvalue] [int] NULL,
+	[isshown] [nvarchar](255) NULL,
+	[unitfor] [int] NULL,
+	[iscurrenttemplate] [int] NULL,
+	[isvalid] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_activity_menu]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_activity_menu](
+	[username] [nvarchar](255) NULL,
+	[templateIdx] [int] NULL,
+	[templatename] [nvarchar](255) NULL,
+	[iscurtemplate] [int] NULL,
+	[itemid] [int] NULL,
+	[itemparentid] [int] NULL,
+	[itemname] [nvarchar](255) NULL,
+	[itemtype] [int] NULL,
+	[itemlevel] [int] NULL,
+	[itemorder] [int] NULL,
+	[functionid] [int] NULL,
+	[imageid] [int] NULL,
+	[isshown] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_activity]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_activity](
+	[activityid] [int] NOT NULL PRIMARY KEY,
+	[parentid] [int] NULL,
+	[type] [smallint] NULL,
+	[name] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_volume_stat]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_volume_stat](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[minproductarea] [float] NULL,
+	[modeproductarea] [float] NULL,
+	[maxproductarea] [float] NULL,
+	[mingrossthickness] [float] NULL,
+	[modegrossthickness] [float] NULL,
+	[maxgrossthickness] [float] NULL,
+	[minaverageporosity] [float] NULL,
+	[modeaverageporosity] [float] NULL,
+	[maxaverageporosity] [float] NULL,
+	[minaveragehcsaturation] [float] NULL,
+	[modeaveragehcsaturation] [float] NULL,
+	[maxaveragehcsaturation] [float] NULL,
+	[minrockdensity] [float] NULL,
+	[moderockdensity] [float] NULL,
+	[maxrockdensity] [float] NULL,
+	[minoildensity] [float] NULL,
+	[modeoildensity] [float] NULL,
+	[maxoildensity] [float] NULL,
+	[mingascontent] [float] NULL,
+	[modegascontent] [float] NULL,
+	[maxgascontent] [float] NULL,
+	[mingeometricfactor] [float] NULL,
+	[modegeometricfactor] [float] NULL,
+	[maxgeometricfactor] [float] NULL,
+	[minnettogrossratio] [float] NULL,
+	[modenettogrossratio] [float] NULL,
+	[maxnettogrossratio] [float] NULL,
+	[minformationvolumefactor] [float] NULL,
+	[modeformationvolumefactor] [float] NULL,
+	[maxformationvolumefactor] [float] NULL,
+	[minrecoveryfactor] [float] NULL,
+	[moderecoveryfactor] [float] NULL,
+	[maxrecoveryfactor] [float] NULL,
+	[minrecyclefactor] [float] NULL,
+	[moderecyclefactor] [float] NULL,
+	[maxrecyclefactor] [float] NULL,
+	[minconversionfactor] [float] NULL,
+	[modeconversionfactor] [float] NULL,
+	[maxconversionfactor] [float] NULL,
+	[commitphase] [int] NULL,
+	[wellnumber] [int] NULL,
+	[footage] [int] NULL,
+	[istest] [int] NULL,
+	[geooil] [float] NULL,
+	[geogas] [float] NULL,
+	[recoveryrate] [float] NULL,
+	[recoveryoil] [float] NULL,
+	[recoverygas] [float] NULL,
+	[managementphase] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_volume_sample]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_volume_sample](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[productarea] [float] NULL,
+	[grossthickness] [float] NULL,
+	[averageporosity] [float] NULL,
+	[averagehcsaturation] [float] NULL,
+	[rockdensity] [float] NULL,
+	[oildensity] [float] NULL,
+	[gascontent] [float] NULL,
+	[geometricfactor] [float] NULL,
+	[nettogrossratio] [float] NULL,
+	[formationvolumefactor] [float] NULL,
+	[recoveryfactor] [float] NULL,
+	[recyclefactor] [float] NULL,
+	[conversionfactor] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_wildcatwell]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_wildcat_well](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[wildcatwell] [nvarchar](255) NULL,
+	[teststatus] [nvarchar](255) NULL,
+	[indication] [nvarchar](255) NULL,
+	[failedreason] [nvarchar](255) NULL,
+	[designeddepth] [float] NULL,
+	[expwellcost] [float] NULL,
+	[startdate] [float] NULL,
+	[finishdate] [float] NULL,
+	[drillstatus] [nvarchar](255) NULL,
+	[updowngrade] [nvarchar](255) NULL,
+	[aprovalstatus] [nvarchar](255) NULL,
+	[gradingreason] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_wildcat_post]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_wildcat_post](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[wildcatwell] [nvarchar](255) NULL,
+	[trapcondition] [float] NULL,
+	[filldingcondition] [float] NULL,
+	[reservoircondition] [float] NULL,
+	[reservecondition] [float] NULL,
+	[failedcongnizing] [nvarchar](255) NULL,
+	[drilledconclusion] [nvarchar](255) NULL,
+	[advise] [nvarchar](255) NULL,
+	[formation] [nvarchar](255) NULL,
+	[oilrate] [float] NULL,
+	[gasrate] [float] NULL,
+	[maintarget] [nvarchar](255) NULL,
+	[postdrillarea] [float] NULL,
+	[postdrillthick] [float] NULL,
+	[postdrillURF] [float] NULL,
+	[postdrillreserve] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_wildcat_drill]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_wildcat_drill](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[wildcatwell] [nvarchar](255) NULL,
+	[constrprogress] [nvarchar](255) NULL,
+	[wellfunctions] [nvarchar](255) NULL,
+	[targetformation] [nvarchar](255) NULL,
+	[currentdepth] [float] NULL,
+	[remainfootage] [float] NULL,
+	[currentformation] [nvarchar](255) NULL,
+	[currentfootage] [float] NULL,
+	[resourceindication] [nvarchar](255) NULL,
+	[projectstatus] [nvarchar](255) NULL,
+	[drillingdensity] [float] NULL,
+	[reportdate] [int] NULL,
+	[drillingdays] [int] NULL,
+	[planedyear] [int] NULL,
+	[totalindication] [nvarchar](255) NULL,
+	[conclution] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_survey]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_survey](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[basinname] [nvarchar](255) NULL,
+	[firstunit] [nvarchar](255) NULL,
+	[secondunit] [nvarchar](255) NULL,
+  	[geographydesc] [nvarchar](255) NULL,
+	[surfacecondition] [nvarchar](255) NULL,
+	[surfaceelevation] [float] NULL,
+	[seisworkprocess] [nvarchar](255) NULL,
+	[mainseisline] [nvarchar](255) NULL,
+	[discoverreason] [nvarchar](255) NULL,
+	[coordx] [float] NULL,
+	[coordy] [float] NULL,
+	[projectsys] [nvarchar](255) NULL,
+	[coordsys] [nvarchar](255) NULL,
+	[geographymap] [image] NULL,
+	[mainseislineprofile] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_reserve_discard]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_reserve_discard](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[commitdate] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_reserve]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_reserve](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[commitdate] [float] NULL,
+	[iswildcat] [int] NULL,
+	[isdelphi] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_project]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_project](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[fromdate] [float] NULL,
+	[todate] [float] NULL,
+	[organization] [nvarchar](127) NULL,
+	[conductor] [nvarchar](64) NULL,
+	[auditor] [nvarchar](64) NULL,
+	[auditstatus] [nvarchar](64) NULL,
+	[trapstatus] [nvarchar](64) NULL,
+	[remark] [nvarchar](255) NULL,
+	[discoverdate] [float] NULL,
+	[recheckdate] [float] NULL,
+	[descdate] [float] NULL,
+	[discoverydepartment] [nvarchar](255) NULL,
+	[auditdepartment] [nvarchar](255) NULL,
+	[submitdepartment] [nvarchar](255) NULL,
+	[personicharge] [nvarchar](255) NULL,
+	[submitdate] [float] NULL,
+	[reviewcomments] [nvarchar](255) NULL,
+	[reviewersign] [nvarchar](255) NULL,
+	[reviewdate] [float] NULL,
+	[reviewdepartment] [nvarchar](255) NULL,
+	[exploreproject] [nvarchar](255) NULL,
+	[subexplorproject] [nvarchar](255) NULL,
+	[discoverymethod] [nvarchar](255) NULL,
+	[trapoldname] [nvarchar](255) NULL,
+	[recogtimes] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_geology_fault]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_geology_fault](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[faultname] [nvarchar](255) NULL,
+	[brokenseishorizon] [nvarchar](255) NULL,
+	[brokengeohorizon] [nvarchar](255) NULL,
+	[faultproperty] [nvarchar](255) NULL,
+	[faultdip] [float] NULL,
+	[faultdipangle] [float] NULL,
+	[faultheave] [float] NULL,
+	[faultextension] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_exploration]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_exploration](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[statdate] [float] NULL,
+	[drillstatus] [nvarchar](64) NULL,
+	[drillresult] [nvarchar](64) NULL,
+	[drillevaluation] [nvarchar](64) NULL,
+	[drillconclusion] [nvarchar](64) NULL,
+	[drilldate] [float] NULL,
+	[discoveryid] [nvarchar](64) NULL,
+	[discoverydate] [float] NULL,
+	[drilled] [int] NULL,
+	[drilling] [int] NULL,
+	[footage] [float] NULL,
+	[tested] [int] NULL,
+	[testing] [int] NULL,
+	[successes] [int] NULL,
+	[oilresource] [float] NULL,
+	[gasresource] [float] NULL,
+	[remark] [nvarchar](255) NULL,
+	[phasetype] [int] NULL,
+	[oilfieldname] [nvarchar](255) NULL,
+	[resourcekind] [nvarchar](255) NULL,
+	[seismiclength] [nvarchar](255) NULL,
+	[seismicarea] [nvarchar](255) NULL,
+	[wells] [int] NULL,
+	[lowwells] [int] NULL,
+	[untested] [int] NULL,
+	[untestedlogs] [int] NULL,
+	[failedwell] [int] NULL,
+	[seic2ddiscovrate] [float] NULL,
+	[newtraparea] [float] NULL,
+	[yearnewseiclong] [float] NULL,
+	[seic3dprofit] [float] NULL,
+	[newoilgasarea] [float] NULL,
+	[seic3dworkarea] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap_development]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap_development](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[isdiscovery] [smallint] NULL,
+	[stdproduction] [float] NULL,
+	[maxproduction] [float] NULL,
+	[avgproduction] [float] NULL,
+	[wellsolution] [nvarchar](255) NULL,
+	[testmax] [float] NULL,
+	[testavg] [float] NULL,
+	[decision] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL,
+	[discoverytype] [nvarchar](255) NULL,
+	[result] [nvarchar](255) NULL,
+	[wellnum] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_trap]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_trap](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[isinuse] [int] NULL,
+	[horizonfromid] [int] NULL,
+	[horizontoid] [int] NULL,
+	[traptypeid] [int] NULL,
+	[rangemaxheight] [float] NULL,
+	[rangeavgheight] [float] NULL,
+	[areaclosure] [float] NULL,
+	[areaoilclosure] [float] NULL,
+	[areagasclosure] [float] NULL,
+	[areamaxcoff] [float] NULL,
+	[areaavgcoff] [float] NULL,
+	[areamincoff] [float] NULL,
+	[formationtime] [nvarchar](255) NULL,
+	[knownarea] [float] NULL,
+	[predicationarea] [float] NULL,
+	[knownnumber] [float] NULL,
+	[predicationnumber] [float] NULL,
+	[reliability] [float] NULL,
+	[drillsuccess] [float] NULL,
+	[traptype] [nvarchar](32) NULL,
+	[seishorizon] [nvarchar](32) NULL,
+	[geohorizon] [nvarchar](32) NULL,
+	[isrestoretrap] [int] NULL,
+	[trapsphasetype] [nvarchar](255) NULL,
+	[highpointdepth] [float] NULL,
+	[highpointelevation] [float] NULL,
+	[trapfield] [int] NULL,
+	[childrennumber] [int] NULL,
+	[resourcetype] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_survey]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_survey](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[parentregion] [nvarchar](255) NULL,
+	[parentplay] [nvarchar](255) NULL,
+	[exphorizon] [nvarchar](255) NULL,
+	[explorarea] [float] NULL,
+	[seismiclength2d] [float] NULL,
+	[surdensity] [nvarchar](255) NULL,
+	[seismicarea3d] [float] NULL,
+	[coverage3d] [float] NULL,
+	[wells] [int] NULL,
+	[wellarea] [float] NULL,
+	[oilwells] [int] NULL,
+	[gaswells] [int] NULL,
+	[oilresource] [float] NULL,
+	[gasresource] [float] NULL,
+	[oilprovreserves] [float] NULL,
+	[gasprovreserves] [float] NULL,
+	[oilcontroreserves] [float] NULL,
+	[gascontroreserves] [float] NULL,
+	[oilforereserves] [float] NULL,
+	[gasforereserves] [float] NULL,
+	[oilprosresources] [float] NULL,
+	[gasprosresources] [float] NULL,
+	[reserverate] [float] NULL,
+	[understandingdegree] [nvarchar](255) NULL,
+	[explorationdegree] [nvarchar](255) NULL,
+	[caliname] [nvarchar](255) NULL,
+	[caliabundance] [float] NULL,
+	[caliabundancenormal] [float] NULL,
+	[calisuccess] [float] NULL,
+	[seisstrategyvalue] [float] NULL,
+	[oilgasequivresource] [float] NULL,
+	[workablerate] [float] NULL,
+	[expindex] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_source]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_source](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[horfromid] [nvarchar](255) NULL,
+	[hortoid] [int] NULL,
+	[srctypeid] [int] NULL,
+	[orgtype] [nvarchar](255) NULL,
+	[pathwayid] [nvarchar](255) NULL,
+	[supplywayid] [nvarchar](255) NULL,
+	[thermalgradient] [float] NULL,
+	[srcdensity] [float] NULL,
+	[romax] [float] NULL,
+	[roavg] [float] NULL,
+	[romin] [float] NULL,
+	[sedcycle] [float] NULL,
+	[migdistance] [float] NULL,
+	[genvelocity] [float] NULL,
+	[genmax] [float] NULL,
+	[genavg] [float] NULL,
+	[genmin] [float] NULL,
+	[gentime] [float] NULL,
+	[expultime] [float] NULL,
+	[expulmax] [float] NULL,
+	[expulavg] [float] NULL,
+	[expulmin] [float] NULL,
+	[remainedmax] [float] NULL,
+	[remainedavg] [float] NULL,
+	[remainedmin] [float] NULL,
+	[srcmaxthick] [float] NULL,
+	[srcavgthick] [float] NULL,
+	[srcminthick] [float] NULL,
+	[srcmaxarea] [float] NULL,
+	[srcavgarea] [float] NULL,
+	[srcminarea] [float] NULL,
+	[srcmaxcoff] [float] NULL,
+	[srcavgcoff] [float] NULL,
+	[srcmincoff] [float] NULL,
+	[sandmaxpercent] [float] NULL,
+	[sandavgpercent] [float] NULL,
+	[sandminpercent] [float] NULL,
+	[srcmaxpercent] [float] NULL,
+	[srcavgpercent] [float] NULL,
+	[srcminpercent] [float] NULL,
+	[orgthickmax] [float] NULL,
+	[orgthickmin] [float] NULL,
+	[orgthickavg] [float] NULL,
+	[orgcindex] [float] NULL,
+	[orgyear] [float] NULL,
+	[tocmax] [float] NULL,
+	[tocavg] [float] NULL,
+	[tocmin] [float] NULL,
+	[hi] [float] NULL,
+	[accumulationtime] [nvarchar](255) NULL,
+	[avgs1s2] [float] NULL,
+	[maxs1s2] [float] NULL,
+	[mins1s2] [float] NULL,
+	[avgs1] [float] NULL,
+	[maxs1] [float] NULL,
+	[mins1] [float] NULL,
+	[avgchloroa] [float] NULL,
+	[maxchloroa] [float] NULL,
+	[minchloroa] [float] NULL,
+	[organictype] [nvarchar](255) NULL,
+	[ks] [float] NULL,
+	[absorbedks] [float] NULL,
+	[ka] [float] NULL,
+	[absorbedka] [float] NULL,
+	[toc2srcmaxthick] [float] NULL,
+	[toc2srcavgthick] [float] NULL,
+	[toc2srcminthick] [float] NULL,
+	[toc2srcmaxarea] [float] NULL,
+	[toc2srcavgarea] [float] NULL,
+	[toc2srcminarea] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_seismic_picture]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_seismic_picture](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[seissurvey] [image] NULL,
+	[seisquality] [image] NULL,
+	[seisprofile] [image] NULL,
+	[seisfrequency] [image] NULL,
+	[seislandscape] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_seismic_deploy]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_seismic_deploy](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[schemetype] [nvarchar](255) NULL,
+	[pooltype] [nvarchar](128) NULL,
+	[hfrequence] [float] NULL,
+	[hvelocity] [float] NULL,
+	[hdepth] [float] NULL,
+	[hsnr] [float] NULL,
+	[linelength] [float] NULL,
+	[linecost] [float] NULL,
+	[lineinvestment] [float] NULL,
+	[gridarea] [float] NULL,
+	[gridcost] [float] NULL,
+	[gridinvestment] [float] NULL,
+	[geowork] [nvarchar](255) NULL,
+	[geocommit] [nvarchar](255) NULL,
+	[trapnum] [int] NULL,
+	[observesystemtype] [nvarchar](255) NULL,
+	[potential] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_segment]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_segment](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[oilgasid] [int] NULL,
+	[oilgasparameter] [nvarchar](255) NULL,
+	[hcwaterid] [int] NULL,
+	[hcwaterparameter] [nvarchar](255) NULL,
+	[spilldepthid] [int] NULL,
+	[spilldepthparameter] [nvarchar](255) NULL,
+	[thickmultiplierid] [int] NULL,
+	[thickmultiplierparameter] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_reservoir]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_reservoir](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[horfromid] [nvarchar](255) NULL,
+	[hortoid] [int] NULL,
+	[reservortypeid] [nvarchar](255) NULL,
+	[poretypeid] [nvarchar](255) NULL,
+	[face] [nvarchar](255) NULL,
+	[maxdepth] [float] NULL,
+	[avgdepth] [float] NULL,
+	[mindepth] [float] NULL,
+	[maxpore] [float] NULL,
+	[avgpore] [float] NULL,
+	[minpore] [float] NULL,
+	[maxperme] [float] NULL,
+	[avgperme] [float] NULL,
+	[minperme] [float] NULL,
+	[maxthrout] [float] NULL,
+	[avgthrout] [float] NULL,
+	[minthrout] [float] NULL,
+	[genrockphase] [nvarchar](255) NULL,
+	[sedcycle] [nvarchar](255) NULL,
+	[subfacies] [nvarchar](255) NULL,
+	[poretype] [nvarchar](255) NULL,
+	[cements] [float] NULL,
+	[claymineral] [float] NULL,
+	[avgthickness] [float] NULL,
+	[minthickness] [float] NULL,
+	[maxthickness] [float] NULL,
+	[oilcomposition] [nvarchar](255) NULL,
+	[oildensity] [float] NULL,
+	[reserviortempoil] [float] NULL,
+	[gascomposition] [nvarchar](255) NULL,
+	[reserviortempgas] [float] NULL,
+	[reservoirpres] [float] NULL,
+	[pressurecoef] [float] NULL,
+	[volumetricfactoroil] [float] NULL,
+	[oilcontent] [float] NULL,
+	[absorbedoil] [float] NULL,
+	[oilsaturation] [float] NULL,
+	[volumetricfactorgas] [float] NULL,
+	[gascontent] [float] NULL,
+	[absorbedgas] [float] NULL,
+	[gassaturation] [float] NULL,
+	[microfacies] [nvarchar](255) NULL,
+	[lithology] [nvarchar](255) NULL,
+	[brittlecontent] [float] NULL,
+	[elasticmodulus] [float] NULL,
+	[poissonratio] [float] NULL,
+	[rockdensity] [float] NULL,
+	[totalporosity] [float] NULL,
+	[microfracturedegree] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_resource]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_resource](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[calibrationtype] [int] NULL,
+	[meanarea] [float] NULL,
+	[minarea] [float] NULL,
+	[maxarea] [float] NULL,
+	[meanrockvolume] [float] NULL,
+	[minrockvolume] [float] NULL,
+	[maxrockvolume] [float] NULL,
+	[oilgenerating] [float] NULL,
+	[oildischarge] [float] NULL,
+	[oilprovreserves] [float] NULL,
+	[oilprovrecoverreserves] [float] NULL,
+	[oilcontrolreserves] [float] NULL,
+	[oilcontrolrecoverreserves] [float] NULL,
+	[oilpredreserves] [float] NULL,
+	[oilpredrecoverreserves] [float] NULL,
+	[oilpotentialresources] [float] NULL,
+	[oilnodiscovresources] [float] NULL,
+	[oilnodiscovrecoverresources] [float] NULL,
+	[oilresourcemean] [float] NULL,
+	[oilresourcemin] [float] NULL,
+	[oilresourcemax] [float] NULL,
+	[oilrecoverresourcemean] [float] NULL,
+	[oilrecoverresourcemin] [float] NULL,
+	[oilrecoverresourcemax] [float] NULL,
+	[gasgenerating] [float] NULL,
+	[gasdischarge] [float] NULL,
+	[gasprovreserves] [float] NULL,
+	[gasprovrecoverreserves] [float] NULL,
+	[gascontrolreserves] [float] NULL,
+	[gascontrolrecoverreserves] [float] NULL,
+	[gaspredreserves] [float] NULL,
+	[gaspredrecoverreserves] [float] NULL,
+	[gaspotentialresources] [float] NULL,
+	[gasnodiscovresources] [float] NULL,
+	[gasnodiscovrecoverresources] [float] NULL,
+	[gasresourcemean] [float] NULL,
+	[gasresourcemin] [float] NULL,
+	[gasresourcemax] [float] NULL,
+	[gasrecoverresourcemean] [float] NULL,
+	[gasrecoverresourcemin] [float] NULL,
+	[gasrecoverresourcemax] [float] NULL,
+	[condensateoilprovreserves] [float] NULL,
+	[condensateoilprovrecoverreserves] [float] NULL,
+	[condensateoilcontrolreserves] [float] NULL,
+	[condensateoilcontrolrecoverreserves] [float] NULL,
+	[condensateoilpredreserves] [float] NULL,
+	[condensateoilpredrecoverreserves] [float] NULL,
+	[condensateoilnodiscovresources] [float] NULL,
+	[condensateoilnodiscovrecoverresources] [float] NULL,
+	[condensateoilresourcemean] [float] NULL,
+	[condensateoilresourcemin] [float] NULL,
+	[condensateoilresourcemax] [float] NULL,
+	[condensateoilrecoverresourcemean] [float] NULL,
+	[condensateoilrecoverresourcemin] [float] NULL,
+	[condensateoilrecoverresourcemax] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_resource_shale]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_resource_shale](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[calibrationtype] [int] NULL,
+	[meanarea] [float] NULL,
+	[minarea] [float] NULL,
+	[maxarea] [float] NULL,
+	[meanrockvolume] [float] NULL,
+	[minrockvolume] [float] NULL,
+	[maxrockvolume] [float] NULL,
+	[meanthickness] [float] NULL,
+	[minthickness] [float] NULL,
+	[maxthickness] [float] NULL,
+	[meanrecoverresource] [float] NULL,
+	[minrecoverresource] [float] NULL,
+	[maxrecoverresource] [float] NULL,
+	[meanrecoverreserve] [float] NULL,
+	[minrecoverreserve] [float] NULL,
+	[maxrecoverreserve] [float] NULL,
+	[meanrecoverresourceabundance] [float] NULL,
+	[minrecoverresourceabundance] [float] NULL,
+	[maxrecoverresourceabundance] [float] NULL,
+	[meanrecoverreserveabundance] [float] NULL,
+	[minrecoverreserveabundance] [float] NULL,
+	[maxrecoverreserveabundance] [float] NULL,
+	[meanresource] [float] NULL,
+	[minresource] [float] NULL,
+	[maxresource] [float] NULL,
+	[meanreserve] [float] NULL,
+	[minreserve] [float] NULL,
+	[maxreserve] [float] NULL,
+	[meanresourceabundance] [float] NULL,
+	[minresourceabundance] [float] NULL,
+	[maxresourceabundance] [float] NULL,
+	[meanreserveabundance] [float] NULL,
+	[minreserveabundance] [float] NULL,
+	[maxreserveabundance] [float] NULL,
+	[recoverablecoeffiecient] [float] NULL,
+	[exploretype] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_repository]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_repository](
+	[repositoryid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[elementtype] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [float] NULL,
+	[pmaturity] [float] NULL,
+	[mresource] [float] NULL,
+	[exp] [float] NULL,
+	[npv] [float] NULL,
+	[rov] [float] NULL,
+	[explrinvest] [float] NULL,
+	[devlpinvest] [float] NULL,
+	[maturetype] [nvarchar](255) NULL,
+	[depthtype] [nvarchar](255) NULL,
+	[traptype] [nvarchar](255) NULL,
+	[resourcetype] [nvarchar](255) NULL,
+	[fieldtype] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_raster]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_raster](
+	[rasterid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[classid] [int] NULL,
+	[stamptime] [float] NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[zmin] [float] NULL,
+	[zmax] [float] NULL,
+	[data] [image] NULL,
+	[imgwidth] [int] NULL,
+	[imgheight] [int] NULL,
+	[imgdepth] [int] NULL,
+	[imgfilelength] [int] NULL,
+	[version] [int] NULL,
+	[iscurver] [int] NULL,
+	[tilecode] [int] NULL,
+	[iscompress] [int] NULL,
+	[pictype] [nvarchar](255) NULL,
+	[whodo] [nvarchar](255) NULL,
+	[gfspara] [nvarchar](255) NULL,
+	[gfsname] [nvarchar](255) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_preservation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_preservation](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[faulttypeid] [nvarchar](255) NULL,
+	[faultnumber] [int] NULL,
+	[watertypeid] [nvarchar](255) NULL,
+	[migrationrelationid] [nvarchar](255) NULL,
+	[migrationwayid] [nvarchar](255) NULL,
+	[compositionid] [int] NULL,
+	[maxerosionthick] [float] NULL,
+	[avgerosionthick] [float] NULL,
+	[minerosionthick] [float] NULL,
+	[maxerosionarea] [float] NULL,
+	[avgerosionarea] [float] NULL,
+	[minerosionarea] [float] NULL,
+	[waterppm] [float] NULL,
+	[compositionnumber] [float] NULL,
+	[accumulationperiod] [float] NULL,
+	[faultstrength] [nvarchar](255) NULL,
+	[tectonicactivity] [nvarchar](255) NULL,
+	[overlyinglithology] [nvarchar](255) NULL,
+	[tectonicperiod] [nvarchar](255) NULL,
+	[fracturedegree] [nvarchar](255) NULL,
+	[hydrocondition] [nvarchar](255) NULL,
+	[sealtype] [nvarchar](255) NULL,
+	[avgsealarea] [float] NULL,
+	[maxsealarea] [float] NULL,
+	[minsealarea] [float] NULL,
+	[avgsealthickness] [float] NULL,
+	[maxsealthickness] [float] NULL,
+	[minsealthickness] [float] NULL,
+	[prsdataupdate] [int] NULL,
+	[prsdataindate] [int] NULL,
+	[systerm] [nvarchar](255) NULL,
+	[formation] [nvarchar](255) NULL,
+	[sectionn] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_pool]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_pool](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[groupname] [nvarchar](255) NULL,
+	[resourcename] [nvarchar](255) NULL,
+	[traptypeid] [nvarchar](255) NULL,
+	[appraisalwells] [int] NULL,
+	[industrywells] [int] NULL,
+	[drillwells] [int] NULL,
+	[founddate] [int] NULL,
+	[areaheight] [float] NULL,
+	[areaclosure] [float] NULL,
+	[inplaceoil] [float] NULL,
+	[recoverableoil] [float] NULL,
+	[inplacegas] [float] NULL,
+	[recoverablegas] [float] NULL,
+	[usedreserves] [float] NULL,
+	[recoverydegree] [float] NULL,
+	[dataupdate] [int] NULL,
+	[dataindate] [int] NULL,
+	[effethickness] [float] NULL,
+	[avgverwellprod] [float] NULL,
+	[avghorwellprod] [float] NULL,
+	[avgverwelleur] [float] NULL,
+	[avghorwelleur] [float] NULL,
+	[recoveryfactor] [float] NULL,
+	[reserveabundance] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_oversea_project]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_oversea_project](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[prjname] [nvarchar](255) NULL,
+	[prjcountry] [nvarchar](255) NULL,	
+	[prjbasin] [nvarchar](255) NULL,
+	[prjfieldname] [nvarchar](255) NULL,
+	[prjcondition] [nvarchar](255) NULL,
+	[prjstarttime] [int] NULL,
+	[prjstartproducetime] [int] NULL,
+	[prjremainreserve] [float] NULL,
+	[prjreserve] [float] NULL,
+	[prjcontratype] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_overall]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_overall](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[areaid] [int] NULL,
+	[areaparameter] [nvarchar](255) NULL,
+	[mappedid] [int] NULL,
+	[mappedparameter] [nvarchar](255) NULL,
+	[postulatedid] [int] NULL,
+	[postulatedparameter] [nvarchar](255) NULL,
+	[conditionalid] [int] NULL,
+	[conditionalparameter] [nvarchar](255) NULL,
+	[discoveredid] [int] NULL,
+	[discoveredparameter] [nvarchar](255) NULL,
+	[ytfid] [int] NULL,
+	[ytfparameter] [nvarchar](255) NULL,
+	[betaid] [int] NULL,
+	[betaparameter] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_horizon]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_horizon](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[horizonname] [nvarchar](127) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_geometry]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_geometry](
+	[geometryid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[classid] [int] NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[coords] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_geology]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_geology](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[basintypeid] [nvarchar](255) NULL,
+	[playtypeid] [nvarchar](255) NULL,
+	[environmentid] [nvarchar](255) NULL,
+	[formaitonid] [nvarchar](255) NULL,
+	[belttypeid] [nvarchar](255) NULL,
+	[explorationdegreeid] [nvarchar](255) NULL,
+	[thermalhistoryid] [nvarchar](255) NULL,
+	[tectonicstrengthid] [nvarchar](255) NULL,
+	[tectonicnumber] [smallint] NULL,
+	[drillfootage] [int] NULL,
+	[timetofound] [int] NULL,
+	[maxarea] [float] NULL,
+	[maxburydepth] [float] NULL,
+	[rockmaxthickness] [float] NULL,
+	[rockavgthickness] [float] NULL,
+	[rockminthickness] [float] NULL,
+	[rockvolume] [float] NULL,
+	[rockmaxvelocity] [float] NULL,
+	[rockavgvelocity] [float] NULL,
+	[rockminvelocity] [float] NULL,
+	[rockmaxage] [float] NULL,
+	[thermalsurface] [float] NULL,
+	[thermalgradient] [float] NULL,
+	[thermalhfu] [float] NULL,
+	[primarystructure] [nvarchar](255) NULL,
+	[secstructure] [nvarchar](255) NULL,
+	[assarea] [float] NULL,
+	[arearatio] [float] NULL,
+	[successrate] [float] NULL,
+	[geographyposition] [nvarchar](255) NULL,
+	[tectonicposition] [nvarchar](255) NULL,
+	[tectonictype] [nvarchar](255) NULL,
+	[foundwell] [nvarchar](255) NULL,
+	[chronology] [nvarchar](255) NULL,
+	[wildcatwells] [float] NULL,
+	[seismiclength] [float] NULL,
+	[seismicarea] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_factor]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_factor](
+	[elementid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[factorid] [int] NULL,
+	[fvalue] [float] NULL,
+	[svalue] [nvarchar](255) NULL,
+	[weight] [float] NULL,
+	[quickscore] [float] NULL,
+	[fuzzyscore] [float] NULL,
+	[upperscore] [float] NULL,
+	[lowerscore] [float] NULL,
+	[role] [float] NULL,
+	[iscommon] [tinyint] NULL,
+	[iscondition] [tinyint] NULL,
+	[remark] [nvarchar](255) NULL,
+	[remarkdata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_exploration]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_exploration](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[groupname] [nvarchar](255) NULL,
+	[resourcename] [nvarchar](50) NULL,
+	[explorationdate] [int] NULL,
+	[commercialwells] [float] NULL,
+	[commercialfootage] [float] NULL,
+	[wells] [float] NULL,
+	[evaluationwells] [float] NULL,
+	[evaluationfootage] [float] NULL,
+	[footage] [float] NULL,
+	[seismiclength] [float] NULL,
+	[seismicarea] [float] NULL,
+	[investment] [float] NULL,
+	[inplaceoil] [float] NULL,
+	[recoverableoil] [float] NULL,
+	[inplacegas] [float] NULL,
+	[recoverablegas] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_evaluation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_evaluation](
+	[elementid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[managementphase] [int] NULL,
+	[mresource] [float] NULL,
+	[resource10] [float] NULL,
+	[resource90] [float] NULL,
+	[resource00] [float] NULL,
+	[ppolitic] [float] NULL,
+	[pmaturity] [float] NULL,
+	[pengineering] [float] NULL,
+	[irr] [float] NULL,
+	[npv] [float] NULL,
+	[emv] [float] NULL,
+	[strategy] [float] NULL,
+	[istrapcandidate] [int] NULL,
+	[iswellcandidate] [int] NULL,
+	[trapr] [float] NULL,
+	[wellr] [float] NULL,
+	[traprank] [int] NULL,
+	[wellrank] [int] NULL,
+	[oilfieldname] [nvarchar](255) NULL,
+	[resourcename] [nvarchar](32) NULL,
+	[recovery] [float] NULL,
+	[pshare] [float] NULL,
+	[pbusiness] [float] NULL,
+	[peconomic] [float] NULL,
+	[economic] [float] NULL,
+	[npv10] [float] NULL,
+	[npv90] [float] NULL,
+	[npv00] [float] NULL,
+	[explrinvest] [float] NULL,
+	[devlpinvest] [float] NULL,
+	[riskid] [int] NULL,
+	[resourceid] [int] NULL,
+	[economicid] [int] NULL,
+	[selectionid] [int] NULL,
+	[p2dseismic] [float] NULL,
+	[p3dseismic] [float] NULL,
+	[projectarea] [float] NULL,
+	[costpertone] [float] NULL,
+	[discovertype] [int] NULL,
+	[optimyear] [int] NULL,
+	[optimnum] [int] NULL,
+	[pmaturityenv] [float] NULL,
+	[pmaturityeco] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_document]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_document](
+	[elementid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[docname] [nvarchar](255) NULL,
+	[doctype] [nvarchar](255) NULL,
+	[docdefine] [int] NULL,
+	[docdata] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_check]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_check](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[maxresabundance] [float] NULL,
+	[minresabundance] [float] NULL,
+	[maxp10divp90] [float] NULL,
+	[minp10divp90] [float] NULL,
+	[maxsuccessrate] [float] NULL,
+	[minsuccessrate] [float] NULL,
+	[maxscore] [float] NULL,
+	[minscore] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_cap]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_cap](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[horizonfromid] [int] NULL,
+	[horizontoid] [int] NULL,
+	[captype] [nvarchar](255) NULL,
+	[displacement] [float] NULL,
+	[maxpermiability] [float] NULL,
+	[avgpermiability] [float] NULL,
+	[minpermiability] [float] NULL,
+	[maxthickness] [float] NULL,
+	[avgthickness] [float] NULL,
+	[minthickness] [float] NULL,
+	[area] [float] NULL,
+	[areacoff] [float] NULL,
+	[maxdepth] [float] NULL,
+	[avgdepth] [float] NULL,
+	[mindepth] [float] NULL,
+	[capdestroydegree] [nvarchar](255) NULL,
+	[strumovenum] [int] NULL,
+	[oilyeartotraprelation] [nvarchar](255) NULL,
+	[caplithology] [nvarchar](255) NULL,
+	[avgcaparea] [float] NULL,
+	[mincaparea] [float] NULL,
+	[maxcaparea] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_unit_exploration]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_block_unit_exploration](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[earthquake2d] [float] NULL,
+	[earthquake3d] [float] NULL,
+	[wellnum] [int] NULL,
+	[provedreserves] [float] NULL,
+	[controledreserves] [float] NULL,
+	[forecastreserves] [float] NULL,
+	[potentialreserves] [float] NULL,
+	[oilresource] [float] NULL,
+	[gasresource] [float] NULL,
+	[explorationdgree] [nvarchar](255) NULL,
+	[explorationdomain] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_thirdstructure]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_block_thirdstructure](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[blockthirdstructuralname] [nvarchar](255) NULL,
+	[area] [float] NULL,
+	[type] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_secondrystructure]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_block_secondrystructure](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[blocksecondarystructuralname] [nvarchar](255) NULL,
+	[area] [float] NULL,
+	[type] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_primarystructure]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_block_primarystructure](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[primarystructuralname] [nvarchar](255) NULL,
+	[area] [float] NULL,
+	[type] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_basin]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_block_basin](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[basinname] [nvarchar](255) NULL,
+	[oilresource] [float] NULL,
+	[gasresource] [float] NULL,
+	[oilprovedreserves] [float] NULL,
+	[gasprovedreserves] [float] NULL,
+	[area] [float] NULL,
+	[type] [nvarchar](255) NULL,
+	[location] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el_block_basic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el_block_basic](
+	[propertyid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[licenseid] [int] NULL,
+	[blockname] [nvarchar](255) NULL,
+	[explorationlayer] [nvarchar](255) NULL,
+	[evaluationunit] [nvarchar](255) NULL,
+	[explorationunit] [nvarchar](255) NULL,
+	[belongoilfield] [nvarchar](255) NULL,
+	[belongfirststru] [nvarchar](255) NULL,
+	[belongsecondstru] [nvarchar](255) NULL,
+	[belongunit] [nvarchar](255) NULL,
+	[basinarea] [float] NULL,
+	[area] [float] NULL,
+	[startdate] [int] NULL,
+	[dateline] [int] NULL,
+	[firsttime] [int] NULL,
+	[belongprjname] [nvarchar](255) NULL,
+	[isevaluate] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[i_el]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [i_el](
+	[elementid] [int] NOT NULL PRIMARY KEY,
+	[parentid] [int] NULL,
+	[name] [nvarchar](50) NULL,
+	[type] [int] NULL,
+	[foundtime] [int] NULL,
+	[calibration] [int] NULL,
+	[weight] [float] NULL,
+	[resourcemin] [float] NULL,
+	[largemin] [float] NULL,
+	[largemax] [float] NULL,
+	[screening] [float] NULL,
+	[lockuser] [nvarchar](255) NULL,
+	[lockreaduser] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_zone]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_zone](
+	[boreid] [int] NULL,
+	[wellzone] [nvarchar](128) NULL,
+	[basemd] [int] NULL,
+	[baspickname] [nvarchar](128) NULL,
+	[parentzone] [nvarchar](128) NULL,
+	[topmd] [int] NULL,
+	[toppickname] [nvarchar](128) NULL,
+	[zonethickness] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_volume_sample]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_volume_sample](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[productarea] [float] NULL,
+	[grossthickness] [float] NULL,
+	[wvsr] [float] NULL,
+	[wvstoc] [float] NULL,
+	[wvspsh] [float] NULL,
+	[wvspo] [float] NULL,
+	[wvssone] [float] NULL,
+	[wvsc] [float] NULL,
+	[wvsstwenty] [float] NULL,
+	[wvsbhc] [float] NULL,
+	[wvsrf] [float] NULL,
+	[wvstr] [float] NULL,
+	[wvscf] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_variable]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_variable](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[wellid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[ishc] [int] NULL,
+	[xcoord] [float] NULL,
+	[ycoord] [float] NULL,
+	[grossthickness] [float] NULL,
+	[netthickness] [float] NULL,
+	[porosity] [float] NULL,
+	[saturation] [float] NULL,
+	[netgross] [float] NULL,
+	[capthickness] [float] NULL,
+	[estimateduplift] [float] NULL,
+	[presuregradient] [float] NULL,
+	[salinitygradient] [float] NULL,
+	[structure] [float] NULL,
+	[structureresiduals] [float] NULL,
+	[md] [float] NULL,
+	[risk] [float] NULL,
+	[mresource] [float] NULL,
+	[predication] [float] NULL,
+	[sourcerockthickness] [float] NULL,
+	[toccontent] [float] NULL,
+	[romaturity] [float] NULL,
+	[absortedgas] [float] NULL,
+	[dailyproduction] [float] NULL,
+	[organictype] [nvarchar](255) NULL,
+	[wellrecovery] [float] NULL,
+	[wellreserve] [float] NULL,
+	[resourceabundance] [float] NULL,
+	[mineralcomponent] [float] NULL,
+	[forg] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_trace]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_trace](
+	[boreid] [int] NULL,
+	[datatype] [int] NULL,
+	[traceid] [int] NULL,
+	[datatypename] [nvarchar](255) NULL,
+	[tracename] [nvarchar](255) NULL,
+	[tracealiasname] [nvarchar](255) NULL,
+	[datadesc] [nvarchar](max) NULL,
+	[zlib] [int] NULL,
+	[unziplen] [int] NULL,
+	[tracedata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_shale_operation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_shale_operation](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[boreid] [int] NULL,
+	[operationdate] [int] NULL,
+	[completionlength] [float] NULL,
+	[fracfluidamount] [float] NULL,
+	[proppingagent] [float] NULL,
+	[wellorientation] [float] NULL,
+	[fracstages] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_production]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_property](
+	[boreid] [int] NULL,
+	[componentname] [nvarchar](255) NULL,
+	[linename] [nvarchar](255) NULL,
+	[lineshowname] [nvarchar](255) NULL,
+	[linecolorr] [int] NULL,
+	[linecolorg] [int] NULL,
+	[linecolorb] [int] NULL,
+	[islineshown] [int] NULL,
+	[linewidth] [float] NULL,
+	[linepatternfirst] [float] NULL,
+	[linepatternsecond] [float] NULL,
+	[linepatternlen] [int] NULL,
+	[islinelog] [int] NULL,
+	[islinegrid] [int] NULL,
+	[linenullvalue] [nvarchar](255) NULL,
+	[lineunit] [nvarchar](255) NULL,
+	[flpname] [nvarchar](255) NULL,
+	[flpstep] [float] NULL,
+	[flptype] [int] NULL,
+	[flpcolor] [int] NULL,
+	[flpisalpha] [int] NULL,
+	[flpwidth] [float] NULL,
+	[flpmincurvename] [nvarchar](255) NULL,
+	[flpmaxcurvename] [nvarchar](255) NULL,
+	[flptype1] [int] NULL,
+	[flpcolor1] [int] NULL,
+	[flpisalpha1] [int] NULL,
+	[isrenderfilling] [int] NULL,
+	[gphorizonshow] [int] NULL,
+	[gphorizoncolor] [int] NULL,
+	[gphorizonbigcell] [int] NULL,
+	[gphorizonsmallcell] [int] NULL,
+	[gphorizonthinline] [int] NULL,
+	[gphorizonmidline] [int] NULL,
+	[gphorizonthickline] [int] NULL,
+	[gpverticalshow] [int] NULL,
+	[gpverticalcolor] [int] NULL,
+	[gpverticalbigcell] [int] NULL,
+	[gpverticalsmallcell] [int] NULL,
+	[issquare] [int] NULL,
+	[leftvalue] [float] NULL,
+	[rightvalue] [float] NULL,
+	[ticknum] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_production]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_production](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[boreid] [int] NULL,
+	[productiondate] [int] NULL,
+	[productionstart] [float] NULL,
+	[productionprediction] [float] NULL,
+	[productionactual] [float] NULL,
+	[declinestart] [float] NULL,
+	[declineprediction] [float] NULL,
+	[declineactual] [float] NULL,
+	[declineformular] [nvarchar](255) NULL,
+	[productiondays] [float] NULL,
+	[watercut] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_pick]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_pick](
+	[boreid] [int] NULL,
+	[zoneid] [int] NULL,
+	[pickby] [nvarchar](128) NULL,
+	[pickname] [nvarchar](128) NULL,
+	[coordx] [float] NULL,
+	[coordy] [float] NULL,
+	[dipangle] [float] NULL,
+	[dipazimuth] [float] NULL,
+	[topmd] [float] NULL,
+	[toptvd] [float] NULL,
+	[toptvdss] [float] NULL,
+	[mtime] [float] NULL,
+	[thick] [float] NULL,
+	[lithosymbolidx] [float] NULL,
+	[faultheave] [float] NULL,
+	[faultname] [nvarchar](128) NULL,
+	[faulttype] [nvarchar](128) NULL,
+	[color] [int] NULL,
+	[lithname] [nvarchar](255) NULL,
+	[aliasname] [nvarchar](255) NULL,
+	[source] [nvarchar](255) NULL,
+	[northing] [float] NULL,
+	[easting] [float] NULL,
+	[basemd] [float] NULL,
+	[basetvd] [float] NULL,
+	[basetvdss] [float] NULL,
+	[grossthickness] [float] NULL,
+	[tvt] [float] NULL,
+	[tst] [float] NULL,
+	[gapthickness] [float] NULL,
+	[boreazimuth] [float] NULL,
+	[boreangle] [float] NULL,
+	[faultdepth] [float] NULL,
+	[faultseparation] [float] NULL,
+	[comparedwell] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_tubing]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_tubing](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[TubingdeploymentID] [int] NULL,
+	[deploymentname] [nvarchar](255) NULL,
+	[TubingBottomDepth] [float] NULL,
+	[Tubingdiameter] [float] NULL,
+	[Tubingwallroughness] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_trajectory]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_trajectory](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[welltrajectorydeploymentID] [int] NULL,
+	[deploymentname] [nvarchar](255) NULL,
+	[MeasuredDepth] [float] NULL,
+	[TVD] [float] NULL,
+	[Azimuthangle] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_production]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_production](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[productiondate] [int] NULL,
+	[productionhours] [float] NULL,
+	[Casingpressure] [float] NULL,
+	[tubingpressure] [float] NULL,
+	[gasproductionrate] [float] NULL,
+	[waterproductionrate] [float] NULL,
+	[oilproductionrate] [float] NULL,
+	[calculatedsandfacepressure] [float] NULL,
+	[calculatingpressure] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_pressure_gradient]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_pressure_gradient](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[measureddate] [int] NULL,
+	[measureddepth] [float] NULL,
+	[measuredpressure] [float] NULL,
+	[Measuredtemperature] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_pressure]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_pressure](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[measureddate] [int] NULL,
+	[measureddepth] [float] NULL,
+	[measuredTVD] [float] NULL,
+	[measuredgasproduction] [float] NULL,
+	[measuredpressure] [float] NULL,
+	[statussign] [int] NULL,
+	[remarks] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_geological_parameter]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_geological_parameter](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[initialstratapressure] [float] NULL,
+	[stratatemperature] [float] NULL,
+	[reservoirthickness] [float] NULL,
+	[porosity] [float] NULL,
+	[initialgassaturation] [float] NULL,
+	[Porecompressioncoefficient] [float] NULL,
+	[gasRelativedensity] [float] NULL,
+	[CO2Molepercentage] [float] NULL,
+	[H2SMolepercentage] [float] NULL,
+	[N2Molepercentage] [float] NULL,
+	[LangeMuirvolume] [float] NULL,
+	[LangeMuirpressure] [float] NULL,
+	[shaledensity] [float] NULL,
+	[stratumwaterdensity] [float] NULL,
+	[initialcompression] [float] NULL,
+	[initialvolume] [float] NULL,
+	[stratumwaterviscosity] [float] NULL,
+	[gasdeviationfactor] [int] NULL,
+	[gasviscosity] [int] NULL,
+	[rw] [float] NULL,
+	[soi] [float] NULL,
+	[swi] [float] NULL,
+	[cti] [float] NULL,
+	[mg] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_deployment]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_deployment](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[CasingdeploymentID] [int] NULL,
+	[TubingdeploymentID] [int] NULL,
+	[welltrajectorydeploymentID] [int] NULL,
+	[deploymentdate] [int] NULL,
+	[deploymentname] [nvarchar](255) NULL,
+	[wellpipemode] [nvarchar](255) NULL,
+	[PerforationTopdepth] [float] NULL,
+	[Perforationbottomdepth] [float] NULL,
+	[completionmiddledepth] [float] NULL,
+	[Wellheadtemperature] [float] NULL,
+	[Reservoirtemperature] [float] NULL,
+	[Flowpressurecalculationmodel] [int] NULL,
+	[additionalpressuredrop] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_casing]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_casing](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[casingdeploymentid] [int] NULL,
+	[deploymentname] [nvarchar](255) NULL,
+	[casingcompletionmethod] [int] NULL,
+	[casingbottomdepth] [float] NULL,
+	[casingdiameter] [float] NULL,
+	[casingwallroughness] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_performance_basic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_performance_basic](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[wellname] [nvarchar](255) NULL,
+	[wellstatus] [int] NULL,
+	[welltype] [int] NULL,
+	[coordinatex] [float] NULL,
+	[coordinatey] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_path]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_path](
+	[boreid] [int] NULL,
+	[md] [float] NULL,
+	[tvd] [float] NULL,
+	[inclination] [float] NULL,
+	[azimuth] [float] NULL,
+	[deltay] [float] NULL,
+	[deltax] [float] NULL,
+	[easting] [float] NULL,
+	[northing] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_oil_test]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_oil_test](
+	[boreid] [int] NULL,
+	[formation] [nvarchar](255) NULL,
+	[testtop] [float] NULL,
+	[testbottom] [float] NULL,
+	[layernum] [int] NULL,
+	[thickness] [float] NULL,
+	[testdate] [int] NULL,
+	[workingstyle] [nvarchar](255) NULL,
+	[depth] [float] NULL,
+	[times] [int] NULL,
+	[flowpressure] [float] NULL,
+	[staticpressure] [float] NULL,
+	[dailyoiloutput] [float] NULL,
+	[dailygasoutput] [float] NULL,
+	[dailywateroutput] [float] NULL,
+	[cumulativeoiloutput] [float] NULL,
+	[cumulativewateroutput] [float] NULL,
+	[watercontent] [float] NULL,
+	[oildensity] [float] NULL,
+	[oilviscosity] [float] NULL,
+	[solidifyingpoint] [float] NULL,
+	[sulphurcontent] [float] NULL,
+	[totalminerization] [float] NULL,
+	[chlorideioncontent] [float] NULL,
+	[sulfateradical] [float] NULL,
+	[watertype] [nvarchar](255) NULL,
+	[testresult] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_mining_test]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_mining_test](
+	[boreid] [int] NULL,
+	[miningstage] [int] NULL,
+	[interpretationid] [nvarchar](255) NULL,
+	[perforationtop] [float] NULL,
+	[perforationbottom] [float] NULL,
+	[thickness] [float] NULL,
+	[layernum] [int] NULL,
+	[start_meature] [nvarchar](255) NULL,
+	[start_date] [int] NULL,
+	[start_workingsystem] [nvarchar](255) NULL,
+	[start_dailyliquidoutput] [float] NULL,
+	[start_dailyoiloutput] [float] NULL,
+	[start_rateofwater] [float] NULL,
+	[start_dynamicliquidlevel] [float] NULL,
+	[start_testpressure] [float] NULL,
+	[end_date] [int] NULL,
+	[end_productionsystem] [nvarchar](255) NULL,
+	[end_dailyliquidoutput] [float] NULL,
+	[end_dailyoiloutput] [float] NULL,
+	[end_rateofwater] [float] NULL,
+	[end_dynamicliquidlevel] [float] NULL,
+	[end_testpressure] [float] NULL,
+	[end_cumulativeoiloutput] [float] NULL,
+	[end_cumulativewateroutput] [float] NULL,
+	[currentsituation] [nvarchar](255) NULL,
+	[totalthickness] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_log_template]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_log_template](
+	[propertyid] [int] NULL,
+	[classid] [int] NULL,
+	[boreids] [nvarchar](255) NULL,
+	[boreiddesc] [nvarchar](max) NULL,
+	[curvedesc] [nvarchar](max) NULL,
+	[curvecontent] [image] NULL,
+	[whendo] [float] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_logging]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_logging](
+	[boreid] [int] NULL,
+	[loggingunit] [nvarchar](255) NULL,
+	[bottomdepth] [float] NULL,
+	[thickness] [float] NULL,
+	[colorcode] [int] NULL,
+	[color] [nvarchar](255) NULL,
+	[oilbearinggradecode] [int] NULL,
+	[oilbearinggrade] [nvarchar](255) NULL,
+	[lithologycode] [nvarchar](255) NULL,
+	[lithologyname] [nvarchar](255) NULL,
+	[desctype] [nvarchar](255) NULL,
+	[sampletype] [nvarchar](255) NULL,
+	[desctopdepth] [float] NULL,
+	[desctoplength] [float] NULL,
+	[recorddate] [nvarchar](255) NULL,
+	[recorder] [nvarchar](255) NULL,
+	[auditor] [nvarchar](255) NULL,
+	[reviewer] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_interpretation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_interpretation](
+	[boreid] [int] NULL,
+	[interpretationid] [int] NULL,
+	[topdepth] [float] NULL,
+	[bottomdepth] [float] NULL,
+	[thickness] [float] NULL,
+	[singlelayer] [nvarchar](255) NULL,
+	[interpretationresult] [nvarchar](255) NULL,
+	[netthickness] [float] NULL,
+	[interpretationpor] [float] NULL,
+	[interpretationperm] [float] NULL,
+	[vsh] [float] NULL,
+	[saturation] [float] NULL,
+	[formationpos] [nvarchar](255) NULL,
+	[sandset] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_image]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_image](
+	[boreid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_geometry]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_geometry](
+	[geometryid] [int] NOT NULL PRIMARY KEY,
+	[layerid] [int] NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[coords] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_geochemical_para]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_geochemical_para](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[wellid] [int] NULL,
+	[wellname] [nvarchar](255) NULL,
+	[x] [float] NULL,
+	[y] [float] NULL,
+	[depth] [float] NULL,
+	[toc] [float] NULL,
+	[s1] [float] NULL,
+	[s2] [float] NULL,
+	[tmax] [float] NULL,
+	[hi] [float] NULL,
+	[oi] [float] NULL,
+	[pi] [float] NULL,
+	[hcporosity] [float] NULL,
+	[matrix] [float] NULL,
+	[vl] [float] NULL,
+	[pl] [float] NULL,
+	[gassaturation] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_fracture]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_fracture](
+	[boreid] [int] NULL,
+	[fracturenb] [int] NULL,
+	[fracturepor] [int] NULL,
+	[fracturewid] [int] NULL,
+	[fracturetl] [int] NULL,
+	[fracturedel] [int] NULL,
+	[fracturetrd] [int] NULL,
+	[fracturetfl] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_fault]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_fault](
+	[boreid] [int] NULL,
+	[faultid] [nvarchar](255) NULL,
+	[verticalsep] [float] NULL,
+	[sliptype] [nvarchar](255) NULL,
+	[dipangle] [float] NULL,
+	[dipazimuth] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_cross_section]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_cross_section](
+	[propertyid] [int] NULL,
+	[classid] [int] NULL,
+	[boreids] [nvarchar](255) NULL,
+	[curvecontent] [image] NULL,
+	[profilecontent] [image] NULL,
+	[profiletype] [int] NULL,
+	[stratigraphic] [nvarchar](255) NULL,
+	[structural] [float] NULL,
+	[whendo] [float] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_calibration]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_calibration](
+	[boreid] [int] NULL,
+	[caliname] [nvarchar](255) NULL,
+	[pmtvdepth] [float] NULL,
+	[tvdepth] [float] NULL,
+	[pmmdepth] [float] NULL,
+	[mdepth] [float] NULL,
+	[calivalue] [float] NULL,
+	[minval] [float] NULL,
+	[maxval] [float] NULL,
+	[calicolor] [int] NULL,
+	[calisymbol] [int] NULL,
+	[symbolsize] [float] NULL,
+	[useforcalibration] [int] NULL,
+	[caliquality] [nvarchar](255) NULL,
+	[caliage] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_burial_history]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_burial_history](
+	[boreid] [int] NULL,
+	[pid] [int] NULL,
+	[resultparalength] [int] NULL,
+	[iscompress] [int] NULL,
+	[whendo] [float] NULL,
+	[remark] [nvarchar](255) NULL,
+	[layerpara] [image] NULL,
+	[resultpara] [image] NULL,
+	[settingpara] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_bore]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_bore](
+	[boreid] [int] NOT NULL PRIMARY KEY,
+	[wellid] [int] NULL,
+	[name] [nvarchar](128) NULL,
+	[targettstrata] [nvarchar](128) NULL,
+	[perforationnumber] [float] NULL,
+	[perforationlength] [float] NULL,
+	[horizontallength] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_basic_more]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_basic_more](
+	[wellid] [int] NOT NULL PRIMARY KEY
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_basic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_basic](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[wellid] [int] NOT NULL PRIMARY KEY,
+	[classid] [int] NULL,
+	[geometryid] [int] NULL,
+	[adminid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[longitude] [float] NULL,
+	[latitude] [float] NULL,
+	[xcoord] [float] NULL,
+	[ycoord] [float] NULL,
+	[groundevaluation] [float] NULL,
+	[totaldepth] [float] NULL,
+	[groupnumber] [nvarchar](128) NULL,
+	[wellnumber] [nvarchar](128) NULL,
+	[wellstatus] [nvarchar](128) NULL,
+	[welltype] [nvarchar](128) NULL,
+	[boretype] [nvarchar](128) NULL,
+	[fluidtype] [nvarchar](128) NULL,
+	[nullvalue] [float] NULL,
+	[wellkb] [float] NULL,
+	[welleurs] [float] NULL,
+	[welldrainage] [float] NULL,
+	[welllogistic] [nvarchar](255) NULL,
+	[gfspara] [nvarchar](255) NULL,
+	[gfsname] [nvarchar](255) NULL,
+	[gfslocalpath] [nvarchar](255) NULL,
+	[aliasname] [nvarchar](255) NULL,
+	[kb] [float] NULL,
+	[kbe] [float] NULL,
+	[tvdss] [float] NULL,
+	[well_type] [nvarchar](255) NULL,
+	[well_area] [nvarchar](255) NULL,
+	[drilling_type] [nvarchar](255) NULL,
+	[completion_date] [nvarchar](255) NULL,
+	[drill_finishing_date] [nvarchar](255) NULL,
+	[completion_depth] [float] NULL,
+	[vertical_depth] [float] NULL,
+	[completion_formation] [nvarchar](255) NULL,
+	[completion_method] [nvarchar](255) NULL,
+	[ai_bottom_depth] [float] NULL,
+	[x_coord_bottom_hole] [float] NULL,
+	[y_coord_bottom_hole] [float] NULL,
+	[total_drill_depth] [float] NULL,
+	[pm_start_elevation] [float] NULL,
+	[pm_total_drill_depth] [float] NULL,
+	[pm_true_vertical_depth] [float] NULL,
+	[symbol_style] [nvarchar](255) NULL,
+	[symbol_size] [float] NULL,
+	[remark] [nvarchar](255) NULL,
+	[groupname] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_well_atttable]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_well_atttable](
+	[classid] [int] NULL,
+	[tablename] [nvarchar](255) NULL,
+	[othername] [nvarchar](255) NULL,
+	[fieldlength] [int] NULL,
+	[fieldcontent] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_wavlet]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_wavlet](
+	[wavletid] [int] NOT NULL PRIMARY KEY,
+	[datasetid] [int] NULL,
+	[wavletname] [nvarchar](255) NULL,
+	[starttime] [float] NULL,
+	[samplenumber] [float] NULL,
+	[sampleinterval] [float] NULL,
+	[traces] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_tracedata]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_tracedata](
+	[gateid] [int] NULL,
+	[nOrder] [int] NULL,
+	[nPts] [int] NULL,
+	[nInterval] [int] NULL,
+	[nLineNo] [int] NULL,
+	[nCDPNo] [int] NULL,
+	[nSourceCrdX] [int] NULL,
+	[nSourceCrdY] [int] NULL,
+	[nCrdType] [int] NULL,
+	[nStartTime] [int] NULL,
+	[nEndTime] [int] NULL,
+	[hcode] [int] NULL,
+	[coordx] [float] NULL,
+	[coordy] [float] NULL,
+	[coordz] [float] NULL,
+	[coordw] [float] NULL,
+	[recordorder] [int] NULL,
+	[minA] [float] NULL,
+	[maxA] [float] NULL,
+	[samplenumber] [int] NULL,
+	[samples] [image] NULL,
+	[times] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_surveyinfoblob]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_surveyinfoblob](
+	[gateid] [int] NULL,
+	[datatype] [int] NULL,
+	[datacount] [int] NULL,
+	[hafilesize] [int] NULL,
+	[haviewsize] [int] NULL,
+	[shotptxs] [image] NULL,
+	[shotptys] [image] NULL,
+	[detectionptxs] [image] NULL,
+	[detectionptys] [image] NULL,
+	[cdpptxs] [image] NULL,
+	[cdpptys] [image] NULL,
+	[azimuths] [image] NULL,
+	[angles] [image] NULL,
+	[distances] [image] NULL,
+	[gridandfilepos] [image] NULL,
+	[shotptxszlib] [int] NULL,
+	[shotptyszlib] [int] NULL,
+	[detectionptxszlib] [int] NULL,
+	[detectionptyszlib] [int] NULL,
+	[cdpptxszlib] [int] NULL,
+	[cdpptyszlib] [int] NULL,
+	[azimuthszlib] [int] NULL,
+	[angleszlib] [int] NULL,
+	[distanceszlib] [int] NULL,
+	[gridandfileposzlib] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_surveyinfo]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_surveyinfo](
+	[gateid] [int] NULL,
+	[nLineNum] [int] NULL,
+	[nCDPNum] [int] NULL,
+	[nStartLine] [int] NULL,
+	[nStartCDP] [int] NULL,
+	[nLineIncrement] [int] NULL,
+	[nCDPIncrement] [int] NULL,
+	[fOrientation] [float] NULL,
+	[fDirection] [float] NULL,
+	[fOrgX] [float] NULL,
+	[fOrgY] [float] NULL,
+	[fLineSpace] [float] NULL,
+	[fCDPSpace] [float] NULL,
+	[crdType] [int] NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[pos1x] [float] NULL,
+	[pos1y] [float] NULL,
+	[pos2x] [float] NULL,
+	[pos2y] [float] NULL,
+	[pos3x] [float] NULL,
+	[pos3y] [float] NULL,
+	[pos4x] [float] NULL,
+	[pos4y] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_project]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_project](
+	[projectid] [int] NOT NULL PRIMARY KEY,
+	[coordinatesystemtype] [nvarchar](255) NULL,
+	[depthcoordinatesystem] [nvarchar](255) NULL,
+	[name] [nvarchar](255) NULL,
+	[description] [nvarchar](255) NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[interpreters] [nvarchar](255) NULL,
+	[remark] [nvarchar](127) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_profileinfo]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_profileinfo](
+	[gateid] [int] NULL,
+	[defaultStart] [int] NULL,
+	[defaultEnd] [int] NULL,
+	[userStart] [int] NULL,
+	[userEnd] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_ipt_em_property]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_ipt_em_property](
+	[featureid] [int] NOT NULL PRIMARY KEY,
+	[projectid] [int] NULL,
+	[linecolorr] [int] NULL,
+	[linecolorg] [int] NULL,
+	[linecolorb] [int] NULL,
+	[linewidth] [float] NULL,
+	[linepatternfirst] [float] NULL,
+	[linepatternsecond] [float] NULL,
+	[linepatternlen] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_ipt_em_feature]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_ipt_em_feature](
+	[featureid] [int] NOT NULL PRIMARY KEY,
+	[projectid] [int] NULL,
+	[featurekind] [int] NULL,
+	[featuretype] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[isshown] [int] NULL,
+	[remark] [nvarchar](255) NULL,
+	[coords] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_ipt_em]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_ipt_em](
+	[primaryid] [int] NOT NULL PRIMARY KEY,
+	[modelid] [int] NULL,
+	[projectid] [int] NULL,
+	[elementid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_headinfo]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_headinfo](
+	[gateid] [int] NULL,
+	[nTraceNum] [int] NULL,
+	[nTraceLen] [int] NULL,
+	[nType] [int] NULL,
+	[nTracePt] [int] NULL,
+	[nInterval] [int] NULL,
+	[lineNumber] [int] NULL,
+	[reelNumber] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_gate]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_gate](
+	[gateid] [int] NOT NULL PRIMARY KEY,
+	[datasetid] [int] NULL,
+	[filepath] [nvarchar](255) NULL,
+	[linename] [nvarchar](255) NULL,
+	[isgde] [int] NULL,
+	[gatetype] [int] NULL,
+	[gfspara] [nvarchar](255) NULL,
+	[gfsname] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_dataset]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_dataset](
+	[datasetid] [int] NOT NULL PRIMARY KEY,
+	[fromid] [int] NULL,
+	[projectid] [int] NULL,
+	[geometryid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[mcomment] [nvarchar](255) NULL,
+	[datasource] [nvarchar](255) NULL,
+	[compressionfactor] [float] NULL,
+	[deltaz] [float] NULL,
+	[domaintype] [nvarchar](255) NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[thetimestamp] [float] NULL,
+	[maxz] [float] NULL,
+	[minz] [float] NULL,
+	[numtraces] [int] NULL,
+	[samplekind] [nvarchar](255) NULL,
+	[samplemax] [float] NULL,
+	[samplemin] [float] NULL,
+	[sampleunit] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_3dg]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_3dg](
+	[geometryid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[classid] [int] NULL,
+	[projectid] [int] NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[coords] [image] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_seismic_2dg]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_seismic_2dg](
+	[geometryid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[classid] [int] NULL,
+	[projectid] [int] NULL,
+	[xmin] [float] NULL,
+	[xmax] [float] NULL,
+	[ymin] [float] NULL,
+	[ymax] [float] NULL,
+	[coords] [image] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_horizon_geometry]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_ipt_horizon_geometry](
+	[geometryid] [int] NOT NULL PRIMARY KEY,
+	[featureid] [int] NULL,
+	[minx] [float] NULL,
+	[maxx] [float] NULL,
+	[miny] [float] NULL,
+	[maxy] [float] NULL,
+	[numrows] [int] NULL,
+	[numcols] [int] NULL,
+	[tracedelta] [int] NULL,
+	[traceend] [int] NULL,
+	[tracestart] [int] NULL,
+	[coords] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_horizon_feature]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_ipt_horizon_feature](
+	[featureid] [int] NOT NULL PRIMARY KEY,
+	[projectid] [int] NULL,
+	[surveyid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[lastmodifieddate] [float] NULL,
+	[shapetype] [int] NULL,
+	[propertytype] [int] NULL,
+	[maxvaluee] [float] NULL,
+	[minvalue] [float] NULL,
+	[nullvalue] [float] NULL,
+	[strataid] [int] NULL,
+	[strataname] [nvarchar](127) NULL,
+	[classification] [nvarchar](127) NULL,
+	[geologicage] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_fault_geometry]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_ipt_fault_geometry](
+	[geometryid] [int] NOT NULL PRIMARY KEY,
+	[featureid] [int] NULL,
+	[minx] [float] NULL,
+	[maxx] [float] NULL,
+	[miny] [float] NULL,
+	[maxy] [float] NULL,
+	[coords] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_ipt_fault_feature]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_ipt_fault_feature](
+	[featureid] [int] NOT NULL PRIMARY KEY,
+	[projectid] [int] NULL,
+	[surveyid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[lastmodifieddate] [float] NULL,
+	[shapetype] [int] NULL,
+	[propertytype] [int] NULL,
+	[maxvaluee] [float] NULL,
+	[minvalue] [float] NULL,
+	[nullvalue] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_contour_setting]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_contour_setting](
+	[classid] [int] NULL,
+	[elementid] [int] NULL,
+	[setting] [image] NULL,
+	[coords] [image] NULL,
+	[krigingcoords] [image] NULL,
+	[isbinarymode] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_setting]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_setting](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL,
+	[diffpartrowcolextent] [nvarchar](max) NULL,
+	[diffpartgeoevent] [nvarchar](255) NULL,
+	[diffpartconnectionmarker] [nvarchar](255) NULL,
+	[refineextent] [nvarchar](max) NULL,
+	[refinerate] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_model]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_model](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[itemstate] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_layer]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_layer](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[tophookname] [nvarchar](255) NULL,
+	[bothookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_horizon]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_horizon](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[interpolatetype] [int] NULL,
+	[geoevent] [int] NULL,
+	[connectmarker] [int] NULL,
+	[beginage] [float] NULL,
+	[agedelta] [float] NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL,
+	[horizoncolor] [int] NULL,
+	[diffpartrowcolextent] [nvarchar](max) NULL,
+	[diffpartgeoevent] [nvarchar](255) NULL,
+	[diffpartconnectionmarker] [nvarchar](255) NULL,
+	[facemapviewname] [nvarchar](255) NULL,
+	[compositeviewnames] [image] NULL,
+	[compositeviewnamelens] [nvarchar](255) NULL,
+	[hillpositions] [image] NULL,
+	[hillpositionsizes] [nvarchar](max) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_fault]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_fault](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL,
+	[faultpositions] [image] NULL,
+	[faultpositionsizes] [nvarchar](max) NULL,
+	[faultviewnames] [image] NULL,
+	[faultviewnamelens] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_facemap]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_facemap](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[interpolatetype] [int] NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL,
+	[facemapcondition] [image] NULL,
+	[facemapfacedefinitionname] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_draft]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_draft](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL,
+	[faultpositions] [image] NULL,
+	[faultpositionsizes] [nvarchar](max) NULL,
+	[faultviewnames] [image] NULL,
+	[faultviewnamelens] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_depthmap]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_depthmap](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[d_basinsimulate_boundary]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [d_basinsimulate_boundary](
+	[itemtype] [int] NULL,
+	[modelid] [int] NULL,
+	[modelname] [nvarchar](255) NULL,
+	[hookname] [nvarchar](255) NULL,
+	[itemname] [nvarchar](255) NULL,
+	[interpolatetype] [int] NULL,
+	[beginage] [float] NULL,
+	[itemstate] [int] NULL,
+	[posorder] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_well_performance_practice]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_well_performance_practice](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[practiceid] [int] NULL,
+	[activityid] [int] NULL,
+	[whendo] [float] NULL,
+	[name] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_well_performance_dre_result]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_well_performance_dre_result](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[practiceid] [int] NULL,
+	[materialbalancemethod] [float] NULL,
+	[adsorbedgasdesorption] [float] NULL,
+	[stresssensitivity] [float] NULL,
+	[slopem] [float] NULL,
+	[interceptb] [float] NULL,
+	[theoreticalproductionindex] [float] NULL,
+	[calculatedtotalreserves] [float] NULL,
+	[calculatedfreegasreserves] [float] NULL,
+	[calculatedabsorbedgasreserves] [float] NULL,
+	[abandonstratapressure] [float] NULL,
+	[predictedeur] [float] NULL,
+	[predictedrecoverypercent] [float] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_well_performance_dre_middle]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_well_performance_dre_middle](
+	[propertyid] [int] NULL,
+	[elementid] [int] NULL,
+	[practiceid] [int] NULL,
+	[cumulativegasproduction] [float] NULL,
+	[pz] [float] NULL,
+	[gasproductivityindex] [float] NULL,
+	[pzdatastatus] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_template_blob]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_template_blob](
+	[elementid] [int] NULL,
+	[templateid] [int] NULL,
+	[factorid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[fileblob] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_risk]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_risk](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[factorid] [int] NULL,
+	[maturity] [float] NULL,
+	[minrisk] [float] NULL,
+	[avgrisk] [float] NULL,
+	[maxrisk] [float] NULL,
+	[pshare] [float] NULL,
+	[probabilitytreeid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_resource_detail]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_resource_detail](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[activityid] [int] NULL,
+	[type] [nvarchar](255) NULL,
+	[geologicalsamples] [image] NULL,
+	[recoverysamples] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_resource]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_resource](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[kindname] [nvarchar](32) NULL,
+	[categoryname] [nvarchar](32) NULL,
+	[classname] [nvarchar](32) NULL,
+	[groupname] [nvarchar](255) NULL,
+	[minn] [int] NULL,
+	[avgn] [int] NULL,
+	[maxn] [int] NULL,
+	[minpool] [float] NULL,
+	[avgpool] [float] NULL,
+	[maxpool] [float] NULL,
+	[meanq] [float] NULL,
+	[stdq] [float] NULL,
+	[minq] [float] NULL,
+	[avgq] [float] NULL,
+	[maxq] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_repository_scenario]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_repository_scenario](
+	[practiceid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_repository_plf]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_repository_pfolio](
+	[practiceid] [int] NULL,
+	[repositoryid] [int] NULL,
+	[groupid] [int] NULL,
+	[investmentrate] [float] NULL,
+	[xvalue] [float] NULL,
+	[yvalue] [float] NULL,
+	[xvaluetype] [int] NULL,
+	[isapproved] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_repository_genetic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_repository_genetic](
+	[practiceid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_treetable]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_practice_treetable](
+	[nid] [int] NULL,
+	[typenid] [int] NULL,
+	[namestr] [nvarchar](255) NULL,
+	[contentstr] [nvarchar](255) NULL,
+	[disporder] [int] NULL,
+	[parentnid] [int] NULL,
+	[childnum] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_tablecheck]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_practice_tablecheck](
+	[nid] [int] NULL,
+	[elementid] [int] NULL,
+	[tabletypeid] [int] NULL,
+	[tableatt] [int] NULL,
+	[hblob] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_table]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_practice_table](
+	[nid] [int] NULL,
+	[elementid] [int] NULL,
+	[whendo] [float] NULL,
+	[endyear] [int] NULL,
+	[startyear] [int] NULL,
+	[tabletype] [int] NULL,
+	[savetype] [int] NULL,
+	[rownum] [int] NULL,
+	[colnum] [int] NULL,
+	[remark] [nvarchar](255) NULL,
+	[hblob] [image] NULL,
+	[hblob2] [image] NULL,
+	[hblob3] [image] NULL,
+	[hblob4] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_score]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_practice_score](
+	[scoreid] [int] NULL,
+	[whendo] [float] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[elementid] [int] NULL,
+	[templateid] [int] NULL,
+	[factorid] [int] NULL,
+	[svalue] [nvarchar](255) NULL,
+	[thescore] [float] NULL,
+	[overallscore] [float] NULL,
+	[remark] [nvarchar](255) NULL,
+	[layername] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice_blobdata]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_practice_blobdata](
+	[blobid] [int] NULL,
+	[practiceid] [int] NULL,
+	[parentpracticeid] [int] NULL,
+	[blobtype] [int] NULL,
+	[blobpos] [int] NULL,
+	[blobexplanation] [nvarchar](100) NULL,
+	[blobdata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_practice]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_practice](
+	[practiceid] [int] NOT NULL PRIMARY KEY,
+	[elementid] [int] NULL,
+	[managementphase] [int] NULL,
+	[activityid] [int] NULL,
+	[whendo] [float] NULL,
+	[whodo] [nvarchar](64) NULL,
+	[approved] [tinyint] NULL,
+	[templateidx] [int] NULL,
+	[npv] [float] NULL,
+	[groupname] [nvarchar](255) NULL,
+	[distribution] [nvarchar](255) NULL,
+	[parameter] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL,
+	[recordtype] [nvarchar](255) NULL,
+	[lockuser] [nvarchar](255) NULL,
+	[lockreaduser] [nvarchar](255) NULL,
+	[canreplace] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_pb_tree_node]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_pb_tree_node](
+	[probabilitytreeid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [int] NULL,
+	[remark] [nvarchar](64) NULL,
+	[nodeid] [int] NULL,
+	[description] [nvarchar](255) NULL,
+	[nodevalue] [float] NULL,
+	[parentid] [int] NULL,
+	[leftnode] [int] NULL,
+	[rightnode] [int] NULL,
+	[issolved] [tinyint] NULL,
+	[isgreen] [tinyint] NULL,
+	[nodelevel] [int] NULL,
+	[childrendegree] [int] NULL,
+	[childhighy] [float] NULL,
+	[childlowy] [float] NULL,
+	[m_code] [nvarchar](255) NULL,
+	[m_x] [float] NULL,
+	[m_y] [float] NULL,
+	[curlevel] [int] NULL,
+	[x_step] [float] NULL,
+	[y_step] [float] NULL,
+	[m_names] [nvarchar](255) NULL,
+	[degree] [float] NULL,
+	[maxid] [int] NULL,
+	[maxdegree] [float] NULL,
+	[isreversemode] [tinyint] NULL,
+	[startlevel] [int] NULL,
+	[endlevel] [int] NULL,
+	[valsmap] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_pb_tree_branch]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_pb_tree_branch](
+	[probabilitytreeid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [int] NULL,
+	[remark] [nvarchar](64) NULL,
+	[description] [nvarchar](255) NULL,
+	[nodevalue] [float] NULL,
+	[fromnodeid] [int] NULL,
+	[tonodeid] [int] NULL,
+	[x1] [float] NULL,
+	[y1] [float] NULL,
+	[x2] [float] NULL,
+	[y2] [float] NULL,
+	[isgreen] [tinyint] NULL,
+	[reversevalue] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_parameter]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_parameter](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[probname] [nvarchar](255) NULL,
+	[probpara] [nvarchar](255) NULL,
+	[fractiles] [int] NULL,
+	[parameter] [nvarchar](max) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_tax]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_tax](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[resourceid] [int] NULL,
+	[whendo] [int] NULL,
+	[incometax] [float] NULL,
+	[revenueoiltax] [float] NULL,
+	[revenuegastax] [float] NULL,
+	[data] [image] NULL,
+	[paradata] [image] NULL,
+	[solutiondata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_summary]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_summary](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[discountrate] [float] NULL,
+	[npv] [float] NULL,
+	[irr] [float] NULL,
+	[npvtax] [float] NULL,
+	[irrtax] [float] NULL,
+	[pc] [float] NULL,
+	[pe] [float] NULL,
+	[gaspc] [float] NULL,
+	[gaspe] [float] NULL,
+	[pcres] [float] NULL,
+	[peres] [float] NULL,
+	[emv] [float] NULL,
+	[emvtax] [float] NULL,
+	[gaspcres] [float] NULL,
+	[gasperes] [float] NULL,
+	[wellexp] [float] NULL,
+	[expcost] [float] NULL,
+	[devcost] [float] NULL,
+	[avgoperation] [float] NULL,
+	[procapacity] [nvarchar](255) NULL,
+	[price] [nvarchar](255) NULL,
+	[avgmanagementcost] [float] NULL,
+	[avgspecialcost] [float] NULL,
+	[riskvalue] [float] NULL,
+	[avgoilcommdity] [float] NULL,
+	[avggascommdity] [float] NULL,
+	[procapacity2] [nvarchar](255) NULL,
+	[paradata] [image] NULL,
+	[sipcparadata] [image] NULL,
+	[costrcparadata] [image] NULL,
+	[pscparadata] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_scenario]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_scenario](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[data] [image] NULL,
+	[dataresult] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_risk]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_risk](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[marginal] [float] NULL,
+	[conditional] [float] NULL,
+	[unconditional] [float] NULL,
+	[dryholerisk] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_resource]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_resource](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[resourceid] [int] NULL,
+	[reserve] [float] NULL,
+	[oilpracticeid] [int] NULL,
+	[gaspracticeid] [int] NULL,
+	[oilactivitytype] [int] NULL,
+	[gasactivitytype] [int] NULL,
+	[gasreserve] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_price]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_price](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[resourceid] [int] NULL,
+	[whendo] [int] NULL,
+	[price] [float] NULL,
+	[inflation] [float] NULL,
+	[paradata] [image] NULL,
+	[solutiondata] [image] NULL,
+	[oilallowance] [float] NULL,
+	[gasallowance] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_policy]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_policy](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[calculationtype] [int] NULL,
+	[rounds] [int] NULL,
+	[startdate] [int] NULL,
+	[npvdate] [int] NULL,
+	[irr] [float] NULL,
+	[pi] [float] NULL,
+	[discountrate] [float] NULL,
+	[inflation] [float] NULL,
+	[productionpolicy] [int] NULL,
+	[gasdisposal] [int] NULL,
+	[screenreserve] [float] NULL,
+	[oilcommodity] [float] NULL,
+	[gascommodity] [float] NULL,
+	[vat] [float] NULL,
+	[oil2gas] [float] NULL,
+	[gas2oil] [float] NULL,
+	[scenariomode] [int] NULL,
+	[scenarioitrnum] [int] NULL,
+	[userseedmode] [int] NULL,
+	[userseednum] [int] NULL,
+	[data] [image] NULL,
+        [paradata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_edp_schedule]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_edp_schedule](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[resourceid] [int] NULL,
+	[whendo] [int] NULL,
+	[reserve] [float] NULL,
+	[drillingnumber] [int] NULL,
+	[injectionnumber] [int] NULL,
+	[paradata] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_edp_basic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_edp_basic](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[expprevduration] [int] NULL,
+	[expprevwellnumber] [int] NULL,
+	[expduration] [int] NULL,
+	[expwellnumber] [int] NULL,
+	[expappduration] [int] NULL,
+	[expappwellnumber] [int] NULL,
+	[devappduration] [int] NULL,
+	[devappwellnumber] [int] NULL,
+	[devduration] [int] NULL,
+	[devwellnumber] [int] NULL,
+	[prodbuildup] [int] NULL,
+	[prodplateau] [int] NULL,
+	[proddecline] [int] NULL,
+	[proddisposal] [int] NULL,
+	[prodwellnumber] [int] NULL,
+	[prodinjectionnumber] [int] NULL,
+	[plateauproduceratio] [float] NULL,
+	[declinetype] [int] NULL,
+	[declinerate] [float] NULL,
+	[declineindex] [float] NULL,
+	[declineformula] [nvarchar](255) NULL,
+	[oilproscale] [float] NULL,
+	[oildecrate] [float] NULL,
+	[gasproscale] [float] NULL,
+	[gasdecrate] [float] NULL,
+	[paradata] [image] NULL,
+	[oilformuladata] [image] NULL,
+	[gasformuladata] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_cost_mmbs]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_cost_mmbs](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[resourceid] [int] NULL,
+	[deprimethod] [int] NULL,
+	[depriyear] [int] NULL,
+	[calmethod] [int] NULL,
+	[data] [image] NULL,
+	[paradata] [image] NULL,
+	[solutiondata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_cost_detail]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_cost_detail](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[resourceid] [int] NULL,
+	[data] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_npv_cost_basic]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_npv_cost_basic](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[calmethod] [int] NULL,
+	[expwellnum] [int] NULL,
+	[expwelldepth] [float] NULL,
+	[expwellcost] [float] NULL,
+	[devwellnum] [int] NULL,
+	[devwelldepth] [float] NULL,
+	[devwellcost] [float] NULL,
+	[devsurfacecost] [float] NULL,
+	[data] [image] NULL,
+	[paradata] [image] NULL,
+	[solutiondata] [image] NULL,
+	[expwelldata] [image] NULL,
+	[devwelldata] [image] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_jobstream]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_jobstream](
+	[jobid] [int] NOT NULL PRIMARY KEY,
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[relid] [int] NULL,
+	[nodeid] [int] NULL,
+	[parentid] [int] NULL,
+	[childid] [int] NULL,
+	[nodelevel] [int] NULL,
+	[nodename] [nvarchar](255) NULL,
+	[nodekey] [nvarchar](255) NULL,
+	[nodetip] [nvarchar](255) NULL,
+	[glyphtype] [int] NULL,
+	[nodecolor] [int] NULL,
+	[xcoord] [float] NULL,
+	[ycoord] [float] NULL,
+	[layouttype] [int] NULL,
+	[minx] [float] NULL,
+	[maxx] [float] NULL,
+	[miny] [float] NULL,
+	[maxy] [float] NULL,
+	[jobgroupid] [int] NULL,
+	[jobgroupname] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_decision_tree_node]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_decision_tree_node](
+	[decisiontreeid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [int] NULL,
+	[remark] [nvarchar](64) NULL,
+	[nodeid] [int] NULL,
+	[type] [int] NULL,
+	[decisionvalue] [float] NULL,
+	[nodeValue] [float] NULL,
+	[parentid] [int] NULL,
+	[leftnode] [int] NULL,
+	[rightnode] [int] NULL,
+	[issolved] [tinyint] NULL,
+	[isgreen] [tinyint] NULL,
+	[isvisible] [tinyint] NULL,
+	[nodelevel] [int] NULL,
+	[childrendegree] [int] NULL,
+	[childhighy] [float] NULL,
+	[childlowy] [float] NULL,
+	[isreverseprobability] [tinyint] NULL,
+	[reversevalue] [float] NULL,
+	[m_code] [nvarchar](255) NULL,
+	[m_x] [float] NULL,
+	[m_y] [float] NULL,
+	[curlevel] [int] NULL,
+	[maxid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_decision_tree_branch]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_decision_tree_branch](
+	[decisiontreeid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [int] NULL,
+	[remark] [nvarchar](64) NULL,
+	[type] [int] NULL,
+	[description] [nvarchar](255) NULL,
+	[nodevalue] [float] NULL,
+	[fromnodeid] [int] NULL,
+	[tonodeid] [int] NULL,
+	[x1] [float] NULL,
+	[y1] [float] NULL,
+	[x2] [float] NULL,
+	[y2] [float] NULL,
+	[x3] [float] NULL,
+	[y3] [float] NULL,
+	[isgreen] [tinyint] NULL,
+	[isvisible] [tinyint] NULL,
+	[reversevalue] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_correlation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_correlation](
+	[practiceid] [int] NULL,
+	[elementid] [int] NULL,
+	[firstid] [int] NULL,
+	[secondid] [int] NULL,
+	[correlation] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_bayes_net_node]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_bayes_net_node](
+	[bayesnetworkid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [int] NULL,
+	[remark] [nvarchar](64) NULL,
+	[id] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[states] [nvarchar](255) NULL,
+	[priors] [nvarchar](255) NULL,
+	[posteriors] [nvarchar](255) NULL,
+	[parents] [int] NULL,
+	[settings] [nvarchar](255) NULL,
+	[descs] [nvarchar](255) NULL,
+	[stateId] [int] NULL,
+	[ishidden] [tinyint] NULL,
+	[isevidence] [tinyint] NULL,
+	[iswarning] [tinyint] NULL,
+	[m_x] [float] NULL,
+	[m_y] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[a_bayes_net_branch]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [a_bayes_net_branch](
+	[bayesnetworkid] [int] NULL,
+	[whodo] [nvarchar](255) NULL,
+	[whendo] [int] NULL,
+	[nodeidfrom] [int] NULL,
+	[nodeidto] [int] NULL,
+	[ishidden] [tinyint] NULL
+) ON [PRIMARY]
+END
+GO
+CREATE TABLE [dbo].[ref_table_version](
+	[tableName] [nvarchar](50) NOT NULL,
+	[timeStamp] [timestamp] NULL,
+	[operationState] [int] NULL,
+	[author] [nvarchar](50) NULL,
+	[curtime] [datetime] NULL
+) ON [PRIMARY]
+GO
+INSERT INTO ref_table_version (tableName) select Convert(nvarchar(50),name) from sysobjects where xtype='U'
+GO
+UPDATE ref_table_version SET operationState=0, author='A',curtime=GETDATE()
+GO
+CREATE TABLE [dbo].[ref_table_version_resume](
+	[tid] [int] identity,
+	[tableName] [nvarchar](50) NOT NULL,
+	[timeStamp] [timestamp] NULL,
+	[operationState] [int] NULL,
+	[author] [nvarchar](50) NULL,
+	[curtime] [datetime] NULL
+) ON [PRIMARY]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_lock_table]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_lock_table](
+	[tablename] [nvarchar](255) NULL,
+	[username] [nvarchar](255) NULL,
+	[readlock] [nvarchar](255) NULL,
+	[blob] [image] NULL
+) ON [PRIMARY]
+END
+GO
+INSERT INTO ref_lock_table(tablename) values('tablemaster')
+GO
+INSERT INTO ref_lock_table (tablename) select Convert(nvarchar(50),name) from sysobjects where xtype='U'
+GO
+UPDATE ref_lock_table SET username='',readlock=''
+GO
+create trigger tr_ref_table_version_update on ref_table_version
+  for update
+  as
+  insert into ref_table_version_resume(tablename,operationState,author,[curtime]) 
+  select tablename,operationState,author,[curtime] from inserted
+GO
+INSERT INTO ref_table_version (tableName) select Convert(nvarchar(50),name) from sysobjects where xtype='U'
+GO
+UPDATE ref_table_version SET operationState=0, author='A',curtime=GETDATE()
+GO
+create view i_el_evaluation_view as select i_el.elementid, whodo, managementphase, parentid, name, type, foundtime, calibration, weight, resourcemin, largemin, largemax, screening, resourcename, mresource, resource10, resource90, resource00, ppolitic, recovery, pmaturity, pshare, pbusiness, peconomic, pengineering, irr, npv, emv, economic, strategy, istrapcandidate, iswellcandidate, trapr, wellr, traprank, wellrank, oilfieldname, npv10, npv90, npv00, explrinvest, devlpinvest, riskid, resourceid, economicid, selectionid, p2dseismic, p3dseismic, projectarea, costpertone, discovertype, optimyear, optimnum, pmaturityenv, pmaturityeco from i_el, i_el_evaluation where i_el.elementid=i_el_evaluation.elementid;
+GO
+insert into ref_key_generator (keyid, nextid, maxid, name, oilfieldid) values (1, 2, 10, 'default', 1)
+GO
+insert into ref_oilfields (fieldid, fieldname,viewall) values (1, '×Ü²¿',1);
+GO
+create index a_practice_index on a_practice(elementid);
+GO
+create index a_correlation_index on a_correlation(practiceid);
+GO
+create index a_npv_cost_basic_index on a_npv_cost_basic(practiceid);
+GO
+create index a_npv_cost_detail_index on a_npv_cost_detail(practiceid);
+GO
+create index a_npv_cost_mmbs_index on a_npv_cost_mmbs(practiceid);
+GO
+create index a_npv_edp_basic_index on a_npv_edp_basic(practiceid);
+GO
+create index a_npv_edp_schedule_index on a_npv_edp_schedule(practiceid);
+GO
+create index a_npv_policy_index on a_npv_policy(practiceid);
+GO
+create index a_npv_price_index on a_npv_price(practiceid);
+GO
+create index a_npv_resource_index on a_npv_resource(practiceid);
+GO
+create index a_npv_risk_index on a_npv_risk(practiceid);
+GO
+create index a_npv_scenario_index on a_npv_scenario(practiceid);
+GO
+create index a_npv_summary_index on a_npv_summary(practiceid);
+GO
+create index a_npv_tax_index on a_npv_tax(practiceid);
+GO
+create index a_parameter_index on a_parameter(practiceid);
+GO
+create index a_practice_blobdata_index on a_practice_blobdata(practiceid);
+GO
+create index a_repository_genetic_index on a_repository_genetic(practiceid);
+GO
+create index a_repository_pfolio_index on a_repository_pfolio(practiceid);
+GO
+create index a_repository_scenario_index on a_repository_scenario(practiceid);
+GO
+create index a_resource_index on a_resource(practiceid);
+GO
+create index a_resource_detail_index on a_resource_detail(practiceid);
+GO
+create index a_risk_index on a_risk(practiceid);
+GO
+create index i_el_raster_index on i_el_raster(tilecode);

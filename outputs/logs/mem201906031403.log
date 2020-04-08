@@ -1,0 +1,33 @@
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(2068) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(2068) : Initial memory status(10068928K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(2068) : Leaving memory status(10068864K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1764) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1764) : Initial memory status(10068660K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1764) : Leaving memory status(10068576K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(10159764K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(10154292K)
+Memory Monitor: D:\anyway_64\demos\assessor\assessorlogsetupdlg.cpp(1053) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\assessorlogsetupdlg.cpp(1053) : Initial memory status(10185824K)
+Memory Monitor: D:\anyway_64\demos\assessor\assessorlogsetupdlg.cpp(1053) : Leaving memory status(10153840K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(10154744K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(10146084K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1948) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1948) : Initial memory status(10144808K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1948) : Leaving memory status(10144736K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(10144732K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(10142024K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(406) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(406) : Initial memory status(10144828K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(406) : Leaving memory status(10078228K)
+Memory Monitor: D:\anyway_64\demos\assessor\assessorlogsetupdlg.cpp(1909) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\assessorlogsetupdlg.cpp(1909) : Initial memory status(10154776K)
+Memory Monitor: D:\anyway_64\demos\assessor\assessorlogsetupdlg.cpp(1909) : Leaving memory status(10078228K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(205) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(205) : Initial memory status(10054924K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(205) : Leaving memory status(10057848K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshplayer.cpp(782) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshplayer.cpp(782) : Initial memory status(10068468K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshplayer.cpp(782) : Leaving memory status(10068596K)

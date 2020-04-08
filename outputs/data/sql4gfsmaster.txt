@@ -1,0 +1,146 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_masterrecord]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_masterrecord](
+	[metaname] [nvarchar](255) NULL,
+	[mnsdiridx] [int] NULL,
+	[mnsparentidx] [int] NULL,
+	[mnsname] [nvarchar](255) NULL,
+	[mnspath] [nvarchar](255) NULL,
+	[mcsrackid] [int] NULL,
+	[mcsip] [nvarchar](255) NULL,
+	[mcsport] [int] NULL,
+	[mcschunklocation] [nvarchar](255) NULL,
+	[mcsstatus] [int] NULL,
+	[mcsisprimary] [int] NULL,
+	[mcsconnections] [int] NULL,
+	[mcsdiskbandwidth] [int] NULL,
+	[mcsnetbandwidth] [int] NULL,
+	[mffilename] [nvarchar](255) NULL,
+	[mffilehandle] [nvarchar](255) NULL,
+	[mffromhandle] [nvarchar](255) NULL,
+	[mfreplicas] [int] NULL,
+	[mfblockcount] [int] NULL,
+	[mfdatatype] [int] NULL,
+	[mfmtimestamp] [float] NULL,
+	[mfctimestamp] [float] NULL,
+	[mfatimestamp] [float] NULL,
+	[mcfileoffset] [nvarchar](255) NULL,
+	[mcchunkhandle] [nvarchar](255) NULL,
+	[mcversion] [nvarchar](255) NULL,
+	[mcchunklength] [int] NULL,
+	[mcchunkfile] [nvarchar](255) NULL,
+	[mclocaldir] [nvarchar](255) NULL,
+	[mcquota] [nvarchar](255) NULL,
+	[msminx] [float] NULL,
+	[msmaxx] [float] NULL,
+	[msminy] [float] NULL,
+	[msmaxy] [float] NULL,
+	[msminz] [float] NULL,
+	[msmaxz] [float] NULL,
+	[marlock] [int] NULL,
+	[mawlock] [int] NULL,
+	[mawritinghandle] [nvarchar](255) NULL,
+	[maleasefrom] [float] NULL,
+	[maleaseto] [float] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_geolocationgrid]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_geolocationgrid](
+	[gridlevel] [int] NULL,
+	[gridcode] [nvarchar](255) NULL,
+	[gridfilecount] [int] NULL,
+	[fileoffset] [int] NULL,
+	[filelength] [int] NULL,
+	[filegfsname] [nvarchar](255) NULL,
+	[rowkeyoffset] [int] NULL,
+	[rowkeycode] [image] NULL,
+	[gridfilelengthlimit] [int] NULL,
+	[gridmachinelocation] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_chunkuuid]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_chunkuuid](
+	[filename] [nvarchar](255) NULL,
+	[uuids] [image] NULL,
+	[uuidexists] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gfs_chunklocation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gfs_chunklocation](
+	[uuid] [nvarchar](255) NULL,
+	[chunklocations] [image] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_sys_user]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_sys_user](
+	[userid] [int] NOT NULL PRIMARY KEY,
+	[name] [nvarchar](64) NULL,
+	[department] [nvarchar](255) NULL,
+	[priority] [int] NULL,
+	[authorities] [nvarchar](max) NULL,
+	[readvalidtables] [image] NULL,
+	[writevalidtables] [image] NULL,
+	[fieldid] [int] NOT NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_oilfields]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_oilfields](
+	[fieldid] [int] NULL,
+	[fieldname] [nvarchar](255) NULL,
+	[viewall] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_key_generator]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_key_generator](
+	[keyid] [int] NOT NULL PRIMARY KEY,
+	[nextid] [int] NULL,
+	[maxid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[oilfieldid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+insert into ref_key_generator (keyid, nextid, maxid, name, oilfieldid) values (1, 2, 10, 'default', 1)
+GO
+insert into ref_oilfields (fieldid, fieldname,viewall) values (1, '×Ü²¿',1);
+GO

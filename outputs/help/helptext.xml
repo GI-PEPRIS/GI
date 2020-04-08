@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <moduletype id="27">
+      <control  id="0"  childmodid="0" htext="显示数据样本，\n并设置回归线" x="-1" y="-1" name="ID_CANVAS_Sample"  />
+      <control  id="18" childmodid="0" htext="设置结果显示列表的分组数目" x="-1" y="-1" name="ID_SPIN_Gropunum"  />
+  </moduletype>
+</config>

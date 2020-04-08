@@ -1,0 +1,453 @@
+# Simplified Chinese Messages for wxWidgets
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the wxWidgets package.
+# mrfx <mrfx@fm365.com>
+# Liu Xiao Xi <liouxiao@hotmail.com>, 2005
+# Jiawei Huang <hjiawei@gmail.com>, 2011
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wxWidgets 2.8.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-18 18:11+0100\n"
+"PO-Revision-Date: 2012-12-05 11:35+0800\n"
+"Last-Translator: Jiawei Huang <hjiawei@gmail.com>\n"
+"Language-Team: wxWidgets tranlators <wx-translators@wxwidgets.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# 几点问题:
+# 1.概率及术语方面的缩写是否需要替换，比如CDF，PDF，R.Min，user
+# 2.替换是否会引起数据库读写方面的问题，比如某字符串可能来自数据库的表名或字段名
+# 3.替换是否会引起语义方面的问题，比如某字符串xxx，用在了if(str=="xxx")判断中
+# 4.空格问题，英文中词之间的空格是必要的，但在中文中其实不需要这个空格
+# 5.一些基础词汇是否需要翻译，比如copy, commit, cancel, ok
+# 本PO文件主要替换样本数据分析模块和平行坐标分析模块相关字符串，涉及文件包括：
+# probabilitycanvas.cpp
+# probabilitycanvasdlg.cpp
+# probabilitysettingbook.cpp
+# probabilitysettingdlg.cpp
+# resourcepredicationdetaillistdlg.cpp
+# sampleanalyaddgroupdlg.cpp
+# sampleanalysisdatapage.cpp
+# sampleanalysiswizard.cpp
+# sampledistributionplotpage.cpp
+# samplescatterplotpage.cpp
+# scattermatrixcanvas.cpp
+# samplesingnificancetestpage.cpp
+# scattermatrixcanvasdlg.cpp
+# parallelcoordinateelementpage.cpp
+# parallelcoordinatefactorpage.cpp
+# parallelcoordinatefactorupdatedlg.cpp
+# parallelcoordinatepcadlg.cpp
+# parallelcoordinatewizard.cpp
+msgid "histogram"
+msgstr "直方图"
+
+msgid "Group"
+msgstr "分组"
+
+msgid "RealQ"
+msgstr "实际分位点"
+
+msgid "PredicationQ"
+msgstr "预测分位点"
+
+msgid "practical"
+msgstr "实际"
+
+msgid "theory"
+msgstr "理论"
+
+msgid "number"
+msgstr "数量"
+
+msgid "PracticalX"
+msgstr "实际X"
+
+msgid "PracticalY"
+msgstr "实际Y"
+
+msgid "TheoryX"
+msgstr "理论X"
+
+msgid "TheoryY"
+msgstr "理论Y"
+
+msgid "triangular"
+msgstr "三角分布"
+
+msgid "Remark"
+msgstr "备注"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "normal"
+msgstr "正态分布"
+
+msgid "uniform"
+msgstr "均匀分布"
+
+msgid "constant"
+msgstr "常数分布"
+
+msgid "user"
+msgstr "用户"
+
+msgid "See The Detail..."
+msgstr "详细..."
+
+msgid "Detail Infomation"
+msgstr "详细"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Mean:   "
+msgstr "均值：  "
+
+msgid "Mode:   "
+msgstr "模式： "
+
+msgid "Median: "
+msgstr "中位数："
+
+msgid "SD:        "
+msgstr "标准差： "
+
+msgid "Fractiles"
+msgstr "分位数"
+
+msgid ""
+"Mean Limits: Confidence(0.5), Lower(%f), Upper(%f) \n"
+" SD Limits: Confidence(0.5), Lower(%f),\n"
+" Upper(%f)"
+msgstr ""
+"均值范围: 置信度(0.5), 下限(%f), 上限(%f) \n"
+" 标准差范围: 置信度(0.5), 下限(%f),\n"
+" 上限(%f)"
+
+msgid " Preview"
+msgstr " 预览"
+
+msgid " bold"
+msgstr " 粗体"
+
+msgid "Name of element "
+msgstr "元素名称"
+
+msgid "is same with that of "
+msgstr "等同于"
+
+msgid "Input Error"
+msgstr "输入错误"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Level"
+msgstr "层次"
+
+msgid "ParentId"
+msgstr "父ID"
+
+msgid "FactorId"
+msgstr "因子ID"
+
+msgid "Add"
+msgstr "增加"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Factors"
+msgstr "因子"
+
+msgid "Parallel Coordinate...Elements"
+msgstr "平行坐标...元素"
+
+msgid "Parallel Coordinate...Factors"
+msgstr "平行坐标...因子"
+
+msgid "Please setup factors first!"
+msgstr "请先建立因子！"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "&Create Factor"
+msgstr "&创建因子"
+
+msgid "&Create"
+msgstr "&创建"
+
+msgid "&Edit"
+msgstr "&编辑"
+
+msgid "&Delete"
+msgstr "&删除"
+
+msgid "Do you really want to Delete the Selected Factor?"
+msgstr "确定删除所选因子？"
+
+msgid "Delete Factor"
+msgstr "删除因子"
+
+msgid "Update Factor"
+msgstr "更新因子"
+
+msgid "Factor Name:"
+msgstr "因子名称："
+
+msgid "Parent Name:"
+msgstr "父名称："
+
+msgid "Factor name already exists, please try another name!"
+msgstr "因子名称已经存在，请使用其他名称！"
+
+msgid "Create Error"
+msgstr "创建错误"
+
+msgid "Factor name has not been filled in!\n"
+msgstr "因子名称未填写！\n"
+
+msgid "Edit Factor"
+msgstr "编辑因子"
+
+msgid "Create Factor"
+msgstr "创建因子"
+
+msgid "Update Error"
+msgstr "更新错误"
+
+msgid "&Update"
+msgstr "&更新"
+
+msgid "&Cancel"
+msgstr "&取消"
+
+msgid "Principal Component Analysis..."
+msgstr "&主成分分析..."
+
+msgid "distance"
+msgstr "距离"
+
+msgid "&Component Number"
+msgstr "&成分数量"
+
+msgid "Projection &mode"
+msgstr "投影&模式"
+
+msgid "for elements"
+msgstr "元素"
+
+msgid "for factors"
+msgstr "因子"
+
+msgid "&Apply"
+msgstr "&应用"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "General Parallel Coordinate"
+msgstr "通用平行坐标"
+
+msgid "Please create elements"
+msgstr "请创建元素！"
+
+msgid "Parallel Coordinate Error"
+msgstr "平行坐标错误"
+
+msgid "Current Factors"
+msgstr "当前因子"
+
+msgid "Group Name Setting..."
+msgstr "组名设置..."
+
+msgid "Groups Name:"
+msgstr "组名:"
+
+msgid "groupname"
+msgstr "组名"
+
+msgid "Choose The Table:"
+msgstr "选择表:"
+
+msgid "Sample size is zero!"
+msgstr "样本数据为零！"
+
+msgid "propertyid"
+msgstr "属性id"
+
+msgid "elementid"
+msgstr "元素id"
+
+msgid "Sample Analysis Wizard"
+msgstr "样本分析向导"
+
+msgid "Commit"
+msgstr "提交"
+
+msgid "Whether to commit uncertainty analysis this time?"
+msgstr "是否提交本次不确定性分析？"
+
+msgid "Infomation"
+msgstr "信息"
+
+msgid "Groups:"
+msgstr "分组："
+
+msgid "sequence"
+msgstr "序列"
+
+msgid "size"
+msgstr "大小"
+
+msgid "Do you really want to delete current group?"
+msgstr "确定删除当前组？"
+
+msgid "Confidence Level: "
+msgstr "可信度："
+
+msgid "Mean Range: "
+msgstr "均值范围："
+
+msgid "S.D. Range: "
+msgstr "标准差范围："
+
+msgid "Compare with expected mean"
+msgstr "与期望均值比较"
+
+msgid "Compare with expected S.D.   "
+msgstr "与期望标准差比较："
+
+msgid "has difference(%d):no difference(%d):is lesser(%d):is greater(%d)"
+msgstr "有区别(%d):无区别(%d):小(%d):大(%d)"
+
+msgid "Exceedance Q"
+msgstr "样本分位数"
+
+msgid "Distribution Q"
+msgstr "分布分位数"
+
+msgid "Order"
+msgstr "排序"
+
+msgid "Reset"
+msgstr "重设"
+
+msgid "Copy..."
+msgstr "拷贝..."
+
+msgid "At Detail"
+msgstr "详细设置"
+
+msgid "Window..."
+msgstr "窗口"
+
+msgid "&Order"
+msgstr "&顺序"
+
+msgid "Invalid Samples!"
+msgstr "无效样本！"
+
+msgid "Scatter Plot..."
+msgstr "散点图..."
+
+msgid "Parameter Input Panel"
+msgstr "参数输入面板"
+
+msgid "&Setting.."
+msgstr "&设置..."
+
+msgid "&Copy..."
+msgstr "&拷贝..."
+
+msgid "&Cursor"
+msgstr "&光标"
+
+msgid "Cursor"
+msgstr "光标"
+
+msgid "&Window"
+msgstr "&窗口"
+
+msgid "Distribution Plot..."
+msgstr "分布图..."
+
+msgid "Can't create a distribution!"
+msgstr "无法创建分布！"
+
+msgid "Distribution Error"
+msgstr "分布错误"
+
+msgid "&Distribution Curve:"
+msgstr "&分布曲线："
+
+msgid "Name: "
+msgstr "名称："
+
+msgid "&Display Content"
+msgstr "&显示内容"
+
+msgid "Position: "
+msgstr "位置："
+
+msgid "Shape: "
+msgstr "形状："
+
+msgid "Basic"
+msgstr "基本"
+
+msgid " truncation: "
+msgstr " 截断："
+
+msgid "T. Min:   "
+msgstr "截断最小值： "
+
+msgid "T. Max:"
+msgstr "截断最大值："
+
+msgid "R. Min:   "
+msgstr "最小值："
+
+msgid "R. Max:   "
+msgstr "最大值："
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid ""
+"Error: R.Min Cannot be Greater than R.Max and System will use Default value!"
+msgstr "错误：最小值不能大于最大值，系统将使用默认值！"
+
+msgid ""
+"Error: T.Min or T.max setting error,System will use Default value !\n"
+"1. T.min and T.max must in the range of R.min and R.max .\n"
+"2. T.min cannot be Greater than T.max ."
+msgstr ""
+"错误：截断最小值或截断最大值设置错误，系统将使用默认值！\n"
+"1.截断最小值和截断最大值必须在最小值和最大值范围内\n"
+"2.截断最小值不能大于截断最大值"
+
+msgid "Distribution curve Setting Error!"
+msgstr "分布曲线设置错误！"
+
+msgid "Can't correctly create current distribution!"
+msgstr "无法正确创建当前分布！"
+
+msgid "       Number: "
+msgstr "数量："

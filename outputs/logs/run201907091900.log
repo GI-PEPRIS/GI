@@ -1,0 +1,1483 @@
+>Running Here: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2073)
+>Running Here: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1766)
+>Running Here: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(408)
+>Running Here: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2073)
+>Running Here: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1950)
+>Running Here: e:\geological intelligence\any\db\src\anyaccessor.cpp(167)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_sys_user' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-842150451
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_oilfields' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from ref_table_version
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e37, description = 对象名 'ref_table_version' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select distinct(loginame) from master..sysprocesses where DB_NAME(dbid)!='master'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select name,number from spt_values
+>Running Here: e:\geological intelligence\any\db\src\anyaccessor.cpp(167)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select viewall from ref_oilfields where fieldid=1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from ref_table_version
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select dbversion from ref_database_version
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: EXEC sp_helplogins
+>Running Here: e:\geological intelligence\any\db\src\anyaccessor.cpp(167)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select userid, name, department, priority, authorities, fieldid from ref_sys_user
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_activity
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select distinct templatename , templateIdx from r_activity_menu where username = '' and iscurtemplate = 1 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_activity_menu set iscurtemplate = 0 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_activity_menu set iscurtemplate = 1  where templatename = '盆地模拟' 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: delete from ref_lock_table where readlock='sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_lock_table set username='' where username='sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select distinct templatename , templateIdx from r_activity_menu where username = '' and iscurtemplate = 1 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_activity_menu set iscurtemplate = 0 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_activity_menu set iscurtemplate = 1  where templatename = '盆地模拟' 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_activity_menu A where A.username = '' and A.iscurtemplate = 1 and templatename = '盆地模拟' order by itemid
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select lithoidx,category,sub_category,name,deposition_porosity,athy_k_km,athy_k_mpa,compress_y_max,compress_y_min,schneider_factor_ka,schneider_factor_kb,schneider_factor_fai,				 reciprocal_compaction_factor,vert_cond,anisotr,sp_heat_cap,th_sort_fac,litho_den,litho_u,litho_th,litho_k,radioactive_heat,perm_anisotr,porosity_pt_1,porosity_pt_2,porosity_pt_3,				 permeability_pt_1,permeability_pt_2,permeability_pt_3, entrypr_porosity_1, entrypr_porosity_25, a_to_entrypr, b_to_entrypr 				 from r_geo_litho
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select faceid, facename, facecolor, lithname, lithovariablenum, toc, itemnametoc, viewnametoc, interpolatetypetoc, hio,				 itemnamehio, viewnamehio, interpolatetypehio, ineticname, tocs, hios from ref_face_definition
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select wpdid, modelid, wpdname, agefrom, reference, layername, mode, depth, depthname, depthviewname,				 depthtype, depths from r_water_paleo_depth
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select switid, modelid, switname, agefrom, mode, tempterature, depthname, depthviewname,				 depthtype, depths from r_sediment_water_interface_temperayure
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select heatid, modelid, heatname, agefrom, mode, value, depthname, depthviewname,				 depthtype, depths from r_heat_flow
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_activity
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_activity_template where username='sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select activityid, type from r_activity order by type
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from ref_well_logcurve
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_activity_menu
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_probability
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_resource_kind
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_resource_class
+>Running Here: e:\geological intelligence\any\petro\src\riskquickscore.cpp(91)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_quick_template
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_quick_standard
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_risk_factor
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_quick_rule
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(98)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(127)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(236)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_key_generator set nextid = 4702 , maxid = 4802 where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(98)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(127)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(236)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_key_generator set nextid = 4802 , maxid = 4902 where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(98)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(127)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(236)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_key_generator set nextid = 4902 , maxid = 5002 where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(98)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(127)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(236)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_key_generator set nextid = 5002 , maxid = 5102 where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(98)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(127)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(236)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_key_generator set nextid = 5102 , maxid = 5202 where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(98)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(127)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(236)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_key_generator set nextid = 5202 , maxid = 5302 where name = 'default' and oilfieldid= '1'
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\db\src\anykeygenerator.cpp(58)
+>Running Here: e:\geological intelligence\any\petro\src\riskquickscore.cpp(91)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_quick_template
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_quick_standard
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_risk_factor
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_quick_rule
+>Running Here: e:\geological intelligence\any\petro\src\riskfuzzyscore.cpp(82)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_fuzzy_standard
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_fuzzy_member
+>Running Here: e:\geological intelligence\any\petro\src\riskfuzzyscore.cpp(82)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_fuzzy_standard
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_fuzzy_member
+>Running Here: e:\geological intelligence\any\petro\src\accumulationelement.cpp(1111)
+>Running Here: e:\geological intelligence\any\db\src\anyunitwork.cpp(129)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select elementid from  i_el
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select distinct elementid from i_el_evaluation where whodo = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select elementid, managementphase from i_el_trap where isinuse = 1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from i_el_evaluation_view where whodo = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from i_el_factor where whodo = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select projtype,projname,proj,lon0,lat0,lat1,lat2,x0,y0,projk,projunits,zonetype, iscurrent, issystem from r_gis_projection order by projname
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select coordtype,coordname,datum,ellps,ellpsa,ellpsb,rf,ellpsname,deltax,deltay,deltaz,rx,ry,rz,towgs84scale, iscurrent, issystem from r_gis_geographic_coordinate order by coordname
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select categoryid, categoryparentid, name from r_kida_category order by categoryorder desc
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select usernames from r_kida_category where categoryid = 1587
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select * from r_kida_theme
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select username from ref_lock_table where tablename = 'tablemaster'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_lock_table set username = 'sxj' where tablename = 'tablemaster'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_lock_table set username = '' where tablename = 'r_kida_class' and readlock = '' and username = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_lock_table set username = '' where tablename = 'r_kida_category' and readlock = '' and username = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update ref_lock_table set username = '' where tablename = 'tablemaster'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_kida_class set lockuser = '' where lockuser = 'sxj'
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_model
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e14, description = 列名 'hookname' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_draft
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_depthmap
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_facemap
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_horizon
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_layer
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e14, description = 列名 'hookname' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_fault
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_boundary
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select hookname from d_basinsimulate_setting
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select categoryid, name, source, isshown, layerorder, type, minx, miny, maxx, maxy, classid, canselect, seisparentid, usernames, remark, projtype, coordtype from r_kida_class where parentname = '' or parentname is null order by layerorder desc
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e14, description = 列名 'projtype' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select source, type, relatelayer from r_kida_class
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_kida_category set categoryorder = 0 where categoryid = 1587
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: select categoryid from r_kida_category where isactivate = 1
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(312)
+SQL Error: code = 80040e14, description = 列名 'isactivate' 无效。
+>Running Here: e:\geological intelligence\any\db\src\anyaccessor.cpp(167)
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: delete from r_activity_menu
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (				   username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 				   '',       12          ,'盆地模拟',      0,           0,         -1,        'File',   0,        0,        0,        -1,        -1,     1,    '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           1,         0,     'Connect to...',2,   1,        0,        6009,          -1,        1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           2,         0,     'Merge ',2,   1,            1,            6005,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12         ,'盆地模拟',      0,           4,         0,     '----------------',3,   1,            3,           -1,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,          5,         0,     'Register User',2,   1,            4,          6186,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           6,         0,     'Set Priority',2,   1,           5,         6008,       -1,      1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           7,         0,     '----------------',3,   1,           6,          -1,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,          8,         0,           'Recent Files',1,   1,            7,            6010,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,          9,         0,     'Clear Recent',2,   1,            8,            6011,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           10,         0,     '----------------',3,   1,           9,        -1,       -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12            ,'盆地模拟',     0,           11,         0,     'Close',     2,       1,            10,       6002,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12,           '盆地模拟',      0,           12,         0,     'Exit',     2,        1,            11,           6012,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           23,         -1,     'View',     0,        0,            1,           -1,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           24,         23,     '&Solution Explorer',4,     1,        0,            6014,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           25,         23,     'Output Window',4,            1,        1,            6015,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           27,        23,     '&Toolbox',1,        1,          3,           -1,       -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           28,         27,     'Database Management',4,    2,        0,            6021,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           29,         27,     'Window Management',4,     2,        1,            6023,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           31,         27,     'Map Operation',4,     2,          3,            6017,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',           12,       '盆地模拟',      0,           43,         -1,     '编辑',0,      0,        1,           -1,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           44,         43,     '岩性库',2,    1,        0,            6237,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           45,         43,     '生烃动力学库',2,    1,        0,            6238,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           46,         43,     '井数据',2,    1,        0,            6239,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',           12,       '盆地模拟',      0,           47,         -1,     '沉积模拟',0,      0,        1,           -1,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           48,         47,     '碎屑岩模拟',2,    1,        0,            6240,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           49,         47,     '碳酸盐岩模拟',2,    1,        0,            6241,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype, itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',           12,       '盆地模拟',      0,           53,         -1,     '地质建模',0,      0,        1,           -1,       -1,    1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           54,         53,     '新建模型',2,    1,        0,            6244,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           55,         53,     '打开模型',2,    1,        0,            6245,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           56,         53,     '保存模型',2,    1,        0,            6246,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,  itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           62,        -1,     '成藏模拟',0,              0,        1 ,            -1,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,         itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           63,        62,     '一维模拟',2,         1,         0,            6232,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,         itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           64,        62,     '三维模拟',2,         1,         0,            6233,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,                     itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',         12          ,'盆地模拟',      0,           75,        -1,     '模拟校验 ',0,              0,        2,            -1,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,  itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           80,        -1,     '三维显示',0,              0,        1 ,            -1,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           81,         80,     '沉积模拟',2,    1,        0,            6242,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (		  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,    itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 		  '',       12          ,'盆地模拟',      0,           82,         80,     '盆地模拟',2,    1,        0,            6243,      -1,    0,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (	  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,         itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 	  '',           12,       '盆地模拟',      0,           191,         -1,     'Help',0,                    0,       9,           -1,       -1,       1,   '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (	  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,           itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 	  '',       12          ,'盆地模拟',      0,           192,        191,        'User manual',2,               1,         0,            6193,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: insert into r_activity_menu (	  username, templateIdx, templatename, iscurtemplate, itemid, itemparentid, itemname,itemtype,           itemlevel, itemorder, functionid, imageid,isshown,remark) values ( 	  '',       12          ,'盆地模拟',      0,           193,        191,        'Copyright',2,               1,         1,            6193,      -1,    1,     '')
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_activity_menu set iscurtemplate = 0 
+>Running Here: e:\geological intelligence\any\db\src\anyadoconnection.cpp(282)
+SQL Sentence: update r_activity_menu set iscurtemplate = 1  where templatename = '盆地模拟' 
+>Running Here: e:\geological intelligence\any\db\src\anyaccessor.cpp(205)
+>Running Here: e:\geological intelligence\any\db\src\anyunitwork.cpp(207)
+>Running Here: e:\geological intelligence\any\db\src\anyaccessor.cpp(205)
+>Running Here: e:\geological intelligence\any\db\src\anyunitwork.cpp(207)

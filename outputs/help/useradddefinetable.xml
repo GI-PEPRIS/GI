@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<table>
+		<tableatt name="i_el_seismic_deploy" tid="21" /> 
+		<col colname="schemetype" colorder="2"/>
+		<col colname="geocommit" colorder="15"/>
+		<col colname="observesystemtype" colorder="17"/>
+	</table>
+	
+	
+</config>

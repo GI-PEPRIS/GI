@@ -1,0 +1,9 @@
+HI(mgHC/gTOC),592,
+,Oil,Gas
+Activation Energy Emean[KJ/mol],215.2,278.7
+Activation Energy Sigma[KJ/mol],8.3,18.4
+A(S-1),8.14E+13,2.17E+18
+W,0.85,
+Ratio = 1,0.83,0.17
+TI0 [mg/gC],18,
+OToGasF,0.5,

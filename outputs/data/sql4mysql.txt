@@ -1,0 +1,3726 @@
+create table ref_well_logcurve
+(
+  curveid integer not null primary key,
+  ename nvarchar(255),
+  cname nvarchar(255),
+  unit nvarchar(255)
+);
+
+create table ref_sys_user
+(
+  userid integer not null primary key,
+  name nvarchar(64),
+  department nvarchar(255),
+  priority integer,
+  authorities text,
+  readvalidtables longblob,
+  writevalidtables longblob,
+  fieldid integer not null
+);
+
+create table ref_key_generator
+(
+  keyid integer not null primary key,
+  nextid integer,
+  maxid integer,
+  name nvarchar(255),
+  oilfieldid integer
+);
+insert into ref_key_generator (keyid, nextid, maxid, name, oilfieldid) values (1, 2, 10, 'default', 1);
+
+create table ref_oilfields
+(
+  fieldid integer,
+  fieldname nvarchar(255), 
+  viewall integer
+);
+insert into ref_oilfields (fieldid, fieldname, viewall) values (1, '×Ü²¿', 1);
+
+create table ref_pick_system
+(
+  eid integer,
+  pid integer,
+  name nvarchar(255), 
+  type integer
+);
+
+create table ref_sql_topic
+(
+  topicid integer not null primary key,
+  topicname nvarchar(255),
+  aliasname nvarchar(255),
+  selectcolumns text,
+  fromtables text,
+  wherecondition text,
+  groupcolumns nvarchar(255),
+  ordercolumns nvarchar(255)
+);
+
+create table r_resource_kind
+(
+  kindid integer not null primary key,
+  name nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table r_resource_unit
+(
+  unitid integer not null primary key,
+  unittype integer
+);
+
+create table r_resource_class
+(
+  classid integer not null primary key,
+  category nvarchar(255),
+  class nvarchar(255),
+  remark nvarchar(255)  
+);
+
+create table r_probability
+(
+  probid integer not null primary key,
+  name nvarchar(50),
+  paratype integer,
+  remark nvarchar(255)
+);
+
+create table r_oversea_tableinfos
+(
+  tabletype integer not null primary key,
+  tablekind integer,
+  tablename nvarchar(255),
+  tabledes nvarchar(255),
+  tableremark nvarchar(255),
+  tableatt integer,
+  isquantify integer
+);
+
+create table r_pb_user
+(
+  probid integer not null primary key,
+  name nvarchar(50),
+  minx double,
+  maxx double,
+  data longblob,
+  remark nvarchar(255)
+);
+
+create table r_pepper_kinetics
+(
+  pepperid integer not null primary key,
+  peppercategory nvarchar(255),
+  hi nvarchar(255),
+  oil nvarchar(255),
+  gas nvarchar(255)
+);
+
+create table r_quick_template
+(
+  templateid integer not null primary key,
+  name nvarchar(128),
+  whodo nvarchar(64),
+  whendo integer,
+  type integer,
+  remark nvarchar(255),
+  formula text,
+  templatekind integer
+);
+
+create table r_risk_factor
+(
+  factorid integer not null primary key,
+  parentid integer,
+  templateid integer,
+  scoretype integer,
+  name nvarchar(50),
+  uppervalue double,
+  lowervalue double,
+  svalue nvarchar(255),
+  weight double,
+  iscommon tinyint,
+  formula text,
+  remarkblob longblob,
+  layername nvarchar(255)
+);
+
+create table r_quick_standard
+(
+  scoreid integer not null primary key,
+  templateid integer,
+  scoretype integer,
+  upperscore double,
+  lowerscore double,
+  remark nvarchar(255)
+);
+
+create table r_fuzzy_standard
+(
+  scoreid integer not null primary key,
+  templateid integer,
+  favorability nvarchar(64),
+  upperscore double,
+  lowerscore double,
+  rightupper double,
+  leftlower  double,
+  remark     nvarchar(255)
+);
+
+create table r_quick_rule
+(
+  scoreid integer,
+  factorid integer,
+  uppervalue double,
+  lowervalue double,
+  svalue nvarchar(255),
+  favorability nvarchar(64),
+  remarkdata text
+);
+
+create table r_fuzzy_member
+(
+  memberid integer,
+  factorid integer,
+  valuetype integer,
+  membertype integer,
+  membername nvarchar(64),
+  favorability nvarchar(64),
+  leftlower double,
+  lowervalue double,
+  uppervalue double,
+  rightupper double,
+  svalue nvarchar(255)
+);
+
+create table i_el
+(
+  elementid integer not null primary key,
+  parentid integer,
+  name nvarchar(50),
+  type integer,
+  foundtime integer,
+  calibration integer,
+  weight double,
+  resourcemin double,
+  largemin double,
+  largemax double,
+  screening double,
+  lockuser nvarchar(255),
+  lockreaduser nvarchar(255)
+);
+
+create table i_el_factor
+(
+  elementid integer,
+  whodo nvarchar(255),
+  factorid integer,
+  fvalue double,
+  svalue nvarchar(255),
+  weight double,   
+  quickscore double,
+  fuzzyscore double,
+  upperscore double,
+  lowerscore double,
+  role double,
+  iscommon tinyint,
+  iscondition tinyint,
+  remark nvarchar(255),
+  remarkdata longblob
+);
+
+create table i_el_overall
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  areaid integer,
+  areaparameter nvarchar(255),
+  mappedid integer,
+  mappedparameter nvarchar(255),
+  postulatedid integer,
+  postulatedparameter nvarchar(255),
+  conditionalid integer,
+  conditionalparameter nvarchar(255),
+  discoveredid integer,
+  discoveredparameter nvarchar(255),
+  ytfid integer,
+  ytfparameter nvarchar(255),
+  betaid integer,
+  betaparameter nvarchar(255)
+);
+
+create table i_el_oversea_project
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  prjname nvarchar(255),	
+  prjcountry nvarchar(255),	
+  prjbasin nvarchar(255),
+  prjfieldname nvarchar(255),
+  prjcondition nvarchar(255),
+  prjstarttime integer,
+  prjstartproducetime integer,
+  prjremainreserve double,
+  prjreserve double,
+  prjcontratype nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_basin_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_play_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_trap_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_exploration_degree
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_structural_belt
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_tectonic_strength
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_thermal_history
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_geographic_environment
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_pgeo_formation_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table i_el_geology
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  basintypeid nvarchar(255),
+  playtypeid nvarchar(255),
+  environmentid nvarchar(255),
+  formaitonid nvarchar(255),
+  belttypeid nvarchar(255),
+  explorationdegreeid nvarchar(255),
+  thermalhistoryid nvarchar(255),
+  tectonicstrengthid nvarchar(255),
+  tectonicnumber integer,
+  drillfootage integer,
+  timetofound integer,
+  maxarea double,
+  maxburydepth double,		  	
+  rockmaxthickness double,
+  rockavgthickness double,
+  rockminthickness double,
+  rockvolume double,
+  rockmaxvelocity double,
+  rockavgvelocity double,
+  rockminvelocity double,
+  rockmaxage double,	
+  thermalsurface double,
+  thermalgradient double,
+  thermalhfu double,
+  primarystructure nvarchar(255),
+  secstructure nvarchar(255),
+  assarea double,
+  arearatio double,
+  successrate double,
+  geographyposition nvarchar(255),
+  tectonicposition nvarchar(255),
+  tectonictype nvarchar(255),
+  foundwell nvarchar(255),
+  chronology nvarchar(255),
+  wildcatwells double,
+  seismiclength double,
+  seismicarea double
+);
+
+create table r_ps_rock_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ps_face_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ps_organic_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ps_pathway_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ps_supplyway_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table i_el_source
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horfromid nvarchar(255),
+  hortoid integer,
+  srctypeid integer,
+  orgtype nvarchar(255),
+  pathwayid nvarchar(255),
+  supplywayid nvarchar(255),
+  thermalgradient double,
+  srcdensity double, 
+  romax double,
+  roavg double,
+  romin double,
+  sedcycle double,
+  migdistance double, 
+  genvelocity double,
+  genmax double,
+  genavg double,
+  genmin double,
+  gentime double,
+  expultime double,
+  expulmax double,
+  expulavg double,
+  expulmin double,
+  remainedmax double,
+  remainedavg double,
+  remainedmin double,
+  srcmaxthick double,
+  srcavgthick double,
+  srcminthick double,
+  srcmaxarea double,
+  srcavgarea double,
+  srcminarea double,
+  srcmaxcoff double,
+  srcavgcoff double,
+  srcmincoff double,
+  sandmaxpercent double,
+  sandavgpercent double,
+  sandminpercent double,
+  srcmaxpercent double,
+  srcavgpercent double,
+  srcminpercent double,
+  orgthickmax double,
+  orgthickmin double,
+  orgthickavg double,
+  orgcindex double,
+  orgyear double,
+  tocmax double,
+  tocavg double,
+  tocmin double,
+  hi double,
+  accumulationtime nvarchar(255),
+  avgs1s2 double,
+  maxs1s2 double,
+  mins1s2 double,
+  avgs1 double,
+  maxs1 double,
+  mins1 double,
+  avgchloroa double,
+  maxchloroa double,
+  minchloroa double,
+  organictype nvarchar(255),
+  ks double,
+  absorbedks double,
+  ka double,
+  absorbedka double,
+  toc2srcmaxthick double,
+  toc2srcavgthick double,
+  toc2srcminthick double,
+  toc2srcmaxarea double,
+  toc2srcavgarea double,
+  toc2srcminarea double
+);
+
+create table i_el_survey
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  parentregion nvarchar(255),
+  parentplay nvarchar(255),
+  exphorizon nvarchar(255),
+  explorarea double,
+  seismiclength2d double,
+  surdensity nvarchar(255),
+  seismicarea3d double,
+  coverage3d double,
+  wells integer,
+  wellarea double,
+  oilwells integer,
+  gaswells integer,
+  oilresource double,
+  gasresource double,
+  oilprovreserves double,
+  gasprovreserves double,
+  oilcontroreserves double,
+  gascontroreserves double,
+  oilforereserves double,
+  gasforereserves double,
+  oilprosresources double,
+  gasprosresources double,
+  reserverate double,
+  understandingdegree nvarchar(255),
+  explorationdegree nvarchar(255),
+  caliname nvarchar(255),
+  caliabundance double,
+  caliabundancenormal double,
+  calisuccess double,
+  seisstrategyvalue double,
+  oilgasequivresource double,
+  workablerate double,
+  expindex double
+);
+
+create table i_el_seismic_deploy
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  schemetype nvarchar(255),
+  pooltype nvarchar(128),
+  hfrequence double,
+  hvelocity double,
+  hdepth double,
+  hsnr double,
+  linelength double,
+  linecost double,
+  lineinvestment double,
+  gridarea double,
+  gridcost double,
+  gridinvestment double,
+  geowork nvarchar(255),
+  geocommit nvarchar(255),
+  trapnum integer,
+  observesystemtype nvarchar(255),
+  potential double
+);
+
+create table i_el_seismic_picture
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  seissurvey longblob,
+  seisquality longblob,
+  seisprofile longblob,
+  seisfrequency longblob,
+  seislandscape longblob
+);
+
+create table r_prsv_rock_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_prsv_space_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_prsv_pore_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_prsv_diagenetic_phase
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table i_el_reservoir
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horfromid nvarchar(255),
+  hortoid integer,
+  reservortypeid nvarchar(255),
+  poretypeid nvarchar(255),
+  face nvarchar(255),
+  maxdepth double,
+  avgdepth double,
+  mindepth double,
+  maxpore double,
+  avgpore double,
+  minpore double,
+  maxperme double,
+  avgperme double,
+  minperme double,
+  maxthrout double,
+  avgthrout double,
+  minthrout double,
+  genrockphase nvarchar(255),
+  sedcycle nvarchar(255),
+  subfacies nvarchar(255),
+  poretype nvarchar(255),
+  cements double,
+  claymineral double,
+  avgthickness double,
+  minthickness double,
+  maxthickness double,
+  oilcomposition nvarchar(255),
+  oildensity double,
+  reserviortempoil double,
+  gascomposition nvarchar(255),
+  reserviortempgas double,
+  reservoirpres double,
+  pressurecoef double,
+  volumetricfactoroil double,
+  oilcontent double,
+  absorbedoil double,
+  oilsaturation double,
+  volumetricfactorgas double,
+  gascontent double,
+  absorbedgas double,
+  gassaturation double,
+  microfacies nvarchar(255),
+  lithology nvarchar(255),
+  brittlecontent double,
+  elasticmodulus double,
+  poissonratio double,
+  rockdensity double,
+  totalporosity double,
+  microfracturedegree nvarchar(255)
+);
+
+create table i_el_resource
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  calibrationtype integer,
+  meanarea double,
+  minarea double,
+  maxarea double,
+  meanrockvolume double,
+  minrockvolume double,
+  maxrockvolume double,
+  oilgenerating double,
+  oildischarge double,
+  oilprovreserves double,
+  oilprovrecoverreserves double,
+  oilcontrolreserves double,
+  oilcontrolrecoverreserves double,
+  oilpredreserves double,
+  oilpredrecoverreserves double,
+  oilpotentialresources double,
+  oilnodiscovresources double,
+  oilnodiscovrecoverresources double,
+  oilresourcemean double,
+  oilresourcemin double,
+  oilresourcemax double,
+  oilrecoverresourcemean double,
+  oilrecoverresourcemin double,
+  oilrecoverresourcemax double,
+  gasgenerating double,
+  gasdischarge double,
+  gasprovreserves double,
+  gasprovrecoverreserves double,
+  gascontrolreserves double,
+  gascontrolrecoverreserves double,
+  gaspredreserves double,
+  gaspredrecoverreserves double,
+  gaspotentialresources double,
+  gasnodiscovresources double,
+  gasnodiscovrecoverresources double,
+  gasresourcemean double,
+  gasresourcemin double,
+  gasresourcemax double,
+  gasrecoverresourcemean double,
+  gasrecoverresourcemin double,
+  gasrecoverresourcemax double,
+  condensateoilprovreserves double,
+  condensateoilprovrecoverreserves double,
+  condensateoilcontrolreserves double,
+  condensateoilcontrolrecoverreserves double,
+  condensateoilpredreserves double,
+  condensateoilpredrecoverreserves double,
+  condensateoilnodiscovresources double,
+  condensateoilnodiscovrecoverresources double,
+  condensateoilresourcemean double,
+  condensateoilresourcemin double,
+  condensateoilresourcemax double,
+  condensateoilrecoverresourcemean double,
+  condensateoilrecoverresourcemin double,
+  condensateoilrecoverresourcemax double
+);
+
+create table i_el_resource_shale
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  calibrationtype integer,
+  meanarea double,
+  minarea double,
+  maxarea double,
+  meanrockvolume double,
+  minrockvolume double,
+  maxrockvolume double,
+  meanthickness double,
+  minthickness double,
+  maxthickness double,
+  meanrecoverresource double,
+  minrecoverresource double,
+  maxrecoverresource double,
+  meanrecoverreserve double,
+  minrecoverreserve double,
+  maxrecoverreserve double,
+  meanrecoverresourceabundance double,
+  minrecoverresourceabundance double,
+  maxrecoverresourceabundance double,
+  meanrecoverreserveabundance double,
+  minrecoverreserveabundance double,
+  maxrecoverreserveabundance double,
+  meanresource double,
+  minresource double,
+  maxresource double,
+  meanreserve double,
+  minreserve double,
+  maxreserve double,
+  meanresourceabundance double,
+  minresourceabundance double,
+  maxresourceabundance double,
+  meanreserveabundance double,
+  minreserveabundance double,
+  maxreserveabundance double,
+  recoverablecoeffiecient double,
+  exploretype nvarchar(255)
+);
+
+create table i_el_repository
+(
+  repositoryid integer not null primary key,
+  elementid integer,
+  elementtype integer,
+  whodo nvarchar(255),
+  whendo double,
+  pmaturity double,
+  mresource double,
+  exp double,
+  npv double,
+  rov double,
+  explrinvest double,
+  devlpinvest double,
+  maturetype nvarchar(255),
+  depthtype nvarchar(255),
+  traptype nvarchar(255),
+  resourcetype nvarchar(255),
+  fieldtype nvarchar(255)
+);
+
+create table r_property_cap_rock_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table i_el_block_basic
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  licenseid integer,
+  blockname nvarchar(255),
+  explorationlayer nvarchar(255),
+  evaluationunit nvarchar(255),
+  explorationunit nvarchar(255),
+  belongoilfield nvarchar(255),
+  belongfirststru nvarchar(255),
+  belongsecondstru nvarchar(255),
+  belongunit nvarchar(255),
+  basinarea double,
+  area double,
+  startdate integer,
+  dateline integer,
+  firsttime integer,
+  belongprjname nvarchar(255),
+  isevaluate integer,
+  remark nvarchar(255)
+);
+
+create table i_el_block_basin
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  basinname nvarchar(255),
+  oilresource double,
+  gasresource double,
+  oilprovedreserves double,
+  gasprovedreserves double,
+  area double,
+  type nvarchar(255),
+  location nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table i_el_block_primarystructure
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  primarystructuralname nvarchar(255),
+  area double,
+  type nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table i_el_block_secondrystructure
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  blocksecondarystructuralname nvarchar(255),
+  area double,
+  type nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table i_el_block_thirdstructure
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  blockthirdstructuralname nvarchar(255),
+  area double,
+  type nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table i_el_block_unit_exploration
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  earthquake2d double,
+  earthquake3d double,
+  wellnum integer,
+  provedreserves double,
+  controledreserves double,
+  forecastreserves double,
+  potentialreserves double,
+  oilresource double,
+  gasresource double,
+  explorationdgree nvarchar(255),
+  explorationdomain nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table i_el_cap
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horizonfromid integer,
+  horizontoid integer,
+  captype nvarchar(255),
+  displacement double,
+  maxpermiability double,
+  avgpermiability double,
+  minpermiability double,
+  maxthickness double,
+  avgthickness double,
+  minthickness double,
+  area double,
+  areacoff double,
+  maxdepth double,
+  avgdepth double,
+  mindepth double,
+  capdestroydegree nvarchar(255),
+  strumovenum integer,
+  oilyeartotraprelation nvarchar(255),
+  caplithology nvarchar(255),
+  avgcaparea double,
+  mincaparea double,
+  maxcaparea double
+);
+
+create table i_el_check
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  maxresabundance double,
+  minresabundance double,
+  maxp10divp90 double,
+  minp10divp90 double,
+  maxsuccessrate double,
+  minsuccessrate double,
+  maxscore double,
+  minscore double
+);
+
+create table i_el_document
+(
+  elementid integer,
+  whodo nvarchar(255),
+  docname nvarchar(255),
+  doctype nvarchar(255),
+  docdefine integer,
+  docdata longblob
+);
+
+create table r_ppsv_fault_strength
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ppsv_water_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ppsv_migration_relation
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ppsv_migration_way
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_ppsv_composition_type
+(
+  id integer not null primary key,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table i_el_preservation
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  faulttypeid nvarchar(255),
+  faultnumber integer,
+  watertypeid nvarchar(255),
+  migrationrelationid nvarchar(255),
+  migrationwayid nvarchar(255),
+  compositionid integer, 
+  maxerosionthick double,
+  avgerosionthick double,
+  minerosionthick double,
+  maxerosionarea double,
+  avgerosionarea double,
+  minerosionarea double,
+  waterppm double,
+  compositionnumber double,
+  accumulationperiod double,
+  faultstrength nvarchar(255),
+  tectonicactivity nvarchar(255),
+  overlyinglithology nvarchar(255),
+  tectonicperiod nvarchar(255),
+  fracturedegree nvarchar(255),
+  hydrocondition nvarchar(255),
+  sealtype nvarchar(255),
+  avgsealarea double,
+  maxsealarea double,
+  minsealarea double,
+  avgsealthickness double,
+  maxsealthickness double,
+  minsealthickness double,
+  prsdataupdate integer,
+  prsdataindate integer,
+  systerm nvarchar(255),
+  formation nvarchar(255),
+  sectionn nvarchar(255)
+);
+
+create table i_el_volume_sample
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  productarea double,
+  grossthickness double,
+  averageporosity double,
+  averagehcsaturation double,
+  rockdensity double,
+  oildensity double,
+  gascontent double,
+  geometricfactor double,
+  nettogrossratio double,
+  formationvolumefactor double,
+  recoveryfactor double,
+  recyclefactor double,
+  conversionfactor double
+);
+
+create table i_el_volume_stat
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  minproductarea double,
+  modeproductarea double,
+  maxproductarea double,
+  mingrossthickness double,
+  modegrossthickness double,
+  maxgrossthickness double,
+  minaverageporosity double,
+  modeaverageporosity double,
+  maxaverageporosity double,
+  minaveragehcsaturation double,
+  modeaveragehcsaturation double,
+  maxaveragehcsaturation double,
+  minrockdensity double,
+  moderockdensity double,
+  maxrockdensity double,
+  minoildensity double,
+  modeoildensity double,
+  maxoildensity double,
+  mingascontent double,
+  modegascontent double,
+  maxgascontent double,
+  mingeometricfactor double,
+  modegeometricfactor double,
+  maxgeometricfactor double,
+  minnettogrossratio double,
+  modenettogrossratio double,
+  maxnettogrossratio double,
+  minformationvolumefactor double,
+  modeformationvolumefactor double,
+  maxformationvolumefactor double,
+  minrecoveryfactor double,
+  moderecoveryfactor double,
+  maxrecoveryfactor double,
+  minrecyclefactor double,
+  moderecyclefactor double,
+  maxrecyclefactor double,
+  minconversionfactor double,  	
+  modeconversionfactor double,  	
+  maxconversionfactor double,  	
+  commitphase integer,
+  wellnumber integer,
+  footage integer,
+  istest integer,
+  geooil double,
+  geogas double,
+  recoveryrate double,
+  recoveryoil double,
+  recoverygas double,
+  managementphase integer
+);
+
+create table i_el_exploration
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  groupname nvarchar(255),
+  resourcename nvarchar(50),
+  explorationdate integer, 
+  commercialwells double,
+  commercialfootage double,
+  wells double,
+  evaluationwells double,
+  evaluationfootage double,
+  footage double,
+  seismiclength double,
+  seismicarea double,
+  investment double,
+  inplaceoil double,
+  recoverableoil double,
+  inplacegas double,
+  recoverablegas double
+);
+
+create table i_el_segment
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  oilgasid integer,
+  oilgasparameter nvarchar(255),
+  hcwaterid integer,
+  hcwaterparameter nvarchar(255),
+  spilldepthid integer,
+  spilldepthparameter nvarchar(255),
+  thickmultiplierid integer,
+  thickmultiplierparameter nvarchar(255)
+);
+
+create table i_el_trap_project
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  fromdate double,
+  todate double,
+  organization nvarchar(127),
+  conductor nvarchar(64),
+  auditor nvarchar(64),
+  auditstatus nvarchar(64),
+  trapstatus nvarchar(64),
+  remark nvarchar(255),
+  discoverdate double,
+  recheckdate double,
+  descdate double,
+  discoverydepartment nvarchar(255),
+  auditdepartment nvarchar(255),
+  submitdepartment nvarchar(255),
+  personicharge nvarchar(255),
+  submitdate double,
+  reviewcomments nvarchar(255),
+  reviewersign nvarchar(255),
+  reviewdate double,
+  reviewdepartment nvarchar(255),
+  exploreproject nvarchar(255),
+  subexplorproject nvarchar(255),
+  discoverymethod nvarchar(255),
+  trapoldname nvarchar(255),
+  recogtimes integer
+);
+
+create table i_el_trap_reserve
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  commitdate double,
+  iswildcat integer,
+  isdelphi integer
+ );
+
+create table i_el_trap_reserve_discard
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  commitdate double
+ );
+
+create table i_el_trap_survey
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  basinname nvarchar(255),
+  firstunit nvarchar(255),
+  secondunit nvarchar(255),
+  geographydesc nvarchar(255),
+  surfacecondition nvarchar(255),
+  surfaceelevation double,
+  seisworkprocess nvarchar(255),
+  mainseisline nvarchar(255),
+  discoverreason nvarchar(255),
+  coordx double,
+  coordy double,
+  projectsys nvarchar(255),
+  coordsys nvarchar(255),
+  geographymap longblob,
+  mainseislineprofile longblob
+ );
+
+create table i_el_trap_wildcat_well
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  wildcatwell nvarchar(255),
+  teststatus nvarchar(255),
+  indication nvarchar(255),
+  failedreason nvarchar(255),
+  designeddepth double,
+  expwellcost double,
+  startdate double,
+  finishdate double,
+  drillstatus nvarchar(255),
+  updowngrade nvarchar(255),
+  aprovalstatus nvarchar(255),
+  gradingreason nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table i_el_trap
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  isinuse integer,
+  horizonfromid integer,
+  horizontoid integer,
+  traptypeid integer,
+  rangemaxheight double,
+  rangeavgheight double,
+  areaclosure double,
+  areaoilclosure double,
+  areagasclosure double,
+  areamaxcoff double,
+  areaavgcoff double,
+  areamincoff double,
+  formationtime nvarchar(255),
+  knownarea double,
+  predicationarea double,
+  knownnumber double,
+  predicationnumber double,
+  reliability double,
+  drillsuccess double,
+  traptype nvarchar(32),
+  seishorizon nvarchar(32),
+  geohorizon nvarchar(32),
+  isrestoretrap integer,
+  trapsphasetype nvarchar(255),
+  highpointdepth double,
+  highpointelevation double,
+  trapfield integer,
+  childrennumber integer,
+  resourcetype integer,
+  remark nvarchar(255)
+);
+
+create table i_el_trap_development
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  isdiscovery integer,
+  stdproduction double,
+  maxproduction double,
+  avgproduction double,
+  wellsolution nvarchar(255),
+  testmax double,
+  testavg double,
+  decision nvarchar(127),
+  remark nvarchar(255),
+  discoverytype nvarchar(255),
+  result nvarchar(255),
+  wellnum nvarchar(255)
+);
+
+create table i_el_trap_wildcat_drill
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  wildcatwell nvarchar(255),
+  constrprogress nvarchar(255),
+  wellfunctions nvarchar(255),
+  targetformation nvarchar(255),
+  currentdepth double,
+  remainfootage double,
+  currentformation nvarchar(255),
+  currentfootage double,
+  resourceindication nvarchar(255),
+  projectstatus nvarchar(255),
+  drillingdensity double,
+  reportdate integer,
+  drillingdays integer,
+  planedyear integer,
+  totalindication nvarchar(255),
+  conclution nvarchar(255)
+);
+
+create table i_el_trap_exploration
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  statdate double,
+  drillstatus nvarchar(64),
+  drillresult nvarchar(64),
+  drillevaluation nvarchar(64),
+  drillconclusion nvarchar(64),
+  drilldate double,
+  discoveryid nvarchar(64),
+  discoverydate double,
+  drilled integer,
+  drilling integer,
+  footage double,
+  tested integer,
+  testing integer,
+  successes integer,
+  oilresource double,
+  gasresource double,
+  remark nvarchar(255),
+  phasetype integer,
+  oilfieldname nvarchar(255),
+  resourcekind nvarchar(255),
+  seismiclength nvarchar(255),
+  seismicarea nvarchar(255),
+  wells integer,
+  lowwells integer,
+  untested integer,
+  untestedlogs integer,
+  failedwell integer,
+  seic2ddiscovrate double,
+  newtraparea double,
+  yearnewseiclong double,
+  seic3dprofit double,
+  newoilgasarea double,
+  seic3dworkarea double
+);
+
+create table i_el_trap_geology_fault
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  faultname nvarchar(255),
+  brokenseishorizon nvarchar(255),
+  brokengeohorizon nvarchar(255),
+  faultproperty nvarchar(255),
+  faultdip double,
+  faultdipangle double,
+  faultheave double,
+  faultextension double
+);
+
+create table i_el_trap_wildcat_post
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  wildcatwell nvarchar(255),
+  trapcondition double,
+  filldingcondition double,
+  reservoircondition double,
+  reservecondition double,
+  failedcongnizing nvarchar(255),
+  drilledconclusion nvarchar(255),
+  advise nvarchar(255),
+  formation nvarchar(255),
+  oilrate double,
+  gasrate double,
+  maintarget nvarchar(255),
+  postdrillarea double,
+  postdrillthick double,
+  postdrillURF double,
+  postdrillreserve double
+);
+
+create table i_el_pool
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  groupname nvarchar(255),
+  resourcename nvarchar(255),
+  traptypeid nvarchar(255),
+  appraisalwells integer,
+  industrywells integer,
+  drillwells integer,
+  founddate integer,
+  areaheight double,
+  areaclosure double,
+  inplaceoil double,
+  recoverableoil double,
+  inplacegas double,
+  recoverablegas double,
+  usedreserves double,
+  recoverydegree double,
+  dataupdate integer,
+  dataindate integer,
+  effethickness double,
+  avgverwellprod double,
+  avghorwellprod double,
+  avgverwelleur double,
+  avghorwelleur double,
+  recoveryfactor double,
+  reserveabundance double
+);
+
+create table i_el_horizon
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horizonname nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_activity
+(
+  activityid integer not null primary key,
+  parentid integer,
+  type integer,
+  name nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table a_practice
+(
+  practiceid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  activityid integer,
+  whendo double,
+  whodo nvarchar(64),
+  approved tinyint,
+  templateidx integer,
+  npv double,
+  groupname nvarchar(255),
+  distribution nvarchar(255),
+  parameter nvarchar(255),
+  remark nvarchar(255),
+  recordtype nvarchar(255),
+  lockuser nvarchar(255),
+  lockreaduser nvarchar(255),
+  canreplace integer
+);
+
+create table a_risk
+(
+  practiceid integer,
+  elementid integer,
+  factorid integer,
+  maturity double,
+  minrisk double,
+  avgrisk double,
+  maxrisk double,
+  pshare double,
+  probabilitytreeid integer
+);
+
+create table a_template_blob
+(
+  elementid integer,
+  templateid integer,
+  factorid integer,
+  name nvarchar(255),
+  fileblob longblob
+);
+
+create table a_well_performance_dre_middle
+(
+  propertyid integer,
+  elementid integer,
+  practiceid integer,
+  cumulativegasproduction double,
+  pz double,
+  gasproductivityindex double,
+  pzdatastatus integer
+);
+
+create table a_well_performance_dre_result
+(
+  propertyid integer,
+  elementid integer,
+  practiceid integer,
+  materialbalancemethod double,
+  adsorbedgasdesorption double,
+  stresssensitivity double,
+  slopem double,
+  interceptb double,
+  theoreticalproductionindex double,
+  calculatedtotalreserves double,
+  calculatedfreegasreserves double,
+  calculatedabsorbedgasreserves double,
+  abandonstratapressure double,
+  predictedeur double,
+  predictedrecoverypercent double,
+  remark nvarchar(255)
+);
+
+create table a_well_performance_practice
+(
+  propertyid integer,
+  elementid integer,
+  practiceid integer,
+  activityid integer,
+  whendo double,
+  name nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table a_resource
+(
+  practiceid integer,
+  elementid integer,
+  kindname nvarchar(32),
+  categoryname nvarchar(32),
+  classname nvarchar(32),
+  groupname nvarchar(255),
+  minn integer,
+  avgn integer,
+  maxn integer,
+  minpool double,
+  avgpool double,
+  maxpool double,
+  meanq double,
+  stdq double,
+  minq double,
+  avgq double,
+  maxq double
+);
+
+create table a_parameter
+(
+  practiceid integer,
+  elementid integer,
+  probname nvarchar(255),
+  probpara nvarchar(255),
+  fractiles integer,
+  parameter text
+);
+
+create table a_correlation
+(
+  practiceid integer,
+  elementid integer,
+  firstid integer,
+  secondid integer,
+  correlation double
+);
+
+create table a_jobstream
+(
+  jobid integer not null primary key,
+  practiceid integer,
+  elementid integer, 
+  relid integer,
+  nodeid integer,
+  parentid integer,
+  childid integer,
+  nodelevel integer,
+  nodename nvarchar(255),
+  nodekey nvarchar(255),
+  nodetip nvarchar(255),
+  glyphtype integer,
+  nodecolor integer,
+  xcoord double,
+  ycoord double,
+  layouttype integer,
+  minx double,
+  maxx double,
+  miny double,
+  maxy double,
+  jobgroupid integer,
+  jobgroupname nvarchar(255)
+);
+
+create table a_npv_policy
+(
+  practiceid integer,
+  elementid integer,
+  calculationtype integer,
+  rounds integer,
+  startdate integer,
+  npvdate integer,
+  irr double,
+  pi double,
+  discountrate double,
+  inflation double,
+  productionpolicy integer,
+  gasdisposal integer,
+  screenreserve double,
+  oilcommodity double,
+  gascommodity double,
+  vat double,
+  oil2gas double,
+  gas2oil double,
+  scenariomode integer,
+  scenarioitrnum integer,
+  userseedmode integer,
+  userseednum integer,
+  data longblob,
+  paradata longblob
+);
+
+create table a_npv_scenario
+(
+  practiceid integer,
+  elementid integer,
+  data longblob,
+  dataresult longblob
+);
+
+create table a_npv_risk
+(
+  practiceid integer,
+  elementid integer,
+  marginal double,
+  conditional double,
+  unconditional double,
+  dryholerisk double
+);
+
+
+create table a_npv_resource
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  reserve double,
+  oilpracticeid integer,
+  gaspracticeid integer,
+  oilactivitytype integer,
+  gasactivitytype integer,
+  gasreserve double
+);
+
+
+create table a_npv_edp_basic
+(
+  practiceid integer,
+  elementid integer,
+  expprevduration integer,
+  expprevwellnumber integer,
+  expduration integer,
+  expwellnumber integer,
+  expappduration integer,
+  expappwellnumber integer,
+  devappduration integer,
+  devappwellnumber integer,
+  devduration integer,
+  devwellnumber integer,
+  prodbuildup integer,
+  prodplateau integer,
+  proddecline integer,
+  proddisposal integer,
+  prodwellnumber integer,
+  prodinjectionnumber integer,
+  plateauproduceratio double,
+  declinetype integer,
+  declinerate double,
+  declineindex double,
+  declineformula nvarchar(255),
+  oilproscale double,
+  oildecrate double,
+  gasproscale double,
+  gasdecrate double,
+  paradata longblob,
+  oilformuladata longblob,
+  gasformuladata longblob
+);
+
+create table a_npv_edp_schedule
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  whendo integer,
+  reserve double,
+  drillingnumber integer,
+  injectionnumber integer,
+  paradata longblob
+);
+
+create table a_npv_cost_basic
+(
+  practiceid integer,
+  elementid integer,
+  calmethod integer,
+  expwellnum integer,
+  expwelldepth double,
+  expwellcost double,
+  devwellnum integer,
+  devwelldepth double,
+  devwellcost double,
+  devsurfacecost double,
+  data longblob,
+  paradata longblob,
+  solutiondata longblob,
+  expwelldata longblob,
+  devwelldata longblob
+);
+
+create table a_npv_cost_detail
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  data longblob
+);
+
+create table a_npv_cost_mmbs
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  deprimethod integer,
+  depriyear integer,
+  calmethod integer,
+  data longblob,
+  paradata longblob,
+  solutiondata longblob
+);
+
+create table a_npv_price
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  whendo integer,
+  price double,
+  inflation double,
+  paradata longblob,
+  solutiondata longblob,
+  oilallowance double,
+  gasallowance double
+);
+
+create table a_npv_tax
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  whendo integer,
+  incometax double,
+  revenueoiltax double,
+  revenuegastax double,  
+  data longblob,
+  paradata longblob,
+  solutiondata longblob
+);
+
+
+create table a_npv_summary
+(
+  practiceid integer,
+  elementid integer,
+  discountrate double,
+  npv double,
+  irr double,
+  npvtax double,
+  irrtax double,
+  pc double,
+  pe double,
+  gaspc double,
+  gaspe double,
+  pcres double,
+  peres double,
+  emv double,
+  emvtax double,
+  gaspcres double,
+  gasperes double,
+  wellexp double,
+  expcost double,
+  devcost double,
+  avgoperation double,
+  procapacity nvarchar(255),
+  price nvarchar(255),
+  avgmanagementcost double,
+  avgspecialcost double,
+  riskvalue double,
+  avgoilcommdity double,
+  avggascommdity double,
+  procapacity2 nvarchar(255),
+  paradata longblob,
+  sipcparadata longblob,
+  costrcparadata longblob,
+  pscparadata longblob
+);
+
+create table a_repository_genetic
+(
+  practiceid integer
+);
+
+create table a_repository_scenario
+(
+  practiceid integer
+);
+
+create table a_repository_pfolio
+(
+  practiceid integer,
+  repositoryid integer,
+  groupid integer,
+  investmentrate double,
+  xvalue double,
+  yvalue double,
+  xvaluetype integer,
+  isapproved integer
+);
+
+create table a_bayes_net_node
+(
+  bayesnetworkid integer,
+  whodo nvarchar(255),
+  whendo integer,
+  remark nvarchar(64),
+  id integer,					
+  name nvarchar(255),
+  states nvarchar(255),
+  priors nvarchar(255),
+  posteriors nvarchar(255),
+  parents integer,
+  settings nvarchar(255),
+  descs nvarchar(255),
+  stateId integer,
+  ishidden tinyint,
+  isevidence tinyint,
+  iswarning tinyint,
+  m_x double,
+  m_y double
+);
+
+create table a_bayes_net_branch
+(
+  bayesnetworkid integer,
+  whodo nvarchar(255),
+  whendo integer,
+  nodeidfrom integer,
+  nodeidto integer,
+  ishidden tinyint
+);
+
+
+create table a_decision_tree_node
+(
+  decisiontreeid integer,
+  whodo nvarchar(255),
+  whendo integer,
+  remark nvarchar(64),
+  nodeid integer,
+  type integer,
+  decisionvalue double,
+  nodeValue double,
+  parentid integer,
+  leftnode integer,
+  rightnode integer,
+  issolved tinyint,
+  isgreen tinyint,
+  isvisible tinyint,
+  nodelevel integer,
+  childrendegree integer,
+  childhighy double,
+  childlowy double,
+  isreverseprobability tinyint,
+  reversevalue double,
+  m_code nvarchar(255),
+  m_x double,
+  m_y double,
+  curlevel integer,
+  maxid integer
+);
+
+create table a_decision_tree_branch
+(
+  decisiontreeid integer,
+  whodo nvarchar(255),
+  whendo integer,
+  remark nvarchar(64),
+  type integer,
+  description nvarchar(255),
+  nodevalue double,
+  fromnodeid integer,
+  tonodeid integer,
+  x1 double,
+  y1 double,
+  x2 double,
+  y2 double,
+  x3 double,
+  y3 double,
+  isgreen tinyint,
+  isvisible tinyint,
+  reversevalue double
+);
+
+create table a_pb_tree_node
+(
+  probabilitytreeid integer,	
+  whodo nvarchar(255),
+  whendo integer,
+  remark nvarchar(64),
+  nodeid integer,
+  description nvarchar(255),
+  nodevalue double,
+  parentid integer,
+  leftnode integer,
+  rightnode integer,
+  issolved tinyint,
+  isgreen tinyint,
+  nodelevel integer,
+  childrendegree integer,
+  childhighy double,
+  childlowy double,
+  m_code nvarchar(255),
+  m_x double,
+  m_y double,
+  curlevel integer,
+  x_step double,
+  y_step double,
+  m_names nvarchar(255),
+  degree double,
+  maxid integer,
+  maxdegree double,
+  isreversemode tinyint,
+  startlevel integer,
+  endlevel integer,
+  valsmap longblob
+);
+
+create table a_pb_tree_branch
+(
+  probabilitytreeid integer,
+  whodo nvarchar(255),
+  whendo integer,
+  remark nvarchar(64),
+  description nvarchar(255),
+  nodevalue double,
+  fromnodeid integer,
+  tonodeid integer,
+  x1 double,
+  y1 double,
+  x2 double,
+  y2 double,
+  isgreen tinyint,
+  reversevalue double
+);
+
+create table r_activity_template
+(
+  username nvarchar(255),
+  templateIdx integer,
+  templatename nvarchar(255),
+  activityIdx integer,
+  parentIdx integer,
+  type integer,
+  name nvarchar(255),
+  remark nvarchar(255),
+  indexvalue integer,
+  isshown nvarchar(255),
+  unitfor integer,
+  iscurrenttemplate integer,
+  isvalid nvarchar(255)
+);
+
+create table r_behar_kinetics
+(
+  heharid integer,
+  hebarcategory nvarchar(255),
+  hi nvarchar(255),
+  activition_energy nvarchar(255),
+  methane nvarchar(255),
+  c2_c5 nvarchar(255),
+  c6_c14 nvarchar(255),
+  c15 nvarchar(255)
+);
+
+create table r_activity_menu
+(
+  username nvarchar(255),
+  templateIdx integer,
+  templatename nvarchar(255),
+  iscurtemplate integer,
+  itemid integer,
+  itemparentid integer,
+  itemname nvarchar(255),
+  itemtype integer,
+  itemlevel integer,
+  itemorder integer,
+  functionid integer,
+  imageid integer,
+  isshown integer,
+  remark nvarchar(255)
+);
+
+create table r_report_grid_template
+(
+  username nvarchar(255),
+  templateIdx integer,
+  templatename nvarchar(255),
+  datatype nvarchar(255),
+  tablename nvarchar(255),
+  fieldname nvarchar(255)
+);
+
+create table r_rh_template
+(
+  username nvarchar(255),
+  templateIdx integer,
+  templatename nvarchar(255),
+  mrow integer,
+  col integer,
+  rowsize integer,
+  colsize integer,
+  stringvalue nvarchar(255),
+  tablename nvarchar(255),
+  fieldname nvarchar(255),
+  isorderby integer,
+  isunion integer,
+  orderbyprior integer
+);
+
+create table r_rh_dimcol_template
+(
+  username nvarchar(255),
+  templateIdx integer,
+  templatename nvarchar(255),
+  col integer,
+  dimlevel integer,
+  parentidtablename nvarchar(255),
+  parentidfieldname nvarchar(255),
+  idtablename nvarchar(255),
+  idfieldname nvarchar(255),
+  identifytablename nvarchar(255),
+  identifyfieldname nvarchar(255),
+  contenttablename nvarchar(255),
+  contentfieldname nvarchar(255),
+  isorderby integer,
+  isunion integer,
+  orderbyprior integer
+);
+
+create table r_rh_where_condition_template
+(
+  username nvarchar(255),
+  templateIdx integer,
+  templatename nvarchar(255),
+  lefttablename nvarchar(255),
+  leftfieldname nvarchar(255),
+  righttablename nvarchar(255),
+  rightfieldname nvarchar(255)
+);
+
+create table r_report_grid
+(
+  formatname nvarchar(127),
+  posx integer,
+  posy integer,
+  type integer,
+  sizex integer,
+  sizey integer,
+  rowsize integer,
+  colsize integer,
+  totalheight integer,
+  totalwidth integer,
+  blobdata longblob
+);
+
+create table i_el_evaluation
+(
+  elementid integer,
+  whodo nvarchar(255),
+  managementphase integer,
+  mresource double,
+  resource10 double,
+  resource90 double,
+  resource00 double,
+  ppolitic double,
+  pmaturity double,
+  pengineering double,
+  irr double,
+  npv double,
+  emv double,
+  strategy double,
+  istrapcandidate integer,
+  iswellcandidate integer,
+  trapr double,
+  wellr double,
+  traprank integer,
+  wellrank integer,
+  oilfieldname nvarchar(255),
+  resourcename nvarchar(32),
+  recovery double,
+  pshare double,
+  pbusiness double,
+  peconomic double,
+  economic double,
+  npv10 double,
+  npv90 double,
+  npv00 double,
+  explrinvest double,
+  devlpinvest double,
+  riskid integer,
+  resourceid integer,
+  economicid integer,
+  selectionid integer,
+  p2dseismic double,
+  p3dseismic double,
+  projectarea double,
+  costpertone double,
+  discovertype integer,
+  optimyear integer,
+  optimnum integer,
+  pmaturityenv double,
+  pmaturityeco double
+);
+
+create table a_resource_detail
+(
+  practiceid integer,
+  elementid integer,
+  activityid integer,
+  type nvarchar(255),
+  geologicalsamples longblob,
+  recoverysamples longblob
+);
+
+create table ref_database_version
+(
+  dbversion nvarchar(255)
+);
+
+create table ref_face_definition
+(
+  faceid integer,
+  facename nvarchar(255),
+  facecolor integer,
+  lithname nvarchar(255),
+  lithovariablenum integer,
+  toc double,
+  itemnametoc nvarchar(255),
+  viewnametoc nvarchar(255),
+  interpolatetypetoc integer,
+  hio double,
+  itemnamehio nvarchar(255),
+  viewnamehio nvarchar(255),
+  interpolatetypehio integer,
+  ineticname nvarchar(255),
+  tocs longblob,
+  hios longblob
+);
+
+create view i_el_evaluation_view as select i_el.elementid, whodo, managementphase, parentid, name, type, foundtime, calibration, weight, resourcemin, largemin, largemax, screening, resourcename, mresource, resource10, resource90, resource00, ppolitic, recovery, pmaturity, pshare, pbusiness, peconomic, pengineering, irr, npv, emv, economic, strategy, istrapcandidate, iswellcandidate, trapr, wellr, traprank, wellrank, oilfieldname, npv10, npv90, npv00, explrinvest, devlpinvest, riskid, resourceid, economicid, selectionid, p2dseismic, p3dseismic, projectarea, costpertone, discovertype, optimyear, optimnum, pmaturityenv, pmaturityeco from i_el, i_el_evaluation where i_el.elementid=i_el_evaluation.elementid;
+
+create table r_kida_category
+(
+  categoryid integer not null primary key,
+  categoryparentid integer,
+  type integer,
+  name nvarchar(127),
+  categoryorder integer,
+  remark nvarchar(255),
+  lockuser nvarchar(255),
+  lockreaduser nvarchar(255),
+  usernames nvarchar(255),
+  readonlyusernames nvarchar(255),
+  extentxmin double,
+  extentxmax double,
+  extentymin double,
+  extentymax double,
+  coordinatesystem nvarchar(255),
+  project nvarchar(255),
+  curvedesc text,
+  isactivate integer
+);
+
+create table r_kida_theme
+(
+  themeid integer not null primary key,
+  type integer,
+  name nvarchar(127),
+  remark nvarchar(255)
+);
+
+create table r_kida_class
+(
+  classid integer not null primary key,
+  categoryid integer,
+  themeid integer,
+  type integer,
+  name nvarchar(127),
+  parentname nvarchar(127),
+  source nvarchar(255),
+  minx double,
+  miny double,
+  maxx double,
+  maxy double,
+  layerorder integer,
+  isshown integer,
+  canselect integer,
+  remark nvarchar(255),
+  lockuser nvarchar(255),
+  lockreaduser nvarchar(255),
+  seisparentid integer,
+  contourtype integer,
+  usernames nvarchar(255),
+  readonlyusernames nvarchar(255),
+  relatelayer nvarchar(255),
+  projtype integer,
+  coordtype integer
+);
+
+create table r_kida_dataset
+(
+  gateid integer not null primary key,
+  layerid integer,
+  tileid integer,
+  xlayercount integer,
+  ylayercount integer,
+  layershift integer,
+  xtilecount integer,
+  ytilecount integer,
+  minx double,
+  miny double,
+  maxx double,
+  maxy double,
+  remark nvarchar(255)
+);
+
+create table d_well_basic
+(
+  propertyid integer,
+  elementid integer,
+  wellid integer not null primary key,
+  classid integer,
+  geometryid integer,
+  adminid integer,
+  name nvarchar(255),
+  longitude double,
+  latitude double,
+  xcoord double,
+  ycoord double,
+  groundevaluation double,
+  totaldepth double,
+  groupnumber nvarchar(128),
+  wellnumber nvarchar(128),
+  wellstatus nvarchar(128),
+  welltype nvarchar(128),
+  boretype nvarchar(128),
+  fluidtype nvarchar(128),
+  nullvalue double,
+  wellkb double,
+  welleurs double,
+  welldrainage double,
+  welllogistic nvarchar(255),
+  gfspara nvarchar(255),
+  gfsname nvarchar(255),
+  gfslocalpath nvarchar(255),
+  aliasname nvarchar(255),
+  kb double,
+  kbe double,
+  tvdss double,
+  well_type nvarchar(255),
+  well_area nvarchar(255),
+  drilling_type nvarchar(255),
+  completion_date nvarchar(255),
+  drill_finishing_date nvarchar(255),
+  completion_depth double,
+  vertical_depth double,
+  completion_formation nvarchar(255),
+  completion_method nvarchar(255),
+  ai_bottom_depth double,
+  x_coord_bottom_hole double,
+  y_coord_bottom_hole double,
+  total_drill_depth double,
+  pm_start_elevation double,
+  pm_total_drill_depth double,
+  pm_true_vertical_depth double,
+  symbol_style nvarchar(255),
+  symbol_size double,
+  remark nvarchar(255),
+  groupname nvarchar(255)
+);
+
+create table d_well_basic_more
+(
+  wellid integer not null primary key
+);
+
+create table d_well_atttable
+(
+  classid integer,
+  tablename nvarchar(255),
+  othername nvarchar(255),
+  fieldlength integer,
+  fieldcontent longblob
+);
+
+create table d_well_geometry
+(
+  geometryid integer not null primary key,
+  layerid integer,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  coords longblob 
+);
+
+create table d_well_bore
+(
+  boreid integer not null primary key,
+  wellid integer,
+  name nvarchar(128),
+  targettstrata nvarchar(128),
+  perforationnumber double,
+  perforationlength double,
+  horizontallength double
+);
+
+create table d_well_trace
+(
+  boreid integer,
+  datatype integer,
+  traceid integer,
+  datatypename nvarchar(255),
+  tracename nvarchar(255),
+  tracealiasname nvarchar(255),
+  datadesc text,
+  zlib integer,
+  unziplen integer,
+  tracedata longblob
+);
+
+create table d_well_pick
+(
+  boreid integer,
+  zoneid integer,
+  pickby nvarchar(128),
+  pickname nvarchar(128),
+  coordx double,
+  coordy double,
+  dipangle double,
+  dipazimuth double,
+  topmd double,
+  toptvd double,
+  toptvdss double,
+  mtime double,
+  thick double,
+  lithosymbolidx double,
+  faultheave double,
+  faultname nvarchar(128),
+  faulttype nvarchar(128),
+  color integer,
+  lithname nvarchar(255),
+  aliasname nvarchar(255),
+  source nvarchar(255),
+  northing double,
+  easting double,
+  basemd double,
+  basetvd double,
+  basetvdss double,
+  grossthickness double,
+  tvt double,
+  tst double,
+  gapthickness double,
+  boreazimuth double,
+  boreangle double,
+  faultdepth double,
+  faultseparation double,
+  comparedwell nvarchar(255)
+);
+
+create table d_well_zone
+(
+  boreid integer,
+  wellzone nvarchar(128),
+  basemd integer,
+  baspickname nvarchar(128),
+  parentzone nvarchar(128),
+  topmd integer,
+  toppickname nvarchar(128),
+  zonethickness integer
+);
+
+create table d_well_variable
+(
+  propertyid integer,
+  elementid integer,
+  wellid integer,
+  name nvarchar(255),
+  ishc integer,
+  xcoord double,
+  ycoord double,
+  grossthickness double,
+  netthickness double,
+  porosity double,
+  saturation double,
+  netgross double,
+  capthickness double,
+  estimateduplift double,
+  presuregradient double,
+  salinitygradient double,
+  structure double,
+  structureresiduals double,
+  md double,
+  risk double,
+  mresource double,
+  predication double,
+  sourcerockthickness double,
+  toccontent double,
+  romaturity double,
+  absortedgas double,
+  dailyproduction double,
+  organictype nvarchar(255),
+  wellrecovery double,
+  wellreserve double,
+  resourceabundance double,
+  mineralcomponent double,
+  forg double
+);
+
+create table d_well_volume_sample
+(
+  propertyid integer,
+  elementid integer,
+  productarea double,
+  grossthickness double,
+  wvsr double,
+  wvstoc double,
+  wvspsh double,
+  wvspo double,
+  wvssone double,
+  wvsc double,
+  wvsstwenty double,
+  wvsbhc double,
+  wvsrf double,
+  wvstr double,
+  wvscf double
+);
+
+create table d_well_production
+(
+  propertyid integer,
+  elementid integer,
+  boreid integer,
+  productiondate integer,
+  productionstart double,
+  productionprediction double,
+  productionactual double,
+  declinestart double,
+  declineprediction double,
+  declineactual double,
+  declineformular nvarchar(255),
+  productiondays double,
+  watercut double
+);
+
+create table d_well_performance_basic
+(
+  propertyid integer,
+  elementid integer,
+  wellname nvarchar(255),
+  wellstatus integer,
+  welltype integer,
+  coordinatex double,
+  coordinatey double
+);
+
+create table d_well_performance_casing
+(
+  propertyid integer,
+  elementid integer,
+  casingdeploymentid integer,
+  deploymentname nvarchar(255),
+  casingcompletionmethod integer,
+  casingbottomdepth double,
+  casingdiameter double,
+  casingwallroughness double
+);
+
+create table d_well_performance_deployment
+(
+  propertyid integer,
+  elementid integer,
+  CasingdeploymentID integer,
+  TubingdeploymentID integer,
+  welltrajectorydeploymentID integer,
+  deploymentdate integer,
+  deploymentname nvarchar(255),
+  wellpipemode nvarchar(255),
+  PerforationTopdepth double,
+  Perforationbottomdepth double,
+  completionmiddledepth double,
+  Wellheadtemperature double,
+  Reservoirtemperature double,
+  Flowpressurecalculationmodel integer,
+  additionalpressuredrop double
+);
+
+create table d_well_performance_geological_parameter
+(
+  propertyid integer,
+  elementid integer,
+  initialstratapressure double,
+  stratatemperature double,
+  reservoirthickness double,
+  porosity double,
+  initialgassaturation double,
+  Porecompressioncoefficient double,
+  gasRelativedensity double,
+  CO2Molepercentage double,
+  H2SMolepercentage double,
+  N2Molepercentage double,
+  LangeMuirvolume double,
+  LangeMuirpressure double,
+  shaledensity double,
+  stratumwaterdensity double,
+  initialcompression double,
+  initialvolume double,
+  stratumwaterviscosity double,
+  gasdeviationfactor integer,
+  gasviscosity integer,
+  rw double,
+  soi double,
+  swi double,
+  cti double,
+  mg double
+);
+
+create table d_well_performance_pressure
+(
+  propertyid integer,
+  elementid integer,
+  measureddate integer,
+  measureddepth double,
+  measuredTVD double,
+  measuredgasproduction double,
+  measuredpressure double,
+  statussign integer,
+  remarks nvarchar(255)
+);
+
+create table d_well_performance_pressure_gradient
+(
+  propertyid integer,
+  elementid integer,
+  measureddate integer,
+  measureddepth double,
+  measuredpressure double,
+  Measuredtemperature double
+);
+
+create table d_well_performance_production
+(
+  propertyid integer,
+  elementid integer,
+  productiondate integer,
+  productionhours double,
+  Casingpressure double,
+  tubingpressure double,
+  gasproductionrate double,
+  waterproductionrate double,
+  oilproductionrate double,
+  calculatedsandfacepressure double,
+  calculatingpressure nvarchar(255)
+);
+
+create table d_well_performance_trajectory
+(
+  propertyid integer,
+  elementid integer,
+  welltrajectorydeploymentID integer,
+  deploymentname nvarchar(255),
+  MeasuredDepth double,
+  TVD double,
+  Azimuthangle double
+);
+
+create table d_well_performance_tubing
+(
+  propertyid integer,
+  elementid integer,
+  TubingdeploymentID integer,
+  deploymentname nvarchar(255),
+  TubingBottomDepth double,
+  Tubingdiameter double,
+  Tubingwallroughness double
+);
+
+create table d_well_geochemical_para
+(
+  propertyid integer,
+  elementid integer,
+  wellid integer,
+  wellname nvarchar(255),
+  x double,
+  y double,
+  depth double,
+  toc double,
+  s1 double,
+  s2 double,
+  tmax double,
+  hi double,
+  oi double,
+  pi double,
+  hcporosity double,
+  matrix double,
+  vl double,
+  pl double,
+  gassaturation double
+);
+
+create table d_well_property
+(
+  boreid integer,
+  componentname nvarchar(255),
+  linename nvarchar(255),
+  lineshowname nvarchar(255),
+  linecolorr integer,
+  linecolorg integer,
+  linecolorb integer,
+  islineshown integer,
+  linewidth double,
+  linepatternfirst double,
+  linepatternsecond double,
+  linepatternlen integer,
+  islinelog integer,
+  islinegrid integer,
+  linenullvalue nvarchar(255),
+  lineunit nvarchar(255),
+  flpname nvarchar(255),
+  flpstep double,
+  flptype integer,
+  flpcolor integer,
+  flpisalpha integer,
+  flpwidth double,
+  flpmincurvename nvarchar(255),
+  flpmaxcurvename nvarchar(255),
+  flptype1 integer,
+  flpcolor1 integer,
+  flpisalpha1 integer,
+  isrenderfilling integer,
+  gphorizonshow integer,
+  gphorizoncolor integer,
+  gphorizonbigcell integer,
+  gphorizonsmallcell integer,
+  gphorizonthinline integer,
+  gphorizonmidline integer,
+  gphorizonthickline integer,
+  gpverticalshow integer,
+  gpverticalcolor integer,
+  gpverticalbigcell integer,
+  gpverticalsmallcell integer,
+  issquare integer,
+  leftvalue double,
+  rightvalue double,
+  ticknum integer
+);
+
+create table d_well_image
+(
+  boreid integer
+);
+
+create table d_well_interpretation
+(
+  boreid integer,
+  interpretationid integer,
+  topdepth double,
+  bottomdepth double,
+  thickness double,
+  singlelayer nvarchar(255),
+  interpretationresult nvarchar(255),
+  netthickness double,
+  interpretationpor double,
+  interpretationperm double,
+  vsh double,
+  saturation double,
+  formationpos nvarchar(255),
+  sandset nvarchar(255),
+  constraint fk_well_interpretation_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_logging
+(
+  boreid integer,
+  loggingunit nvarchar(255),
+  bottomdepth double,
+  thickness double,
+  colorcode integer,
+  color nvarchar(255),
+  oilbearinggradecode integer,
+  oilbearinggrade nvarchar(255),
+  lithologycode nvarchar(255),
+  lithologyname nvarchar(255),
+  desctype nvarchar(255),
+  sampletype nvarchar(255),
+  desctopdepth double,
+  desctoplength double,
+  recorddate nvarchar(255),
+  recorder nvarchar(255),
+  auditor nvarchar(255),
+  reviewer nvarchar(255)
+);
+
+create table d_well_log_template
+(
+  propertyid integer,
+  classid integer,
+  boreids nvarchar(255),
+  boreiddesc text,
+  curvedesc text,
+  curvecontent longblob,
+  whendo double,
+  whodo nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table d_well_mining_test
+(
+  boreid integer,
+  miningstage integer,
+  interpretationid nvarchar(255),
+  perforationtop double,
+  perforationbottom double,
+  thickness double,
+  layernum integer,
+  start_meature nvarchar(255),
+  start_date integer,
+  start_workingsystem nvarchar(255),
+  start_dailyliquidoutput double,
+  start_dailyoiloutput double,
+  start_rateofwater double,
+  start_dynamicliquidlevel double,
+  start_testpressure double,
+  end_date integer,
+  end_productionsystem nvarchar(255),
+  end_dailyliquidoutput double,
+  end_dailyoiloutput double,
+  end_rateofwater double,
+  end_dynamicliquidlevel double,
+  end_testpressure double,
+  end_cumulativeoiloutput double,
+  end_cumulativewateroutput double,
+  currentsituation nvarchar(255),
+  totalthickness nvarchar(255),
+  constraint fk_well_mining_test_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_oil_test
+(
+  boreid integer,
+  formation nvarchar(255),
+  testtop double,
+  testbottom double,
+  layernum integer,
+  thickness double,
+  testdate integer,
+  workingstyle nvarchar(255),
+  depth double,
+  times integer,
+  flowpressure double,
+  staticpressure double,
+  dailyoiloutput double,
+  dailygasoutput double,
+  dailywateroutput double,
+  cumulativeoiloutput double,
+  cumulativewateroutput double,
+  watercontent double,
+  oildensity double,
+  oilviscosity double,
+  solidifyingpoint double,
+  sulphurcontent double,
+  totalminerization double,
+  chlorideioncontent double,
+  sulfateradical double,
+  watertype nvarchar(255),
+  testresult nvarchar(255),
+  constraint fk_well_oil_test_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_path
+(
+  boreid integer,
+  md double,
+  tvd double,
+  inclination double,
+  azimuth double,
+  deltay double,
+  deltax double,
+  easting double,
+  northing double
+);
+
+create table d_well_burial_history
+(
+  boreid integer,
+  pid integer,
+  resultparalength integer,
+  iscompress integer,
+  whendo double,
+  remark nvarchar(255),
+  layerpara longblob,
+  resultpara longblob,
+  settingpara longblob
+);
+
+create table d_well_calibration
+(
+  boreid integer,
+  caliname nvarchar(255),
+  pmtvdepth double,
+  tvdepth double,
+  pmmdepth double,
+  mdepth double,
+  calivalue double,
+  minval double,
+  maxval double,
+  calicolor integer,
+  calisymbol integer,
+  symbolsize double,
+  useforcalibration integer,
+  caliquality nvarchar(255),
+  caliage nvarchar(255)	
+);
+
+create table d_well_cross_section
+(
+  propertyid integer,
+  classid integer,
+  boreids nvarchar(255),
+  curvecontent longblob,
+  profilecontent longblob,
+  profiletype integer,
+  stratigraphic nvarchar(255),
+  structural double,
+  whendo double,
+  whodo nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table d_well_fault
+(
+  boreid integer,
+  faultid nvarchar(255),
+  verticalsep double,
+  sliptype nvarchar(255),
+  dipangle double,
+  dipazimuth double
+);
+
+create table d_well_fracture
+(
+  boreid integer,
+  fracturenb integer,
+  fracturepor integer,
+  fracturewid integer,
+  fracturetl integer,
+  fracturedel integer,
+  fracturetrd integer,
+  fracturetfl nvarchar(255)
+);
+
+create table d_well_shale_operation
+(
+  propertyid integer,
+  elementid integer,
+  boreid integer,
+  operationdate integer,
+  completionlength double,
+  fracfluidamount double,
+  proppingagent double,
+  wellorientation double,
+  fracstages integer
+);
+
+create table d_seismic_project
+(
+  projectid integer not null primary key,
+  coordinatesystemtype nvarchar(255),
+  depthcoordinatesystem nvarchar(255),
+  name nvarchar(255),
+  description nvarchar(255),
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  interpreters nvarchar(255),
+  remark nvarchar(127)
+);
+
+create table d_seismic_2dg
+(
+  geometryid integer not null primary key,
+  elementid integer,
+  classid integer,
+  projectid integer,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  coords longblob,
+  remark nvarchar(255)
+);
+
+
+create table d_seismic_3dg
+(
+  geometryid integer not null primary key,
+  elementid integer,
+  classid integer,
+  projectid integer,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  coords longblob,
+  remark nvarchar(255)
+);
+
+create table d_seismic_dataset
+(
+  datasetid integer not null primary key,
+  fromid integer,
+  projectid integer,
+  geometryid integer,
+  name nvarchar(255),
+  mcomment nvarchar(255),
+  datasource nvarchar(255),
+  compressionfactor double,
+  deltaz double,
+  domaintype nvarchar(255),
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  thetimestamp double,
+  maxz double,
+  minz double,
+  numtraces integer,
+  samplekind nvarchar(255),
+  samplemax double,
+  samplemin double,
+  sampleunit nvarchar(255)
+);
+
+create table i_el_geometry
+(
+  geometryid integer not null primary key,
+  elementid integer,
+  classid integer,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  coords longblob
+);
+
+create table i_el_raster
+(
+  rasterid integer not null primary key,
+  elementid integer,
+  classid integer,
+  stamptime double,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  zmin double,
+  zmax double,
+  data longblob,
+  imgwidth integer,
+  imgheight integer,
+  imgdepth integer,
+  imgfilelength integer,
+  version integer,
+  iscurver integer,
+  tilecode integer,
+  iscompress integer,
+  pictype nvarchar(255),
+  whodo nvarchar(255),
+  gfspara nvarchar(255),
+  gfsname nvarchar(255)
+);
+
+create table d_seismic_gate
+(
+  gateid integer not null primary key,
+  datasetid integer,
+  filepath nvarchar(255),
+  linename nvarchar(255),
+  isgde integer,
+  gatetype integer,
+  gfspara nvarchar(255),
+  gfsname nvarchar(255)
+);
+
+create table d_seismic_wavlet
+(
+  wavletid integer not null primary key,
+  datasetid integer,
+  wavletname nvarchar(255),
+  starttime double,
+  samplenumber double,
+  sampleinterval double,
+  traces longblob
+);
+
+create table d_seismic_surveyinfo
+(
+  gateid integer,
+  nLineNum integer,
+  nCDPNum integer,
+  nStartLine integer,
+  nStartCDP integer,
+  nLineIncrement integer,
+  nCDPIncrement integer,
+  fOrientation double,
+  fDirection double,
+  fOrgX double,
+  fOrgY double,
+  fLineSpace double,
+  fCDPSpace double,
+  crdType integer,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  pos1x double,
+  pos1y double,
+  pos2x double,
+  pos2y double,
+  pos3x double,
+  pos3y double,
+  pos4x double,
+  pos4y double
+);
+
+create table d_seismic_surveyinfoblob
+(
+  gateid integer,
+  datatype integer,
+  datacount integer,
+  hafilesize integer,
+  haviewsize integer,
+  shotptxs longblob,
+  shotptys longblob,
+  detectionptxs longblob,
+  detectionptys longblob,
+  cdpptxs longblob,
+  cdpptys longblob,
+  azimuths longblob,
+  angles longblob,
+  distances longblob,
+  gridandfilepos longblob,
+  shotptxszlib integer,
+  shotptyszlib integer,
+  detectionptxszlib integer,
+  detectionptyszlib integer,
+  cdpptxszlib integer,
+  cdpptyszlib integer,
+  azimuthszlib integer,
+  angleszlib integer,
+  distanceszlib integer,
+  gridandfileposzlib integer
+);
+
+create table d_seismic_headinfo
+(
+  gateid integer,
+  nTraceNum integer,
+  nTraceLen integer,
+  nType integer,
+  nTracePt integer,
+  nInterval integer,
+  lineNumber integer,
+  reelNumber integer
+);
+
+create table d_seismic_profileinfo
+(
+  gateid integer,
+  defaultStart integer,
+  defaultEnd integer,
+  userStart integer,
+  userEnd integer
+);
+
+create table d_seismic_tracedata
+(
+  gateid integer,
+  nOrder integer,
+  nPts integer,
+  nInterval integer,
+  nLineNo integer,
+  nCDPNo integer,
+  nSourceCrdX integer,
+  nSourceCrdY integer,
+  nCrdType integer,
+  nStartTime integer,
+  nEndTime integer,
+  hcode integer,
+  coordx double,
+  coordy double,
+  coordz double,
+  coordw double,
+  recordorder integer,
+  minA double,
+  maxA double,
+  samplenumber integer,
+  samples longblob,
+  times longblob
+);
+
+create table d_seismic_ipt_em
+(
+  primaryid integer not null primary key,
+  modelid integer,
+  projectid integer,
+  elementid integer,
+  name nvarchar(255),
+  remark nvarchar(255)
+);
+
+create table d_seismic_ipt_em_feature
+(
+  featureid integer not null primary key,
+  projectid integer,
+  featurekind integer,
+  featuretype integer,
+  name nvarchar(255),
+  isshown integer,
+  remark nvarchar(255),
+  coords longblob
+);
+
+create table d_seismic_ipt_em_property
+(
+  featureid integer not null primary key,
+  projectid integer,
+  linecolorr integer,
+  linecolorg integer,
+  linecolorb integer,
+  linewidth double,
+  linepatternfirst double,
+  linepatternsecond double,
+  linepatternlen integer
+);
+
+create table d_ipt_fault_feature
+(
+  featureid integer not null primary key,
+  projectid integer,
+  surveyid integer,
+  name nvarchar(255),
+  lastmodifieddate double,
+  shapetype integer,
+  propertytype integer,
+  maxvaluee double,
+  minvalue double,
+  nullvalue double
+);
+
+create table d_ipt_fault_geometry
+(
+  geometryid integer not null primary key,
+  featureid integer,
+  minx double,
+  maxx double,
+  miny double,
+  maxy double,
+  coords longblob
+);
+
+create table d_ipt_horizon_feature
+(
+  featureid integer not null primary key,
+  projectid integer,
+  surveyid integer,
+  name nvarchar(255),
+  lastmodifieddate double,
+  shapetype integer,
+  propertytype integer,
+  maxvaluee double,
+  minvalue double,
+  nullvalue double,
+  strataid integer,
+  strataname nvarchar(127),
+  classification nvarchar(127),
+  geologicage double
+);
+
+create table d_ipt_horizon_geometry
+(
+  geometryid integer not null primary key,
+  featureid integer,
+  minx double,
+  maxx double,
+  miny double,
+  maxy double,
+  numrows integer,
+  numcols integer,
+  tracedelta integer,
+  traceend integer,
+  tracestart integer,
+  coords longblob
+);
+
+create table r_gis_style
+(
+  classid integer,
+  isselectstyle integer,
+  styleType integer,
+  width double,
+  patternlength integer,
+  pattern double,
+  pattern1 double,
+  color_red integer,
+  color_green integer,
+  color_blue integer,
+  color_alpha integer,
+  gradient_type integer,
+  gradient_firstx double,
+  gradient_lastx double,
+  gradient_begin_red integer,
+  gradient_begin_green integer,
+  gradient_begin_blue integer,
+  gradient_begin_alpha integer,
+  gradient_middle_red integer,
+  gradient_middle_green integer,
+  gradient_middle_blue integer,
+  gradient_middle_alpha integer,
+  gradient_end_red integer,
+  gradient_end_green integer,
+  gradient_end_blue integer,
+  gradient_end_alpha integer,
+  arrow_first double,
+  arrow_second double,
+  arrow_thrid double,
+  arrow_fourth double,
+  linecap integer,
+  linejoin integer,
+  linejoinmaxsize double,
+  fldName nvarchar(255),
+  fldIdx integer,
+  labelfont nvarchar(255),
+  labelsize double,
+  rotation double,
+  outlinewidth double,
+  outlinecolor_red integer,
+  outlinecolor_green integer,
+  outlinecolor_blue integer,
+  outlinecolor_alpha integer,
+  backgroundcolor_red integer,
+  backgroundcolor_green integer,
+  backgroundcolor_blue integer,
+  backgroundcolor_alpha integer,
+  scale double,
+  gap double,
+  radius double,
+  polylinecolor_red integer,
+  polylinecolor_green integer,
+  polylinecolor_blue integer,
+  polylinecolor_alpha integer,
+  labelpos integer,
+  symbolstyle integer
+);
+
+create table r_gis_geographic_coordinate
+(
+  coordtype integer,
+  coordname nvarchar(255),
+  datum nvarchar(255),
+  ellps nvarchar(255),
+  ellpsa double,
+  ellpsb double,
+  rf double,
+  ellpsname nvarchar(255),
+  deltax double,
+  deltay double,
+  deltaz double,
+  rx double,
+  ry double,
+  rz double,
+  towgs84scale double,
+  iscurrent integer,
+  issystem integer
+);
+
+create table r_gis_layer_remark
+(
+  classid integer,
+  description text,
+  useshowscale integer,
+  maxshowscale double,
+  minshowscale double,
+  usetickshowscale integer,
+  maxtickshowscale double,
+  mintickshowscale double,
+  remark text,
+  demisdiscrete integer,
+  featuretables longblob,
+  channelorder longblob,
+  demcolorcodevals longblob,
+  demcolorcodecolors longblob
+);
+
+create table r_gis_projection
+(
+  projtype integer,
+  projname nvarchar(255),
+  proj nvarchar(255),
+  lon0 double,
+  lat0 double,
+  lat1 double,
+  lat2 double,
+  x0 double,
+  y0 double,
+  projk double,
+  projunits nvarchar(255),
+  zonetype integer,
+  iscurrent integer,
+  issystem integer
+);
+
+create table r_gis_color_range
+(
+  classid integer,
+  fieldcolorsetting longblob,
+  fieldsymbolstylesetting longblob,
+  fieldsymbolsizesetting longblob,
+  fieldlabelstylesetting longblob
+);
+
+create table r_gis_chart
+(
+  classid integer,
+  colorred integer,
+  colorgreen integer,
+  colorblue integer,
+  chartheight double,
+  chartwidth double,
+  fieldtoshow integer,
+  fieldnametoshow nvarchar(255)
+);
+
+create table a_practice_blobdata
+(
+  blobid integer,
+  practiceid integer,
+  parentpracticeid integer,
+  blobtype integer,
+  blobpos integer,
+  blobexplanation nvarchar(100),
+  blobdata longblob
+);
+
+create table a_practice_score
+(
+  scoreid integer,
+  whendo double,
+  whodo nvarchar(255),
+  elementid integer,
+  templateid integer,
+  factorid integer,
+  svalue nvarchar(255),
+  thescore double,
+  overallscore double,
+  remark nvarchar(255),
+  layername nvarchar(255)
+);
+
+create table a_practice_table
+(
+  nid integer,
+  elementid integer,
+  whendo double,
+  endyear integer,
+  startyear integer,
+  tabletype integer,
+  savetype integer,
+  rownum integer,
+  colnum integer,
+  remark nvarchar(255),
+  hblob longblob,
+  hblob2 longblob,
+  hblob3 longblob,
+  hblob4 longblob
+);
+
+create table a_practice_tablecheck
+(
+  nid integer,
+  elementid integer,
+  tabletypeid integer,
+  tableatt integer,
+  hblob longblob
+);
+
+create table a_practice_treetable
+(
+  nid integer,
+  typenid integer,
+  namestr nvarchar(255),
+  contentstr nvarchar(255),
+  disporder integer,
+  parentnid integer,
+  childnum integer,
+  remark nvarchar(255)
+);
+
+create table d_basinsimulate_boundary
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  interpolatetype integer,
+  beginage double,
+  itemstate integer,
+  posorder integer
+);
+
+create table d_basinsimulate_depthmap
+(
+  itemtype integer,
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  itemstate integer,
+  posorder integer
+);
+
+create table d_basinsimulate_draft
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  itemstate integer,
+  posorder integer,
+  faultpositions longblob,
+  faultpositionsizes text,
+  faultviewnames longblob,
+  faultviewnamelens nvarchar(255)
+);
+
+create table d_basinsimulate_facemap
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  interpolatetype integer,
+  itemstate integer,
+  posorder integer,
+  facemapcondition longblob,
+  facemapfacedefinitionname longblob
+);
+
+create table d_basinsimulate_fault
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  itemstate integer,
+  posorder integer,
+  faultpositions longblob,
+  faultpositionsizes text,
+  faultviewnames longblob,
+  faultviewnamelens nvarchar(255)
+);
+
+create table d_basinsimulate_horizon
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  interpolatetype integer,
+  geoevent integer,
+  connectmarker integer,
+  beginage double,
+  agedelta double,
+  itemstate integer,
+  posorder integer,
+  horizoncolor integer,
+  diffpartrowcolextent text,
+  diffpartgeoevent nvarchar(255),
+  diffpartconnectionmarker nvarchar(255),
+  facemapviewname nvarchar(255),
+  compositeviewnames longblob,
+  compositeviewnamelens nvarchar(255),
+  hillpositions longblob,
+  hillpositionsizes text
+);
+
+create table d_basinsimulate_layer
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  tophookname nvarchar(255),
+  bothookname nvarchar(255),
+  itemname nvarchar(255), 
+  itemstate integer,
+  posorder integer
+);
+
+create table d_basinsimulate_model
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  itemstate integer
+);
+
+create table d_basinsimulate_setting
+(
+  itemtype integer,  
+  modelid integer,
+  modelname nvarchar(255),
+  hookname nvarchar(255),
+  itemname nvarchar(255), 
+  itemstate integer,
+  posorder integer,
+  diffpartrowcolextent text,
+  diffpartgeoevent nvarchar(255),
+  diffpartconnectionmarker nvarchar(255),
+  refineextent text,
+  refinerate nvarchar(255)
+);
+
+create table d_contour_setting
+(
+  classid integer,
+  elementid integer,
+  setting longblob,
+  coords longblob,
+  krigingcoords longblob,
+  isbinarymode integer
+);
+
+create table r_prefer_axis_template
+(
+  templateIdx integer,
+  templatename nvarchar(255),
+  xaxisoryaxis integer,
+  fieldformular text,
+  fieldshowname nvarchar(255),
+  fieldorder integer
+);
+
+create table r_prefer_settings
+(
+  practiceid integer,
+  whodo nvarchar(255),
+  whendo double,
+  remark nvarchar(255),
+  templateIdx integer,
+  axisx integer,
+  axisy integer,
+  logx integer,
+  logy integer,
+  logaxis integer,
+  zerostart integer,
+  showname integer,
+  fourcolor integer,
+  showvalue integer,
+  hyperbolaorquarant integer,
+  hyperbolavalue double
+);
+
+create table r_gis_sde_element
+(
+  classid integer,
+  elementid integer
+);
+
+create table r_sediment_water_interface_temperayure
+(
+  switid integer,
+  modelid integer,
+  switname nvarchar(255),
+  agefrom double,
+  mode nvarchar(255),
+  tempterature double,
+  depthname nvarchar(255),
+  depthviewname nvarchar(255),
+  depthtype integer,
+  depths longblob
+);
+
+create table r_sediment_water_interface_temperayure
+(
+  heatid integer,
+  modelid integer,
+  heatname nvarchar(255),
+  agefrom double,
+  mode nvarchar(255),
+  value double,
+  depthname nvarchar(255),
+  depthviewname nvarchar(255),
+  depthtype integer,
+  depths longblob
+);
+
+create table r_seis_style
+(
+  filepath nvarchar(255),
+  renderingtype integer,
+  isblended integer,
+  iscomplemented integer,
+  isshowgrid integer,
+  isshowintervalline integer,
+  isshowcursorline integer,
+  colorcodevals longblob,
+  colorcodecolors longblob,
+  xtrap integer,
+  ytrap integer
+);
+
+create table r_water_paleo_depth
+(
+  wpdid integer,
+  modelid integer,
+  wpdname nvarchar(255),
+  agefrom double,
+  reference nvarchar(255),
+  layername nvarchar(255),
+  mode nvarchar(255),
+  depth double,
+  depthname nvarchar(255),
+  depthviewname nvarchar(255),
+  depthtype integer,
+  depths longblob
+);
+
+create table r_well_rock
+(
+  rockid integer,
+  rockname nvarchar(255),
+  rocktype integer,
+  rockdata longblob,
+  whodo nvarchar(255)
+);
+
+create table r_geo_litho
+(
+  lithoidx integer,
+  category nvarchar(255),
+  sub_category nvarchar(255),
+  name nvarchar(255),
+  deposition_porosity double,
+  athy_k_km double,
+  athy_k_mpa double,
+  compress_y_max double,
+  compress_y_min double,
+  schneider_factor_ka double,
+  schneider_factor_kb double,
+  schneider_factor_fai double,
+  reciprocal_compaction_factor double,
+  vert_cond double,
+  anisotr double,
+  sp_heat_cap double,
+  th_sort_fac double,
+  litho_den double,
+  litho_u double,
+  litho_th double,
+  litho_k double,
+  radioactive_heat double,
+  perm_anisotr double,
+  porosity_pt_1 double,
+  porosity_pt_2 double,
+  porosity_pt_3 double,
+  permeability_pt_1 double,
+  permeability_pt_2 double,
+  permeability_pt_3 double,
+  entrypr_porosity_1 double,
+  entrypr_porosity_25 double,
+  a_to_entrypr double,
+  b_to_entrypr double,
+  formulas longblob,
+  lith_names longblob,
+  lith_ratios longblob
+);
+
+create table r_gfs_masterrecord
+(
+  metaname nvarchar(255),
+  mnsdiridx integer,
+  mnsparentidx integer,
+  mnsname nvarchar(255),
+  mnspath nvarchar(255),
+  mcsrackid integer,
+  mcsip nvarchar(255),
+  mcsport integer,
+  mcschunklocation nvarchar(255),
+  mcsstatus integer,
+  mcsisprimary integer,
+  mcsconnections integer,
+  mcsdiskbandwidth integer,
+  mcsnetbandwidth integer,
+  mffilename nvarchar(255),
+  mffilehandle nvarchar(255),
+  mffromhandle nvarchar(255),
+  mfreplicas integer,
+  mfblockcount integer,
+  mfdatatype integer,
+  mfmtimestamp double,
+  mfctimestamp double,
+  mfatimestamp double,
+  mcfileoffset nvarchar(255),
+  mcchunkhandle nvarchar(255),
+  mcversion nvarchar(255),
+  mcchunklength integer,
+  mcchunkfile nvarchar(255),
+  mclocaldir nvarchar(255),
+  mcquota nvarchar(255),
+  msminx double,
+  msmaxx double,
+  msminy double,
+  msmaxy double,
+  msminz double,
+  msmaxz double,
+  marlock integer,
+  mawlock integer,
+  mawritinghandle nvarchar(255),
+  maleasefrom double,
+  maleaseto double
+);
+
+create table r_gfs_chunkuuid
+(
+  filename nvarchar(255),
+  uuids longblob,
+  uuidexists longblob
+);
+
+create table r_gfs_chunklocation
+(
+  uuid nvarchar(255),
+  chunklocations longblob
+);
+
+create table r_gfs_geolocationgrid
+(
+  gridlevel integer,
+  gridcode nvarchar(255),
+  gridfilecount integer,
+  fileoffset integer,
+  filelength integer,
+  filegfsname nvarchar(255),
+  rowkeyoffset integer,
+  rowkeycode longblob,
+  gridfilelengthlimit integer,
+  gridmachinelocation longblob
+);

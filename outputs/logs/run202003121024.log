@@ -1,0 +1,850 @@
+>Running Here: d:\gi\any\db\src\anyaccessor.cpp(205)
+>Running Here: d:\gi\any\db\src\anyunitwork.cpp(207)
+>Running Here: d:\gi\any\db\src\anyaccessor.cpp(167)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select * from ref_table_version
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_table_version' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyaccessor.cpp(205)
+>Running Here: d:\gi\any\db\src\anyunitwork.cpp(207)
+>Running Here: d:\gi\any\db\src\anyaccessor.cpp(167)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select viewall from ref_oilfields where fieldid=-1
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_oilfields' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select * from ref_table_version
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_table_version' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select 								categoryid, 								themeid, 								maplayerid from r_gis_maplayer_user_relation where username like 'sxj'
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(58)
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(98)
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(127)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '-1'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select fieldid from ref_sys_user where name = 'sxj'
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e37, description = ¶ÔÏóÃû 'ref_sys_user' ÎÞÐ§¡£
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: select nextid from ref_key_generator where name = 'default' and oilfieldid= '1'
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(238)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: update ref_key_generator set nextid = 102 , maxid = 202 where name = 'default' and oilfieldid= '1'
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(58)
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(58)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: insert into r_gis_maplayer_category ( 				categoryid, 				categoryname, 				parentcategoryid, 				geographicsystemid, 				projectedsystemid, 				geographicgridcode, 				isactivated, 				remark) values (				3, 				'New category',				0, 				-1, 				-1,                 '', 				0, 				'@]¸Ž')
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(58)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: insert into r_gis_maplayer_user_relation ( 				relationid, 				userid, 				username, 				categoryid) values (				6, 				-1,				'sxj', 				3)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: insert into r_gis_maplayer_theme ( 				themeid, 				themename, 				parentthemeid, 				parentcategoryid, 				remark) values (				4, 				'New theme',				-1, 				3, 				'ÐŸ¸Ž')
+>Running Here: d:\gi\any\db\src\anykeygenerator.cpp(58)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: insert into r_gis_maplayer_user_relation ( 				relationid, 				userid, 				username, 				themeid) values (				7, 				-1,				'sxj', 				4)
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(283)
+SQL Sentence: insert into r_gis_maplayer ( 				layerid, 				layername, 				parentlayerid, 				parentthemeid, 				parentcategoryid, 				geographicsystemid, 				projectedsystemid, 				geographicgridcode, 				datasource, 				featuretype, 				isshown, 				canselect, 				canedit, 				relatedlayers, 				renderfromscale, 				rendertoscale, 				remark) values (				5, 				'New layer',				-1, 				4,				-1, 				-1,				-1, 				'',				'', 				-1,				1, 				1,				1, 				'',				0.000000, 				179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 				'°ZºŽ')
+>Running Here: d:\gi\any\db\src\anyadoconnection.cpp(313)
+SQL Error: code = 80040e14, description = ÒÔ '17976931348623157081452742373170435679807056752584499659891747680315726078002853876058955863276687817154045895351438246423432132' ¿ªÍ·µÄ Êý×Ö Ì«³¤¡£×î´ó³¤¶ÈÎª 128¡£

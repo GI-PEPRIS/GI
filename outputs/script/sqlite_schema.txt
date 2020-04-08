@@ -1,0 +1,3727 @@
+create table ref_well_logcurve
+(
+  curveid integer not null primary key,
+  ename text,
+  cname text,
+  unit text
+);
+
+create table ref_sys_user
+(
+  userid integer not null primary key,
+  name text,
+  department text,
+  priority integer,
+  authorities text,
+  readvalidtables blob,
+  writevalidtables blob,
+  fieldid integer not null
+);
+
+create table ref_key_generator
+(
+  keyid integer not null primary key,
+  nextid integer,
+  maxid integer,
+  name text,
+  oilfieldid integer
+);
+insert into ref_key_generator (keyid, nextid, maxid, name, oilfieldid) values (1, 2, 10, 'default', 1);
+
+create table ref_oilfields
+(
+  fieldid integer,
+  fieldname text, 
+  viewall integer
+);
+insert into ref_oilfields (fieldid, fieldname, viewall) values (1, '×Ü²¿', 1);
+
+create table ref_pick_system
+(
+  eid integer,
+  pid integer,
+  name text, 
+  type integer
+);
+
+create table ref_sql_topic
+(
+  topicid integer not null primary key,
+  topicname text,
+  aliasname text,
+  selectcolumns text,
+  fromtables text,
+  wherecondition text,
+  groupcolumns text,
+  ordercolumns text
+);
+
+create table r_resource_kind
+(
+  kindid integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_resource_unit
+(
+  unitid integer not null primary key,
+  unittype integer
+);
+
+create table r_resource_class
+(
+  classid integer not null primary key,
+  category text,
+  class text,
+  remark text  
+);
+
+create table r_probability
+(
+  probid integer not null primary key,
+  name text,
+  paratype integer,
+  remark text
+);
+
+create table r_oversea_tableinfos
+(
+  tabletype integer not null primary key,
+  tablekind integer,
+  tablename text,
+  tabledes text,
+  tableremark text,
+  tableatt integer,
+  isquantify integer
+);
+
+create table r_pb_user
+(
+  probid integer not null primary key,
+  name text,
+  minx real,
+  maxx real,
+  data blob,
+  remark text
+);
+
+create table r_pepper_kinetics
+(
+  pepperid integer not null primary key,
+  peppercategory text,
+  hi text,
+  oil text,
+  gas text
+);
+
+create table r_quick_template
+(
+  templateid integer not null primary key,
+  name text,
+  whodo text,
+  whendo integer,
+  type integer,
+  remark text,
+  formula text,
+  templatekind integer
+);
+
+create table r_risk_factor
+(
+  factorid integer not null primary key,
+  parentid integer,
+  templateid integer,
+  scoretype integer,
+  name text,
+  uppervalue real,
+  lowervalue real,
+  svalue text,
+  weight real,
+  iscommon integer,
+  formula text,
+  remarkblob blob,
+  layername text
+);
+
+create table r_quick_standard
+(
+  scoreid integer not null primary key,
+  templateid integer,
+  scoretype integer,
+  upperscore real,
+  lowerscore real,
+  remark text
+);
+
+create table r_fuzzy_standard
+(
+  scoreid integer not null primary key,
+  templateid integer,
+  favorability text,
+  upperscore real,
+  lowerscore real,
+  rightupper real,
+  leftlower  real,
+  remark     text
+);
+
+create table r_quick_rule
+(
+  scoreid integer,
+  factorid integer,
+  uppervalue real,
+  lowervalue real,
+  svalue text,
+  favorability text,
+  remarkdata text
+);
+
+create table r_fuzzy_member
+(
+  memberid integer,
+  factorid integer,
+  valuetype integer,
+  membertype integer,
+  membername text,
+  favorability text,
+  leftlower real,
+  lowervalue real,
+  uppervalue real,
+  rightupper real,
+  svalue text
+);
+
+create table i_el
+(
+  elementid integer not null primary key,
+  parentid integer,
+  name text,
+  type integer,
+  foundtime integer,
+  calibration integer,
+  weight real,
+  resourcemin real,
+  largemin real,
+  largemax real,
+  screening real,
+  lockuser text,
+  lockreaduser text
+);
+
+create table i_el_factor
+(
+  elementid integer,
+  whodo text,
+  factorid integer,
+  fvalue real,
+  svalue text,
+  weight real,   
+  quickscore real,
+  fuzzyscore real,
+  upperscore real,
+  lowerscore real,
+  role real,
+  iscommon integer,
+  iscondition integer,
+  remark text,
+  remarkdata blob
+);
+
+create table i_el_overall
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  areaid integer,
+  areaparameter text,
+  mappedid integer,
+  mappedparameter text,
+  postulatedid integer,
+  postulatedparameter text,
+  conditionalid integer,
+  conditionalparameter text,
+  discoveredid integer,
+  discoveredparameter text,
+  ytfid integer,
+  ytfparameter text,
+  betaid integer,
+  betaparameter text
+);
+
+create table i_el_oversea_project
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  prjname text,	
+  prjcountry text,	
+  prjbasin text,
+  prjfieldname text,
+  prjcondition text,
+  prjstarttime integer,
+  prjstartproducetime integer,
+  prjremainreserve real,
+  prjreserve real,
+  prjcontratype text,
+  remark text
+);
+
+create table r_pgeo_basin_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_play_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_trap_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_exploration_degree
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_structural_belt
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_tectonic_strength
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_thermal_history
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_geographic_environment
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_pgeo_formation_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table i_el_geology
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  basintypeid text,
+  playtypeid text,
+  environmentid text,
+  formaitonid text,
+  belttypeid text,
+  explorationdegreeid text,
+  thermalhistoryid text,
+  tectonicstrengthid text,
+  tectonicnumber integer,
+  drillfootage integer,
+  timetofound integer,
+  maxarea real,
+  maxburydepth real,		  	
+  rockmaxthickness real,
+  rockavgthickness real,
+  rockminthickness real,
+  rockvolume real,
+  rockmaxvelocity real,
+  rockavgvelocity real,
+  rockminvelocity real,
+  rockmaxage real,	
+  thermalsurface real,
+  thermalgradient real,
+  thermalhfu real,
+  primarystructure text,
+  secstructure text,
+  assarea real,
+  arearatio real,
+  successrate real,
+  geographyposition text,
+  tectonicposition text,
+  tectonictype text,
+  foundwell text,
+  chronology text,
+  wildcatwells real,
+  seismiclength real,
+  seismicarea real
+);
+
+create table r_ps_rock_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ps_face_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ps_organic_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ps_pathway_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ps_supplyway_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table i_el_source
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horfromid text,
+  hortoid integer,
+  srctypeid integer,
+  orgtype text,
+  pathwayid text,
+  supplywayid text,
+  thermalgradient real,
+  srcdensity real, 
+  romax real,
+  roavg real,
+  romin real,
+  sedcycle real,
+  migdistance real, 
+  genvelocity real,
+  genmax real,
+  genavg real,
+  genmin real,
+  gentime real,
+  expultime real,
+  expulmax real,
+  expulavg real,
+  expulmin real,
+  remainedmax real,
+  remainedavg real,
+  remainedmin real,
+  srcmaxthick real,
+  srcavgthick real,
+  srcminthick real,
+  srcmaxarea real,
+  srcavgarea real,
+  srcminarea real,
+  srcmaxcoff real,
+  srcavgcoff real,
+  srcmincoff real,
+  sandmaxpercent real,
+  sandavgpercent real,
+  sandminpercent real,
+  srcmaxpercent real,
+  srcavgpercent real,
+  srcminpercent real,
+  orgthickmax real,
+  orgthickmin real,
+  orgthickavg real,
+  orgcindex real,
+  orgyear real,
+  tocmax real,
+  tocavg real,
+  tocmin real,
+  hi real,
+  accumulationtime text,
+  avgs1s2 real,
+  maxs1s2 real,
+  mins1s2 real,
+  avgs1 real,
+  maxs1 real,
+  mins1 real,
+  avgchloroa real,
+  maxchloroa real,
+  minchloroa real,
+  organictype text,
+  ks real,
+  absorbedks real,
+  ka real,
+  absorbedka real,
+  toc2srcmaxthick real,
+  toc2srcavgthick real,
+  toc2srcminthick real,
+  toc2srcmaxarea real,
+  toc2srcavgarea real,
+  toc2srcminarea real
+);
+
+create table i_el_survey
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  parentregion text,
+  parentplay text,
+  exphorizon text,
+  explorarea real,
+  seismiclength2d real,
+  surdensity text,
+  seismicarea3d real,
+  coverage3d real,
+  wells integer,
+  wellarea real,
+  oilwells integer,
+  gaswells integer,
+  oilresource real,
+  gasresource real,
+  oilprovreserves real,
+  gasprovreserves real,
+  oilcontroreserves real,
+  gascontroreserves real,
+  oilforereserves real,
+  gasforereserves real,
+  oilprosresources real,
+  gasprosresources real,
+  reserverate real,
+  understandingdegree text,
+  explorationdegree text,
+  caliname text,
+  caliabundance real,
+  caliabundancenormal real,
+  calisuccess real,
+  seisstrategyvalue real,
+  oilgasequivresource real,
+  workablerate real,
+  expindex real
+);
+
+create table i_el_seismic_deploy
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  schemetype text,
+  pooltype text,
+  hfrequence real,
+  hvelocity real,
+  hdepth real,
+  hsnr real,
+  linelength real,
+  linecost real,
+  lineinvestment real,
+  gridarea real,
+  gridcost real,
+  gridinvestment real,
+  geowork text,
+  geocommit text,
+  trapnum integer,
+  observesystemtype text,
+  potential real
+);
+
+create table i_el_seismic_picture
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  seissurvey blob,
+  seisquality blob,
+  seisprofile blob,
+  seisfrequency blob,
+  seislandscape blob
+);
+
+create table r_prsv_rock_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_prsv_space_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_prsv_pore_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_prsv_diagenetic_phase
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table i_el_reservoir
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horfromid text,
+  hortoid integer,
+  reservortypeid text,
+  poretypeid text,
+  face text,
+  maxdepth real,
+  avgdepth real,
+  mindepth real,
+  maxpore real,
+  avgpore real,
+  minpore real,
+  maxperme real,
+  avgperme real,
+  minperme real,
+  maxthrout real,
+  avgthrout real,
+  minthrout real,
+  genrockphase text,
+  sedcycle text,
+  subfacies text,
+  poretype text,
+  cements real,
+  claymineral real,
+  avgthickness real,
+  minthickness real,
+  maxthickness real,
+  oilcomposition text,
+  oildensity real,
+  reserviortempoil real,
+  gascomposition text,
+  reserviortempgas real,
+  reservoirpres real,
+  pressurecoef real,
+  volumetricfactoroil real,
+  oilcontent real,
+  absorbedoil real,
+  oilsaturation real,
+  volumetricfactorgas real,
+  gascontent real,
+  absorbedgas real,
+  gassaturation real,
+  microfacies text,
+  lithology text,
+  brittlecontent real,
+  elasticmodulus real,
+  poissonratio real,
+  rockdensity real,
+  totalporosity real,
+  microfracturedegree text
+);
+
+create table i_el_resource
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  calibrationtype integer,
+  meanarea real,
+  minarea real,
+  maxarea real,
+  meanrockvolume real,
+  minrockvolume real,
+  maxrockvolume real,
+  oilgenerating real,
+  oildischarge real,
+  oilprovreserves real,
+  oilprovrecoverreserves real,
+  oilcontrolreserves real,
+  oilcontrolrecoverreserves real,
+  oilpredreserves real,
+  oilpredrecoverreserves real,
+  oilpotentialresources real,
+  oilnodiscovresources real,
+  oilnodiscovrecoverresources real,
+  oilresourcemean real,
+  oilresourcemin real,
+  oilresourcemax real,
+  oilrecoverresourcemean real,
+  oilrecoverresourcemin real,
+  oilrecoverresourcemax real,
+  gasgenerating real,
+  gasdischarge real,
+  gasprovreserves real,
+  gasprovrecoverreserves real,
+  gascontrolreserves real,
+  gascontrolrecoverreserves real,
+  gaspredreserves real,
+  gaspredrecoverreserves real,
+  gaspotentialresources real,
+  gasnodiscovresources real,
+  gasnodiscovrecoverresources real,
+  gasresourcemean real,
+  gasresourcemin real,
+  gasresourcemax real,
+  gasrecoverresourcemean real,
+  gasrecoverresourcemin real,
+  gasrecoverresourcemax real,
+  condensateoilprovreserves real,
+  condensateoilprovrecoverreserves real,
+  condensateoilcontrolreserves real,
+  condensateoilcontrolrecoverreserves real,
+  condensateoilpredreserves real,
+  condensateoilpredrecoverreserves real,
+  condensateoilnodiscovresources real,
+  condensateoilnodiscovrecoverresources real,
+  condensateoilresourcemean real,
+  condensateoilresourcemin real,
+  condensateoilresourcemax real,
+  condensateoilrecoverresourcemean real,
+  condensateoilrecoverresourcemin real,
+  condensateoilrecoverresourcemax real
+);
+
+create table i_el_resource_shale
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  calibrationtype integer,
+  meanarea real,
+  minarea real,
+  maxarea real,
+  meanrockvolume real,
+  minrockvolume real,
+  maxrockvolume real,
+  meanthickness real,
+  minthickness real,
+  maxthickness real,
+  meanrecoverresource real,
+  minrecoverresource real,
+  maxrecoverresource real,
+  meanrecoverreserve real,
+  minrecoverreserve real,
+  maxrecoverreserve real,
+  meanrecoverresourceabundance real,
+  minrecoverresourceabundance real,
+  maxrecoverresourceabundance real,
+  meanrecoverreserveabundance real,
+  minrecoverreserveabundance real,
+  maxrecoverreserveabundance real,
+  meanresource real,
+  minresource real,
+  maxresource real,
+  meanreserve real,
+  minreserve real,
+  maxreserve real,
+  meanresourceabundance real,
+  minresourceabundance real,
+  maxresourceabundance real,
+  meanreserveabundance real,
+  minreserveabundance real,
+  maxreserveabundance real,
+  recoverablecoeffiecient real,
+  exploretype text
+);
+
+create table i_el_repository
+(
+  repositoryid integer not null primary key,
+  elementid integer,
+  elementtype integer,
+  whodo text,
+  whendo real,
+  pmaturity real,
+  mresource real,
+  exp real,
+  npv real,
+  rov real,
+  explrinvest real,
+  devlpinvest real,
+  maturetype text,
+  depthtype text,
+  traptype text,
+  resourcetype text,
+  fieldtype text
+);
+
+create table r_property_cap_rock_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table i_el_block_basic
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  licenseid integer,
+  blockname text,
+  explorationlayer text,
+  evaluationunit text,
+  explorationunit text,
+  belongoilfield text,
+  belongfirststru text,
+  belongsecondstru text,
+  belongunit text,
+  basinarea real,
+  area real,
+  startdate integer,
+  dateline integer,
+  firsttime integer,
+  belongprjname text,
+  isevaluate integer,
+  remark text
+);
+
+create table i_el_block_basin
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  basinname text,
+  oilresource real,
+  gasresource real,
+  oilprovedreserves real,
+  gasprovedreserves real,
+  area real,
+  type text,
+  location text,
+  remark text
+);
+
+create table i_el_block_primarystructure
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  primarystructuralname text,
+  area real,
+  type text,
+  remark text
+);
+
+create table i_el_block_secondrystructure
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  blocksecondarystructuralname text,
+  area real,
+  type text,
+  remark text
+);
+
+create table i_el_block_thirdstructure
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  blockthirdstructuralname text,
+  area real,
+  type text,
+  remark text
+);
+
+create table i_el_block_unit_exploration
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  earthquake2d real,
+  earthquake3d real,
+  wellnum integer,
+  provedreserves real,
+  controledreserves real,
+  forecastreserves real,
+  potentialreserves real,
+  oilresource real,
+  gasresource real,
+  explorationdgree text,
+  explorationdomain text,
+  remark text
+);
+
+create table i_el_cap
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horizonfromid integer,
+  horizontoid integer,
+  captype text,
+  displacement real,
+  maxpermiability real,
+  avgpermiability real,
+  minpermiability real,
+  maxthickness real,
+  avgthickness real,
+  minthickness real,
+  area real,
+  areacoff real,
+  maxdepth real,
+  avgdepth real,
+  mindepth real,
+  capdestroydegree text,
+  strumovenum integer,
+  oilyeartotraprelation text,
+  caplithology text,
+  avgcaparea real,
+  mincaparea real,
+  maxcaparea real
+);
+
+create table i_el_check
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  maxresabundance real,
+  minresabundance real,
+  maxp10divp90 real,
+  minp10divp90 real,
+  maxsuccessrate real,
+  minsuccessrate real,
+  maxscore real,
+  minscore real
+);
+
+create table i_el_document
+(
+  elementid integer,
+  whodo text,
+  docname text,
+  doctype text,
+  docdefine integer,
+  docdata blob
+);
+
+create table r_ppsv_fault_strength
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ppsv_water_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ppsv_migration_relation
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ppsv_migration_way
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table r_ppsv_composition_type
+(
+  id integer not null primary key,
+  name text,
+  remark text
+);
+
+create table i_el_preservation
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  faulttypeid text,
+  faultnumber integer,
+  watertypeid text,
+  migrationrelationid text,
+  migrationwayid text,
+  compositionid integer, 
+  maxerosionthick real,
+  avgerosionthick real,
+  minerosionthick real,
+  maxerosionarea real,
+  avgerosionarea real,
+  minerosionarea real,
+  waterppm real,
+  compositionnumber real,
+  accumulationperiod real,
+  faultstrength text,
+  tectonicactivity text,
+  overlyinglithology text,
+  tectonicperiod text,
+  fracturedegree text,
+  hydrocondition text,
+  sealtype text,
+  avgsealarea real,
+  maxsealarea real,
+  minsealarea real,
+  avgsealthickness real,
+  maxsealthickness real,
+  minsealthickness real,
+  prsdataupdate integer,
+  prsdataindate integer,
+  systerm text,
+  formation text,
+  sectionn text
+);
+
+create table i_el_volume_sample
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  productarea real,
+  grossthickness real,
+  averageporosity real,
+  averagehcsaturation real,
+  rockdensity real,
+  oildensity real,
+  gascontent real,
+  geometricfactor real,
+  nettogrossratio real,
+  formationvolumefactor real,
+  recoveryfactor real,
+  recyclefactor real,
+  conversionfactor real
+);
+
+create table i_el_volume_stat
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  minproductarea real,
+  modeproductarea real,
+  maxproductarea real,
+  mingrossthickness real,
+  modegrossthickness real,
+  maxgrossthickness real,
+  minaverageporosity real,
+  modeaverageporosity real,
+  maxaverageporosity real,
+  minaveragehcsaturation real,
+  modeaveragehcsaturation real,
+  maxaveragehcsaturation real,
+  minrockdensity real,
+  moderockdensity real,
+  maxrockdensity real,
+  minoildensity real,
+  modeoildensity real,
+  maxoildensity real,
+  mingascontent real,
+  modegascontent real,
+  maxgascontent real,
+  mingeometricfactor real,
+  modegeometricfactor real,
+  maxgeometricfactor real,
+  minnettogrossratio real,
+  modenettogrossratio real,
+  maxnettogrossratio real,
+  minformationvolumefactor real,
+  modeformationvolumefactor real,
+  maxformationvolumefactor real,
+  minrecoveryfactor real,
+  moderecoveryfactor real,
+  maxrecoveryfactor real,
+  minrecyclefactor real,
+  moderecyclefactor real,
+  maxrecyclefactor real,
+  minconversionfactor real,  	
+  modeconversionfactor real,  	
+  maxconversionfactor real,  	
+  commitphase integer,
+  wellnumber integer,
+  footage integer,
+  istest integer,
+  geooil real,
+  geogas real,
+  recoveryrate real,
+  recoveryoil real,
+  recoverygas real,
+  managementphase integer
+);
+
+create table i_el_exploration
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  groupname text,
+  resourcename text,
+  explorationdate integer, 
+  commercialwells real,
+  commercialfootage real,
+  wells real,
+  evaluationwells real,
+  evaluationfootage real,
+  footage real,
+  seismiclength real,
+  seismicarea real,
+  investment real,
+  inplaceoil real,
+  recoverableoil real,
+  inplacegas real,
+  recoverablegas real
+);
+
+create table i_el_segment
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  oilgasid integer,
+  oilgasparameter text,
+  hcwaterid integer,
+  hcwaterparameter text,
+  spilldepthid integer,
+  spilldepthparameter text,
+  thickmultiplierid integer,
+  thickmultiplierparameter text
+);
+
+create table i_el_trap_project
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  fromdate real,
+  todate real,
+  organization text,
+  conductor text,
+  auditor text,
+  auditstatus text,
+  trapstatus text,
+  remark text,
+  discoverdate real,
+  recheckdate real,
+  descdate real,
+  discoverydepartment text,
+  auditdepartment text,
+  submitdepartment text,
+  personicharge text,
+  submitdate real,
+  reviewcomments text,
+  reviewersign text,
+  reviewdate real,
+  reviewdepartment text,
+  exploreproject text,
+  subexplorproject text,
+  discoverymethod text,
+  trapoldname text,
+  recogtimes integer
+);
+
+create table i_el_trap_reserve
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  commitdate real,
+  iswildcat integer,
+  isdelphi integer
+ );
+
+create table i_el_trap_reserve_discard
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  commitdate real
+ );
+
+create table i_el_trap_survey
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  basinname text,
+  firstunit text,
+  secondunit text,
+  geographydesc text,
+  surfacecondition text,
+  surfaceelevation real,
+  seisworkprocess text,
+  mainseisline text,
+  discoverreason text,
+  coordx real,
+  coordy real,
+  projectsys text,
+  coordsys text,
+  geographymap blob,
+  mainseislineprofile blob
+ );
+
+create table i_el_trap_wildcat_well
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  wildcatwell text,
+  teststatus text,
+  indication text,
+  failedreason text,
+  designeddepth real,
+  expwellcost real,
+  startdate real,
+  finishdate real,
+  drillstatus text,
+  updowngrade text,
+  aprovalstatus text,
+  gradingreason text,
+  remark text
+);
+
+create table i_el_trap
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  isinuse integer,
+  horizonfromid integer,
+  horizontoid integer,
+  traptypeid integer,
+  rangemaxheight real,
+  rangeavgheight real,
+  areaclosure real,
+  areaoilclosure real,
+  areagasclosure real,
+  areamaxcoff real,
+  areaavgcoff real,
+  areamincoff real,
+  formationtime text,
+  knownarea real,
+  predicationarea real,
+  knownnumber real,
+  predicationnumber real,
+  reliability real,
+  drillsuccess real,
+  traptype text,
+  seishorizon text,
+  geohorizon text,
+  isrestoretrap integer,
+  trapsphasetype text,
+  highpointdepth real,
+  highpointelevation real,
+  trapfield integer,
+  childrennumber integer,
+  resourcetype integer,
+  remark text
+);
+
+create table i_el_trap_development
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  isdiscovery integer,
+  stdproduction real,
+  maxproduction real,
+  avgproduction real,
+  wellsolution text,
+  testmax real,
+  testavg real,
+  decision text,
+  remark text,
+  discoverytype text,
+  result text,
+  wellnum text
+);
+
+create table i_el_trap_wildcat_drill
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  wildcatwell text,
+  constrprogress text,
+  wellfunctions text,
+  targetformation text,
+  currentdepth real,
+  remainfootage real,
+  currentformation text,
+  currentfootage real,
+  resourceindication text,
+  projectstatus text,
+  drillingdensity real,
+  reportdate integer,
+  drillingdays integer,
+  planedyear integer,
+  totalindication text,
+  conclution text
+);
+
+create table i_el_trap_exploration
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  statdate real,
+  drillstatus text,
+  drillresult text,
+  drillevaluation text,
+  drillconclusion text,
+  drilldate real,
+  discoveryid text,
+  discoverydate real,
+  drilled integer,
+  drilling integer,
+  footage real,
+  tested integer,
+  testing integer,
+  successes integer,
+  oilresource real,
+  gasresource real,
+  remark text,
+  phasetype integer,
+  oilfieldname text,
+  resourcekind text,
+  seismiclength text,
+  seismicarea text,
+  wells integer,
+  lowwells integer,
+  untested integer,
+  untestedlogs integer,
+  failedwell integer,
+  seic2ddiscovrate real,
+  newtraparea real,
+  yearnewseiclong real,
+  seic3dprofit real,
+  newoilgasarea real,
+  seic3dworkarea real
+);
+
+create table i_el_trap_geology_fault
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  faultname text,
+  brokenseishorizon text,
+  brokengeohorizon text,
+  faultproperty text,
+  faultdip real,
+  faultdipangle real,
+  faultheave real,
+  faultextension real
+);
+
+create table i_el_trap_wildcat_post
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  wildcatwell text,
+  trapcondition real,
+  filldingcondition real,
+  reservoircondition real,
+  reservecondition real,
+  failedcongnizing text,
+  drilledconclusion text,
+  advise text,
+  formation text,
+  oilrate real,
+  gasrate real,
+  maintarget text,
+  postdrillarea real,
+  postdrillthick real,
+  postdrillURF real,
+  postdrillreserve real
+);
+
+create table i_el_pool
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  groupname text,
+  resourcename text,
+  traptypeid text,
+  appraisalwells integer,
+  industrywells integer,
+  drillwells integer,
+  founddate integer,
+  areaheight real,
+  areaclosure real,
+  inplaceoil real,
+  recoverableoil real,
+  inplacegas real,
+  recoverablegas real,
+  usedreserves real,
+  recoverydegree real,
+  dataupdate integer,
+  dataindate integer,
+  effethickness real,
+  avgverwellprod real,
+  avghorwellprod real,
+  avgverwelleur real,
+  avghorwelleur real,
+  recoveryfactor real,
+  reserveabundance real
+);
+
+create table i_el_horizon
+(
+  propertyid integer not null primary key,
+  elementid integer,
+  horizonname text,
+  remark text
+);
+
+create table r_activity
+(
+  activityid integer not null primary key,
+  parentid integer,
+  type integer,
+  name text,
+  remark text
+);
+
+create table a_practice
+(
+  practiceid integer not null primary key,
+  elementid integer,
+  managementphase integer,
+  activityid integer,
+  whendo real,
+  whodo text,
+  approved integer,
+  templateidx integer,
+  npv real,
+  groupname text,
+  distribution text,
+  parameter text,
+  remark text,
+  recordtype text,
+  lockuser text,
+  lockreaduser text,
+  canreplace integer
+);
+
+create table a_risk
+(
+  practiceid integer,
+  elementid integer,
+  factorid integer,
+  maturity real,
+  minrisk real,
+  avgrisk real,
+  maxrisk real,
+  pshare real,
+  probabilitytreeid integer
+);
+
+create table a_template_blob
+(
+  elementid integer,
+  templateid integer,
+  factorid integer,
+  name text,
+  fileblob blob
+);
+
+create table a_well_performance_dre_middle
+(
+  propertyid integer,
+  elementid integer,
+  practiceid integer,
+  cumulativegasproduction real,
+  pz real,
+  gasproductivityindex real,
+  pzdatastatus integer
+);
+
+create table a_well_performance_dre_result
+(
+  propertyid integer,
+  elementid integer,
+  practiceid integer,
+  materialbalancemethod real,
+  adsorbedgasdesorption real,
+  stresssensitivity real,
+  slopem real,
+  interceptb real,
+  theoreticalproductionindex real,
+  calculatedtotalreserves real,
+  calculatedfreegasreserves real,
+  calculatedabsorbedgasreserves real,
+  abandonstratapressure real,
+  predictedeur real,
+  predictedrecoverypercent real,
+  remark text
+);
+
+create table a_well_performance_practice
+(
+  propertyid integer,
+  elementid integer,
+  practiceid integer,
+  activityid integer,
+  whendo real,
+  name text,
+  remark text
+);
+
+create table a_resource
+(
+  practiceid integer,
+  elementid integer,
+  kindname text,
+  categoryname text,
+  classname text,
+  groupname text,
+  minn integer,
+  avgn integer,
+  maxn integer,
+  minpool real,
+  avgpool real,
+  maxpool real,
+  meanq real,
+  stdq real,
+  minq real,
+  avgq real,
+  maxq real
+);
+
+create table a_parameter
+(
+  practiceid integer,
+  elementid integer,
+  probname text,
+  probpara text,
+  fractiles integer,
+  parameter text
+);
+
+create table a_correlation
+(
+  practiceid integer,
+  elementid integer,
+  firstid integer,
+  secondid integer,
+  correlation real
+);
+
+create table a_jobstream
+(
+  jobid integer not null primary key,
+  practiceid integer,
+  elementid integer, 
+  relid integer,
+  nodeid integer,
+  parentid integer,
+  childid integer,
+  nodelevel integer,
+  nodename text,
+  nodekey text,
+  nodetip text,
+  glyphtype integer,
+  nodecolor integer,
+  xcoord real,
+  ycoord real,
+  layouttype integer,
+  minx real,
+  maxx real,
+  miny real,
+  maxy real,
+  jobgroupid integer,
+  jobgroupname text
+);
+
+create table a_npv_policy
+(
+  practiceid integer,
+  elementid integer,
+  calculationtype integer,
+  rounds integer,
+  startdate integer,
+  npvdate integer,
+  irr real,
+  pi real,
+  discountrate real,
+  inflation real,
+  productionpolicy integer,
+  gasdisposal integer,
+  screenreserve real,
+  oilcommodity real,
+  gascommodity real,
+  vat real,
+  oil2gas real,
+  gas2oil real,
+  scenariomode integer,
+  scenarioitrnum integer,
+  userseedmode integer,
+  userseednum integer,
+  data blob,
+  paradata blob
+);
+
+create table a_npv_scenario
+(
+  practiceid integer,
+  elementid integer,
+  data blob,
+  dataresult blob
+);
+
+create table a_npv_risk
+(
+  practiceid integer,
+  elementid integer,
+  marginal real,
+  conditional real,
+  unconditional real,
+  dryholerisk real
+);
+
+
+create table a_npv_resource
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  reserve real,
+  oilpracticeid integer,
+  gaspracticeid integer,
+  oilactivitytype integer,
+  gasactivitytype integer,
+  gasreserve real
+);
+
+
+create table a_npv_edp_basic
+(
+  practiceid integer,
+  elementid integer,
+  expprevduration integer,
+  expprevwellnumber integer,
+  expduration integer,
+  expwellnumber integer,
+  expappduration integer,
+  expappwellnumber integer,
+  devappduration integer,
+  devappwellnumber integer,
+  devduration integer,
+  devwellnumber integer,
+  prodbuildup integer,
+  prodplateau integer,
+  proddecline integer,
+  proddisposal integer,
+  prodwellnumber integer,
+  prodinjectionnumber integer,
+  plateauproduceratio real,
+  declinetype integer,
+  declinerate real,
+  declineindex real,
+  declineformula text,
+  oilproscale real,
+  oildecrate real,
+  gasproscale real,
+  gasdecrate real,
+  paradata blob,
+  oilformuladata blob,
+  gasformuladata blob
+);
+
+create table a_npv_edp_schedule
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  whendo integer,
+  reserve real,
+  drillingnumber integer,
+  injectionnumber integer,
+  paradata blob
+);
+
+create table a_npv_cost_basic
+(
+  practiceid integer,
+  elementid integer,
+  calmethod integer,
+  expwellnum integer,
+  expwelldepth real,
+  expwellcost real,
+  devwellnum integer,
+  devwelldepth real,
+  devwellcost real,
+  devsurfacecost real,
+  data blob,
+  paradata blob,
+  solutiondata blob,
+  expwelldata blob,
+  devwelldata blob
+);
+
+create table a_npv_cost_detail
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  data blob
+);
+
+create table a_npv_cost_mmbs
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  deprimethod integer,
+  depriyear integer,
+  calmethod integer,
+  data blob,
+  paradata blob,
+  solutiondata blob
+);
+
+create table a_npv_price
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  whendo integer,
+  price real,
+  inflation real,
+  paradata blob,
+  solutiondata blob,
+  oilallowance real,
+  gasallowance real
+);
+
+create table a_npv_tax
+(
+  practiceid integer,
+  elementid integer,
+  resourceid integer,
+  whendo integer,
+  incometax real,
+  revenueoiltax real,
+  revenuegastax real,  
+  data blob,
+  paradata blob,
+  solutiondata blob
+);
+
+
+create table a_npv_summary
+(
+  practiceid integer,
+  elementid integer,
+  discountrate real,
+  npv real,
+  irr real,
+  npvtax real,
+  irrtax real,
+  pc real,
+  pe real,
+  gaspc real,
+  gaspe real,
+  pcres real,
+  peres real,
+  emv real,
+  emvtax real,
+  gaspcres real,
+  gasperes real,
+  wellexp real,
+  expcost real,
+  devcost real,
+  avgoperation real,
+  procapacity text,
+  price text,
+  avgmanagementcost real,
+  avgspecialcost real,
+  riskvalue real,
+  avgoilcommdity real,
+  avggascommdity real,
+  procapacity2 text,
+  paradata blob,
+  sipcparadata blob,
+  costrcparadata blob,
+  pscparadata blob
+);
+
+create table a_repository_genetic
+(
+  practiceid integer
+);
+
+create table a_repository_scenario
+(
+  practiceid integer
+);
+
+create table a_repository_pfolio
+(
+  practiceid integer,
+  repositoryid integer,
+  groupid integer,
+  investmentrate real,
+  xvalue real,
+  yvalue real,
+  xvaluetype integer,
+  isapproved integer
+);
+
+create table a_bayes_net_node
+(
+  bayesnetworkid integer,
+  whodo text,
+  whendo integer,
+  remark text,
+  id integer,					
+  name text,
+  states text,
+  priors text,
+  posteriors text,
+  parents integer,
+  settings text,
+  descs text,
+  stateId integer,
+  ishidden integer,
+  isevidence integer,
+  iswarning integer,
+  m_x real,
+  m_y real
+);
+
+create table a_bayes_net_branch
+(
+  bayesnetworkid integer,
+  whodo text,
+  whendo integer,
+  nodeidfrom integer,
+  nodeidto integer,
+  ishidden integer
+);
+
+
+create table a_decision_tree_node
+(
+  decisiontreeid integer,
+  whodo text,
+  whendo integer,
+  remark text,
+  nodeid integer,
+  type integer,
+  decisionvalue real,
+  nodeValue real,
+  parentid integer,
+  leftnode integer,
+  rightnode integer,
+  issolved integer,
+  isgreen integer,
+  isvisible integer,
+  nodelevel integer,
+  childrendegree integer,
+  childhighy real,
+  childlowy real,
+  isreverseprobability integer,
+  reversevalue real,
+  m_code text,
+  m_x real,
+  m_y real,
+  curlevel integer,
+  maxid integer
+);
+
+create table a_decision_tree_branch
+(
+  decisiontreeid integer,
+  whodo text,
+  whendo integer,
+  remark text,
+  type integer,
+  description text,
+  nodevalue real,
+  fromnodeid integer,
+  tonodeid integer,
+  x1 real,
+  y1 real,
+  x2 real,
+  y2 real,
+  x3 real,
+  y3 real,
+  isgreen integer,
+  isvisible integer,
+  reversevalue real
+);
+
+create table a_pb_tree_node
+(
+  probabilitytreeid integer,	
+  whodo text,
+  whendo integer,
+  remark text,
+  nodeid integer,
+  description text,
+  nodevalue real,
+  parentid integer,
+  leftnode integer,
+  rightnode integer,
+  issolved integer,
+  isgreen integer,
+  nodelevel integer,
+  childrendegree integer,
+  childhighy real,
+  childlowy real,
+  m_code text,
+  m_x real,
+  m_y real,
+  curlevel integer,
+  x_step real,
+  y_step real,
+  m_names text,
+  degree real,
+  maxid integer,
+  maxdegree real,
+  isreversemode integer,
+  startlevel integer,
+  endlevel integer,
+  valsmap blob
+);
+
+create table a_pb_tree_branch
+(
+  probabilitytreeid integer,
+  whodo text,
+  whendo integer,
+  remark text,
+  description text,
+  nodevalue real,
+  fromnodeid integer,
+  tonodeid integer,
+  x1 real,
+  y1 real,
+  x2 real,
+  y2 real,
+  isgreen integer,
+  reversevalue real
+);
+
+create table r_activity_template
+(
+  username text,
+  templateIdx integer,
+  templatename text,
+  activityIdx integer,
+  parentIdx integer,
+  type integer,
+  name text,
+  remark text,
+  indexvalue integer,
+  isshown text,
+  unitfor integer,
+  iscurrenttemplate integer,
+  isvalid text
+);
+
+create table r_behar_kinetics
+(
+  heharid integer,
+  hebarcategory text,
+  hi text,
+  activition_energy text,
+  methane text,
+  c2_c5 text,
+  c6_c14 text,
+  c15 text
+);
+
+create table r_activity_menu
+(
+  username text,
+  templateIdx integer,
+  templatename text,
+  iscurtemplate integer,
+  itemid integer,
+  itemparentid integer,
+  itemname text,
+  itemtype integer,
+  itemlevel integer,
+  itemorder integer,
+  functionid integer,
+  imageid integer,
+  isshown integer,
+  remark text
+);
+
+create table r_report_grid_template
+(
+  username text,
+  templateIdx integer,
+  templatename text,
+  datatype text,
+  tablename text,
+  fieldname text
+);
+
+create table r_rh_template
+(
+  username text,
+  templateIdx integer,
+  templatename text,
+  mrow integer,
+  col integer,
+  rowsize integer,
+  colsize integer,
+  stringvalue text,
+  tablename text,
+  fieldname text,
+  isorderby integer,
+  isunion integer,
+  orderbyprior integer
+);
+
+create table r_rh_dimcol_template
+(
+  username text,
+  templateIdx integer,
+  templatename text,
+  col integer,
+  dimlevel integer,
+  parentidtablename text,
+  parentidfieldname text,
+  idtablename text,
+  idfieldname text,
+  identifytablename text,
+  identifyfieldname text,
+  contenttablename text,
+  contentfieldname text,
+  isorderby integer,
+  isunion integer,
+  orderbyprior integer
+);
+
+create table r_rh_where_condition_template
+(
+  username text,
+  templateIdx integer,
+  templatename text,
+  lefttablename text,
+  leftfieldname text,
+  righttablename text,
+  rightfieldname text
+);
+
+create table r_report_grid
+(
+  formatname text,
+  posx integer,
+  posy integer,
+  type integer,
+  sizex integer,
+  sizey integer,
+  rowsize integer,
+  colsize integer,
+  totalheight integer,
+  totalwidth integer,
+  blobdata blob
+);
+
+create table i_el_evaluation
+(
+  elementid integer,
+  whodo text,
+  managementphase integer,
+  mresource real,
+  resource10 real,
+  resource90 real,
+  resource00 real,
+  ppolitic real,
+  pmaturity real,
+  pengineering real,
+  irr real,
+  npv real,
+  emv real,
+  strategy real,
+  istrapcandidate integer,
+  iswellcandidate integer,
+  trapr real,
+  wellr real,
+  traprank integer,
+  wellrank integer,
+  oilfieldname text,
+  resourcename text,
+  recovery real,
+  pshare real,
+  pbusiness real,
+  peconomic real,
+  economic real,
+  npv10 real,
+  npv90 real,
+  npv00 real,
+  explrinvest real,
+  devlpinvest real,
+  riskid integer,
+  resourceid integer,
+  economicid integer,
+  selectionid integer,
+  p2dseismic real,
+  p3dseismic real,
+  projectarea real,
+  costpertone real,
+  discovertype integer,
+  optimyear integer,
+  optimnum integer,
+  pmaturityenv real,
+  pmaturityeco real
+);
+
+create table a_resource_detail
+(
+  practiceid integer,
+  elementid integer,
+  activityid integer,
+  type text,
+  geologicalsamples blob,
+  recoverysamples blob
+);
+
+create table ref_database_version
+(
+  dbversion text
+);
+
+create table ref_face_definition
+(
+  faceid integer,
+  facename text,
+  facecolor integer,
+  lithname text,
+  lithovariablenum integer,
+  toc real,
+  itemnametoc text,
+  viewnametoc text,
+  interpolatetypetoc integer,
+  hio real,
+  itemnamehio text,
+  viewnamehio text,
+  interpolatetypehio integer,
+  ineticname text,
+  tocs blob,
+  hios blob
+);
+
+create view i_el_evaluation_view as select i_el.elementid, whodo, managementphase, parentid, name, type, foundtime, calibration, weight, resourcemin, largemin, largemax, screening, resourcename, mresource, resource10, resource90, resource00, ppolitic, recovery, pmaturity, pshare, pbusiness, peconomic, pengineering, irr, npv, emv, economic, strategy, istrapcandidate, iswellcandidate, trapr, wellr, traprank, wellrank, oilfieldname, npv10, npv90, npv00, explrinvest, devlpinvest, riskid, resourceid, economicid, selectionid, p2dseismic, p3dseismic, projectarea, costpertone, discovertype, optimyear, optimnum, pmaturityenv, pmaturityeco from i_el, i_el_evaluation where i_el.elementid=i_el_evaluation.elementid;
+
+create table r_kida_category
+(
+  categoryid integer not null primary key,
+  categoryparentid integer,
+  elementid integer,
+  type integer,
+  name text,
+  categoryorder integer,
+  remark text,
+  lockuser text,
+  lockreaduser text,
+  usernames text,
+  readonlyusernames text,
+  extentxmin real,
+  extentxmax real,
+  extentymin real,
+  extentymax real,
+  coordinatesystem text,
+  project text,
+  curvedesc text,
+  isactivate integer
+);
+
+create table r_kida_theme
+(
+  themeid integer not null primary key,
+  type integer,
+  name text,
+  remark text
+);
+
+create table r_kida_class
+(
+  classid integer not null primary key,
+  categoryid integer,
+  themeid integer,
+  type integer,
+  name text,
+  parentname text,
+  source text,
+  minx real,
+  miny real,
+  maxx real,
+  maxy real,
+  layerorder integer,
+  isshown integer,
+  canselect integer,
+  remark text,
+  lockuser text,
+  lockreaduser text,
+  seisparentid integer,
+  contourtype integer,
+  usernames text,
+  readonlyusernames text,
+  relatelayer text,
+  projtype integer,
+  coordtype integer
+);
+
+create table r_kida_dataset
+(
+  gateid integer not null primary key,
+  layerid integer,
+  tileid integer,
+  xlayercount integer,
+  ylayercount integer,
+  layershift integer,
+  xtilecount integer,
+  ytilecount integer,
+  minx real,
+  miny real,
+  maxx real,
+  maxy real,
+  remark text
+);
+
+create table d_well_basic
+(
+  propertyid integer,
+  elementid integer,
+  wellid integer not null primary key,
+  classid integer,
+  geometryid integer,
+  adminid integer,
+  name text,
+  longitude real,
+  latitude real,
+  xcoord real,
+  ycoord real,
+  groundevaluation real,
+  totaldepth real,
+  groupnumber text,
+  wellnumber text,
+  wellstatus text,
+  welltype text,
+  boretype text,
+  fluidtype text,
+  nullvalue real,
+  wellkb real,
+  welleurs real,
+  welldrainage real,
+  welllogistic text,
+  gfspara text,
+  gfsname text,
+  gfslocalpath text,
+  aliasname text,
+  kb real,
+  kbe real,
+  tvdss real,
+  well_type text,
+  well_area text,
+  drilling_type text,
+  completion_date text,
+  drill_finishing_date text,
+  completion_depth real,
+  vertical_depth real,
+  completion_formation text,
+  completion_method text,
+  ai_bottom_depth real,
+  x_coord_bottom_hole real,
+  y_coord_bottom_hole real,
+  total_drill_depth real,
+  pm_start_elevation real,
+  pm_total_drill_depth real,
+  pm_true_vertical_depth real,
+  symbol_style text,
+  symbol_size real,
+  remark text,
+  groupname text
+);
+
+create table d_well_basic_more
+(
+  wellid integer not null primary key
+);
+
+create table d_well_atttable
+(
+  classid integer,
+  tablename text,
+  othername text,
+  fieldlength integer,
+  fieldcontent blob
+);
+
+create table d_well_geometry
+(
+  geometryid integer not null primary key,
+  layerid integer,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  coords blob 
+);
+
+create table d_well_bore
+(
+  boreid integer not null primary key,
+  wellid integer,
+  name text,
+  targettstrata text,
+  perforationnumber real,
+  perforationlength real,
+  horizontallength real
+);
+
+create table d_well_trace
+(
+  boreid integer,
+  datatype integer,
+  traceid integer,
+  datatypename text,
+  tracename text,
+  tracealiasname text,
+  datadesc text,
+  zlib integer,
+  unziplen integer,
+  tracedata blob
+);
+
+create table d_well_pick
+(
+  boreid integer,
+  zoneid integer,
+  pickby text,
+  pickname text,
+  coordx real,
+  coordy real,
+  dipangle real,
+  dipazimuth real,
+  topmd real,
+  toptvd real,
+  toptvdss real,
+  mtime real,
+  thick real,
+  lithosymbolidx real,
+  faultheave real,
+  faultname text,
+  faulttype text,
+  color integer,
+  lithname text,
+  aliasname text,
+  source text,
+  northing real,
+  easting real,
+  basemd real,
+  basetvd real,
+  basetvdss real,
+  grossthickness real,
+  tvt real,
+  tst real,
+  gapthickness real,
+  boreazimuth real,
+  boreangle real,
+  faultdepth real,
+  faultseparation real,
+  comparedwell text
+);
+
+create table d_well_zone
+(
+  boreid integer,
+  wellzone text,
+  basemd integer,
+  baspickname text,
+  parentzone text,
+  topmd integer,
+  toppickname text,
+  zonethickness integer
+);
+
+create table d_well_variable
+(
+  propertyid integer,
+  elementid integer,
+  wellid integer,
+  name text,
+  ishc integer,
+  xcoord real,
+  ycoord real,
+  grossthickness real,
+  netthickness real,
+  porosity real,
+  saturation real,
+  netgross real,
+  capthickness real,
+  estimateduplift real,
+  presuregradient real,
+  salinitygradient real,
+  structure real,
+  structureresiduals real,
+  md real,
+  risk real,
+  mresource real,
+  predication real,
+  sourcerockthickness real,
+  toccontent real,
+  romaturity real,
+  absortedgas real,
+  dailyproduction real,
+  organictype text,
+  wellrecovery real,
+  wellreserve real,
+  resourceabundance real,
+  mineralcomponent real,
+  forg real
+);
+
+create table d_well_volume_sample
+(
+  propertyid integer,
+  elementid integer,
+  productarea real,
+  grossthickness real,
+  wvsr real,
+  wvstoc real,
+  wvspsh real,
+  wvspo real,
+  wvssone real,
+  wvsc real,
+  wvsstwenty real,
+  wvsbhc real,
+  wvsrf real,
+  wvstr real,
+  wvscf real
+);
+
+create table d_well_production
+(
+  propertyid integer,
+  elementid integer,
+  boreid integer,
+  productiondate integer,
+  productionstart real,
+  productionprediction real,
+  productionactual real,
+  declinestart real,
+  declineprediction real,
+  declineactual real,
+  declineformular text,
+  productiondays real,
+  watercut real
+);
+
+create table d_well_performance_basic
+(
+  propertyid integer,
+  elementid integer,
+  wellname text,
+  wellstatus integer,
+  welltype integer,
+  coordinatex real,
+  coordinatey real
+);
+
+create table d_well_performance_casing
+(
+  propertyid integer,
+  elementid integer,
+  casingdeploymentid integer,
+  deploymentname text,
+  casingcompletionmethod integer,
+  casingbottomdepth real,
+  casingdiameter real,
+  casingwallroughness real
+);
+
+create table d_well_performance_deployment
+(
+  propertyid integer,
+  elementid integer,
+  CasingdeploymentID integer,
+  TubingdeploymentID integer,
+  welltrajectorydeploymentID integer,
+  deploymentdate integer,
+  deploymentname text,
+  wellpipemode text,
+  PerforationTopdepth real,
+  Perforationbottomdepth real,
+  completionmiddledepth real,
+  Wellheadtemperature real,
+  Reservoirtemperature real,
+  Flowpressurecalculationmodel integer,
+  additionalpressuredrop real
+);
+
+create table d_well_performance_geological_parameter
+(
+  propertyid integer,
+  elementid integer,
+  initialstratapressure real,
+  stratatemperature real,
+  reservoirthickness real,
+  porosity real,
+  initialgassaturation real,
+  Porecompressioncoefficient real,
+  gasRelativedensity real,
+  CO2Molepercentage real,
+  H2SMolepercentage real,
+  N2Molepercentage real,
+  LangeMuirvolume real,
+  LangeMuirpressure real,
+  shaledensity real,
+  stratumwaterdensity real,
+  initialcompression real,
+  initialvolume real,
+  stratumwaterviscosity real,
+  gasdeviationfactor integer,
+  gasviscosity integer,
+  rw real,
+  soi real,
+  swi real,
+  cti real,
+  mg real
+);
+
+create table d_well_performance_pressure
+(
+  propertyid integer,
+  elementid integer,
+  measureddate integer,
+  measureddepth real,
+  measuredTVD real,
+  measuredgasproduction real,
+  measuredpressure real,
+  statussign integer,
+  remarks text
+);
+
+create table d_well_performance_pressure_gradient
+(
+  propertyid integer,
+  elementid integer,
+  measureddate integer,
+  measureddepth real,
+  measuredpressure real,
+  Measuredtemperature real
+);
+
+create table d_well_performance_production
+(
+  propertyid integer,
+  elementid integer,
+  productiondate integer,
+  productionhours real,
+  Casingpressure real,
+  tubingpressure real,
+  gasproductionrate real,
+  waterproductionrate real,
+  oilproductionrate real,
+  calculatedsandfacepressure real,
+  calculatingpressure text
+);
+
+create table d_well_performance_trajectory
+(
+  propertyid integer,
+  elementid integer,
+  welltrajectorydeploymentID integer,
+  deploymentname text,
+  MeasuredDepth real,
+  TVD real,
+  Azimuthangle real
+);
+
+create table d_well_performance_tubing
+(
+  propertyid integer,
+  elementid integer,
+  TubingdeploymentID integer,
+  deploymentname text,
+  TubingBottomDepth real,
+  Tubingdiameter real,
+  Tubingwallroughness real
+);
+
+create table d_well_geochemical_para
+(
+  propertyid integer,
+  elementid integer,
+  wellid integer,
+  wellname text,
+  x real,
+  y real,
+  depth real,
+  toc real,
+  s1 real,
+  s2 real,
+  tmax real,
+  hi real,
+  oi real,
+  pi real,
+  hcporosity real,
+  matrix real,
+  vl real,
+  pl real,
+  gassaturation real
+);
+
+create table d_well_property
+(
+  boreid integer,
+  componentname text,
+  linename text,
+  lineshowname text,
+  linecolorr integer,
+  linecolorg integer,
+  linecolorb integer,
+  islineshown integer,
+  linewidth real,
+  linepatternfirst real,
+  linepatternsecond real,
+  linepatternlen integer,
+  islinelog integer,
+  islinegrid integer,
+  linenullvalue text,
+  lineunit text,
+  flpname text,
+  flpstep real,
+  flptype integer,
+  flpcolor integer,
+  flpisalpha integer,
+  flpwidth real,
+  flpmincurvename text,
+  flpmaxcurvename text,
+  flptype1 integer,
+  flpcolor1 integer,
+  flpisalpha1 integer,
+  isrenderfilling integer,
+  gphorizonshow integer,
+  gphorizoncolor integer,
+  gphorizonbigcell integer,
+  gphorizonsmallcell integer,
+  gphorizonthinline integer,
+  gphorizonmidline integer,
+  gphorizonthickline integer,
+  gpverticalshow integer,
+  gpverticalcolor integer,
+  gpverticalbigcell integer,
+  gpverticalsmallcell integer,
+  issquare integer,
+  leftvalue real,
+  rightvalue real,
+  ticknum integer
+);
+
+create table d_well_image
+(
+  boreid integer
+);
+
+create table d_well_interpretation
+(
+  boreid integer,
+  interpretationid integer,
+  topdepth real,
+  bottomdepth real,
+  thickness real,
+  singlelayer text,
+  interpretationresult text,
+  netthickness real,
+  interpretationpor real,
+  interpretationperm real,
+  vsh real,
+  saturation real,
+  formationpos text,
+  sandset text,
+  constraint fk_well_interpretation_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_logging
+(
+  boreid integer,
+  loggingunit text,
+  bottomdepth real,
+  thickness real,
+  colorcode integer,
+  color text,
+  oilbearinggradecode integer,
+  oilbearinggrade text,
+  lithologycode text,
+  lithologyname text,
+  desctype text,
+  sampletype text,
+  desctopdepth real,
+  desctoplength real,
+  recorddate text,
+  recorder text,
+  auditor text,
+  reviewer text
+);
+
+create table d_well_log_template
+(
+  propertyid integer,
+  classid integer,
+  boreids text,
+  boreiddesc text,
+  curvedesc text,
+  curvecontent blob,
+  whendo real,
+  whodo text,
+  remark text
+);
+
+create table d_well_mining_test
+(
+  boreid integer,
+  miningstage integer,
+  interpretationid text,
+  perforationtop real,
+  perforationbottom real,
+  thickness real,
+  layernum integer,
+  start_meature text,
+  start_date integer,
+  start_workingsystem text,
+  start_dailyliquidoutput real,
+  start_dailyoiloutput real,
+  start_rateofwater real,
+  start_dynamicliquidlevel real,
+  start_testpressure real,
+  end_date integer,
+  end_productionsystem text,
+  end_dailyliquidoutput real,
+  end_dailyoiloutput real,
+  end_rateofwater real,
+  end_dynamicliquidlevel real,
+  end_testpressure real,
+  end_cumulativeoiloutput real,
+  end_cumulativewateroutput real,
+  currentsituation text,
+  totalthickness text,
+  constraint fk_well_mining_test_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_oil_test
+(
+  boreid integer,
+  formation text,
+  testtop real,
+  testbottom real,
+  layernum integer,
+  thickness real,
+  testdate integer,
+  workingstyle text,
+  depth real,
+  times integer,
+  flowpressure real,
+  staticpressure real,
+  dailyoiloutput real,
+  dailygasoutput real,
+  dailywateroutput real,
+  cumulativeoiloutput real,
+  cumulativewateroutput real,
+  watercontent real,
+  oildensity real,
+  oilviscosity real,
+  solidifyingpoint real,
+  sulphurcontent real,
+  totalminerization real,
+  chlorideioncontent real,
+  sulfateradical real,
+  watertype text,
+  testresult text,
+  constraint fk_well_oil_test_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_path
+(
+  boreid integer,
+  md real,
+  tvd real,
+  inclination real,
+  azimuth real,
+  deltay real,
+  deltax real,
+  easting real,
+  northing real
+);
+
+create table d_well_burial_history
+(
+  boreid integer,
+  pid integer,
+  resultparalength integer,
+  iscompress integer,
+  whendo real,
+  remark text,
+  layerpara blob,
+  resultpara blob,
+  settingpara blob
+);
+
+create table d_well_calibration
+(
+  boreid integer,
+  caliname text,
+  pmtvdepth real,
+  tvdepth real,
+  pmmdepth real,
+  mdepth real,
+  calivalue real,
+  minval real,
+  maxval real,
+  calicolor integer,
+  calisymbol integer,
+  symbolsize real,
+  useforcalibration integer,
+  caliquality text,
+  caliage text	
+);
+
+create table d_well_cross_section
+(
+  propertyid integer,
+  classid integer,
+  boreids text,
+  curvecontent blob,
+  profilecontent blob,
+  profiletype integer,
+  stratigraphic text,
+  structural real,
+  whendo real,
+  whodo text,
+  remark text
+);
+
+create table d_well_fault
+(
+  boreid integer,
+  faultid text,
+  verticalsep real,
+  sliptype text,
+  dipangle real,
+  dipazimuth real
+);
+
+create table d_well_fracture
+(
+  boreid integer,
+  fracturenb integer,
+  fracturepor integer,
+  fracturewid integer,
+  fracturetl integer,
+  fracturedel integer,
+  fracturetrd integer,
+  fracturetfl text
+);
+
+create table d_well_shale_operation
+(
+  propertyid integer,
+  elementid integer,
+  boreid integer,
+  operationdate integer,
+  completionlength real,
+  fracfluidamount real,
+  proppingagent real,
+  wellorientation real,
+  fracstages integer
+);
+
+create table d_seismic_project
+(
+  projectid integer not null primary key,
+  coordinatesystemtype text,
+  depthcoordinatesystem text,
+  name text,
+  description text,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  interpreters text,
+  remark text
+);
+
+create table d_seismic_2dg
+(
+  geometryid integer not null primary key,
+  elementid integer,
+  classid integer,
+  projectid integer,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  coords blob,
+  remark text
+);
+
+
+create table d_seismic_3dg
+(
+  geometryid integer not null primary key,
+  elementid integer,
+  classid integer,
+  projectid integer,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  coords blob,
+  remark text
+);
+
+create table d_seismic_dataset
+(
+  datasetid integer not null primary key,
+  fromid integer,
+  projectid integer,
+  geometryid integer,
+  name text,
+  mcomment text,
+  datasource text,
+  compressionfactor real,
+  deltaz real,
+  domaintype text,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  thetimestamp real,
+  maxz real,
+  minz real,
+  numtraces integer,
+  samplekind text,
+  samplemax real,
+  samplemin real,
+  sampleunit text
+);
+
+create table i_el_geometry
+(
+  geometryid integer not null primary key,
+  elementid integer,
+  classid integer,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  coords blob
+);
+
+create table i_el_raster
+(
+  rasterid integer not null primary key,
+  elementid integer,
+  classid integer,
+  stamptime real,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  zmin real,
+  zmax real,
+  data blob,
+  imgwidth integer,
+  imgheight integer,
+  imgdepth integer,
+  imgfilelength integer,
+  version integer,
+  iscurver integer,
+  tilecode integer,
+  iscompress integer,
+  pictype text,
+  whodo text,
+  gfspara text,
+  gfsname text
+);
+
+create table d_seismic_gate
+(
+  gateid integer not null primary key,
+  datasetid integer,
+  filepath text,
+  linename text,
+  isgde integer,
+  gatetype integer,
+  gfspara text,
+  gfsname text
+);
+
+create table d_seismic_wavlet
+(
+  wavletid integer not null primary key,
+  datasetid integer,
+  wavletname text,
+  starttime real,
+  samplenumber real,
+  sampleinterval real,
+  traces blob
+);
+
+create table d_seismic_surveyinfo
+(
+  gateid integer,
+  nLineNum integer,
+  nCDPNum integer,
+  nStartLine integer,
+  nStartCDP integer,
+  nLineIncrement integer,
+  nCDPIncrement integer,
+  fOrientation real,
+  fDirection real,
+  fOrgX real,
+  fOrgY real,
+  fLineSpace real,
+  fCDPSpace real,
+  crdType integer,
+  xmin real,
+  xmax real,
+  ymin real,
+  ymax real,
+  pos1x real,
+  pos1y real,
+  pos2x real,
+  pos2y real,
+  pos3x real,
+  pos3y real,
+  pos4x real,
+  pos4y real
+);
+
+create table d_seismic_surveyinfoblob
+(
+  gateid integer,
+  datatype integer,
+  datacount integer,
+  hafilesize integer,
+  haviewsize integer,
+  shotptxs blob,
+  shotptys blob,
+  detectionptxs blob,
+  detectionptys blob,
+  cdpptxs blob,
+  cdpptys blob,
+  azimuths blob,
+  angles blob,
+  distances blob,
+  gridandfilepos blob,
+  shotptxszlib integer,
+  shotptyszlib integer,
+  detectionptxszlib integer,
+  detectionptyszlib integer,
+  cdpptxszlib integer,
+  cdpptyszlib integer,
+  azimuthszlib integer,
+  angleszlib integer,
+  distanceszlib integer,
+  gridandfileposzlib integer
+);
+
+create table d_seismic_headinfo
+(
+  gateid integer,
+  nTraceNum integer,
+  nTraceLen integer,
+  nType integer,
+  nTracePt integer,
+  nInterval integer,
+  lineNumber integer,
+  reelNumber integer
+);
+
+create table d_seismic_profileinfo
+(
+  gateid integer,
+  defaultStart integer,
+  defaultEnd integer,
+  userStart integer,
+  userEnd integer
+);
+
+create table d_seismic_tracedata
+(
+  gateid integer,
+  nOrder integer,
+  nPts integer,
+  nInterval integer,
+  nLineNo integer,
+  nCDPNo integer,
+  nSourceCrdX integer,
+  nSourceCrdY integer,
+  nCrdType integer,
+  nStartTime integer,
+  nEndTime integer,
+  hcode integer,
+  coordx real,
+  coordy real,
+  coordz real,
+  coordw real,
+  recordorder integer,
+  minA real,
+  maxA real,
+  samplenumber integer,
+  samples blob,
+  times blob
+);
+
+create table d_seismic_ipt_em
+(
+  primaryid integer not null primary key,
+  modelid integer,
+  projectid integer,
+  elementid integer,
+  name text,
+  remark text
+);
+
+create table d_seismic_ipt_em_feature
+(
+  featureid integer not null primary key,
+  projectid integer,
+  featurekind integer,
+  featuretype integer,
+  name text,
+  isshown integer,
+  remark text,
+  coords blob
+);
+
+create table d_seismic_ipt_em_property
+(
+  featureid integer not null primary key,
+  projectid integer,
+  linecolorr integer,
+  linecolorg integer,
+  linecolorb integer,
+  linewidth real,
+  linepatternfirst real,
+  linepatternsecond real,
+  linepatternlen integer
+);
+
+create table d_ipt_fault_feature
+(
+  featureid integer not null primary key,
+  projectid integer,
+  surveyid integer,
+  name text,
+  lastmodifieddate real,
+  shapetype integer,
+  propertytype integer,
+  maxvaluee real,
+  minvalue real,
+  nullvalue real
+);
+
+create table d_ipt_fault_geometry
+(
+  geometryid integer not null primary key,
+  featureid integer,
+  minx real,
+  maxx real,
+  miny real,
+  maxy real,
+  coords blob
+);
+
+create table d_ipt_horizon_feature
+(
+  featureid integer not null primary key,
+  projectid integer,
+  surveyid integer,
+  name text,
+  lastmodifieddate real,
+  shapetype integer,
+  propertytype integer,
+  maxvaluee real,
+  minvalue real,
+  nullvalue real,
+  strataid integer,
+  strataname text,
+  classification text,
+  geologicage real
+);
+
+create table d_ipt_horizon_geometry
+(
+  geometryid integer not null primary key,
+  featureid integer,
+  minx real,
+  maxx real,
+  miny real,
+  maxy real,
+  numrows integer,
+  numcols integer,
+  tracedelta integer,
+  traceend integer,
+  tracestart integer,
+  coords blob
+);
+
+create table r_gis_style
+(
+  classid integer,
+  isselectstyle integer,
+  styleType integer,
+  width real,
+  patternlength integer,
+  pattern real,
+  pattern1 real,
+  color_red integer,
+  color_green integer,
+  color_blue integer,
+  color_alpha integer,
+  gradient_type integer,
+  gradient_firstx real,
+  gradient_lastx real,
+  gradient_begin_red integer,
+  gradient_begin_green integer,
+  gradient_begin_blue integer,
+  gradient_begin_alpha integer,
+  gradient_middle_red integer,
+  gradient_middle_green integer,
+  gradient_middle_blue integer,
+  gradient_middle_alpha integer,
+  gradient_end_red integer,
+  gradient_end_green integer,
+  gradient_end_blue integer,
+  gradient_end_alpha integer,
+  arrow_first real,
+  arrow_second real,
+  arrow_thrid real,
+  arrow_fourth real,
+  linecap integer,
+  linejoin integer,
+  linejoinmaxsize real,
+  fldName text,
+  fldIdx integer,
+  labelfont text,
+  labelsize real,
+  rotation real,
+  outlinewidth real,
+  outlinecolor_red integer,
+  outlinecolor_green integer,
+  outlinecolor_blue integer,
+  outlinecolor_alpha integer,
+  backgroundcolor_red integer,
+  backgroundcolor_green integer,
+  backgroundcolor_blue integer,
+  backgroundcolor_alpha integer,
+  scale real,
+  gap real,
+  radius real,
+  polylinecolor_red integer,
+  polylinecolor_green integer,
+  polylinecolor_blue integer,
+  polylinecolor_alpha integer,
+  labelpos integer,
+  symbolstyle integer
+);
+
+create table r_gis_geographic_coordinate
+(
+  coordtype integer,
+  coordname text,
+  datum text,
+  ellps text,
+  ellpsa real,
+  ellpsb real,
+  rf real,
+  ellpsname text,
+  deltax real,
+  deltay real,
+  deltaz real,
+  rx real,
+  ry real,
+  rz real,
+  towgs84scale real,
+  iscurrent integer,
+  issystem integer
+);
+
+create table r_gis_layer_remark
+(
+  classid integer,
+  description text,
+  useshowscale integer,
+  maxshowscale real,
+  minshowscale real,
+  usetickshowscale integer,
+  maxtickshowscale real,
+  mintickshowscale real,
+  remark text,
+  demisdiscrete integer,
+  featuretables blob,
+  channelorder blob,
+  demcolorcodevals blob,
+  demcolorcodecolors blob
+);
+
+create table r_gis_projection
+(
+  projtype integer,
+  projname text,
+  proj text,
+  lon0 real,
+  lat0 real,
+  lat1 real,
+  lat2 real,
+  x0 real,
+  y0 real,
+  projk real,
+  projunits text,
+  zonetype integer,
+  iscurrent integer,
+  issystem integer
+);
+
+create table r_gis_color_range
+(
+  classid integer,
+  fieldcolorsetting blob,
+  fieldsymbolstylesetting blob,
+  fieldsymbolsizesetting blob,
+  fieldlabelstylesetting blob
+);
+
+create table r_gis_chart
+(
+  classid integer,
+  colorred integer,
+  colorgreen integer,
+  colorblue integer,
+  chartheight real,
+  chartwidth real,
+  fieldtoshow integer,
+  fieldnametoshow text
+);
+
+create table a_practice_blobdata
+(
+  blobid integer,
+  practiceid integer,
+  parentpracticeid integer,
+  blobtype integer,
+  blobpos integer,
+  blobexplanation text,
+  blobdata blob
+);
+
+create table a_practice_score
+(
+  scoreid integer,
+  whendo real,
+  whodo text,
+  elementid integer,
+  templateid integer,
+  factorid integer,
+  svalue text,
+  thescore real,
+  overallscore real,
+  remark text,
+  layername text
+);
+
+create table a_practice_table
+(
+  nid integer,
+  elementid integer,
+  whendo real,
+  endyear integer,
+  startyear integer,
+  tabletype integer,
+  savetype integer,
+  rownum integer,
+  colnum integer,
+  remark text,
+  hblob blob,
+  hblob2 blob,
+  hblob3 blob,
+  hblob4 blob
+);
+
+create table a_practice_tablecheck
+(
+  nid integer,
+  elementid integer,
+  tabletypeid integer,
+  tableatt integer,
+  hblob blob
+);
+
+create table a_practice_treetable
+(
+  nid integer,
+  typenid integer,
+  namestr text,
+  contentstr text,
+  disporder integer,
+  parentnid integer,
+  childnum integer,
+  remark text
+);
+
+create table d_basinsimulate_boundary
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  interpolatetype integer,
+  beginage real,
+  itemstate integer,
+  posorder integer
+);
+
+create table d_basinsimulate_depthmap
+(
+  itemtype integer,
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  itemstate integer,
+  posorder integer
+);
+
+create table d_basinsimulate_draft
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  itemstate integer,
+  posorder integer,
+  faultpositions blob,
+  faultpositionsizes text,
+  faultviewnames blob,
+  faultviewnamelens text
+);
+
+create table d_basinsimulate_facemap
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  interpolatetype integer,
+  itemstate integer,
+  posorder integer,
+  facemapcondition blob,
+  facemapfacedefinitionname blob
+);
+
+create table d_basinsimulate_fault
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  itemstate integer,
+  posorder integer,
+  faultpositions blob,
+  faultpositionsizes text,
+  faultviewnames blob,
+  faultviewnamelens text
+);
+
+create table d_basinsimulate_horizon
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  interpolatetype integer,
+  geoevent integer,
+  connectmarker integer,
+  beginage real,
+  agedelta real,
+  itemstate integer,
+  posorder integer,
+  horizoncolor integer,
+  diffpartrowcolextent text,
+  diffpartgeoevent text,
+  diffpartconnectionmarker text,
+  facemapviewname text,
+  compositeviewnames blob,
+  compositeviewnamelens text,
+  hillpositions blob,
+  hillpositionsizes text
+);
+
+create table d_basinsimulate_layer
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  tophookname text,
+  bothookname text,
+  itemname text, 
+  itemstate integer,
+  posorder integer
+);
+
+create table d_basinsimulate_model
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  itemstate integer
+);
+
+create table d_basinsimulate_setting
+(
+  itemtype integer,  
+  modelid integer,
+  modelname text,
+  hookname text,
+  itemname text, 
+  itemstate integer,
+  posorder integer,
+  diffpartrowcolextent text,
+  diffpartgeoevent text,
+  diffpartconnectionmarker text,
+  refineextent text,
+  refinerate text
+);
+
+create table d_contour_setting
+(
+  classid integer,
+  elementid integer,
+  setting blob,
+  coords blob,
+  krigingcoords blob,
+  isbinarymode integer
+);
+
+create table r_prefer_axis_template
+(
+  templateIdx integer,
+  templatename text,
+  xaxisoryaxis integer,
+  fieldformular text,
+  fieldshowname text,
+  fieldorder integer
+);
+
+create table r_prefer_settings
+(
+  practiceid integer,
+  whodo text,
+  whendo real,
+  remark text,
+  templateIdx integer,
+  axisx integer,
+  axisy integer,
+  logx integer,
+  logy integer,
+  logaxis integer,
+  zerostart integer,
+  showname integer,
+  fourcolor integer,
+  showvalue integer,
+  hyperbolaorquarant integer,
+  hyperbolavalue real
+);
+
+create table r_gis_sde_element
+(
+  classid integer,
+  elementid integer
+);
+
+create table r_sediment_water_interface_temperayure
+(
+  switid integer,
+  modelid integer,
+  switname text,
+  agefrom real,
+  mode text,
+  tempterature real,
+  depthname text,
+  depthviewname text,
+  depthtype integer,
+  depths blob
+);
+
+create table r_heat_flow
+(
+  heatid integer,
+  modelid integer,
+  heatname text,
+  agefrom real,
+  mode text,
+  value real,
+  depthname text,
+  depthviewname text,
+  depthtype integer,
+  depths blob
+);
+
+create table r_seis_style
+(
+  filepath text,
+  renderingtype integer,
+  isblended integer,
+  iscomplemented integer,
+  isshowgrid integer,
+  isshowintervalline integer,
+  isshowcursorline integer,
+  colorcodevals blob,
+  colorcodecolors blob,
+  xtrap integer,
+  ytrap integer
+);
+
+create table r_water_paleo_depth
+(
+  wpdid integer,
+  modelid integer,
+  wpdname text,
+  agefrom real,
+  reference text,
+  layername text,
+  mode text,
+  depth real,
+  depthname text,
+  depthviewname text,
+  depthtype integer,
+  depths blob
+);
+
+create table r_well_rock
+(
+  rockid integer,
+  rockname text,
+  rocktype integer,
+  rockdata blob,
+  whodo text
+);
+
+create table r_geo_litho
+(
+  lithoidx integer,
+  category text,
+  sub_category text,
+  name text,
+  deposition_porosity real,
+  athy_k_km real,
+  athy_k_mpa real,
+  compress_y_max real,
+  compress_y_min real,
+  schneider_factor_ka real,
+  schneider_factor_kb real,
+  schneider_factor_fai real,
+  reciprocal_compaction_factor real,
+  vert_cond real,
+  anisotr real,
+  sp_heat_cap real,
+  th_sort_fac real,
+  litho_den real,
+  litho_u real,
+  litho_th real,
+  litho_k real,
+  radioactive_heat real,
+  perm_anisotr real,
+  porosity_pt_1 real,
+  porosity_pt_2 real,
+  porosity_pt_3 real,
+  permeability_pt_1 real,
+  permeability_pt_2 real,
+  permeability_pt_3 real,
+  entrypr_porosity_1 real,
+  entrypr_porosity_25 real,
+  a_to_entrypr real,
+  b_to_entrypr real,
+  formulas blob,
+  lith_names blob,
+  lith_ratios blob
+);
+
+create table r_gfs_masterrecord
+(
+  metaname text,
+  mnsdiridx integer,
+  mnsparentidx integer,
+  mnsname text,
+  mnspath text,
+  mcsrackid integer,
+  mcsip text,
+  mcsport integer,
+  mcschunklocation text,
+  mcsstatus integer,
+  mcsisprimary integer,
+  mcsconnections integer,
+  mcsdiskbandwidth integer,
+  mcsnetbandwidth integer,
+  mffilename text,
+  mffilehandle text,
+  mffromhandle text,
+  mfreplicas integer,
+  mfblockcount integer,
+  mfdatatype integer,
+  mfmtimestamp real,
+  mfctimestamp real,
+  mfatimestamp real,
+  mcfileoffset text,
+  mcchunkhandle text,
+  mcversion text,
+  mcchunklength integer,
+  mcchunkfile text,
+  mclocaldir text,
+  mcquota text,
+  msminx real,
+  msmaxx real,
+  msminy real,
+  msmaxy real,
+  msminz real,
+  msmaxz real,
+  marlock integer,
+  mawlock integer,
+  mawritinghandle text,
+  maleasefrom real,
+  maleaseto real
+);
+
+create table r_gfs_chunkuuid
+(
+  filename text,
+  uuids blob,
+  uuidexists blob
+);
+
+create table r_gfs_chunklocation
+(
+  uuid text,
+  chunklocations blob
+);
+
+create table r_gfs_geolocationgrid
+(
+  gridlevel integer,
+  gridcode text,
+  gridfilecount integer,
+  fileoffset integer,
+  filelength integer,
+  filegfsname text,
+  rowkeyoffset integer,
+  rowkeycode blob,
+  gridfilelengthlimit integer,
+  gridmachinelocation blob
+);

@@ -1,0 +1,38 @@
+/* XPM */
+static char *economicplay_xpm[] = {
+/* width height num_colors chars_per_pixel */
+"    16    15       16            1",
+/* colors */
+"` c #000000",
+". c #800000",
+"# c #008000",
+"a c #808000",
+"b c #000080",
+"c c #800080",
+"d c #008080",
+"e c #808080",
+"f c none",
+"g c #ff0000",
+"h c #00ff00",
+"i c #ffff00",
+"j c #0000ff",
+"k c #ff00ff",
+"l c #00ffff",
+"m c #ffffff",
+/* pixels */
+"ffff````````````",
+"ffff`lmlmlmlmlm`",
+"ffff`m```m````l`",
+"ffff`lmlml`mm`m`",
+"ffff`m```m````l`",
+"ffff`lmlmlmlmlm`",
+"ff```ml``m````l`",
+"ff```lm``l`mm`m`",
+"f```eme```e```l`",
+"`m`````m```lmlm`",
+"`m```e`m````````",
+"`````f`````fffff",
+"`m``fff`m``fffff",
+"`m``fff`m``fffff",
+"````fff````fffff"
+};

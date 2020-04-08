@@ -1,0 +1,6 @@
+[2017/9/25/13:2] Event/Event: begins to be initialized
+[2017/9/25/13:2] Event/Event: in OnStart
+[2017/9/25/13:3] Event/Event: begins to be initialized
+[2017/9/25/13:4] Event/Event: in OnStart
+[2017/9/25/13:7] Event/Event: begins to be initialized
+[2017/9/25/13:7] Event/Event: in OnStart

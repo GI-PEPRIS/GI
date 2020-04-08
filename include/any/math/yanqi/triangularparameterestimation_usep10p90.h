@@ -1,0 +1,15 @@
+void TriangularParameterEstimation_UseP10P90_aKnowed(double Q10, double Q90, double a, double &b, double &c);
+void TriangularParameterEstimation_UseP10P90_bKnowed(double Q10, double Q90, double &a, double b, double &c);
+int TriangularRevisionX_aKnowed(double a, double Q10, double Q90,double *X, double *X1, double *F, double *tt);
+int TriangularRevisionX_bKnowed(double b, double Q10, double Q90,double *X, double *X1, double *F, double *tt);
+void Cal_IDf_Triangular(double DF[2][2], double IDF[2][2]);
+void Cal_TriangularF(double a, double b, double c, double Q10, double Q90, double *F);
+double TriangularMode_CDF(double x, double a, double b, double c);
+void Cal_TriangularDF_aKnow(double a, double b, double c, double q10, double q90, double dfv[2][2]);
+void Cal_TriangularDF_bKnow(double a, double b, double c, double q10, double q90, double dfv[2][2]);
+double TriangularMode_CDF_da_Fun13(double x, double a, double b, double c);
+double TriangularMode_CDF_da_Fun15(double x, double a, double b, double c);
+double TriangularMode_CDF_db_Fun6(double x, double a, double b, double c);
+double TriangularMode_CDF_db_Fun8(double x, double a, double b, double c);
+double TriangularMode_CDF_dc_Fun14(double x, double a, double b, double c);
+double TriangularMode_CDF_dc_Fun16(double x, double a, double b, double c); 

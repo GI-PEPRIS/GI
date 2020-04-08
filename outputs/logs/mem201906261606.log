@@ -1,0 +1,18 @@
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Initial memory status(32820932K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Leaving memory status(32820612K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1951) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1951) : Initial memory status(32817224K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1951) : Leaving memory status(32814512K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(32816216K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(32810020K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(32809336K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(32803084K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(409) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(409) : Initial memory status(33451952K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(409) : Leaving memory status(32739148K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(205) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(205) : Initial memory status(32695396K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(205) : Leaving memory status(32695200K)

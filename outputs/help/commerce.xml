@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <Table name="commercegas" row="32" col="8">
+      <tabledefine>
+        <define definerow="0" definecol="0" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="1" definerowwidth="1" definerowhight="3"/>
+    	  <define definerow="0" definecol="2" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="5" definerowwidth="3" definerowhight="1"/>
+    		<define definerow="3" definecol="0" definerowwidth="1" definerowhight="14"/>
+    		<define definerow="17" definecol="0" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="21" definecol="0" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="23" definecol="0" definerowwidth="1" definerowhight="6"/>
+    		<define definerow="29" definecol="0" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="3" definecol="1" definerowwidth="1" definerowhight="8"/>
+    		<define definerow="11" definecol="1" definerowwidth="1" definerowhight="6"/>
+    		<define definerow="17" definecol="1" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="21" definecol="1" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="23" definecol="1" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="27" definecol="1" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="29" definecol="1" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="3" definecol="2" definerowwidth="1" definerowhight="8"/>
+    		<define definerow="11" definecol="2" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="13" definecol="2" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="17" definecol="2" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="21" definecol="2" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="23" definecol="2" definerowwidth="1" definerowhight="6"/>
+    		<define definerow="29" definecol="2" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="3" definecol="3" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="7" definecol="3" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="13" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="15" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="17" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="19" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="21" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="23" definecol="3" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="29" definecol="3" definerowwidth="1" definerowhight="3"/>
+      </tabledefine>
+      <tabledata>
+        <data datarow="0"   datacol="0" datacontent="地区" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="1" datacontent="岩石类型" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="2" datacontent="流体性质" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="3" datacontent="井型" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="4" datacontent="井深范围" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="5" datacontent="商业油气流标准" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="1"   datacol="5" datacontent="开发方案统计" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="1"   datacol="6" datacontent="油田上报" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="1"   datacol="7" datacontent="产能统计" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="5" datacontent="万方" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="6" datacontent="万方" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="7" datacontent="万方" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      	<data datarow="3"   datacol="0" datacontent="四川" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      	<data datarow="17"   datacol="0" datacontent="鄂尔多斯" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="21"   datacol="0" datacontent="塔里木" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="23"   datacol="0" datacontent="东北" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="29"   datacol="0" datacontent="西湖凹陷" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="3"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="1" datacontent="碳酸盐" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="17"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="21"   datacol="1" datacontent="碳酸盐" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="23"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="27"   datacol="1" datacontent="火成岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="2" datacontent="高含硫" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="13"   datacol="2" datacontent="中低含硫" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="2" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="3"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="7"   datacol="3" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="12"   datacol="3" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="13"   datacol="3" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="15"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="17"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="19"   datacol="3" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="21"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="23"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="27"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="28"   datacol="3" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="29"   datacol="3" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="3"   datacol="4" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="3"   datacol="5" datacontent="0.6（川西）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="3"   datacol="6" datacontent="0.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="3"   datacol="7" datacontent="0.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+
+      <data datarow="4"   datacol="4" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="4"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="4"   datacol="6" datacontent="1.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="4"   datacol="7" datacontent="1.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="5"   datacol="4" datacontent="(3000,4000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="5"   datacol="5" datacontent="2.9（川西）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="5"   datacol="6" datacontent="2.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="5"   datacol="7" datacontent="3.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="6"   datacol="4" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="6"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="6"   datacol="6" datacontent="4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="6"   datacol="7" datacontent="3.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      
+            <data datarow="7"   datacol="4" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="7"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="7"   datacol="6" datacontent="1.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="7"   datacol="7" datacontent="1.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+      <data datarow="8"   datacol="4" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="8"   datacol="5" datacontent="1.8（川西）" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="8"   datacol="6" datacontent="2.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="8"   datacol="7" datacontent="2.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="9"   datacol="4" datacontent="(3000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="9"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="9"   datacol="6" datacontent="3.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="9"   datacol="7" datacontent="3.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="10"   datacol="4" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="10"   datacol="5" datacontent="4.37（川西）" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="10"   datacol="6" datacontent="5.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="10"   datacol="7" datacontent="6.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      
+      
+            <data datarow="11"   datacol="4" datacontent="＞5000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="11"   datacol="7" datacontent="9.9" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+
+      <data datarow="12"   datacol="4" datacontent="＞5000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="12"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="12"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="12"   datacol="7" datacontent="22.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="13"   datacol="4" datacontent="≤5000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="13"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="13"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="13"   datacol="7" datacontent="23.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="14"   datacol="4" datacontent="＞5000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="14"   datacol="5" datacontent="4.37（川西）" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="14"   datacol="6" datacontent="5.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="14"   datacol="7" datacontent="6.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="15"   datacol="4" datacontent="≤5000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="15"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="15"   datacol="6" datacontent="4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="15"   datacol="7" datacontent="7.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="16"   datacol="4" datacontent="＞5000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="16"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="16"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="16"   datacol="7" datacontent="8.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+            <data datarow="17"   datacol="4" datacontent="≤3000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="17"   datacol="5" datacontent="0.66（大牛地）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="17"   datacol="6" datacontent="0.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="17"   datacol="7" datacontent="0.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="18"   datacol="4" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="18"   datacol="5" datacontent="0.6（杭锦旗）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="18"   datacol="6" datacontent="0.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="18"   datacol="7" datacontent="0.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+        
+      <data datarow="19"   datacol="4" datacontent="≤3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="19"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="19"   datacol="6" datacontent="0.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="19"   datacol="7" datacontent="1.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="20"   datacol="4" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="20"   datacol="5" datacontent="2.0（大牛地）" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="20"   datacol="6" datacontent="1.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="20"   datacol="7" datacontent="1.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      
+               <data datarow="21"   datacol="4" datacontent="(4000,6000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="21"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="21"   datacol="6" datacontent="4.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="21"   datacol="7" datacontent="4.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="22"   datacol="4" datacontent="＞6000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="22"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="22"   datacol="6" datacontent="6.9" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="22"   datacol="7" datacontent="5.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="23"   datacol="4" datacontent="≤1000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="23"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="23"   datacol="6" datacontent="0.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="23"   datacol="7" datacontent="0.39" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="24"   datacol="4" datacontent="(1000,2000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="24"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="24"   datacol="6" datacontent="0.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="24"   datacol="7" datacontent="0.43" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="25"   datacol="4" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="25"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="25"   datacol="6" datacontent="0.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="25"   datacol="7" datacontent="0.45" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="26"   datacol="4" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="26"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="26"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="26"   datacol="7" datacontent="××××" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+       <data datarow="27"   datacol="4" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="27"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="27"   datacol="6" datacontent="1.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="27"   datacol="7" datacontent="0.50" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      
+      <data datarow="28"   datacol="4" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="28"   datacol="5" datacontent="11（松南）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="28"   datacol="6" datacontent="1.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+      <data datarow="28"   datacol="7" datacontent="12.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+
+      
+        <data datarow="29"   datacol="4" datacontent="≤3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="29"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="29"   datacol="6" datacontent="2.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="29"   datacol="7" datacontent="14.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="30"   datacol="4" datacontent="(3000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="30"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="30"   datacol="6" datacontent="2.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="30"   datacol="7" datacontent="18.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+      <data datarow="31"   datacol="4" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="31"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="31"   datacol="6" datacontent="3.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      <data datarow="31"   datacol="7" datacontent="22.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+      
+
+      </tabledata>
+      <tableframe>
+	    
+      </tableframe>
+  </Table>
+  
+  <Table name="commerceoil" row="54" col="15">
+  		<tabledefine>
+ 				<define definerow="0" definecol="0" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="1" definerowwidth="1" definerowhight="3"/>
+    	  <define definerow="0" definecol="2" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="5" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="0" definecol="6" definerowwidth="9" definerowhight="1"/>
+    		<define definerow="1" definecol="6" definerowwidth="3" definerowhight="1"/>
+    		<define definerow="1" definecol="9" definerowwidth="3" definerowhight="1"/>
+    		<define definerow="1" definecol="12" definerowwidth="3" definerowhight="1"/>
+    		
+    		
+    		<define definerow="3" definecol="0" definerowwidth="1" definerowhight="16"/>
+    		<define definerow="19" definecol="0" definerowwidth="1" definerowhight="13"/>
+    		<define definerow="32" definecol="0" definerowwidth="1" definerowhight="11"/>
+    		<define definerow="43" definecol="0" definerowwidth="1" definerowhight="11"/>
+    		
+    		<define definerow="3" definecol="1" definerowwidth="1" definerowhight="13"/>
+    		<define definerow="16" definecol="1" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="19" definecol="1" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="23" definecol="1" definerowwidth="1" definerowhight="9"/>
+    		<define definerow="32" definecol="1" definerowwidth="1" definerowhight="7"/>
+    		<define definerow="39" definecol="1" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="43" definecol="1" definerowwidth="1" definerowhight="11"/>
+    		
+    		<define definerow="3" definecol="2" definerowwidth="1" definerowhight="12"/>
+    		<define definerow="16" definecol="2" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="19" definecol="2" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="23" definecol="2" definerowwidth="1" definerowhight="9"/>
+    		<define definerow="32" definecol="2" definerowwidth="1" definerowhight="6"/>
+    		<define definerow="39" definecol="2" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="43" definecol="2" definerowwidth="1" definerowhight="11"/>
+    		
+    		<define definerow="3"  definecol="3" definerowwidth="1" definerowhight="5"/>
+    		<define definerow="8" definecol="3" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="12" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="16" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="19" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="21" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="23" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="26" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="29" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="32" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="34" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="36" definecol="3" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="39" definecol="3" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="43" definecol="3" definerowwidth="1" definerowhight="6"/>
+    		<define definerow="49" definecol="3" definerowwidth="1" definerowhight="5"/>
+    		
+    		<define definerow="3"  definecol="4" definerowwidth="1" definerowhight="5"/>
+    		<define definerow="8"  definecol="4" definerowwidth="1" definerowhight="4"/>
+    		<define definerow="12" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="16" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="19" definecol="4" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="21" definecol="4" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="23" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="26" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="29" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="32" definecol="4" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="34" definecol="4" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="36" definecol="4" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="39" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="43" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="46" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		<define definerow="49" definecol="4" definerowwidth="1" definerowhight="2"/>
+    		<define definerow="51" definecol="4" definerowwidth="1" definerowhight="3"/>
+    		
+    		
+    		
+      </tabledefine>
+      <tabledata>
+      	<data datarow="0"   datacol="0" datacontent="地区（盆地）" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="1" datacontent="岩石类型" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="2" datacontent="开发方式" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="3" datacontent="储层特征\n/渗透性" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="4" datacontent="井型" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="5" datacontent="井深范围" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="0"   datacol="6" datacontent="商业油流标准" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="1"   datacol="6" datacontent="开发方案统计" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="1"   datacol="9" datacontent="油田上报" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="1"   datacol="12" datacontent="产能核定测算" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="6" datacontent="70" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="7" datacontent="80" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="8" datacontent="100" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="9" datacontent="70" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="10" datacontent="80" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="11" datacontent="100" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="2"   datacol="12" datacontent="70" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="13" datacontent="80" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			<data datarow="2"   datacol="14" datacontent="100" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+   			
+   			<data datarow="3"   datacol="0" datacontent="东部（第三\n系断陷盆\n地）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="19"   datacol="0" datacontent="西部（塔里\n木盆地）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="0" datacontent="西部（准格\n尔盆地）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="43"   datacol="0" datacontent="西部（鄂尔\n多斯盆\n地）" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="3"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="1" datacontent="滩海碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="19"   datacol="1" datacontent="碳酸岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="23"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/><data datarow="3"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/><data datarow="3"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="39"   datacol="1" datacontent="火成岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>	
+				<data datarow="43"   datacol="1" datacontent="碎屑岩" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+					
+				<data datarow="3"   datacol="2" datacontent="常规开发" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="2" datacontent="稠油热采" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="23"   datacol="2" datacontent="常规开发" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="2" datacontent="常规开发" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="2" datacontent="稠油热采" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="39"   datacol="2" datacontent="常规开发" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="42"   datacol="2" datacontent="稠油热采" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="43"   datacol="2" datacontent="常规开发" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="3"   datacol="3" datacontent="中高渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="3" datacontent="低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="3" datacontent="特低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="23"   datacol="3" datacontent="中高渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="26"   datacol="3" datacontent="低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="29"   datacol="3" datacontent="特低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="3" datacontent="中高渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="34"   datacol="3" datacontent="低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="36"   datacol="3" datacontent="特低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="39"   datacol="3" datacontent="低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="43"   datacol="3" datacontent="低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="49"   datacol="3" datacontent="特低渗" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+
+				<data datarow="3"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="19"   datacol="4" datacontent="穿盐" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="4" datacontent="不穿盐" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="23"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="26"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="29"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="34"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="36"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="39"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="43"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="46"   datacol="4" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="49"   datacol="4" datacontent="直井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="4" datacontent="水平井" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+
+
+				<data datarow="3"   datacol="5" datacontent="≤1000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="9" datacontent="1.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="10" datacontent="1.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="11" datacontent="1.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="12" datacontent="4.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="13" datacontent="2.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="3"   datacol="14" datacontent="2.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="4"   datacol="5" datacontent="(1000,2000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="9" datacontent="2.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="10" datacontent="2.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="11" datacontent="1.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="12" datacontent="4.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="13" datacontent="3.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="4"   datacol="14" datacontent="2.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="5"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="6" datacontent="6.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="9" datacontent="4.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="10" datacontent="3.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="11" datacontent="2.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="12" datacontent="6.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="13" datacontent="5.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="5"   datacol="14" datacontent="4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="6"   datacol="5" datacontent="(3000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="9" datacontent="5.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="10" datacontent="4.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="11" datacontent="4.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="12" datacontent="7.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="13" datacontent="6.1" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="6"   datacol="14" datacontent="4.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="7"   datacol="5" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="9" datacontent="7.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="10" datacontent="6.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="11" datacontent="5.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="12" datacontent="8.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="13" datacontent="7.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="7"   datacol="14" datacontent="5.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+		
+				<data datarow="8"   datacol="5" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="12" datacontent="5.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="13" datacontent="4.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="8"   datacol="14" datacontent="3.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="9"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="6" datacontent="4.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="7" datacontent="2.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="9" datacontent="3.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="10" datacontent="3.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="11" datacontent="2.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="12" datacontent="6.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="13" datacontent="5.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="9"   datacol="14" datacontent="4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="10"   datacol="5" datacontent="(3000,4000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="6" datacontent="6.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="9" datacontent="6.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="10" datacontent="5.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="11" datacontent="4.9" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="12" datacontent="8.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="13" datacontent="7.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="10"   datacol="14" datacontent="5.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+			
+				<data datarow="11"   datacol="5" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="12" datacontent="12.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="13" datacontent="10.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="11"   datacol="14" datacontent="8.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="12"   datacol="5" datacontent="≤3000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="8" datacontent="4.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="12" datacontent="6.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="13" datacontent="5.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="12"   datacol="14" datacontent="4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="13"   datacol="5" datacontent="(3000,4000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="6" datacontent="5.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="7" datacontent="5.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="12" datacontent="9.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="13" datacontent="8.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="13"   datacol="14" datacontent="6.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+			
+				<data datarow="14"   datacol="5" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="8" datacontent="9.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="9" datacontent="11.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="10" datacontent="10.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="11" datacontent="9.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="12" datacontent="13.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="13" datacontent="11.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="14"   datacol="14" datacontent="8.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="15"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="6" datacontent="3.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="9" datacontent="4.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="10" datacontent="4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="11" datacontent="3.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="12" datacontent="6.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="13" datacontent="5.9" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="15"   datacol="14" datacontent="4.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="16"   datacol="5" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="6" datacontent="21.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="7" datacontent="20.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="12" datacontent="20.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="13" datacontent="17.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="16"   datacol="14" datacontent="13.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="17"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="12" datacontent="26.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="13" datacontent="22.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="17"   datacol="14" datacontent="17.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="18"   datacol="5" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="6" datacontent="46.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="12" datacontent="30.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="13" datacontent="26.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="18"   datacol="14" datacontent="19.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="19"   datacol="5" datacontent="≤6000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="9" datacontent="16.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="10" datacontent="13.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="11" datacontent="10.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="12" datacontent="25.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="13" datacontent="22.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="19"   datacol="14" datacontent="16.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				
+				<data datarow="20"   datacol="5" datacontent="＞6000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="9" datacontent="19.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="10" datacontent="16.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="11" datacontent="12.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="12" datacontent="29.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="13" datacontent="25.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="20"   datacol="14" datacontent="19.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="21"   datacol="5" datacontent="≤6000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="9" datacontent="10.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="10" datacontent="8.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="11" datacontent="6.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="12" datacontent="16.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="13" datacontent="13.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="21"   datacol="14" datacontent="10.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="22"   datacol="5" datacontent="＞6000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="9" datacontent="12.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="10" datacontent="10.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="11" datacontent="7.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="12" datacontent="18.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="13" datacontent="16.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="22"   datacol="14" datacontent="12.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="23"   datacol="5"  datacontent="≤2000"	horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="6"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="7"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="8"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="9"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="10" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="11" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="12" datacontent="6.1"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="13" datacontent="5.2"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="23"   datacol="14" datacontent="4.0"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="24"   datacol="5"  datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="6"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="7"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="8"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="9"  datacontent="2.9"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="10" datacontent="2.4"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="11" datacontent="1.8"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="12" datacontent="8.3"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="13" datacontent="7.1"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="24"   datacol="14" datacontent="5.4"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="25"   datacol="5"  datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="6"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="7"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="8"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="9"  datacontent="5.8"       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="10" datacontent="4.8"       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="11" datacontent="3.6"       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="12" datacontent="11.1"   horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="13" datacontent="9.5"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="25"   datacol="14" datacontent="7.2"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+
+	<data datarow="26"   datacol="5"  datacontent="≤2000"	horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="6"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="7"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="8"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="9"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="10" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="11" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="12" datacontent="6.8"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="13" datacontent="5.7"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="26"   datacol="14" datacontent="4.4"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="27"   datacol="5"  datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="6"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="7"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="8"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="9"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="10" datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="11" datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="12" datacontent="9.0"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="13" datacontent="7.7"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="27"   datacol="14" datacontent="5.8"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="28"   datacol="5"  datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="6"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="7"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="8"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="9"  datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="10" datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="11" datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="12" datacontent="12.2"   horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="13" datacontent="10.4"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="28"   datacol="14" datacontent="7.9"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="29"   datacol="5"  datacontent="≤2000"	horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="6"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="7"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="8"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="9"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="10" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="11" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="12" datacontent="7.0"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="13" datacontent="5.9"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="29"   datacol="14" datacontent="4.5"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="30"   datacol="5"  datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="6"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="7"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="8"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="9"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="10" datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="11" datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="12" datacontent="9.4"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="13" datacontent="8.0"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="30"   datacol="14" datacontent="6.0"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="31"   datacol="5"  datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="6"  datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="7"  datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="8"  datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="9"  datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="10" datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="11" datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="12" datacontent="12.5"   horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="13" datacontent="10.6"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="31"   datacol="14" datacontent="8.1"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="32"   datacol="5" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="12" datacontent="3.8" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="13" datacontent="3.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="32"   datacol="14" datacontent="2.5" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+
+				<data datarow="33"   datacol="5" datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="12" datacontent="6.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="13" datacontent="5.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="33"   datacol="14" datacontent="4.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="34"   datacol="5" datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="6" datacontent="5.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="7" datacontent="4.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="8" datacontent="3.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="12" datacontent="7.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="13" datacontent="6.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="34"   datacol="14" datacontent="4.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="35"   datacol="5" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="6" datacontent="6.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="7" datacontent="5.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="8" datacontent="4.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="12" datacontent="10.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="13" datacontent="8.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="35"   datacol="14" datacontent="6.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="36"   datacol="5" datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="12" datacontent="8.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="13" datacontent="6.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="36"   datacol="14" datacontent="5.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="37"   datacol="5" datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="8" datacontent="17.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="12" datacontent="10.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="13" datacontent="9.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="37"   datacol="14" datacontent="7.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				<data datarow="38"   datacol="5" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="6" datacontent="5.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="12" datacontent="5.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="13" datacontent="4.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="38"   datacol="14" datacontent="3.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+					<data datarow="39"   datacol="5"  datacontent="≤2000"	horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="6"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="7"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="8"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="9"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="10" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="11" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="12" datacontent="5.2"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="13" datacontent="4.4"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="39"   datacol="14" datacontent="3.3"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="40"   datacol="5"  datacontent="(2000,4000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="6"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="7"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="8"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="9"  datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="10" datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="11" datacontent=""			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="12" datacontent="7.6"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="13" datacontent="6.5"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="40"   datacol="14" datacontent="4.9"			horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="41"   datacol="5"  datacontent="＞4000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="6"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="7"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="8"  datacontent=""    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="9"  datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="10" datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="11" datacontent=""       horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="12" datacontent="10.8"   horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="13" datacontent="9.2"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="41"   datacol="14" datacontent="7.0"    horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+
+	<data datarow="42"   datacol="5"  datacontent=""	horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="6"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="7"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="8"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="9"  datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="10" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="11" datacontent=""		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="12" datacontent="8.5"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="13" datacontent="7.3"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="42"   datacol="14" datacontent="5.5"		horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+					<data datarow="43"   datacol="5" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="9" datacontent="1.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="10" datacontent="1.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="11" datacontent="0.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="12" datacontent="3.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="13" datacontent="2.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="43"   datacol="14" datacontent="2.1" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="44"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="9" datacontent="1.6-2.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="10" datacontent="1.4-1.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="11" datacontent="1.1-1.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="12" datacontent="3.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="13" datacontent="3.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="44"   datacol="14" datacontent="2.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="45"   datacol="5" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="12" datacontent="4.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="13" datacontent="3.9" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="45"   datacol="14" datacontent="3.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="46"   datacol="5" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="9" datacontent= "" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="12" datacontent="6.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="13" datacontent="5.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="46"   datacol="14" datacontent="4.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="47"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="9" datacontent="3.8-4.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="10" datacontent="3.1-3.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="11" datacontent="2.4-3.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="12" datacontent="8.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="13" datacontent="7.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="47"   datacol="14" datacontent="5.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="48"   datacol="5" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="12" datacontent="9.4" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="13" datacontent="8.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="48"   datacol="14" datacontent="6.1" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="49"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="7" datacontent="3.2" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="9" datacontent="1.5-2.1" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="10" datacontent="1.3-1.8" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="11" datacontent="1.1-1.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="12" datacontent="4.1" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="13" datacontent="3.5" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="49"   datacol="14" datacontent="2.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+
+	<data datarow="50"   datacol="5" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="7" datacontent="4.0" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="12" datacontent="5.1" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="13" datacontent="4.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+	<data datarow="50"   datacol="14" datacontent="3.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+						
+				<data datarow="51"   datacol="5" datacontent="≤2000" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="9" datacontent="3.0-5.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="10" datacontent="2.4-4.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="11" datacontent="1.9-3.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="12" datacontent="7.3" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="13" datacontent="6.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="51"   datacol="14" datacontent="4.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="52"   datacol="5" datacontent="(2000,3000]" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="9" datacontent="5.0-6.2" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="10" datacontent="4.1-5.1" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="11" datacontent="3.2-4.0" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="12" datacontent="8.7" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="13" datacontent="7.4" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				<data datarow="52"   datacol="14" datacontent="5.6" horizon="middle" vertical="middle" colour_R="255" colour_G="255" colour_B="255" readonly="true"/>
+				
+				<data datarow="53"   datacol="5" datacontent="＞3000" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="6" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="7" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="8" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="9" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="10" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="11" datacontent="" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="12" datacontent="10.3" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="13" datacontent="8.7" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				<data datarow="53"   datacol="14" datacontent="6.6" horizon="middle" vertical="middle" colour_R="220" colour_G="220" colour_B="220" readonly="true"/>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </tabledata>
+      <tableframe>
+      
+      </tableframe>
+  </Table>
+</config>

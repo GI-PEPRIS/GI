@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="framework\connect">
+      <UniqueIdentifier>{df33a164-aa2e-413b-b9bd-efe31ac24ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gis">
+      <UniqueIdentifier>{b692b42a-dc61-4664-8aea-ed58b741e55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{a4770079-c303-4227-838d-21edec1718b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\canvas">
+      <UniqueIdentifier>{b445fa25-d71c-4d6b-95f6-0995419867b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="well">
+      <UniqueIdentifier>{14bde5ef-0b3e-4003-b2c9-910f9c922969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basin">
+      <UniqueIdentifier>{36a1c1fe-ca8a-4b62-b56c-f7af0be4ed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="seismic">
+      <UniqueIdentifier>{1101146e-5a92-4389-969f-a2dfef307f22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\framework\framework_solution_explorer_treectrl.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_solution_notebook.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_solution_builder.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_ribbon_builder.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_data_frame.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_data_app.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_data_aui_manager.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_connect_db_setup_dlg.cpp">
+      <Filter>framework\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_connect_login_dlg.cpp">
+      <Filter>framework\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_connect_mergedatabase_function.cpp">
+      <Filter>framework\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_connect_orgnization_dlg.cpp">
+      <Filter>framework\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_connect_registeruser_dlg.cpp">
+      <Filter>framework\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_connect_mergedatabase_dlg.cpp">
+      <Filter>framework\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gis\gis_solution_maplayer_explorer_treectrl.cpp">
+      <Filter>gis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gis\gis_solution_maplayer_manager.cpp">
+      <Filter>gis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_workspace_notebook.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_data_aui_notebook.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\db\db_solution_user_explorer_treectrl.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\db\db_solution_user_manager.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_workspace_map_canvas.cpp">
+      <Filter>framework\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_workspace_canvas.cpp">
+      <Filter>framework\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_workspace_cube_canvas.cpp">
+      <Filter>framework\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_workspace_seis_profile_canvas.cpp">
+      <Filter>framework\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\framework_workspace_well_section_canvas.cpp">
+      <Filter>framework\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gis\gis_solution_maplayer_import_data.cpp">
+      <Filter>gis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\well\well_solution_data_explorer_treectrl.cpp">
+      <Filter>well</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\basin\basin_solution_model_explorer_treectrl.cpp">
+      <Filter>basin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\framework\framework_solution_explorer_treectrl.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_solution_notebook.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_solution_builder.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_ribbon_builder.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_data_frame.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_data_macroes.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_data_app.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_data_aui_manager.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_connect_db_setup_dlg.h">
+      <Filter>framework\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_connect_login_dlg.h">
+      <Filter>framework\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_connect_mergedatabase_function.h">
+      <Filter>framework\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_connect_orgnization_dlg.h">
+      <Filter>framework\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_connect_registeruser_dlg.h">
+      <Filter>framework\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_connect_mergedatabase_dlg.h">
+      <Filter>framework\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_data_event.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gis\gis_solution_maplayer_explorer_treectrl.h">
+      <Filter>gis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gis\gis_solution_maplayer_manager.h">
+      <Filter>gis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_workspace_notebook.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_data_aui_notebook.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\db\db_solution_user_explorer_treectrl.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\db\db_solution_user_manager.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_workspace_map_canvas.h">
+      <Filter>framework\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_workspace_canvas.h">
+      <Filter>framework\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_workspace_seis_profile_canvas.h">
+      <Filter>framework\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_workspace_well_section_canvas.h">
+      <Filter>framework\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\framework\framework_workspace_cube_canvas.h">
+      <Filter>framework\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gis\gis_solution_maplayer_import_data.h">
+      <Filter>gis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\well\well_solution_data_explorer_treectrl.h">
+      <Filter>well</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\basin\basin_solution_model_explorer_treectrl.h">
+      <Filter>basin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

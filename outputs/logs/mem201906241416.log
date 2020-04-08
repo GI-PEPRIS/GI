@@ -1,0 +1,21 @@
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Initial memory status(35869476K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Leaving memory status(35869940K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1767) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1767) : Initial memory status(35869848K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1767) : Leaving memory status(35869680K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(35862268K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(35841064K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1886) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1886) : Initial memory status(35841788K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1886) : Leaving memory status(35841268K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1059) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1059) : Initial memory status(35863080K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1059) : Leaving memory status(35841176K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(2342) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(2342) : Initial memory status(35837532K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(2342) : Leaving memory status(35837440K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(35836924K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(35838500K)

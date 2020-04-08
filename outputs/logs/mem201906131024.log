@@ -1,0 +1,21 @@
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(35106020K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(35098508K)
+Memory Monitor: e:\geological intelligence\app\gidata\framework\assessorlogsetupdlg.cpp(1059) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gidata\framework\assessorlogsetupdlg.cpp(1059) : Initial memory status(35107236K)
+Memory Monitor: e:\geological intelligence\app\gidata\framework\assessorlogsetupdlg.cpp(1059) : Leaving memory status(35097340K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(35090692K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(35082016K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Initial memory status(35079424K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(168) : Leaving memory status(35078928K)
+Memory Monitor: e:\geological intelligence\app\gidata\framework\connectdatabasedlg.cpp(409) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gidata\framework\connectdatabasedlg.cpp(409) : Initial memory status(35079420K)
+Memory Monitor: e:\geological intelligence\app\gidata\framework\connectdatabasedlg.cpp(409) : Leaving memory status(35063716K)
+Memory Monitor: e:\geological intelligence\app\gidata\framework\assessorlogsetupdlg.cpp(1922) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gidata\framework\assessorlogsetupdlg.cpp(1922) : Initial memory status(35090688K)
+Memory Monitor: e:\geological intelligence\app\gidata\framework\assessorlogsetupdlg.cpp(1922) : Leaving memory status(35063716K)
+Memory Monitor: e:\geological intelligence\any\bridge\gis\anyshplayer.cpp(782) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\bridge\gis\anyshplayer.cpp(782) : Initial memory status(35066352K)
+Memory Monitor: e:\geological intelligence\any\bridge\gis\anyshplayer.cpp(782) : Leaving memory status(35066116K)

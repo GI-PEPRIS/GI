@@ -1,0 +1,4223 @@
+alter table a_correlation drop constraint fk_a_correlation_pid;
+alter table a_jobstream drop constraint fk_a_jobstream_pid;
+alter table a_npv_cost_basic drop constraint fk_a_npv_cost_basic_pid;
+alter table a_npv_cost_detail drop constraint fk_a_npv_cost_detail_pid;
+alter table a_npv_cost_mmbs drop constraint fk_a_npv_cost_mmbs_pid;
+alter table a_npv_edp_basic drop constraint fk_a_npv_edp_basic_pid;
+alter table a_npv_edp_schedule drop constraint fk_a_npv_edp_schedule_pid;
+alter table a_npv_policy drop constraint fk_a_npv_policy_pid;
+alter table a_npv_price drop constraint fk_a_npv_price_pid;
+alter table a_npv_resource drop constraint fk_a_npv_resource_pid;
+alter table a_npv_risk drop constraint fk_a_npv_risk_pid;
+alter table a_npv_scenario drop constraint fk_a_npv_scenario_pid;
+alter table a_npv_summary drop constraint fk_a_npv_summary_pid;
+alter table a_npv_tax drop constraint fk_a_npv_tax_pid;
+alter table a_parameter drop constraint fk_a_parameter_pid;
+alter table a_practice drop constraint fk_ap_elementid drop constraint fk_ap_activityid;
+alter table a_practice_blobdata drop constraint fk_a_practice_blobdata;
+alter table a_practice_score drop constraint fk_practice_score_elementid;
+alter table a_practice_score drop constraint fk_practice_score_templateid;
+alter table a_practice_score drop constraint fk_practice_score_factorid;
+alter table a_repository_genetic drop constraint fk_a_repository_genetic_pid;
+alter table a_repository_pfolio drop constraint fk_a_repository_pfolio_pid;
+alter table a_repository_pfolio drop constraint fk_a_repository_pfolio_rid;
+alter table a_repository_scenario drop constraint fk_a_repository_scenario_pid;
+alter table a_resource drop constraint fk_a_resource_pid;
+alter table a_risk drop constraint fk_a_risk_pid;
+
+alter table d_contour_setting drop constraint fk_contour_setting_classid;
+alter table d_ipt_fault_geometry drop constraint fk_fault_featureid;
+alter table d_ipt_horizon_geometry drop constraint fk_horizon_featureid;
+alter table d_seismic_2dg drop constraint fk_seismic_2dg_classid drop constraint fk_seismic_2dg_jid;
+alter table d_seismic_3dg drop constraint fk_seismic_3dg_classid drop constraint fk_seismic_3dg_jid;
+alter table d_seismic_dataset drop constraint fk_seismic_dataset_jid;
+alter table d_seismic_gate drop constraint fk_seismic_gate_datasetid;
+alter table d_seismic_headinfo drop constraint fk_seismic_headinfo_gateid;
+alter table d_seismic_ipt_em drop constraint fk_seismic_ipt_em_jid;
+alter table d_seismic_ipt_em_feature drop constraint fk_seismic_ipt_em_feature_jid;
+alter table d_seismic_ipt_em_property drop constraint fk_seismic_ipt_em_property_jid;
+alter table d_seismic_profileinfo drop constraint fk_seismic_profileinfo_gateid;
+alter table d_seismic_surveyinfo drop constraint fk_seismic_surveyinfo_gateid;
+alter table d_seismic_surveyinfoblob drop constraint fk_seismic_surveyinfoblob_gateid;
+alter table d_seismic_tracedata drop constraint fk_seismic_tracedata_gateid;
+alter table d_seismic_wavlet drop constraint fk_seismic_wavlet_datasetid;
+alter table d_well_burial_history drop constraint fk_well_burial_history_boreid;
+alter table d_well_calibration drop constraint fk_well_calibration_boreid;
+alter table d_well_fault drop constraint fk_well_fault_boreid;
+alter table d_well_fracture drop constraint fk_well_fracture_boreid;
+alter table d_well_image drop constraint fk_well_image_boreid;
+alter table d_well_interpretation drop constraint fk_well_interpretation_boreid;
+alter table d_well_logging drop constraint fk_well_logging_boreid;
+alter table d_well_mining_test drop constraint fk_well_mining_test_boreid;
+alter table d_well_oil_test drop constraint fk_well_oil_test_boreid;
+alter table d_well_path drop constraint fk_well_path_boreid;
+alter table d_well_pick drop constraint fk_well_pick_boreid;
+alter table d_well_property drop constraint fk_well_property_boreid;
+alter table d_well_trace drop constraint fk_well_trace_boreid;
+alter table d_well_zone drop constraint fk_well_zone_boreid;
+
+
+alter table i_el_block_basic drop constraint fk_block_basic_elementid;
+alter table i_el_block_basin drop constraint fk_block_basin_elementid;
+alter table i_el_block_primarystructure drop constraint fk_block_primarystructure_elementid;
+alter table i_el_block_secondrystructure drop constraint fk_block_secondrystructure_elementid;
+alter table i_el_block_thirdstructure drop constraint fk_block_thirdstructure_elementid;
+alter table i_el_block_unit_exploration drop constraint fk_block_unit_exploration_elementid;
+alter table i_el_cap drop constraint fk_cap_elementid;
+alter table i_el_check drop constraint fk_check_elementid;
+alter table i_el_document drop constraint fk_document_elementid;
+alter table i_el_exploration drop constraint fk_exploration_elementid;
+alter table i_el_factor drop constraint fk_factor_elementid drop constraint fk_factor_factorid;
+alter table i_el_geology drop constraint fk_geology_elementid;
+alter table i_el_geometry drop constraint fk_elemenet_geometry_classid;
+alter table i_el_horizon drop constraint fk_horizon_elementid;
+alter table i_el_overall drop constraint fk_overall_elementid;
+alter table i_el_oversea_project drop constraint fk_oversea_project_elementid;
+alter table i_el_pool drop constraint fk_pool_elementid;
+alter table i_el_preservation drop constraint fk_preservation_elementid;
+alter table i_el_raster drop constraint fk_elemenet_raster_classid;
+alter table i_el_repository drop constraint fk_repository_elementid;
+alter table i_el_reservoir drop constraint fk_reservoir_elementid;
+alter table i_el_resource drop constraint fk_reource_elementid;
+alter table i_el_resource_shale drop constraint fk_resource_shale_elementid;
+
+alter table i_el_seismic_deploy drop constraint fk_seismic_deploy_elementid;
+alter table i_el_shale_analog_play drop constraint fk_shale_analog_play_elementid;
+alter table i_el_shale_analog_target drop constraint fk_shale_analog_target_elementid;
+alter table i_el_shale_analog_well drop constraint fk_shale_analog_well_elementid;
+alter table i_el_source drop constraint fk_source_elementid;
+alter table i_el_survey drop constraint fk_survey_elementid;
+alter table i_el_segment drop constraint fk_segment_elementid;
+alter table i_el_trap drop constraint fk_trap_elementid;
+alter table i_el_volume_sample drop constraint fk_volume_sample_elementid;
+alter table i_el_volume_stat drop constraint fk_volume_stat_elementid;
+
+alter table r_fuzzy_member drop constraint fk_fuzzy_member_factorid;
+alter table r_fuzzy_standard drop constraint fk_fuzzy_standard_templateid;
+alter table r_gis_chart drop constraint fk_gis_chart_classid;
+alter table r_gis_color_range drop constraint fk_gis_color_range_classid;
+alter table r_gis_layer_remark drop constraint fk_gis_layer_classid;
+alter table r_gis_style drop constraint fk_gis_style_classid;
+alter table r_kida_class drop constraint fk_kida_class_categoryid drop constraint fk_kida_class_themeid;
+alter table r_quick_rule drop constraint fk_quick_rule_scoreid drop constraint fk_quick_rule_factorid;
+alter table r_quick_standard drop constraint fk_quick_standard_templateid;
+alter table r_risk_factor drop constraint fk_risk_factor_templateid;
+
+drop view i_el_evaluation_view;
+
+drop table a_bayes_net_branch;
+drop table a_bayes_net_node;
+drop table a_correlation;
+drop table a_decision_tree_branch;
+drop table a_decision_tree_node;
+drop table a_jobstream;
+drop table a_npv_cost_basic;
+drop table a_npv_cost_detail;
+drop table a_npv_cost_mmbs;
+drop table a_npv_edp_basic;
+drop table a_npv_edp_schedule;
+drop table a_npv_policy;
+drop table a_npv_price;
+drop table a_npv_resource;
+drop table a_npv_risk;
+drop table a_npv_scenario;
+drop table a_npv_summary;
+drop table a_npv_tax;
+drop table a_parameter;
+drop table a_pb_tree_branch;
+drop table a_pb_tree_node;
+drop table a_practice;
+drop table a_practice_blobdata;
+drop table a_practice_score;
+drop table a_practice_table;
+drop table a_practice_tablecheck;
+drop table a_practice_treetable;
+drop table a_repository_genetic;
+drop table a_repository_pfolio;
+drop table a_repository_scenario;
+drop table a_resource;
+drop table a_resource_detail;
+drop table a_risk;
+drop table a_template_blob;
+drop table a_well_performance_dre_middle;
+drop table a_well_performance_dre_result;
+drop table a_well_performance_practice;
+
+drop table d_basinsimulate_boundary;
+drop table d_basinsimulate_depthmap;
+drop table d_basinsimulate_draft;
+drop table d_basinsimulate_facemap;
+drop table d_basinsimulate_fault;
+drop table d_basinsimulate_horizon;
+drop table d_basinsimulate_layer;
+drop table d_basinsimulate_model;
+drop table d_basinsimulate_setting;
+drop table d_contour_setting;
+drop table d_ipt_fault_feature;
+drop table d_ipt_fault_geometry;
+drop table d_ipt_horizon_feature;
+drop table d_ipt_horizon_geometry;
+drop table d_seismic_2dg;
+drop table d_seismic_3dg;
+drop table d_seismic_dataset;
+drop table d_seismic_gate;
+drop table d_seismic_headinfo;
+drop table d_seismic_ipt_em;
+drop table d_seismic_ipt_em_feature;
+drop table d_seismic_ipt_em_property;
+drop table d_seismic_profileinfo;
+drop table d_seismic_project;
+drop table d_seismic_surveyinfo;
+drop table d_seismic_surveyinfoblob;
+drop table d_seismic_tracedata;
+drop table d_seismic_wavlet;
+drop table d_well_basic;
+drop table d_well_basic_more;
+drop table d_well_atttable;
+drop table d_well_bore;
+drop table d_well_burial_history;
+drop table d_well_calibration;
+drop table d_well_cross_section;
+drop table d_well_fault;
+drop table d_well_fracture;
+drop table d_well_geochemical_para;
+drop table d_well_geometry;
+drop table d_well_image;
+drop table d_well_interpretation;
+drop table d_well_logging;
+drop table d_well_log_template;
+drop table d_well_mining_test;
+drop table d_well_oil_test;
+drop table d_well_path;
+drop table d_well_performance_basic;
+drop table d_well_performance_casing;
+drop table d_well_performance_deployment;
+drop table d_well_performance_geological_parameter;
+drop table d_well_performance_pressure;
+drop table d_well_performance_pressure_gradient;
+drop table d_well_performance_production;
+drop table d_well_performance_trajectory;
+drop table d_well_performance_tubing;
+drop table d_well_pick;
+drop table d_well_production;
+drop table d_well_property;
+drop table d_well_shale_operation;
+drop table d_well_trace;
+drop table d_well_variable;
+drop table d_well_volume_sample;
+drop table d_well_zone;
+
+drop table i_el;
+drop table i_el_block_basic;
+drop table i_el_block_basin;
+drop table i_el_block_primarystructure;
+drop table i_el_block_secondrystructure;
+drop table i_el_block_thirdstructure;
+drop table i_el_block_unit_exploration;
+drop table i_el_cap;
+drop table i_el_check;
+drop table i_el_document;
+drop table i_el_evaluation;
+drop table i_el_exploration;
+drop table i_el_factor;
+drop table i_el_geology;
+drop table i_el_geometry;
+drop table i_el_horizon;
+drop table i_el_overall;
+drop table i_el_oversea_project;
+drop table i_el_pool;
+drop table i_el_preservation;
+drop table i_el_raster;
+drop table i_el_repository;
+drop table i_el_reservoir;
+drop table i_el_resource;
+drop table i_el_resource_shale;
+drop table i_el_segment;
+drop table i_el_seismic_deploy;
+drop table i_el_seismic_picture;
+drop table i_el_shale_analog_play;
+drop table i_el_shale_analog_target;
+drop table i_el_shale_analog_well;
+drop table i_el_source;
+drop table i_el_survey;
+drop table i_el_trap;
+drop table i_el_trap_development;
+drop table i_el_trap_exploration;
+drop table i_el_trap_geology_fault;
+drop table i_el_trap_project;
+drop table i_el_trap_reserve;
+drop table i_el_trap_reserve_discard;
+drop table i_el_trap_survey;
+drop table i_el_trap_wildcat_drill;
+drop table i_el_trap_wildcat_post;
+drop table i_el_trap_wildcat_well;
+drop table i_el_volume_sample;
+drop table i_el_volume_stat;
+
+drop table r_activity;
+drop table r_activity_menu;
+drop table r_activity_template;
+drop table r_behar_kinetics;
+drop table r_fuzzy_member;
+drop table r_fuzzy_standard;
+drop table r_geo_litho;
+drop table r_gfs_chunklocation;
+drop table r_gfs_chunkuuid;
+drop table r_gfs_masterrecord;
+drop table r_gfs_r_gfs_geolocationgrid;
+drop table r_gis_chart;
+drop table r_gis_color_range;
+drop table r_gis_geographic_coordinate;
+drop table r_gis_layer_remark;
+drop table r_gis_projection;
+drop table r_gis_sde_element;
+drop table r_gis_style;
+drop table r_heat_flow;
+drop table r_kida_category;
+drop table r_kida_class;
+drop table r_kida_dataset;
+drop table r_kida_theme;
+drop table r_oversea_tableinfos;
+drop table r_pb_user;
+drop table r_pepper_kinetics;
+drop table r_pgeo_basin_type;
+drop table r_pgeo_exploration_degree;
+drop table r_pgeo_formation_type;
+drop table r_pgeo_geographic_environment;
+drop table r_pgeo_play_type;
+drop table r_pgeo_structural_belt;
+drop table r_pgeo_tectonic_strength;
+drop table r_pgeo_thermal_history;
+drop table r_pgeo_trap_type;
+drop table r_ppsv_composition_type;
+drop table r_ppsv_fault_strength;
+drop table r_ppsv_migration_relation;
+drop table r_ppsv_migration_way;
+drop table r_ppsv_water_type;
+drop table r_prefer_axis_template;
+drop table r_prefer_settings;
+drop table r_probability;
+drop table r_property_cap_rock_type;
+drop table r_prsv_diagenetic_phase;
+drop table r_prsv_pore_type;
+drop table r_prsv_rock_type;
+drop table r_prsv_space_type;
+drop table r_ps_face_type;
+drop table r_ps_organic_type;
+drop table r_ps_pathway_type;
+drop table r_ps_rock_type;
+drop table r_ps_supplyway_type;
+drop table r_quick_rule;
+drop table r_quick_standard;
+drop table r_quick_template;
+drop table r_report_grid;
+drop table r_report_grid_template;
+drop table r_resource_class;
+drop table r_resource_kind;
+drop table r_resource_unit;
+drop table r_rh_dimcol_template;
+drop table r_rh_template;
+drop table r_rh_where_condition_template;
+drop table r_risk_factor;
+drop table r_sediment_water_interface_temperayure;
+drop table r_seis_style;
+drop table r_water_paleo_depth;
+drop table r_well_rock;
+
+drop table ref_database_version;
+drop table ref_face_definition;
+drop table ref_key_generator;
+drop table ref_oilfields;
+drop table ref_pick_system;
+drop table ref_sql_topic;
+drop table ref_sys_user;
+drop table ref_well_logcurve;
+
+create table ref_well_logcurve
+(
+  curveid INTEGER not null primary key,
+  ename VARCHAR2(255),
+  cname VARCHAR2(255),
+  unit VARCHAR2(255)
+);
+
+create table ref_sys_user
+(
+  userid INTEGER not null primary key,
+  name VARCHAR2(64),
+  department VARCHAR2(255),
+  priority INTEGER,
+  authorities CLOB,
+  readvalidtables BLOB,
+  writevalidtables BLOB,
+  fieldid INTEGER not null
+);
+insert into ref_sys_user (userid, name, department, priority, authorities, fieldid) values(1, 'admin', '', 0, 'all', 1);
+
+create table ref_key_generator
+(
+  keyid INTEGER not null primary key,
+  nextid INTEGER,
+  maxid INTEGER,
+  name VARCHAR2(255),
+  oilfieldid INTEGER
+);
+insert into ref_key_generator (keyid, nextid, maxid, name, oilfieldid) values (2, 2, 10, 'default', 1);
+
+create table ref_oilfields
+(
+  fieldid INTEGER,
+  fieldname VARCHAR2(255),
+  viewall INTEGER
+);
+insert into ref_oilfields (fieldid, fieldname, viewall) values (1, '×Ü²¿', 1);
+
+create table ref_pick_system
+(
+  eid INTEGER,
+  pid INTEGER,
+  name VARCHAR2(255), 
+  type INTEGER
+);
+
+create table ref_sql_topic
+(
+  topicid INTEGER not null primary key,
+  topicname VARCHAR2(255),
+  aliasname VARCHAR2(255),
+  selectcolumns CLOB,
+  fromtables CLOB,
+  wherecondition CLOB,
+  groupcolumns VARCHAR2(255),
+  ordercolumns VARCHAR2(255)
+);
+
+create table r_resource_kind
+(
+  kindid INTEGER not null primary key,
+  name VARCHAR2(255),
+  remark VARCHAR2(255)
+);
+
+create table r_resource_unit
+(
+  unitid INTEGER not null primary key,
+  unittype INTEGER
+);
+
+create table r_resource_class
+(
+  classid INTEGER not null primary key,
+  category VARCHAR2(255),
+  class VARCHAR2(255),
+  remark VARCHAR2(255)  
+);
+
+create table r_oversea_tableinfos
+(
+  tabletype INTEGER not null primary key,
+  tablekind INTEGER,
+  tablename VARCHAR2(255),
+  tabledes VARCHAR2(255),
+  tableremark VARCHAR2(255),
+  tableatt INTEGER,
+  isquantify INTEGER
+);
+
+create table r_probability
+(
+  probid INTEGER not null primary key,
+  name VARCHAR2(50),
+  paratype INTEGER,
+  remark VARCHAR2(255)
+);
+
+create table r_pb_user
+(
+  probid INTEGER not null primary key,
+  name VARCHAR2(50),
+  minx float,
+  maxx float,
+  data BLOB,
+  remark VARCHAR2(255)
+);
+
+create table r_pepper_kinetics
+(
+  pepperid INTEGER not null primary key,
+  peppercategory VARCHAR2(255),
+  hi VARCHAR2(255),
+  oil VARCHAR2(255),
+  gas VARCHAR2(255)
+);
+
+create table r_quick_template
+(
+  templateid INTEGER not null primary key,
+  name VARCHAR2(128),
+  whodo VARCHAR2(64),
+  whendo INTEGER,
+  type INTEGER,
+  remark VARCHAR2(255),
+  formula CLOB,
+  templatekind INTEGER
+);
+
+create table r_risk_factor
+(
+  factorid INTEGER not null primary key,
+  parentid INTEGER,
+  templateid INTEGER,
+  scoretype INTEGER,
+  name VARCHAR2(50),
+  uppervalue float,
+  lowervalue float,
+  svalue VARCHAR2(255),
+  weight float,
+  iscommon CHAR(1),
+  formula CLOB,
+  remarkblob BLOB,
+  layername VARCHAR2(255),
+  constraint fk_risk_factor_templateid foreign key (templateid) references r_quick_template(templateid)
+);
+
+create table r_quick_standard
+(
+  scoreid INTEGER not null primary key,
+  templateid INTEGER,
+  scoretype INTEGER,
+  upperscore float,
+  lowerscore float,
+  remark VARCHAR2(255),
+  constraint fk_quick_standard_templateid foreign key (templateid) references r_quick_template(templateid)
+);
+
+create table r_fuzzy_standard
+(
+  scoreid INTEGER not null primary key,
+  templateid INTEGER,
+  favorability VARCHAR2(64),
+  upperscore float,
+  lowerscore float,
+  rightupper float,
+  leftlower  float,
+  remark     VARCHAR2(255),
+  constraint fk_fuzzy_standard_templateid foreign key (templateid) references r_quick_template(templateid)
+);
+
+create table r_quick_rule
+(
+  scoreid INTEGER,
+  factorid INTEGER,
+  uppervalue float,
+  lowervalue float,
+  svalue VARCHAR2(255),
+  favorability VARCHAR2(64),
+  remarkdata CLOB,
+  constraint fk_quick_rule_scoreid foreign key (scoreid) references r_quick_standard(scoreid),
+  constraint fk_quick_rule_factorid foreign key (factorid) references r_risk_factor(factorid)
+);
+
+create table r_fuzzy_member
+(
+  memberid INTEGER,
+  factorid INTEGER,
+  valuetype INTEGER,
+  membertype INTEGER,
+  membername VARCHAR2(64),
+  favorability VARCHAR2(64),
+  leftlower float,
+  lowervalue float,
+  uppervalue float,
+  rightupper float,
+  svalue VARCHAR2(255),
+  constraint fk_fuzzy_member_factorid foreign key (factorid) references r_risk_factor(factorid)
+);
+
+create table i_el
+(
+  elementid INTEGER not null primary key,
+  parentid INTEGER,
+  name VARCHAR2(50),
+  type INTEGER,
+  foundtime INTEGER,
+  calibration INTEGER,
+  weight float,
+  resourcemin float,
+  largemin float,
+  largemax float,
+  screening float,
+  lockuser VARCHAR2(50),
+  lockreaduser VARCHAR2(50)
+);
+
+create table i_el_factor
+(
+  elementid INTEGER,
+  whodo VARCHAR2(255),
+  factorid INTEGER,
+  fvalue float,
+  svalue VARCHAR2(255),
+  weight float,   
+  quickscore float,
+  fuzzyscore float,
+  upperscore float,
+  lowerscore float,
+  role float,
+  iscommon CHAR(1),
+  iscondition CHAR(1),
+  remark VARCHAR2(255),
+  remarkdata BLOB,
+  constraint fk_factor_elementid foreign key (elementid) references i_el(elementid),
+  constraint fk_factor_factorid foreign key (factorid) references r_risk_factor(factorid)
+);
+
+create table i_el_overall
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  areaid INTEGER,
+  areaparameter VARCHAR2(255),
+  mappedid INTEGER,
+  mappedparameter VARCHAR2(255),
+  postulatedid INTEGER,
+  postulatedparameter VARCHAR2(255),
+  conditionalid INTEGER,
+  conditionalparameter VARCHAR2(255),
+  discoveredid INTEGER,
+  discoveredparameter VARCHAR2(255),
+  ytfid INTEGER,
+  ytfparameter VARCHAR2(255),
+  betaid INTEGER,
+  betaparameter VARCHAR2(255),		  	
+  constraint fk_overall_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_oversea_project
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  prjname VARCHAR2(255),	
+  prjcountry VARCHAR2(255),	
+  prjbasin VARCHAR2(255),
+  prjfieldname VARCHAR2(255),
+  prjcondition VARCHAR2(255),
+  prjstarttime INTEGER,
+  prjstartproducetime INTEGER,
+  prjremainreserve float,
+  prjreserve float,
+  prjcontratype VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_oversea_project_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table r_pgeo_basin_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_play_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_trap_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_exploration_degree
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_structural_belt
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_tectonic_strength
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_thermal_history
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_geographic_environment
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_pgeo_formation_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table i_el_geology
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  basintypeid VARCHAR2(255),
+  playtypeid VARCHAR2(255),
+  environmentid VARCHAR2(255),
+  formaitonid VARCHAR2(255),
+  belttypeid VARCHAR2(255),
+  explorationdegreeid VARCHAR2(255),
+  thermalhistoryid VARCHAR2(255),
+  tectonicstrengthid VARCHAR2(255),
+  tectonicnumber INTEGER,
+  drillfootage INTEGER,
+  timetofound INTEGER,
+  maxarea float,
+  maxburydepth float,		  	
+  rockmaxthickness float,
+  rockavgthickness float,
+  rockminthickness float,
+  rockvolume float,
+  rockmaxvelocity float,
+  rockavgvelocity float,
+  rockminvelocity float,
+  rockmaxage float,	
+  thermalsurface float,
+  thermalgradient float,
+  thermalhfu float,
+  primarystructure VARCHAR2(255),
+  secstructure VARCHAR2(255),
+  assarea float,
+  arearatio float,
+  successrate float,
+  geographyposition VARCHAR2(255),
+  tectonicposition VARCHAR2(255),
+  tectonictype VARCHAR2(255),
+  foundwell VARCHAR2(255),
+  chronology VARCHAR2(255),
+  wildcatwells float,
+  seismiclength float,
+  seismicarea float,
+  constraint fk_geology_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table r_ps_rock_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ps_face_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ps_organic_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ps_pathway_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ps_supplyway_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table i_el_source
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  horfromid VARCHAR2(255),
+  hortoid INTEGER,
+  srctypeid INTEGER,
+  orgtype VARCHAR2(255),
+  pathwayid VARCHAR2(255),
+  supplywayid VARCHAR2(255),
+  thermalgradient float,
+  srcdensity float, 
+  romax float,
+  roavg float,
+  romin float,
+  sedcycle float,
+  migdistance float, 
+  genvelocity float,
+  genmax float,
+  genavg float,
+  genmin float,
+  gentime float,
+  expultime float,
+  expulmax float,
+  expulavg float,
+  expulmin float,
+  remainedmax float,
+  remainedavg float,
+  remainedmin float,
+  srcmaxthick float,
+  srcavgthick float,
+  srcminthick float,
+  srcmaxarea float,
+  srcavgarea float,
+  srcminarea float,
+  srcmaxcoff float,
+  srcavgcoff float,
+  srcmincoff float,
+  sandmaxpercent float,
+  sandavgpercent float,
+  sandminpercent float,
+  srcmaxpercent float,
+  srcavgpercent float,
+  srcminpercent float,
+  orgthickmax float,
+  orgthickmin float,
+  orgthickavg float,
+  orgcindex float,
+  orgyear float,
+  tocmax float,
+  tocavg float,
+  tocmin float,
+  hi float,
+  accumulationtime VARCHAR2(255),
+  avgs1s2 float,
+  maxs1s2 float,
+  mins1s2 float,
+  avgs1 float,
+  maxs1 float,
+  mins1 float,
+  avgchloroa float,
+  maxchloroa float,
+  minchloroa float,
+  organictype VARCHAR2(255),
+  ks float,
+  absorbedks float,
+  ka float,
+  absorbedka float,
+  toc2srcmaxthick float,
+  toc2srcavgthick float,
+  toc2srcminthick float,
+  toc2srcmaxarea float,
+  toc2srcavgarea float,
+  toc2srcminarea float,
+  constraint fk_source_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_survey
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  parentregion VARCHAR2(255),
+  parentplay VARCHAR2(255),
+  exphorizon VARCHAR2(255),
+  explorarea float,
+  seismiclength2d float,
+  surdensity VARCHAR2(255),
+  seismicarea3d float,
+  coverage3d float,
+  wells INTEGER,
+  wellarea float,
+  oilwells INTEGER,
+  gaswells INTEGER,
+  oilresource float,
+  gasresource float,
+  oilprovreserves float,
+  gasprovreserves float,
+  oilcontroreserves float,
+  gascontroreserves float,
+  oilforereserves float,
+  gasforereserves float,
+  oilprosresources float,
+  gasprosresources float,
+  reserverate float,
+  understandingdegree VARCHAR2(255),
+  explorationdegree VARCHAR2(255),
+  caliname VARCHAR2(255),
+  caliabundance float,
+  caliabundancenormal float,
+  calisuccess float,
+  seisstrategyvalue float,
+  oilgasequivresource float,
+  workablerate float,
+  expindex float,
+  constraint fk_survey_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_seismic_deploy
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  schemetype VARCHAR2(255),
+  pooltype VARCHAR2(128),
+  hfrequence float,
+  hvelocity float,
+  hdepth float,
+  hsnr float,
+  linelength float,
+  linecost float,
+  lineinvestment float,
+  gridarea float,
+  gridcost float,
+  gridinvestment float,
+  geowork VARCHAR2(255),
+  geocommit VARCHAR2(255),
+  trapnum INTEGER,
+  observesystemtype VARCHAR2(255),
+  potential float,
+  constraint fk_seismic_deploy_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_seismic_picture
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  seissurvey BLOB,
+  seisquality BLOB,
+  seisprofile BLOB,
+  seisfrequency BLOB,
+  seislandscape BLOB
+);
+
+create table r_prsv_rock_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_prsv_space_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_prsv_pore_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_prsv_diagenetic_phase
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table i_el_reservoir
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  horfromid VARCHAR2(255),
+  hortoid INTEGER,
+  reservortypeid VARCHAR2(255),
+  poretypeid VARCHAR2(255),
+  face VARCHAR2(255),
+  maxdepth float,
+  avgdepth float,
+  mindepth float,
+  maxpore float,
+  avgpore float,
+  minpore float,
+  maxperme float,
+  avgperme float,
+  minperme float,
+  maxthrout float,
+  avgthrout float,
+  minthrout float,
+  genrockphase VARCHAR2(255),
+  sedcycle VARCHAR2(255),
+  subfacies VARCHAR2(255),
+  poretype VARCHAR2(255),
+  cements float,
+  claymineral float,
+  avgthickness float,
+  minthickness float,
+  maxthickness float,
+  oilcomposition VARCHAR2(255),
+  oildensity float,
+  reserviortempoil float,
+  gascomposition VARCHAR2(255),
+  reserviortempgas float,
+  reservoirpres float,
+  pressurecoef float,
+  volumetricfactoroil float,
+  oilcontent float,
+  absorbedoil float,
+  oilsaturation float,
+  volumetricfactorgas float,
+  gascontent float,
+  absorbedgas float,
+  gassaturation float,
+  microfacies VARCHAR2(255),
+  lithology VARCHAR2(255),
+  brittlecontent float,
+  elasticmodulus float,
+  poissonratio float,
+  rockdensity float,
+  totalporosity float,
+  microfracturedegree VARCHAR2(255),
+  constraint fk_reservoir_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_resource
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  calibrationtype INTEGER,
+  meanarea float,
+  minarea float,
+  maxarea float,
+  meanrockvolume float,
+  minrockvolume float,
+  maxrockvolume float,
+  oilgenerating float,
+  oildischarge float,
+  oilprovreserves float,
+  oilprovrecoverreserves float,
+  oilcontrolreserves float,
+  oilcontrolrecoverreserves float,
+  oilpredreserves float,
+  oilpredrecoverreserves float,
+  oilpotentialresources float,
+  oilnodiscovresources float,
+  oilnodiscovrecoverresources float,
+  oilresourcemean float,
+  oilresourcemin float,
+  oilresourcemax float,
+  oilrecoverresourcemean float,
+  oilrecoverresourcemin float,
+  oilrecoverresourcemax float,
+  gasgenerating float,
+  gasdischarge float,
+  gasprovreserves float,
+  gasprovrecoverreserves float,
+  gascontrolreserves float,
+  gascontrolrecoverreserves float,
+  gaspredreserves float,
+  gaspredrecoverreserves float,
+  gaspotentialresources float,
+  gasnodiscovresources float,
+  gasnodiscovrecoverresources float,
+  gasresourcemean float,
+  gasresourcemin float,
+  gasresourcemax float,
+  gasrecoverresourcemean float,
+  gasrecoverresourcemin float,
+  gasrecoverresourcemax float,
+  condensateoilprovreserves float,
+  condensateoilprovrecoverreserves float,
+  condensateoilcontrolreserves float,
+  condensateoilcontrolrecoverreserves float,
+  condensateoilpredreserves float,
+  condensateoilpredrecoverreserves float,
+  condensateoilnodiscovresources float,
+  condensateoilnodiscovrecoverresources float,
+  condensateoilresourcemean float,
+  condensateoilresourcemin float,
+  condensateoilresourcemax float,
+  condensateoilrecoverresourcemean float,
+  condensateoilrecoverresourcemin float,
+  condensateoilrecoverresourcemax float,
+  constraint fk_resource_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_resource_shale
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  calibrationtype INTEGER,
+  meanarea float,
+  minarea float,
+  maxarea float,
+  meanrockvolume float,
+  minrockvolume float,
+  maxrockvolume float,
+  meanthickness float,
+  minthickness float,
+  maxthickness float,
+  meanrecoverresource float,
+  minrecoverresource float,
+  maxrecoverresource float,
+  meanrecoverreserve float,
+  minrecoverreserve float,
+  maxrecoverreserve float,
+  meanrecoverresourceabundance float,
+  minrecoverresourceabundance float,
+  maxrecoverresourceabundance float,
+  meanrecoverreserveabundance float,
+  minrecoverreserveabundance float,
+  maxrecoverreserveabundance float,
+  meanresource float,
+  minresource float,
+  maxresource float,
+  meanreserve float,
+  minreserve float,
+  maxreserve float,
+  meanresourceabundance float,
+  minresourceabundance float,
+  maxresourceabundance float,
+  meanreserveabundance float,
+  minreserveabundance float,
+  maxreserveabundance float,
+  recoverablecoeffiecient float,
+  exploretype VARCHAR2(255),
+  constraint fk_resource_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_repository
+(
+  repositoryid INTEGER not null primary key,
+  elementid INTEGER,
+  elementtype INTEGER,
+  whodo VARCHAR2(255),
+  whendo float,
+  pmaturity float,
+  mresource float,
+  exp float,
+  npv float,
+  rov float,
+  explrinvest float,
+  devlpinvest float,
+  maturetype VARCHAR2(255),
+  depthtype VARCHAR2(255),
+  traptype VARCHAR2(255),
+  resourcetype VARCHAR2(255),
+  fieldtype VARCHAR2(255),
+  constraint fk_repository_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table r_property_cap_rock_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table i_el_block_basic
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  licenseid INTEGER,
+  blockname VARCHAR2(255),
+  explorationlayer VARCHAR2(255),
+  evaluationunit VARCHAR2(255),
+  explorationunit VARCHAR2(255),
+  belongoilfield VARCHAR2(255),
+  belongfirststru VARCHAR2(255),
+  belongsecondstru VARCHAR2(255),
+  belongunit VARCHAR2(255),
+  basinarea float,
+  area float,
+  startdate INTEGER,
+  dateline INTEGER,
+  firsttime INTEGER,
+  belongprjname VARCHAR2(255),
+  isevaluate INTEGER,
+  remark VARCHAR2(255),
+  constraint fk_block_basic_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_block_basin
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  basinname VARCHAR2(255),
+  oilresource float,
+  gasresource float,
+  oilprovedreserves float,
+  gasprovedreserves float,
+  area float,
+  type VARCHAR2(255),
+  location VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_block_basin_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_block_primarystructure
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  primarystructuralname VARCHAR2(255),
+  area float,
+  type VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_block_primarystructure_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_block_secondrystructure
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  blocksecondarystructuralname VARCHAR2(255),
+  area float,
+  type VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_block_secondrystructure_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_block_thirdstructure
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  blockthirdstructuralname VARCHAR2(255),
+  area float,
+  type VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_block_thirdstructure_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_block_unit_exploration
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  earthquake2d float,
+  earthquake3d float,
+  wellnum INTEGER,
+  provedreserves float,
+  controledreserves float,
+  forecastreserves float,
+  potentialreserves float,
+  oilresource float,
+  gasresource float,
+  explorationdgree VARCHAR2(255),
+  explorationdomain VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_block_unit_exploration_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_cap
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  horizonfromid INTEGER,
+  horizontoid INTEGER,
+  captype VARCHAR2(255),
+  displacement float,
+  maxpermiability float,
+  avgpermiability float,
+  minpermiability float,
+  maxthickness float,
+  avgthickness float,
+  minthickness float,
+  area float,
+  areacoff float,
+  maxdepth float,
+  avgdepth float,
+  mindepth float,
+  capdestroydegree VARCHAR2(255),
+  strumovenum INTEGER,
+  oilyeartotraprelation VARCHAR2(255),
+  caplithology VARCHAR2(255),
+  avgcaparea float,
+  mincaparea float,
+  maxcaparea float,
+  constraint fk_cap_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_check
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  maxresabundance float,
+  minresabundance float,
+  maxp10divp90 float,
+  minp10divp90 float,
+  maxsuccessrate float,
+  minsuccessrate float,
+  maxscore float,
+  minscore float,
+  constraint fk_check_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_document
+(
+  elementid INTEGER,
+  whodo VARCHAR2(255),
+  docname VARCHAR2(255),
+  doctype VARCHAR2(255),
+  docdefine INTEGER,
+  docdata BLOB,
+  constraint fk_document_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table r_ppsv_fault_strength
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ppsv_water_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ppsv_migration_relation
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ppsv_migration_way
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_ppsv_composition_type
+(
+  id INTEGER not null primary key,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table i_el_preservation
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  faulttypeid VARCHAR2(255),
+  faultnumber INTEGER,
+  watertypeid VARCHAR2(255),
+  migrationrelationid VARCHAR2(255),
+  migrationwayid VARCHAR2(255),
+  compositionid INTEGER, 
+  maxerosionthick float,
+  avgerosionthick float,
+  minerosionthick float,
+  maxerosionarea float,
+  avgerosionarea float,
+  minerosionarea float,
+  waterppm float,
+  compositionnumber float,
+  accumulationperiod float,
+  faultstrength VARCHAR2(255),
+  tectonicactivity VARCHAR2(255),
+  overlyinglithology VARCHAR2(255),
+  tectonicperiod VARCHAR2(255),
+  fracturedegree VARCHAR2(255),
+  hydrocondition VARCHAR2(255),
+  sealtype VARCHAR2(255),
+  avgsealarea float,
+  maxsealarea float,
+  minsealarea float,
+  avgsealthickness float,
+  maxsealthickness float,
+  minsealthickness float,
+  prsdataupdate INTEGER,
+  prsdataindate INTEGER,
+  systerm VARCHAR2(255),
+  formation VARCHAR2(255),
+  sectionn VARCHAR2(255),
+  constraint fk_preservation_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_volume_sample
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  productarea float,
+  grossthickness float,
+  averageporosity float,
+  averagehcsaturation float,
+  rockdensity float,
+  oildensity float,
+  gascontent float,
+  geometricfactor float,
+  nettogrossratio float,
+  formationvolumefactor float,
+  recoveryfactor float,
+  recyclefactor float,
+  conversionfactor float,
+  constraint fk_volume_sample_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_volume_stat
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  minproductarea float,
+  modeproductarea float,
+  maxproductarea float,
+  mingrossthickness float,
+  modegrossthickness float,
+  maxgrossthickness float,
+  minaverageporosity float,
+  modeaverageporosity float,
+  maxaverageporosity float,
+  minaveragehcsaturation float,
+  modeaveragehcsaturation float,
+  maxaveragehcsaturation float,
+  minrockdensity float,
+  moderockdensity float,
+  maxrockdensity float,
+  minoildensity float,
+  modeoildensity float,
+  maxoildensity float,
+  mingascontent float,
+  modegascontent float,
+  maxgascontent float,
+  mingeometricfactor float,
+  modegeometricfactor float,
+  maxgeometricfactor float,
+  minnettogrossratio float,
+  modenettogrossratio float,
+  maxnettogrossratio float,
+  minformationvolumefactor float,
+  modeformationvolumefactor float,
+  maxformationvolumefactor float,
+  minrecoveryfactor float,
+  moderecoveryfactor float,
+  maxrecoveryfactor float,
+  minrecyclefactor float,
+  moderecyclefactor float,
+  maxrecyclefactor float,
+  minconversionfactor float,  	
+  modeconversionfactor float,  	
+  maxconversionfactor float,  
+  commitphase INTEGER,
+  wellnumber INTEGER,
+  footage INTEGER,
+  istest INTEGER,
+  geooil float,
+  geogas float,
+  recoveryrate float,
+  recoveryoil float,
+  recoverygas float,	
+  managementphase INTEGER,
+  constraint fk_volume_stat_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_exploration
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  groupname VARCHAR2(255),
+  resourcename VARCHAR2(50),
+  explorationdate INTEGER, 
+  commercialwells float,
+  commercialfootage float,
+  wells float,
+  evaluationwells float,
+  evaluationfootage float,
+  footage float,
+  seismiclength float,
+  seismicarea float,
+  investment float,
+  inplaceoil float,
+  recoverableoil float,
+  inplacegas float,
+  recoverablegas float,
+  constraint fk_exploration_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_segment
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  oilgasid INTEGER,
+  oilgasparameter VARCHAR2(255),
+  hcwaterid INTEGER,
+  hcwaterparameter VARCHAR2(255),
+  spilldepthid INTEGER,
+  spilldepthparameter VARCHAR2(255),
+  thickmultiplierid INTEGER,
+  thickmultiplierparameter VARCHAR2(255),
+  constraint fk_segment_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_trap_project
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  fromdate float,
+  todate float,
+  organization VARCHAR2(127),
+  conductor VARCHAR2(64),
+  auditor VARCHAR2(64),
+  auditstatus VARCHAR2(64),
+  trapstatus VARCHAR2(64),
+  remark VARCHAR2(255),
+  discoverdate float,
+  recheckdate float,
+  descdate float,
+  discoverydepartment VARCHAR2(255),
+  auditdepartment VARCHAR2(255),
+  submitdepartment VARCHAR2(255),
+  personicharge VARCHAR2(255),
+  submitdate float,
+  reviewcomments VARCHAR2(255),
+  reviewersign VARCHAR2(255),
+  reviewdate float,
+  reviewdepartment VARCHAR2(255),
+  exploreproject VARCHAR2(255),
+  subexplorproject VARCHAR2(255),
+  discoverymethod VARCHAR2(255),
+  trapoldname VARCHAR2(255),
+  recogtimes INTEGER
+);
+
+create table i_el_trap_reserve
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  commitdate float,
+  iswildcat INTEGER,
+  isdelphi INTEGER
+ );
+
+create table i_el_trap_reserve_discard
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  commitdate float
+ );
+
+create table i_el_trap_survey
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  basinname VARCHAR2(255),
+  firstunit VARCHAR2(255),
+  secondunit VARCHAR2(255),
+  geographydesc VARCHAR2(255),
+  surfacecondition VARCHAR2(255),
+  surfaceelevation float,
+  seisworkprocess VARCHAR2(255),
+  mainseisline VARCHAR2(255),
+  discoverreason VARCHAR2(255),
+  coordx float,
+  coordy float,
+  projectsys VARCHAR2(255),
+  coordsys VARCHAR2(255),
+  geographymap BLOB,
+  mainseislineprofile BLOB
+);
+
+create table i_el_trap_wildcat_well
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  wildcatwell VARCHAR2(255),
+  teststatus VARCHAR2(255),
+  indication VARCHAR2(255),
+  failedreason VARCHAR2(255),
+  designeddepth float,
+  expwellcost float,
+  startdate float,
+  finishdate float,
+  drillstatus VARCHAR2(255),
+  updowngrade VARCHAR2(255),
+  aprovalstatus VARCHAR2(255),
+  gradingreason VARCHAR2(255),
+  remark VARCHAR2(255)
+);
+
+create table i_el_trap
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  isinuse INTEGER,
+  horizonfromid INTEGER,
+  horizontoid INTEGER,
+  traptypeid INTEGER,
+  rangemaxheight float,
+  rangeavgheight float,
+  areaclosure float,
+  areaoilclosure float,
+  areagasclosure float,
+  areamaxcoff float,
+  areaavgcoff float,
+  areamincoff float,
+  formationtime VARCHAR2(255),
+  knownarea float,
+  predicationarea float,
+  knownnumber float,
+  predicationnumber float,
+  reliability float,
+  drillsuccess float,
+  traptype VARCHAR2(32),
+  seishorizon VARCHAR2(32),
+  geohorizon VARCHAR2(32),
+  isrestoretrap INTEGER,
+  trapsphasetype VARCHAR2(255),
+  highpointdepth float,
+  highpointelevation float,
+  trapfield INTEGER,
+  childrennumber INTEGER,
+  resourcetype INTEGER,
+  remark VARCHAR2(255),
+  constraint fk_trap_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_trap_development
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  isdiscovery INTEGER,
+  stdproduction float,
+  maxproduction float,
+  avgproduction float,
+  wellsolution VARCHAR2(255),
+  testmax float,
+  testavg float,
+  decision VARCHAR2(127),
+  remark VARCHAR2(255),
+  discoverytype VARCHAR2(255),
+  result VARCHAR2(255),
+  wellnum VARCHAR2(255)
+);
+
+create table i_el_trap_wildcat_drill
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  wildcatwell VARCHAR2(255),
+  constrprogress VARCHAR2(255),
+  wellfunctions VARCHAR2(255),
+  targetformation VARCHAR2(255),
+  currentdepth float,
+  remainfootage float,
+  currentformation VARCHAR2(255),
+  currentfootage float,
+  resourceindication VARCHAR2(255),
+  projectstatus VARCHAR2(255),
+  drillingdensity float,
+  reportdate INTEGER,
+  drillingdays INTEGER,
+  planedyear INTEGER,
+  totalindication VARCHAR2(255),
+  conclution VARCHAR2(255)
+);
+
+create table i_el_trap_exploration
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  statdate float,
+  drillstatus VARCHAR2(64),
+  drillresult VARCHAR2(64),
+  drillevaluation VARCHAR2(64),
+  drillconclusion VARCHAR2(64),
+  drilldate float,
+  discoveryid VARCHAR2(64),
+  discoverydate float,
+  drilled INTEGER,
+  drilling INTEGER,
+  footage float,
+  tested INTEGER,
+  testing INTEGER,
+  successes INTEGER,
+  oilresource float,
+  gasresource float,
+  remark VARCHAR2(255),
+  phasetype INTEGER,
+  oilfieldname VARCHAR2(255),
+  resourcekind VARCHAR2(255),
+  seismiclength VARCHAR2(255),
+  seismicarea VARCHAR2(255),
+  wells INTEGER,
+  lowwells INTEGER,
+  untested INTEGER,
+  untestedlogs INTEGER,
+  failedwell INTEGER,
+  seic2ddiscovrate float,
+  newtraparea float,
+  yearnewseiclong float,
+  seic3dprofit float,
+  newoilgasarea float,
+  seic3dworkarea float
+);
+
+create table i_el_trap_geology_fault
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  faultname VARCHAR2(255),
+  brokenseishorizon VARCHAR2(255),
+  brokengeohorizon VARCHAR2(255),
+  faultproperty VARCHAR2(255),
+  faultdip float,
+  faultdipangle float,
+  faultheave float,
+  faultextension float
+);
+
+create table i_el_trap_wildcat_post
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  wildcatwell VARCHAR2(255),
+  trapcondition float,
+  filldingcondition float,
+  reservoircondition float,
+  reservecondition float,
+  failedcongnizing VARCHAR2(255),
+  drilledconclusion VARCHAR2(255),
+  advise VARCHAR2(255),
+  formation VARCHAR2(255),
+  oilrate float,
+  gasrate float,
+  maintarget VARCHAR2(255),
+  postdrillarea float,
+  postdrillthick float,
+  postdrillURF float,
+  postdrillreserve float
+);
+
+create table i_el_pool
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  groupname VARCHAR2(255),
+  resourcename VARCHAR2(255),
+  traptypeid VARCHAR2(255),
+  appraisalwells INTEGER,
+  industrywells INTEGER,
+  drillwells INTEGER,
+  founddate INTEGER,
+  areaheight float,
+  areaclosure float,
+  inplaceoil float,
+  recoverableoil float,
+  inplacegas float,
+  recoverablegas float,
+  usedreserves float,
+  recoverydegree float,
+  dataupdate INTEGER,
+  dataindate INTEGER,
+  effethickness float,
+  avgverwellprod float,
+  avghorwellprod float,
+  avgverwelleur float,
+  avghorwelleur float,
+  recoveryfactor float,
+  reserveabundance float,
+  constraint fk_pool_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table i_el_horizon
+(
+  propertyid INTEGER not null primary key,
+  elementid INTEGER,
+  horizonname VARCHAR2(127),
+  remark VARCHAR2(255),
+  constraint fk_horizon_elementid foreign key (elementid) references i_el(elementid)
+);
+
+create table r_activity
+(
+  activityid INTEGER not null primary key,
+  parentid INTEGER,
+  type INTEGER,
+  name VARCHAR2(255),
+  remark VARCHAR2(255)
+);
+
+create table a_practice
+(
+  practiceid INTEGER not null primary key,
+  elementid INTEGER,
+  managementphase INTEGER,
+  activityid INTEGER,
+  whendo float,
+  whodo VARCHAR2(64),
+  approved CHAR(1),
+  templateidx INTEGER,
+  npv float,
+  groupname VARCHAR2(255),
+  distribution VARCHAR2(255),
+  parameter VARCHAR2(255),
+  remark VARCHAR2(255),
+  recordtype VARCHAR2(255),
+  lockuser VARCHAR2(255),
+  lockreaduser VARCHAR2(255),
+  canreplace INTEGER,
+  constraint fk_ap_elementid foreign key (elementid) references i_el(elementid),
+  constraint fk_ap_activityid foreign key (activityid) references r_activity(activityid)
+);
+
+create table a_risk
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  factorid INTEGER,
+  maturity float,
+  minrisk float,
+  avgrisk float,
+  maxrisk float,
+  pshare float,
+  probabilitytreeid INTEGER,
+  constraint fk_a_risk_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_template_blob
+(
+  elementid INTEGER,
+  templateid INTEGER,
+  factorid INTEGER,
+  name VARCHAR2(255),
+  fileblob BLOB
+);
+
+create table a_well_performance_dre_middle
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  practiceid INTEGER,
+  cumulativegasproduction float,
+  pz float,
+  gasproductivityindex float,
+  pzdatastatus INTEGER
+);
+
+create table a_well_performance_dre_result
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  practiceid INTEGER,
+  materialbalancemethod float,
+  adsorbedgasdesorption float,
+  stresssensitivity float,
+  slopem float,
+  interceptb float,
+  theoreticalproductionindex float,
+  calculatedtotalreserves float,
+  calculatedfreegasreserves float,
+  calculatedabsorbedgasreserves float,
+  abandonstratapressure float,
+  predictedeur float,
+  predictedrecoverypercent float,
+  remark VARCHAR2(255)
+);
+
+create table a_well_performance_practice
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  practiceid INTEGER,
+  activityid INTEGER,
+  whendo float,
+  name VARCHAR2(255),
+  remark VARCHAR2(255)
+);
+
+create table a_resource
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  kindname VARCHAR2(32),
+  categoryname VARCHAR2(32),
+  classname VARCHAR2(32),
+  groupname VARCHAR2(255),
+  minn INTEGER,
+  avgn INTEGER,
+  maxn INTEGER,
+  minpool float,
+  avgpool float,
+  maxpool float,
+  meanq float,
+  stdq float,
+  minq float,
+  avgq float,
+  maxq float,
+  constraint fk_a_resource_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_parameter
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  probname VARCHAR2(255),
+  probpara VARCHAR2(255),
+  fractiles INTEGER,
+  parameter CLOB,
+  constraint fk_a_parameter_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_correlation
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  firstid INTEGER,
+  secondid INTEGER,
+  correlation float,
+  constraint fk_a_correlation_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_jobstream
+(
+  jobid INTEGER not null primary key,
+  practiceid INTEGER,
+  elementid INTEGER,
+  relid INTEGER,
+  nodeid INTEGER,
+  parentid INTEGER,
+  childid INTEGER,
+  nodelevel INTEGER,
+  nodename VARCHAR2(255),
+  nodekey VARCHAR2(255),
+  nodetip VARCHAR2(255),
+  glyphtype INTEGER,
+  nodecolor INTEGER,
+  xcoord float,
+  ycoord float,
+  layouttype INTEGER,
+  minx float,
+  maxx float,
+  miny float,
+  maxy float,
+  jobgroupid INTEGER,
+  jobgroupname VARCHAR2(255),
+  constraint fk_a_jobstream_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_policy
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  calculationtype INTEGER,
+  rounds INTEGER,
+  startdate INTEGER,
+  npvdate INTEGER,
+  irr float,
+  pi float,
+  discountrate float,
+  inflation float,
+  productionpolicy int,
+  gasdisposal int,
+  screenreserve float,
+  oilcommodity float,
+  gascommodity float,
+  vat float,
+  oil2gas float,
+  gas2oil float,
+  scenariomode INTEGER,
+  scenarioitrnum INTEGER,
+  userseedmode INTEGER,
+  userseednum INTEGER,
+  data BLOB,
+  paradata BLOB,
+  constraint fk_a_npv_policy_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_scenario
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  data BLOB,
+  dataresult BLOB,
+  constraint fk_a_npv_scenario_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_risk
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  marginal float,
+  conditional float,
+  unconditional float,
+  dryholerisk float, 
+  constraint fk_a_npv_risk_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+
+create table a_npv_resource
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  resourceid INTEGER,
+  reserve float,
+  oilpracticeid INTEGER,
+  gaspracticeid INTEGER,
+  oilactivitytype INTEGER,
+  gasactivitytype INTEGER,
+  gasreserve float,
+  constraint fk_a_npv_resource_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+
+create table a_npv_edp_basic
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  expprevduration INTEGER,
+  expprevwellnumber INTEGER,
+  expduration INTEGER,
+  expwellnumber INTEGER,
+  expappduration INTEGER,
+  expappwellnumber INTEGER,
+  devappduration INTEGER,
+  devappwellnumber INTEGER,
+  devduration INTEGER,
+  devwellnumber INTEGER,
+  prodbuildup INTEGER,
+  prodplateau INTEGER,
+  proddecline INTEGER,
+  proddisposal INTEGER,
+  prodwellnumber INTEGER,
+  prodinjectionnumber INTEGER,
+  plateauproduceratio float,
+  declinetype INTEGER,
+  declinerate float,
+  declineindex float,
+  declineformula VARCHAR2(255),
+  oilproscale float,
+  oildecrate float,
+  gasproscale float,
+  gasdecrate float,
+  paradata BLOB,
+  oilformuladata BLOB,
+  gasformuladata BLOB,
+  constraint fk_a_npv_edp_basic_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_edp_schedule
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  resourceid INTEGER,
+  whendo INTEGER,
+  reserve float,
+  drillingnumber INTEGER,
+  injectionnumber INTEGER,
+  paradata BLOB,
+  constraint fk_a_npv_edp_schedule_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_cost_basic
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  calmethod INTEGER,
+  expwellnum INTEGER,
+  expwelldepth float,
+  expwellcost float,
+  devwellnum long,
+  devwelldepth float,
+  devwellcost float,
+  devsurfacecost float,
+  data BLOB,
+  paradata BLOB,
+  solutiondata BLOB,
+  expwelldata BLOB,
+  devwelldata BLOB,
+  constraint fk_a_npv_cost_basic_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_cost_detail
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  resourceid INTEGER,
+  expwellnum INTEGER,
+  expwelldepth float,
+  expwellcost float,
+  devwellnum INTEGER,
+  devwelldepth float,
+  devwellcost float,
+  devsurfacecost float,
+  data BLOB,
+  constraint fk_a_npv_cost_detail_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_cost_mmbs
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  resourceid INTEGER,
+  deprimethod INTEGER,
+  depriyear INTEGER,
+  calmethod INTEGER,
+  data BLOB,
+  paradata BLOB,
+  solutiondata BLOB,
+  constraint fk_a_npv_cost_mmbs_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_price
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  resourceid INTEGER,
+  whendo INTEGER,
+  price float,
+  inflation float,
+  paradata BLOB,
+  solutiondata BLOB,
+  oilallowance float,
+  gasallowance float,
+  constraint fk_a_npv_price_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_npv_tax
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  resourceid INTEGER,
+  whendo INTEGER,
+  incometax float,
+  revenueoiltax float,
+  revenuegastax float,  
+  data BLOB,
+  paradata BLOB,
+  solutiondata BLOB,
+  constraint fk_a_npv_tax_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+
+create table a_npv_summary
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  discountrate float,
+  npv float,
+  irr float,
+  npvtax float,
+  irrtax float,
+  pc float,
+  pe float,
+  gaspc float,
+  gaspe float,
+  pcres float,
+  peres float,
+  emv float,
+  emvtax float,
+  gaspcres float,
+  gasperes float,
+  wellexp float,
+  expcost float,
+  devcost float,
+  avgoperation float,
+  procapacity VARCHAR2(255),
+  price VARCHAR2(255),
+  avgmanagementcost float,
+  avgspecialcost float,
+  riskvalue float,
+  avgoilcommdity float,
+  avggascommdity float,
+  procapacity2 VARCHAR2(255),
+  paradata BLOB,
+  sipcparadata BLOB,
+  costrcparadata BLOB,
+  pscparadata BLOB,
+  constraint fk_a_npv_summary_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_repository_genetic
+(
+  practiceid INTEGER,
+  constraint fk_a_repository_genetic_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_repository_scenario
+(
+  practiceid INTEGER,
+  constraint fk_a_repository_scenario_pid foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_repository_pfolio
+(
+  practiceid INTEGER,
+  repositoryid INTEGER,
+  groupid INTEGER,
+  investmentrate float,
+  xvalue float,
+  yvalue float,
+  xvaluetype INTEGER,
+  isapproved INTEGER,
+  constraint fk_a_repository_pfolio_pid foreign key (practiceid) references a_practice(practiceid),
+  constraint fk_a_repository_pfolio_rid foreign key (repositoryid) references i_el_repository(repositoryid)
+);
+
+create table a_bayes_net_node
+(
+  bayesnetworkid INTEGER,
+  whodo VARCHAR2(255),
+  whendo INTEGER,
+  remark VARCHAR2(64),
+  id INTEGER,					
+  name VARCHAR2(255),
+  states VARCHAR2(255),
+  priors VARCHAR2(255),
+  posteriors VARCHAR2(255),
+  parents INTEGER,
+  settings VARCHAR2(255),
+  descs VARCHAR2(255),
+  stateId INTEGER,
+  ishidden CHAR(1),
+  isevidence CHAR(1),
+  iswarning CHAR(1),
+  m_x float,
+  m_y float
+);
+
+create table a_bayes_net_branch
+(
+  bayesnetworkid INTEGER,
+  whodo VARCHAR2(255),
+  whendo INTEGER,
+  nodeidfrom INTEGER,
+  nodeidto INTEGER,
+  ishidden CHAR(1)
+);
+
+
+create table a_decision_tree_node
+(
+  decisiontreeid INTEGER,
+  whodo VARCHAR2(255),
+  whendo INTEGER,
+  remark VARCHAR2(64),
+  nodeid INTEGER,
+  type INTEGER,
+  decisionvalue float,
+  nodeValue float,
+  parentid INTEGER,
+  leftnode INTEGER,
+  rightnode INTEGER,
+  issolved CHAR(1),
+  isgreen CHAR(1),
+  isvisible CHAR(1),
+  nodelevel INTEGER,
+  childrendegree INTEGER,
+  childhighy float,
+  childlowy float,
+  isreverseprobability CHAR(1),
+  reversevalue float,
+  m_code VARCHAR2(255),
+  m_x float,
+  m_y float,
+  curlevel INTEGER,
+  maxid INTEGER
+);
+
+create table a_decision_tree_branch
+(
+  decisiontreeid INTEGER,
+  whodo VARCHAR2(255),
+  whendo INTEGER,
+  remark VARCHAR2(64),
+  type INTEGER,
+  description VARCHAR2(255),
+  nodevalue float,
+  fromnodeid INTEGER,
+  tonodeid INTEGER,
+  x1 float,
+  y1 float,
+  x2 float,
+  y2 float,
+  x3 float,
+  y3 float,
+  isgreen CHAR(1),
+  isvisible CHAR(1),
+  reversevalue float
+);
+
+create table a_pb_tree_node
+(
+  probabilitytreeid INTEGER,	
+  whodo VARCHAR2(255),
+  whendo INTEGER,
+  remark VARCHAR2(64),
+  nodeid INTEGER,
+  description VARCHAR2(255),
+  nodevalue float,
+  parentid INTEGER,
+  leftnode INTEGER,
+  rightnode INTEGER,
+  issolved CHAR(1),
+  isgreen CHAR(1),
+  nodelevel INTEGER,
+  childrendegree INTEGER,
+  childhighy float,
+  childlowy float,
+  m_code VARCHAR2(255),
+  m_x float,
+  m_y float,
+  curlevel INTEGER,
+  x_step float,
+  y_step float,
+  m_names VARCHAR2(255),
+  degree float,
+  maxid INTEGER,
+  maxdegree float,
+  isreversemode CHAR(1),
+  startlevel INTEGER,
+  endlevel INTEGER,
+  valsmap BLOB
+);
+
+create table a_pb_tree_branch
+(
+  probabilitytreeid INTEGER,
+  whodo VARCHAR2(255),
+  whendo INTEGER,
+  remark VARCHAR2(64),
+  description VARCHAR2(255),
+  nodevalue float,
+  fromnodeid INTEGER,
+  tonodeid INTEGER,
+  x1 float,
+  y1 float,
+  x2 float,
+  y2 float,
+  isgreen CHAR(1),
+  reversevalue float
+);
+
+create table r_activity_template
+(
+  username VARCHAR2(255),
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  activityIdx INTEGER,
+  parentIdx INTEGER,
+  type INTEGER,
+  name VARCHAR2(255),
+  remark VARCHAR2(255),
+  indexvalue INTEGER,
+  isshown VARCHAR2(255),
+  unitfor INTEGER,
+  iscurrenttemplate INTEGER,
+  isvalid VARCHAR2(255)
+);
+
+create table r_behar_kinetics
+(
+  heharid INTEGER,
+  hebarcategory VARCHAR2(255),
+  hi VARCHAR2(255),
+  activition_energy VARCHAR2(255),
+  methane VARCHAR2(255),
+  c2_c5 VARCHAR2(255),
+  c6_c14 VARCHAR2(255),
+  c15 VARCHAR2(255)
+);
+
+create table r_activity_menu
+(
+  username VARCHAR2(255),
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  iscurtemplate INTEGER,
+  itemid INTEGER,
+  itemparentid INTEGER,
+  itemname VARCHAR2(255),
+  itemtype INTEGER,
+  itemlevel INTEGER,
+  itemorder INTEGER,
+  functionid INTEGER,
+  imageid INTEGER,
+  isshown INTEGER,
+  remark VARCHAR2(255)
+);
+
+create table r_report_grid_template
+(
+  username VARCHAR2(255),
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  datatype VARCHAR2(255),
+  tablename VARCHAR2(255),
+  fieldname VARCHAR2(255)
+);
+
+create table r_rh_template
+(
+  username VARCHAR2(255),
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  mrow INTEGER,
+  col INTEGER,
+  rowsize INTEGER,
+  colsize INTEGER,
+  stringvalue VARCHAR2(255),
+  tablename VARCHAR2(255),
+  fieldname VARCHAR2(255),
+  isorderby INTEGER,
+  isunion INTEGER,
+  orderbyprior INTEGER
+);
+
+create table r_rh_dimcol_template
+(
+  username VARCHAR2(255),
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  col INTEGER,
+  dimlevel INTEGER,
+  parentidtablename VARCHAR2(255),
+  parentidfieldname VARCHAR2(255),
+  idtablename VARCHAR2(255),
+  idfieldname VARCHAR2(255),
+  identifytablename VARCHAR2(255),
+  identifyfieldname VARCHAR2(255),
+  contenttablename VARCHAR2(255),
+  contentfieldname VARCHAR2(255),
+  isorderby INTEGER,
+  isunion INTEGER,
+  orderbyprior INTEGER
+);
+
+create table r_rh_where_condition_template
+(
+  username VARCHAR2(255),
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  lefttablename VARCHAR2(255),
+  leftfieldname VARCHAR2(255),
+  righttablename VARCHAR2(255),
+  rightfieldname VARCHAR2(255)
+);
+
+create table r_report_grid
+(
+  formatname VARCHAR2(127),
+  posx INTEGER,
+  posy INTEGER,
+  type INTEGER,
+  sizex INTEGER,
+  sizey INTEGER,
+  rowsize INTEGER,
+  colsize INTEGER,
+  totalheight INTEGER,
+  totalwidth INTEGER,
+  blobdata BLOB
+);
+
+create table i_el_evaluation
+(
+  elementid INTEGER,
+  whodo VARCHAR2(255),
+  managementphase INTEGER,
+  mresource float,
+  resource10 float,
+  resource90 float,
+  resource00 float,
+  ppolitic float,
+  pmaturity float,
+  pengineering float,
+  irr float,
+  npv float,
+  emv float,
+  strategy float,
+  istrapcandidate INTEGER,
+  iswellcandidate INTEGER,
+  trapr float,
+  wellr float,
+  traprank INTEGER,
+  wellrank INTEGER,
+  oilfieldname VARCHAR2(255),
+  resourcename VARCHAR2(32),
+  recovery float,
+  pshare float,
+  pbusiness float,
+  peconomic float,
+  economic float,
+  npv10 float,
+  npv90 float,
+  npv00 float,
+  explrinvest float,
+  devlpinvest float,
+  riskid INTEGER,
+  resourceid INTEGER,
+  economicid INTEGER,
+  selectionid INTEGER,
+  p2dseismic float,
+  p3dseismic float,
+  projectarea float,
+  costpertone float,
+  discovertype INTEGER,
+  optimyear INTEGER,
+  optimnum INTEGER,
+  pmaturityenv float,
+  pmaturityeco float
+);
+
+create table a_resource_detail
+(
+  practiceid INTEGER,
+  elementid INTEGER,
+  activityid INTEGER,
+  type VARCHAR2(255),
+  geologicalsamples BLOB,
+  recoverysamples BLOB
+);
+
+create table ref_database_version
+(
+  dbversion VARCHAR2(255)
+);
+
+create table ref_face_definition
+(
+  faceid INTEGER,
+  facename VARCHAR2(255),
+  facecolor INTEGER,
+  lithname VARCHAR2(255),
+  lithovariablenum INTEGER,
+  toc float,
+  itemnametoc VARCHAR2(255),
+  viewnametoc VARCHAR2(255),
+  interpolatetypetoc INTEGER,
+  hio float,
+  itemnamehio VARCHAR2(255),
+  viewnamehio VARCHAR2(255),
+  interpolatetypehio INTEGER,
+  ineticname VARCHAR2(255),
+  tocs BLOB,
+  hios BLOB
+);
+
+create view i_el_evaluation_view as select i_el.elementid, whodo, managementphase, parentid, name, type, foundtime, calibration, weight, resourcemin, largemin, largemax, screening, resourcename, mresource, resource10, resource90, resource00, ppolitic, recovery, pmaturity, pshare, pbusiness, peconomic, pengineering, irr, npv, emv, economic, strategy, istrapcandidate, iswellcandidate, trapr, wellr, traprank, wellrank, oilfieldname, npv10, npv90, npv00, explrinvest, devlpinvest, riskid, resourceid, economicid, selectionid, p2dseismic, p3dseismic, projectarea, costpertone, discovertype, optimyear, optimnum, pmaturityenv, pmaturityeco from i_el, i_el_evaluation where i_el.elementid=i_el_evaluation.elementid;
+
+create table r_kida_category
+(
+  categoryid INTEGER not null primary key,
+  categoryparentid INTEGER,
+  type INTEGER,
+  name VARCHAR2(127),
+  categoryorder INTEGER,
+  remark VARCHAR2(255),
+  lockuser VARCHAR2(255),
+  lockreaduser VARCHAR2(255),
+  usernames VARCHAR2(255),
+  readonlyusernames VARCHAR2(255),
+  extentxmin float,
+  extentxmax float,
+  extentymin float,
+  extentymax float,
+  coordinatesystem VARCHAR2(255),
+  project VARCHAR2(255),
+  curvedesc CLOB,
+  isactivate INTEGER
+);
+
+create table r_kida_theme
+(
+  themeid INTEGER not null primary key,
+  type INTEGER,
+  name VARCHAR2(127),
+  remark VARCHAR2(255)
+);
+
+create table r_kida_class
+(
+  classid INTEGER not null primary key,
+  categoryid INTEGER,
+  themeid INTEGER,
+  type INTEGER,
+  name VARCHAR2(127),
+  parentname VARCHAR2(127),
+  source VARCHAR2(255),
+  minx float,
+  miny float,
+  maxx float,
+  maxy float,
+  layerorder INTEGER,
+  isshown INTEGER,
+  canselect INTEGER,
+  remark VARCHAR2(255),
+  lockuser VARCHAR2(255),
+  lockreaduser VARCHAR2(255),
+  seisparentid INTEGER,
+  contourtype INTEGER,
+  usernames VARCHAR2(255),
+  readonlyusernames VARCHAR2(255),
+  relatelayer VARCHAR2(255),
+  projtype INTEGER,
+  coordtype INTEGER,
+  constraint fk_kida_class_categoryid foreign key (categoryid) references r_kida_category(categoryid),
+  constraint fk_kida_class_themeid foreign key (themeid) references r_kida_theme(themeid)	
+);
+
+create table r_kida_dataset
+(
+  gateid INTEGER not null primary key,
+  layerid INTEGER,
+  tileid INTEGER,
+  xlayercount INTEGER,
+  ylayercount INTEGER,
+  layershift INTEGER,
+  xtilecount INTEGER,
+  ytilecount INTEGER,
+  minx float,
+  miny float,
+  maxx float,
+  maxy float,
+  remark VARCHAR2(255)
+);
+
+create table d_well_basic
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  wellid INTEGER not null primary key,
+  classid INTEGER,
+  geometryid INTEGER,
+  adminid INTEGER,
+  name VARCHAR2(255),
+  INTEGERitude float,
+  latitude float,
+  xcoord float,
+  ycoord float,
+  groundevaluation float,
+  totaldepth float,
+  groupnumber VARCHAR2(128),
+  wellnumber VARCHAR2(128),
+  wellstatus VARCHAR2(128),
+  welltype VARCHAR2(128),
+  boretype VARCHAR2(128),
+  fluidtype VARCHAR2(128),
+  nullvalue float,
+  wellkb float,
+  welleurs float,
+  welldrainage float,
+  welllogistic VARCHAR2(255),
+  gfspara VARCHAR2(255),
+  gfsname VARCHAR2(255),
+  gfslocalpath VARCHAR2(255),
+  aliasname VARCHAR2(255),
+  kb float,
+  kbe float,
+  tvdss float,
+  well_type VARCHAR2(255),
+  well_area VARCHAR2(255),
+  drilling_type VARCHAR2(255),
+  completion_date VARCHAR2(255),
+  drill_finishing_date VARCHAR2(255),
+  completion_depth float,
+  vertical_depth float,
+  completion_formation VARCHAR2(255),
+  completion_method VARCHAR2(255),
+  ai_bottom_depth float,
+  x_coord_bottom_hole float,
+  y_coord_bottom_hole float,
+  total_drill_depth float,
+  pm_start_elevation float,
+  pm_total_drill_depth float,
+  pm_true_vertical_depth float,
+  symbol_style VARCHAR2(255),
+  symbol_size float,
+  remark VARCHAR2(255),
+  groupname VARCHAR2(255)
+);
+
+create table d_well_basic_more
+(
+  wellid INTEGER not null primary key
+);
+
+create table d_well_atttable
+(
+  classid INTEGER,
+  tablename VARCHAR2(255),
+  othername VARCHAR2(255),
+  fieldlength INTEGER,
+  fieldcontent BLOB
+);
+
+create table d_well_geometry
+(
+  geometryid INTEGER not null primary key,
+  layerid INTEGER,
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  coords BLOB 
+);
+
+create table d_well_bore
+(
+  boreid INTEGER not null primary key,
+  wellid INTEGER,
+  name VARCHAR2(128),
+  targettstrata VARCHAR2(128),
+  perforationnumber float,
+  perforationlength float,
+  horizontallength float
+);
+
+create table d_well_trace
+(
+  boreid INTEGER,
+  datatype INTEGER,
+  traceid INTEGER,
+  datatypename VARCHAR2(255),
+  tracename VARCHAR2(255),
+  tracealiasname VARCHAR2(255),
+  datadesc CLOB,
+  zlib INTEGER,
+  unziplen INTEGER,
+  tracedata BLOB,
+  constraint fk_well_trace_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_pick
+(
+  boreid INTEGER,
+  zoneid INTEGER,
+  pickby VARCHAR2(128),
+  pickname VARCHAR2(128),
+  coordx float,
+  coordy float,
+  dipangle float,
+  dipazimuth float,
+  topmd float,
+  toptvd float,
+  toptvdss float,	
+  mtime float,
+  thick float,
+  lithosymbolidx float,
+  faultheave float,
+  faultname VARCHAR2(128),
+  faulttype VARCHAR2(128),
+  color INTEGER,
+  lithname VARCHAR2(255),
+  aliasname VARCHAR2(255),
+  source VARCHAR2(255),
+  northing float,
+  easting float,
+  basemd float,
+  basetvd float,
+  basetvdss float,
+  grossthickness float,
+  tvt float,
+  tst float,
+  gapthickness float,
+  boreazimuth float,
+  boreangle float,
+  faultdepth float,
+  faultseparation float,
+  comparedwell VARCHAR2(255),
+  constraint fk_well_pick_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_zone
+(
+  boreid INTEGER,
+  wellzone VARCHAR2(128),
+  basemd INTEGER,
+  baspickname VARCHAR2(128),
+  parentzone VARCHAR2(128),
+  topmd INTEGER,
+  toppickname VARCHAR2(128),
+  zonethickness INTEGER,
+  constraint fk_well_zone_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_variable
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  wellid INTEGER,
+  name VARCHAR2(255),
+  ishc INTEGER,
+  xcoord float,
+  ycoord float,
+  grossthickness float,
+  netthickness float,
+  porosity float,
+  saturation float,
+  netgross float,
+  capthickness float,
+  estimateduplift float,
+  presuregradient float,
+  salinitygradient float,
+  structure float,
+  structureresiduals float,
+  md float,
+  risk float,
+  mresource float,
+  predication float,
+  sourcerockthickness float,
+  toccontent float,
+  romaturity float,
+  absortedgas float,
+  dailyproduction float,
+  organictype VARCHAR2(255),
+  wellrecovery float,
+  wellreserve float,
+  resourceabundance float,
+  mineralcomponent float,
+  forg float
+);
+
+create table d_well_volume_sample
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  productarea float,
+  grossthickness float,
+  wvsr float,
+  wvstoc float,
+  wvspsh float,
+  wvspo float,
+  wvssone float,
+  wvsc float,
+  wvsstwenty float,
+  wvsbhc float,
+  wvsrf float,
+  wvstr float,
+  wvscf float
+);
+
+create table d_well_production
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  boreid INTEGER,
+  productiondate INTEGER,
+  productionstart float,
+  productionprediction float,
+  productionactual float,
+  declinestart float,
+  declineprediction float,
+  declineactual float,
+  declineformular VARCHAR2(255),
+  productiondays float,
+  watercut float	
+);
+
+create table d_well_performance_basic
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  wellname VARCHAR2(255),
+  wellstatus INTEGER,
+  welltype INTEGER,
+  coordinatex float,
+  coordinatey float
+);
+
+create table d_well_performance_casing
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  casingdeploymentid INTEGER,
+  deploymentname VARCHAR2(255),
+  casingcompletionmethod INTEGER,
+  casingbottomdepth float,
+  casingdiameter float,
+  casingwallroughness float
+);
+
+create table d_well_performance_deployment
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  CasingdeploymentID INTEGER,
+  TubingdeploymentID INTEGER,
+  welltrajectorydeploymentID INTEGER,
+  deploymentdate INTEGER,
+  deploymentname VARCHAR2(255),
+  wellpipemode VARCHAR2(255),
+  PerforationTopdepth float,
+  Perforationbottomdepth float,
+  completionmiddledepth float,
+  Wellheadtemperature float,
+  Reservoirtemperature float,
+  Flowpressurecalculationmodel INTEGER,
+  additionalpressuredrop float
+);
+
+create table d_well_performance_geological_parameter
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  initialstratapressure float,
+  stratatemperature float,
+  reservoirthickness float,
+  porosity float,
+  initialgassaturation float,
+  Porecompressioncoefficient float,
+  gasRelativedensity float,
+  CO2Molepercentage float,
+  H2SMolepercentage float,
+  N2Molepercentage float,
+  LangeMuirvolume float,
+  LangeMuirpressure float,
+  shaledensity float,
+  stratumwaterdensity float,
+  initialcompression float,
+  initialvolume float,
+  stratumwaterviscosity float,
+  gasdeviationfactor INTEGER,
+  gasviscosity INTEGER,
+  rw float,
+  soi float,
+  swi float,
+  cti float,
+  mg float
+);
+
+create table d_well_performance_pressure
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  measureddate INTEGER,
+  measureddepth float,
+  measuredTVD float,
+  measuredgasproduction float,
+  measuredpressure float,
+  statussign INTEGER,
+  remarks VARCHAR2(255)
+);
+
+create table d_well_performance_pressure_gradient
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  measureddate INTEGER,
+  measureddepth float,
+  measuredpressure float,
+  Measuredtemperature float
+);
+
+create table d_well_performance_production
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  productiondate INTEGER,
+  productionhours float,
+  Casingpressure float,
+  tubingpressure float,
+  gasproductionrate float,
+  waterproductionrate float,
+  oilproductionrate float,
+  calculatedsandfacepressure float,
+  calculatingpressure VARCHAR2(255)
+);
+
+create table d_well_performance_trajectory
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  welltrajectorydeploymentID INTEGER,
+  deploymentname VARCHAR2(255),
+  MeasuredDepth float,
+  TVD float,
+  Azimuthangle float
+);
+
+create table d_well_performance_tubing
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  TubingdeploymentID INTEGER,
+  deploymentname VARCHAR2(255),
+  TubingBottomDepth float,
+  Tubingdiameter float,
+  Tubingwallroughness float
+);
+
+create table d_well_geochemical_para
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  wellid INTEGER,
+  wellname VARCHAR2(255),
+  x float,
+  y float,
+  depth float,
+  toc float,
+  s1 float,
+  s2 float,
+  tmax float,
+  hi float,
+  oi float,
+  pi float,
+  hcporosity float,
+  matrix float,
+  vl float,
+  pl float,
+  gassaturation float
+);
+
+create table d_well_property
+(
+  boreid INTEGER,
+  componentname VARCHAR2(255),
+  linename VARCHAR2(255),
+  lineshowname VARCHAR2(255),
+  linecolorr INTEGER,
+  linecolorg INTEGER,
+  linecolorb INTEGER,
+  islineshown INTEGER,
+  linewidth float,
+  linepatternfirst float,
+  linepatternsecond float,
+  linepatternlen INTEGER,
+  islinelog INTEGER,
+  islinegrid INTEGER,
+  linenullvalue VARCHAR2(255),
+  lineunit VARCHAR2(255),
+  flpname VARCHAR2(255),
+  flpstep float,
+  flptype INTEGER,
+  flpcolor INTEGER,
+  flpisalpha INTEGER,
+  flpwidth float,
+  flpmincurvename VARCHAR2(255),
+  flpmaxcurvename VARCHAR2(255),
+  flptype1 INTEGER,
+  flpcolor1 INTEGER,
+  flpisalpha1 INTEGER,
+  isrenderfilling INTEGER,
+  gphorizonshow INTEGER,
+  gphorizoncolor INTEGER,
+  gphorizonbigcell INTEGER,
+  gphorizonsmallcell INTEGER,
+  gphorizonthinline INTEGER,
+  gphorizonmidline INTEGER,
+  gphorizonthickline INTEGER,
+  gpverticalshow INTEGER,
+  gpverticalcolor INTEGER,
+  gpverticalbigcell INTEGER,
+  gpverticalsmallcell INTEGER,
+  issquare INTEGER,
+  leftvalue float,
+  rightvalue float,
+  ticknum INTEGER,
+  constraint fk_well_property_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_image
+(
+  boreid INTEGER,
+  constraint fk_well_image_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_interpretation
+(
+  boreid INTEGER,
+  interpretationid INTEGER,
+  topdepth float,
+  bottomdepth float,
+  thickness float,
+  singlelayer VARCHAR2(255),
+  interpretationresult VARCHAR2(255),
+  netthickness float,
+  interpretationpor float,
+  interpretationperm float,
+  vsh float,
+  saturation float,
+  formationpos VARCHAR2(255),
+  sandset VARCHAR2(255),
+  constraint fk_well_interpretation_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_logging
+(
+  boreid INTEGER,
+  loggingunit VARCHAR2(255),
+  bottomdepth float,
+  thickness float,
+  colorcode INTEGER,
+  color VARCHAR2(255),
+  oilbearinggradecode INTEGER,
+  oilbearinggrade VARCHAR2(255),
+  lithologycode VARCHAR2(255),
+  lithologyname VARCHAR2(255),
+  desctype VARCHAR2(255),
+  sampletype VARCHAR2(255),
+  desctopdepth float,
+  desctoplength float,
+  recorddate VARCHAR2(255),
+  recorder VARCHAR2(255),
+  auditor VARCHAR2(255),
+  reviewer VARCHAR2(255),
+  constraint fk_well_logging_boreid foreign key (boreid) references d_well_bore(boreid)
+);
+
+create table d_well_log_template
+(
+  propertyid INTEGER,
+  classid INTEGER,
+  boreids VARCHAR2(255),
+  boreiddesc CLOB,
+  curvedesc CLOB,
+  curvecontent BLOB,
+  whendo float,
+  whodo VARCHAR2(255),
+  remark VARCHAR2(255)
+);
+
+create table d_well_mining_test
+(
+  boreid INTEGER,
+  miningstage INTEGER,
+  interpretationid VARCHAR2(255),
+  perforationtop float,
+  perforationbottom float,
+  thickness float,
+  layernum INTEGER,
+  start_meature VARCHAR2(255),
+  start_date INTEGER,
+  start_workingsystem VARCHAR2(255),
+  start_dailyliquidoutput float,
+  start_dailyoiloutput float,
+  start_rateofwater float,
+  start_dynamicliquidlevel float,
+  start_testpressure float,
+  end_date INTEGER,
+  end_productionsystem VARCHAR2(255),
+  end_dailyliquidoutput float,
+  end_dailyoiloutput float,
+  end_rateofwater float,
+  end_dynamicliquidlevel float,
+  end_testpressure float,
+  end_cumulativeoiloutput float,
+  end_cumulativewateroutput float,
+  currentsituation VARCHAR2(255),
+  totalthickness VARCHAR2(255),
+  constraint fk_well_mining_test_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_oil_test
+(
+  boreid INTEGER,
+  formation VARCHAR2(255),
+  testtop float,
+  testbottom float,
+  layernum INTEGER,
+  thickness float,
+  testdate INTEGER,
+  workingstyle VARCHAR2(255),
+  depth float,
+  times INTEGER,
+  flowpressure float,
+  staticpressure float,
+  dailyoiloutput float,
+  dailygasoutput float,
+  dailywateroutput float,
+  cumulativeoiloutput float,
+  cumulativewateroutput float,
+  watercontent float,
+  oildensity float,
+  oilviscosity float,
+  solidifyingpoint float,
+  sulphurcontent float,
+  totalminerization float,
+  chlorideioncontent float,
+  sulfateradical float,
+  watertype VARCHAR2(255),
+  testresult VARCHAR2(255),
+  constraint fk_well_oil_test_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_path
+(
+  boreid INTEGER,
+  md float,
+  tvd float,
+  inclination float,
+  azimuth float,
+  deltay float,
+  deltax float,
+  easting float,
+  northing float,
+  constraint fk_well_path_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_burial_history
+(
+  boreid INTEGER,
+  pid INTEGER,
+  resultparalength INTEGER,
+  iscompress INTEGER,
+  whendo float,
+  remark VARCHAR2(255),
+  layerpara BLOB,
+  resultpara BLOB,
+  settingpara BLOB,
+  constraint fk_well_burial_history_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_calibration
+(
+  boreid INTEGER,
+  caliname VARCHAR2(255),
+  pmtvdepth float,
+  tvdepth float,
+  pmmdepth float,
+  mdepth float,
+  calivalue float,
+  minval float,
+  maxval float,
+  calicolor INTEGER,
+  calisymbol INTEGER,
+  symbolsize float,
+  useforcalibration INTEGER,
+  caliquality VARCHAR2(255),
+  caliage VARCHAR2(255),
+  constraint fk_well_calibration_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_cross_section
+(
+  propertyid INTEGER,
+  classid INTEGER,
+  boreids VARCHAR2(255),
+  curvecontent BLOB,
+  profilecontent BLOB,
+  profiletype INTEGER,
+  stratigraphic VARCHAR2(255),
+  structural float,
+  whendo float,
+  whodo VARCHAR2(255),
+  remark VARCHAR2(255)
+);
+
+create table d_well_fault
+(
+  boreid INTEGER,
+  faultid VARCHAR2(255),
+  verticalsep float,
+  sliptype VARCHAR2(255),
+  dipangle float,
+  dipazimuth float,
+  constraint fk_well_fault_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_fracture
+(
+  boreid INTEGER,
+  fracturenb INTEGER,
+  fracturepor INTEGER,
+  fracturewid INTEGER,
+  fracturetl INTEGER,
+  fracturedel INTEGER,
+  fracturetrd INTEGER,
+  fracturetfl VARCHAR2(255),
+  constraint fk_well_fracture_boreid foreign key (boreid) references d_well_bore(boreid)	
+);
+
+create table d_well_shale_operation
+(
+  propertyid INTEGER,
+  elementid INTEGER,
+  boreid INTEGER,
+  operationdate INTEGER,
+  completionlength float,
+  fracfluidamount float,
+  proppingagent float,
+  wellorientation float,
+  fracstages INTEGER
+);
+
+create table d_seismic_project
+(
+  projectid INTEGER not null primary key,
+  coordinatesystemtype VARCHAR2(255),
+  depthcoordinatesystem VARCHAR2(255),
+  name VARCHAR2(255),
+  description VARCHAR2(255),
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  interpreters VARCHAR2(255),
+  remark VARCHAR2(127)
+);
+
+create table d_seismic_2dg
+(
+  geometryid INTEGER not null primary key,
+  elementid INTEGER,
+  classid INTEGER,
+  projectid INTEGER,
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  coords BLOB,
+  remark VARCHAR2(255),
+  constraint fk_seismic_2dg_classid foreign key (classid) references r_kida_class(classid),
+  constraint fk_seismic_2dg_jid foreign key (projectid) references d_seismic_project(projectid)
+);
+
+
+create table d_seismic_3dg
+(
+  geometryid INTEGER not null primary key,
+  elementid INTEGER,
+  classid INTEGER,
+  projectid INTEGER,
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  coords BLOB,
+  remark VARCHAR2(255),
+  constraint fk_seismic_3dg_classid foreign key (classid) references r_kida_class(classid),
+  constraint fk_seismic_3dg_jid foreign key (projectid) references d_seismic_project(projectid)
+);
+
+create table d_seismic_dataset
+(
+  datasetid INTEGER not null primary key,
+  fromid INTEGER,
+  projectid INTEGER,
+  geometryid INTEGER,
+  name VARCHAR2(255),
+  mcomment VARCHAR2(255),
+  datasource VARCHAR2(255),
+  compressionfactor float,
+  deltaz float,
+  domaintype VARCHAR2(255),
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  thetimestamp float,
+  maxz float,
+  minz float,
+  numtraces INTEGER,
+  samplekind VARCHAR2(255),
+  samplemax float,
+  samplemin float,
+  sampleunit VARCHAR2(255),
+  constraint fk_seismic_dataset_jid foreign key (projectid) references d_seismic_project(projectid)
+);
+
+create table i_el_geometry
+(
+  geometryid INTEGER not null primary key,
+  elementid INTEGER,
+  classid INTEGER,
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  coords BLOB,
+  constraint fk_elemenet_geometry_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table i_el_raster
+(
+  rasterid INTEGER not null primary key,
+  elementid INTEGER,
+  classid INTEGER,
+  stamptime float,
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  zmin float,
+  zmax float,
+  data BLOB,
+  imgwidth INTEGER,
+  imgheight INTEGER,
+  imgdepth INTEGER,
+  imgfilelength INTEGER,
+  version INTEGER,
+  iscurver INTEGER,
+  tilecode INTEGER,
+  iscompress INTEGER,
+  pictype VARCHAR2(255),
+  whodo VARCHAR2(255),
+  gfspara VARCHAR2(255),
+  gfsname VARCHAR2(255),
+  constraint fk_elemenet_raster_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table d_seismic_gate
+(
+  gateid INTEGER not null primary key,
+  datasetid INTEGER,
+  filepath VARCHAR2(255),
+  linename VARCHAR2(255),
+  isgde INTEGER,
+  gatetype INTEGER,
+  gfspara VARCHAR2(255),
+  gfsname VARCHAR2(255),
+  constraint fk_seismic_gate_datasetid foreign key (datasetid) references d_seismic_dataset(datasetid)
+);
+
+create table d_seismic_wavlet
+(
+  wavletid INTEGER not null primary key,
+  datasetid INTEGER,
+  wavletname VARCHAR2(255),
+  starttime float,
+  samplenumber float,
+  sampleinterval float,
+  traces BLOB,
+  constraint fk_seismic_wavlet_datasetid foreign key (datasetid) references d_seismic_dataset(datasetid)
+);
+
+create table d_seismic_surveyinfo
+(
+  gateid INTEGER,
+  nLineNum INTEGER,
+  nCDPNum INTEGER,
+  nStartLine INTEGER,
+  nStartCDP INTEGER,
+  nLineIncrement INTEGER,
+  nCDPIncrement INTEGER,
+  fOrientation float,
+  fDirection float,
+  fOrgX float,
+  fOrgY float,
+  fLineSpace float,
+  fCDPSpace float,
+  crdType INTEGER,
+  xmin float,
+  xmax float,
+  ymin float,
+  ymax float,
+  pos1x float,
+  pos1y float,
+  pos2x float,
+  pos2y float,
+  pos3x float,
+  pos3y float,
+  pos4x float,
+  pos4y float,
+  constraint fk_seismic_surveyinfo_gateid foreign key (gateid) references d_seismic_gate(gateid)
+);
+
+create table d_seismic_surveyinfoblob
+(
+  gateid INTEGER,
+  datatype INTEGER,
+  datacount INTEGER,
+  hafilesize INTEGER,
+  haviewsize INTEGER,
+  shotptxs BLOB,
+  shotptys BLOB,
+  detectionptxs BLOB,
+  detectionptys BLOB,
+  cdpptxs BLOB,
+  cdpptys BLOB,
+  azimuths BLOB,
+  angles BLOB,
+  distances BLOB,
+  gridandfilepos BLOB,
+  shotptxszlib INTEGER,
+  shotptyszlib INTEGER,
+  detectionptxszlib INTEGER,
+  detectionptyszlib INTEGER,
+  cdpptxszlib INTEGER,
+  cdpptyszlib INTEGER,
+  azimuthszlib INTEGER,
+  angleszlib INTEGER,
+  distanceszlib INTEGER,
+  gridandfileposzlib INTEGER,
+  constraint fk_seismic_surveyinfoblob_gateid foreign key (gateid) references d_seismic_gate(gateid)
+);
+
+create table d_seismic_headinfo
+(
+  gateid INTEGER,
+  nTraceNum INTEGER,
+  nTraceLen INTEGER,
+  nType INTEGER,
+  nTracePt INTEGER,
+  nInterval INTEGER,
+  lineNumber INTEGER,
+  reelNumber INTEGER,
+  constraint fk_seismic_headinfo_gateid foreign key (gateid) references d_seismic_gate(gateid)
+);
+
+create table d_seismic_profileinfo
+(
+  gateid INTEGER,
+  defaultStart INTEGER,
+  defaultEnd INTEGER,
+  userStart INTEGER,
+  userEnd INTEGER,
+  constraint fk_seismic_profileinfo_gateid foreign key (gateid) references d_seismic_gate(gateid)
+);
+
+create table d_seismic_tracedata
+(
+  gateid INTEGER,
+  nOrder INTEGER,
+  nPts INTEGER,
+  nInterval INTEGER,
+  nLineNo INTEGER,
+  nCDPNo INTEGER,
+  nSourceCrdX INTEGER,
+  nSourceCrdY INTEGER,
+  nCrdType INTEGER,
+  nStartTime INTEGER,
+  nEndTime INTEGER,
+  hcode INTEGER,
+  coordx float,
+  coordy float,
+  coordz float,
+  coordw float,
+  recordorder INTEGER,
+  minA float,
+  maxA float,
+  samplenumber INTEGER,
+  samples BLOB,
+  times BLOB,
+  constraint fk_seismic_tracedata_gateid foreign key (gateid) references d_seismic_gate(gateid)
+);
+
+create table d_seismic_ipt_em
+(
+  primaryid INTEGER not null primary key,
+  modelid INTEGER,
+  projectid INTEGER,
+  elementid INTEGER,
+  name VARCHAR2(255),
+  remark VARCHAR2(255),
+  constraint fk_seismic_ipt_em_jid foreign key (projectid) references d_seismic_project(projectid)
+);
+
+create table d_seismic_ipt_em_feature
+(
+  featureid INTEGER not null primary key,
+  projectid INTEGER,
+  featurekind INTEGER,
+  featuretype INTEGER,
+  name VARCHAR2(255),
+  isshown INTEGER,
+  remark VARCHAR2(255),
+  coords BLOB,
+  constraint fk_seismic_ipt_em_feature_jid foreign key (projectid) references d_seismic_project(projectid)
+);
+
+create table d_seismic_ipt_em_property
+(
+  featureid INTEGER not null primary key,
+  projectid INTEGER,
+  linecolorr INTEGER,
+  linecolorg INTEGER,
+  linecolorb INTEGER,
+  linewidth float,
+  linepatternfirst float,
+  linepatternsecond float,
+  linepatternlen INTEGER,
+  constraint fk_seismic_ipt_em_property_jid foreign key (projectid) references d_seismic_project(projectid)
+);
+
+create table d_ipt_fault_feature
+(
+  featureid INTEGER not null primary key,
+  projectid INTEGER,
+  surveyid INTEGER,
+  name VARCHAR2(255),
+  lastmodifieddate float,
+  shapetype INTEGER,
+  propertytype INTEGER,
+  maxvaluee float,
+  minvalue float,
+  nullvalue float
+);
+
+create table d_ipt_fault_geometry
+(
+  geometryid INTEGER not null primary key,
+  featureid INTEGER,
+  minx float,
+  maxx float,
+  miny float,
+  maxy float,
+  coords BLOB,
+  constraint fk_fault_featureid foreign key (featureid) references d_ipt_fault_feature(featureid)
+);
+
+create table d_ipt_horizon_feature
+(
+  featureid INTEGER not null primary key,
+  projectid INTEGER,
+  surveyid INTEGER,
+  name VARCHAR2(255),
+  lastmodifieddate float,
+  shapetype INTEGER,
+  propertytype INTEGER,
+  maxvaluee float,
+  minvalue float,
+  nullvalue float,
+  strataid INTEGER,
+  strataname VARCHAR2(127),
+  classification VARCHAR2(127),
+  geologicage float
+);
+
+create table d_ipt_horizon_geometry
+(
+  geometryid INTEGER not null primary key,
+  featureid INTEGER,
+  minx float,
+  maxx float,
+  miny float,
+  maxy float,
+  numrows INTEGER,
+  numcols INTEGER,
+  tracedelta INTEGER,
+  traceend INTEGER,
+  tracestart INTEGER,
+  coords BLOB,
+  constraint fk_horizon_featureid foreign key (featureid) references d_ipt_horizon_feature(featureid)
+);
+
+create table r_gis_style
+(
+  classid INTEGER,
+  isselectstyle INTEGER,
+  styleType INTEGER,
+  width float,
+  patternlength INTEGER,
+  pattern float,
+  pattern1 float,
+  color_red INTEGER,
+  color_green INTEGER,
+  color_blue INTEGER,
+  color_alpha INTEGER,
+  gradient_type INTEGER,
+  gradient_firstx float,
+  gradient_lastx float,
+  gradient_begin_red INTEGER,
+  gradient_begin_green INTEGER,
+  gradient_begin_blue INTEGER,
+  gradient_begin_alpha INTEGER,
+  gradient_middle_red INTEGER,
+  gradient_middle_green INTEGER,
+  gradient_middle_blue INTEGER,
+  gradient_middle_alpha INTEGER,
+  gradient_end_red INTEGER,
+  gradient_end_green INTEGER,
+  gradient_end_blue INTEGER,
+  gradient_end_alpha INTEGER,
+  arrow_first float,
+  arrow_second float,
+  arrow_thrid float,
+  arrow_fourth float,
+  linecap INTEGER,
+  linejoin INTEGER,
+  linejoinmaxsize float,
+  fldName VARCHAR2(255),
+  fldIdx INTEGER,
+  labelfont VARCHAR2(255),
+  labelsize float,
+  rotation float,
+  outlinewidth float,
+  outlinecolor_red INTEGER,
+  outlinecolor_green INTEGER,
+  outlinecolor_blue INTEGER,
+  outlinecolor_alpha INTEGER,
+  backgroundcolor_red INTEGER,
+  backgroundcolor_green INTEGER,
+  backgroundcolor_blue INTEGER,
+  backgroundcolor_alpha INTEGER,
+  scale float,
+  gap float,
+  radius float,
+  polylinecolor_red INTEGER,
+  polylinecolor_green INTEGER,
+  polylinecolor_blue INTEGER,
+  polylinecolor_alpha INTEGER,
+  labelpos INTEGER,
+  symbolstyle INTEGER,
+  constraint fk_gis_style_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table r_gis_geographic_coordinate
+(
+  coordtype INTEGER,
+  coordname VARCHAR2(255),
+  datum VARCHAR2(255),
+  ellps VARCHAR2(255),
+  ellpsa float,
+  ellpsb float,
+  rf float,
+  ellpsname VARCHAR2(255),
+  deltax float,
+  deltay float,
+  deltaz float,
+  rx float,
+  ry float,
+  rz float,
+  towgs84scale float,
+  iscurrent INTEGER,
+  issystem INTEGER
+);
+
+create table r_gis_layer_remark
+(
+  classid INTEGER,
+  description CLOB,
+  remark CLOB,
+  useshowscale INTEGER,
+  maxshowscale float,
+  minshowscale float,
+  usetickshowscale INTEGER,
+  maxtickshowscale float,
+  mintickshowscale float,
+  demisdiscrete INTEGER,
+  featuretables BLOB,
+  channelorder BLOB,
+  demcolorcodevals BLOB,
+  demcolorcodecolors BLOB,
+  constraint fk_gis_layer_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table r_gis_projection
+(
+  projtype INTEGER,
+  projname VARCHAR2(255),
+  proj VARCHAR2(255),
+  lon0 float,
+  lat0 float,
+  lat1 float,
+  lat2 float,
+  x0 float,
+  y0 float,
+  projk float,
+  projunits VARCHAR2(255),
+  zonetype INTEGER,
+  iscurrent INTEGER,
+  issystem INTEGER
+);
+
+create table r_gis_color_range
+(
+  classid INTEGER,
+  fieldcolorsetting BLOB,
+  fieldsymbolstylesetting BLOB,
+  fieldsymbolsizesetting BLOB,
+  fieldlabelstylesetting BLOB,
+  constraint fk_gis_color_range_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table r_gis_chart
+(
+  classid INTEGER,
+  colorred INTEGER,
+  colorgreen INTEGER,
+  colorblue INTEGER,
+  chartheight float,
+  chartwidth float,
+  fieldtoshow INTEGER,
+  fieldnametoshow VARCHAR2(255),
+  constraint fk_gis_chart_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table a_practice_blobdata
+(
+  blobid INTEGER,
+  practiceid INTEGER,
+  parentpracticeid INTEGER,
+  blobtype INTEGER,
+  blobpos INTEGER,
+  blobexplanation VARCHAR2(100),
+  blobdata BLOB,
+  constraint fk_a_practice_blobdata foreign key (practiceid) references a_practice(practiceid)
+);
+
+create table a_practice_score
+(
+  scoreid INTEGER,
+  whendo float,
+  whodo VARCHAR2(255),
+  elementid INTEGER,
+  templateid INTEGER,
+  factorid INTEGER,
+  svalue VARCHAR2(255),
+  thescore float,
+  overallscore float,
+  remark VARCHAR2(255),
+  layername VARCHAR2(255),
+  constraint fk_practice_score_elementid foreign key (elementid) references i_el(elementid),
+  constraint fk_practice_score_templateid foreign key (templateid) references r_quick_template(templateid),
+  constraint fk_practice_score_factorid foreign key (factorid) references r_risk_factor(factorid)
+);
+
+create table a_practice_table
+(
+  nid INTEGER,
+  elementid INTEGER,
+  whendo float,
+  endyear INTEGER,
+  startyear INTEGER,
+  tabletype INTEGER,
+  savetype INTEGER,
+  rownum INTEGER,
+  colnum INTEGER,
+  remark VARCHAR2(255),
+  hblob BLOB,
+  hblob2 BLOB,
+  hblob3 BLOB,
+  hblob4 BLOB
+);
+
+create table a_practice_tablecheck
+(
+  nid INTEGER,
+  elementid INTEGER,
+  tabletypeid INTEGER,
+  tableatt INTEGER,
+  hblob BLOB
+);
+
+create table a_practice_treetable
+(
+  nid INTEGER,
+  typenid INTEGER,
+  namestr VARCHAR2(255),
+  contentstr VARCHAR2(255),
+  disporder INTEGER,
+  parentnid INTEGER,
+  childnum INTEGER,
+  remark VARCHAR2(255)
+);
+
+create table d_basinsimulate_boundary
+(
+  itemtype INTEGER,
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  interpolatetype INTEGER,
+  beginage float,
+  itemstate INTEGER,
+  posorder INTEGER
+);
+
+create table d_basinsimulate_depthmap
+(
+  itemtype INTEGER,
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  itemstate INTEGER,
+  posorder INTEGER
+);
+
+create table d_basinsimulate_draft
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  itemstate INTEGER,
+  posorder INTEGER,
+  faultpositions BLOB,
+  faultpositionsizes CLOB,
+  faultviewnames BLOB,
+  faultviewnamelens VARCHAR2(255)
+);
+
+create table d_basinsimulate_facemap
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  interpolatetype INTEGER,
+  itemstate INTEGER,
+  posorder INTEGER,
+  facemapcondition BLOB,
+  facemapfacedefinitionname BLOB
+);
+
+create table d_basinsimulate_fault
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  itemstate INTEGER,
+  posorder INTEGER,
+  faultpositions BLOB,
+  faultpositionsizes CLOB,
+  faultviewnames BLOB,
+  faultviewnamelens VARCHAR2(255)
+);
+
+create table d_basinsimulate_horizon
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  interpolatetype INTEGER,
+  geoevent INTEGER,
+  connectmarker INTEGER,
+  beginage float,
+  agedelta float,
+  itemstate INTEGER,
+  posorder INTEGER,
+  horizoncolor INTEGER,
+  diffpartrowcolextent CLOB,
+  diffpartgeoevent VARCHAR2(255),
+  diffpartconnectionmarker VARCHAR2(255),
+  facemapviewname VARCHAR2(255),
+  compositeviewnames BLOB,
+  compositeviewnamelens VARCHAR2(255),
+  hillpositions BLOB,
+  hillpositionsizes CLOB
+);
+
+create table d_basinsimulate_layer
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  tophookname VARCHAR2(255),
+  bothookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  itemstate INTEGER,
+  posorder INTEGER
+);
+
+create table d_basinsimulate_model
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  itemstate INTEGER
+);
+
+create table d_basinsimulate_setting
+(
+  itemtype INTEGER,  
+  modelid INTEGER,
+  modelname VARCHAR2(255),
+  hookname VARCHAR2(255),
+  itemname VARCHAR2(255), 
+  itemstate INTEGER,
+  posorder INTEGER,
+  diffpartrowcolextent CLOB,
+  diffpartgeoevent VARCHAR2(255),
+  diffpartconnectionmarker VARCHAR2(255),
+  refineextent CLOB,
+  refinerate VARCHAR2(255)
+);
+
+create table d_contour_setting
+(
+  classid INTEGER,
+  elementid INTEGER,
+  setting BLOB,
+  coords BLOB,
+  krigingcoords BLOB,
+  isbinarymode INTEGER,
+  constraint fk_contour_setting_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table d_contour_setting
+(
+  classid INTEGER,
+  elementid INTEGER,
+  setting BLOB,
+  coords BLOB,
+  krigingcoords BLOB,
+  isbinarymode INTEGER,
+  constraint fk_contour_setting_classid foreign key (classid) references r_kida_class(classid)
+);
+
+create table r_prefer_axis_template
+(
+  templateIdx INTEGER,
+  templatename VARCHAR2(255),
+  xaxisoryaxis INTEGER,
+  fieldformular CLOB,
+  fieldshowname VARCHAR2(255),
+  fieldorder INTEGER
+);
+
+create table r_prefer_settings
+(
+  practiceid INTEGER,
+  whodo VARCHAR2(255),
+  whendo float,
+  remark VARCHAR2(255),
+  templateIdx INTEGER,
+  axisx INTEGER,
+  axisy INTEGER,
+  logx INTEGER,
+  logy INTEGER,
+  logaxis INTEGER,
+  zerostart INTEGER,
+  showname INTEGER,
+  fourcolor INTEGER,
+  showvalue INTEGER,
+  hyperbolaorquarant INTEGER,
+  hyperbolavalue float
+);
+
+create table r_gis_sde_element
+(
+  classid INTEGER,
+  elementid INTEGER
+);
+
+create table r_sediment_water_interface_temperayure
+(
+  switid INTEGER,
+  modelid INTEGER,
+  switname VARCHAR2(255),
+  agefrom float,
+  mode VARCHAR2(255),
+  tempterature float,
+  depthname VARCHAR2(255),
+  depthviewname VARCHAR2(255),
+  depthtype INTEGER,
+  depths BLOB
+);
+
+create table r_sediment_water_interface_temperayure
+(
+  heatid INTEGER,
+  modelid INTEGER,
+  heatname VARCHAR2(255),
+  agefrom float,
+  mode VARCHAR2(255),
+  value float,
+  depthname VARCHAR2(255),
+  depthviewname VARCHAR2(255),
+  depthtype INTEGER,
+  depths BLOB
+);
+
+create table r_seis_style
+(
+  filepath VARCHAR2(255),
+  renderingtype INTEGER,
+  isblended INTEGER,
+  iscomplemented INTEGER,
+  isshowgrid INTEGER,
+  isshowintervalline INTEGER,
+  isshowcursorline INTEGER,
+  colorcodevals BLOB,
+  colorcodecolors BLOB,
+  xtrap INTEGER,
+  ytrap INTEGER
+);
+
+create table r_water_paleo_depth
+(
+  wpdid INTEGER,
+  modelid INTEGER,
+  wpdname VARCHAR2(255),
+  agefrom float,
+  reference VARCHAR2(255),
+  layername VARCHAR2(255),
+  mode VARCHAR2(255),
+  depth float,
+  depthname VARCHAR2(255),
+  depthviewname VARCHAR2(255),
+  depthtype INTEGER,
+  depths BLOB
+);
+
+create table r_well_rock
+(
+  rockid INTEGER,
+  rockname VARCHAR2(255),
+  rocktype INTEGER,
+  rockdata BLOB,
+  whodo VARCHAR2(255)
+);
+
+create table r_geo_litho
+(
+  lithoidx INTEGER,
+  category VARCHAR2(255),
+  sub_category VARCHAR2(255),
+  name VARCHAR2(255),
+  deposition_porosity float,
+  athy_k_km float,		
+  athy_k_mpa float,
+  compress_y_max float,
+  compress_y_min float,
+  schneider_factor_ka float,
+  schneider_factor_kb float,
+  schneider_factor_fai float,
+  reciprocal_compaction_factor float,
+  vert_cond float,
+  anisotr float,
+  sp_heat_cap float,
+  th_sort_fac float,
+  litho_den float,
+  litho_u float,
+  litho_th float,
+  litho_k float,
+  radioactive_heat float,
+  perm_anisotr float,
+  porosity_pt_1 float,
+  porosity_pt_2 float,
+  porosity_pt_3 float,
+  permeability_pt_1 float,
+  permeability_pt_2 float,
+  permeability_pt_3 float,
+  entrypr_porosity_1 float,
+  entrypr_porosity_25 float,
+  a_to_entrypr float,
+  b_to_entrypr float,
+  formulas BLOB,
+  lith_names BLOB,
+  lith_ratios BLOB
+);
+
+create table r_gfs_masterrecord
+(
+  metaname VARCHAR2(255),
+  mnsdiridx INTEGER,
+  mnsparentidx INTEGER,
+  mnsname VARCHAR2(255),
+  mnspath VARCHAR2(255),
+  mcsrackid INTEGER,
+  mcsip VARCHAR2(255),
+  mcsport INTEGER,
+  mcschunklocation VARCHAR2(255),
+  mcsstatus INTEGER,
+  mcsisprimary INTEGER,
+  mcsconnections INTEGER,
+  mcsdiskbandwidth INTEGER,
+  mcsnetbandwidth INTEGER,
+  mffilename VARCHAR2(255),
+  mffilehandle VARCHAR2(255),
+  mffromhandle VARCHAR2(255),
+  mfreplicas INTEGER,
+  mfblockcount INTEGER,
+  mfdatatype INTEGER,
+  mfmtimestamp float,
+  mfctimestamp float,
+  mfatimestamp float,
+  mcfileoffset VARCHAR2(255),
+  mcchunkhandle VARCHAR2(255),
+  mcversion VARCHAR2(255),
+  mcchunklength INTEGER,
+  mcchunkfile VARCHAR2(255),
+  mclocaldir VARCHAR2(255),
+  mcquota VARCHAR2(255),
+  msminx float,
+  msmaxx float,
+  msminy float,
+  msmaxy float,
+  msminz float,
+  msmaxz float,
+  marlock INTEGER,
+  mawlock INTEGER,
+  mawritinghandle VARCHAR2(255),
+  maleasefrom float,
+  maleaseto float
+);
+
+create table r_gfs_chunkuuid
+(
+  filename VARCHAR2(255),
+  uuids BLOB,
+  uuidexists BLOB
+);
+
+create table r_gfs_chunklocation
+(
+  uuid VARCHAR2(255),
+  chunklocations BLOB
+);
+
+create table r_gfs_geolocationgrid
+(
+  gridlevel INTEGER,
+  gridcode VARCHAR2(255),
+  gridfilecount INTEGER,
+  fileoffset INTEGER,
+  filelength INTEGER,
+  filegfsname VARCHAR2(255),
+  rowkeyoffset INTEGER,
+  rowkeycode BLOB,
+  gridfilelengthlimit INTEGER,
+  gridmachinelocation BLOB
+);
+
+drop index a_practice_index;
+drop index a_risk_index;
+drop index a_resource_index;
+drop index a_resource_detail_index;
+drop index a_parameter_index;
+drop index a_practice_blobdata_index;
+drop index a_correlation_index;
+drop index a_npv_policy_index;
+drop index a_npv_risk_index;
+drop index a_npv_resource_index;
+drop index a_npv_edp_basic_index;
+drop index a_npv_edp_schedule_index;
+drop index a_npv_cost_basic_index;
+drop index a_npv_cost_detail_index;
+drop index a_npv_price_index;
+drop index a_npv_tax_index;
+drop index a_npv_summary_index;
+drop index a_npv_cost_mmbs_index;
+drop index a_repository_genetic_index;
+drop index a_repository_port_index;
+
+
+create index a_practice_index on a_practice(elementid);
+create index a_risk_index on a_risk(practiceid);
+create index a_resource_index on a_resource(practiceid);
+create index a_resource_detail_index on a_resource_detail(practiceid);
+create index a_parameter_index on a_parameter(practiceid);
+create index a_practice_blobdata_index on a_practice_blobdata(practiceid);
+create index a_correlation_index on a_correlation(practiceid);
+create index a_npv_policy_index on a_npv_policy(practiceid);
+create index a_npv_risk_index on a_npv_risk(practiceid);
+create index a_npv_resource_index on a_npv_resource(practiceid);
+create index a_npv_edp_basic_index on a_npv_edp_basic(practiceid);
+create index a_npv_edp_schedule_index on a_npv_edp_schedule(practiceid);
+create index a_npv_cost_basic_index on a_npv_cost_basic(practiceid);
+create index a_npv_cost_detail_index on a_npv_cost_detail(practiceid);
+create index a_npv_price_index on a_npv_price(practiceid);
+create index a_npv_tax_index on a_npv_tax(practiceid);
+create index a_npv_summary_index on a_npv_summary(practiceid);
+create index a_npv_cost_mmbs_index on a_npv_cost_mmbs(practiceid);
+create index a_repository_genetic_index on a_repository_genetic(practiceid);
+create index a_repository_port_index on a_repository_port(practiceid);
+create index i_el_raster_index on i_el_raster(tilecode);

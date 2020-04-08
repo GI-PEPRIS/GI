@@ -1,0 +1,978 @@
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1948) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1948) : Initial memory status(12912300K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(1948) : Leaving memory status(12913568K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12913592K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12901320K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12900164K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12888640K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(406) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(406) : Initial memory status(12912300K)
+Memory Monitor: D:\anyway_64\demos\assessor\connectdatabasedlg.cpp(406) : Leaving memory status(12800404K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12572436K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12565832K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12374632K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12374208K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12304176K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12302360K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12174504K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12182436K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12148252K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12144480K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12146864K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12147744K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12099868K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12099696K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12113668K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12112588K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12122696K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12121088K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12121044K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12120836K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12119816K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12119436K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12109872K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12107920K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12109240K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12108616K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12107252K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12112164K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12089000K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12088804K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12089056K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12088916K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12086116K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12088996K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12088712K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12088564K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12089296K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12089152K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12088800K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12088868K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12090012K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12089752K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12089436K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12088820K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12086332K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12089280K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12069576K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12065848K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12067720K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12067828K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12068480K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12068684K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12069228K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12069040K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12069532K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12069444K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12066032K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12069068K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12065748K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12068656K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12064736K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12067596K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12045100K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12045392K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12037292K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12040388K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12039404K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12039276K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12035820K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12039760K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12036880K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12039964K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12039156K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12039068K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12036456K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12039164K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12034416K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12034356K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12020676K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12023824K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12023864K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12023736K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12023512K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12023048K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(12008020K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(12007888K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11995496K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11998388K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11990704K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11993748K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11983376K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11984780K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11981096K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11981220K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11981284K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11974680K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11969320K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11972296K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11962332K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11965104K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11944128K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11949904K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11950792K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11950628K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11945684K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11949176K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11948948K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11949544K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11946144K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11949208K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11939804K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11940224K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11937412K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11940388K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11926508K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11927956K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11912028K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11917528K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11914712K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11917816K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11895956K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11899284K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11882696K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11885692K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11879992K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11885972K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11883012K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11886104K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11878688K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11885152K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11870856K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11874424K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11863988K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11864240K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11859156K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11858632K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11858800K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11859132K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11850240K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11853652K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11844176K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11847644K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11841144K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11841504K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11827852K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11831056K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11815992K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11815652K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11803080K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11803352K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11806112K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11806476K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11793960K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11795288K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11786876K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11787200K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11780732K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11787112K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11783512K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11786476K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11776912K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11777428K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11768816K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11769168K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11758424K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11759716K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11753220K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11753736K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11745872K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11746380K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11742420K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11745824K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11728764K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11735200K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11728940K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11735144K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11735628K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11736676K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11736548K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11738332K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11719528K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11723060K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11725096K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719324K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11719288K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725380K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11724460K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11724920K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11722460K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725512K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11724928K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725344K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11721356K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725444K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11718628K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725036K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11725212K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725516K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11718896K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725416K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11725696K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725780K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11724516K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11725056K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11720396K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11724224K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11721332K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11724520K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11725688K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719192K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11722708K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11722636K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11716328K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719912K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11718588K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719088K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11715500K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11718672K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11716736K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719932K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11715428K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11720204K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11715820K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719304K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11720692K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11720600K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11718996K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719716K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11718776K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11718944K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11718664K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11719064K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11715312K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11715616K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11710412K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11710948K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11707648K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11711056K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11710256K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11710728K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11707156K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11707668K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11708832K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11709944K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11708888K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11708952K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11707472K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11707680K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11702388K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11708312K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11705496K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11708568K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11707740K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11708084K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11706028K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11709096K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11705732K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11709156K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Initial memory status(11671804K)
+Memory Monitor: D:\anyway_64\src\anydb\anyaccessor.cpp(168) : Leaving memory status(11672672K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Initial memory status(11570172K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Leaving memory status(11569564K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Initial memory status(10582724K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Leaving memory status(10582172K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Initial memory status(10582680K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Leaving memory status(10563796K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Initial memory status(10561280K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Leaving memory status(10560460K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Initial memory status(10557344K)
+Memory Monitor: D:\anyway_64\src\anybridge\gis\anyshpreader.cpp(99) : Leaving memory status(10557224K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Initial memory status(10557344K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Leaving memory status(10347668K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Initial memory status(10316660K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Leaving memory status(10303948K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Initial memory status(10305248K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(8156) : Leaving memory status(10202172K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10199608K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10195344K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10199280K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10199792K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10199280K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10202272K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10202272K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10199200K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10193248K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10196332K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10062772K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10056332K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10068020K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10067912K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10067276K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10069264K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10069264K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10063124K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10063120K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10069252K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070600K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10072580K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072608K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073656K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10073368K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10073456K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072956K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073132K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071376K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073336K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073352K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073536K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073536K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074092K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071452K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073436K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070340K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10072288K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072288K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10066144K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10070444K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10070528K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10066144K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10072276K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10071856K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10071928K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070240K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073316K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073324K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10064624K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10064624K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10067160K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10067160K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073312K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073336K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073680K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10073412K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10073352K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073320K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073392K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070036K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073104K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073112K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073172K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10074000K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10073864K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10073372K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10073572K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073244K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073864K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073256K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073780K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073776K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073884K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10073060K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10073232K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073824K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073588K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070632K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073364K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073364K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10064780K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10067020K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073356K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073352K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10067132K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10067132K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073268K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070244K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073324K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073316K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075448K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070188K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073256K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073272K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10070188K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070188K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10072532K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073296K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10067108K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10067108K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073260K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073276K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073396K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070400K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073520K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073520K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10067364K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10067364K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10070428K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10070428K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073500K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(10073952K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(10074028K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10073540K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073600K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071924K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10068828K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10068828K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074960K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072028K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10068872K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10068872K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075004K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10075012K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075744K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072496K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075540K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10075540K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10072472K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072472K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075536K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072268K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10072200K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072200K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10073156K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072196K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075016K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10075008K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075468K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071864K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10068772K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10068772K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074908K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10074932K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10068756K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10068756K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074904K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10074904K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075424K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071996K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10071940K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071940K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075036K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071924K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074920K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10074920K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10071856K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071856K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074928K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10074936K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10076036K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071808K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074416K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10074416K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10071316K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10071316K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074380K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10074388K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10074484K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10072972K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10075860K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10078344K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10078492K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(10079048K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(10082032K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9867264K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873416K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873416K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9870332K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9870112K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9866992K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9866992K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9870048K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9870056K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873128K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9871388K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9870444K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9870428K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9874296K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9870788K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873876K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873856K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873968K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873928K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873824K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873732K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875540K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875540K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9869376K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9869376K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9872448K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873752K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875536K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875536K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9869384K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9869384K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9872428K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873700K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875496K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875496K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9869344K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9869344K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9872416K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873696K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875480K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875480K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9866780K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9869728K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9872400K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873636K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873580K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873556K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875420K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875516K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9866816K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9866816K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875452K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873652K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9870556K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9870556K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873636K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(9878568K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(9878636K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9876736K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9876660K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9876660K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9868096K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9868096K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9869196K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873428K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875168K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875156K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9869276K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9869276K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9872032K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9871932K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875044K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875044K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9868888K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9868888K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9871960K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873252K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9874928K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9874928K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9868892K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9868892K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9871964K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873252K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875380K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873156K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875032K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875032K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9868856K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9868856K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9871928K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873200K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873128K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873128K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873056K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873248K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9870160K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9870160K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873124K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873120K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9873240K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9873240K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9876308K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9876300K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9876368K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9876276K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9876196K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Initial memory status(9878000K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3832) : Leaving memory status(9877916K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9874988K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9871956K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9871956K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9875024K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875052K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9878108K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9878148K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9878528K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9878284K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9878012K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9874420K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9874360K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9874372K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9877448K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9871368K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9874372K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9874388K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9877452K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9877508K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9871280K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9871296K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9874004K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9874004K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9877084K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9878380K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9881444K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875212K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9878284K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9878332K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9881388K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9878572K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9881648K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9881648K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9872952K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9875484K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9881636K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9889356K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9888128K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9386264K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9389292K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9391176K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9385016K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9384980K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9386348K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9384960K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9385088K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9384944K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9388012K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9391192K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9385040K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9391040K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9384880K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9383260K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9381580K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9368024K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9368948K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9371860K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9364940K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9364464K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9367532K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9369772K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9363580K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9358900K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9362060K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9358172K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9357628K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9359284K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9352424K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(9356872K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(9349044K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(8797308K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(8800376K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(8797352K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(8800420K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(8399864K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(8399656K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Initial memory status(8600000K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Leaving memory status(8590864K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Initial memory status(8608712K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Leaving memory status(8604352K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Initial memory status(8609956K)
+Memory Monitor: D:\anyway_64\demos\assessor\3DSEGYImportPage.cpp(2046) : Leaving memory status(8603776K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Here find difference between initial and leaving memory status!
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Initial memory status(8600192K)
+Memory Monitor: D:\anyway_64\src\anysde\anysdegeometrylayer.cpp(3238) : Leaving memory status(8598800K)

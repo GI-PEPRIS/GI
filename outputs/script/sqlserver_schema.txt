@@ -1,0 +1,227 @@
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_db_user]') AND type in (N'U'))
+DROP TABLE [r_db_user]
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_db_user]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_db_user](
+	[userid] [int] NOT NULL PRIMARY KEY,
+	[username] [nvarchar](64) NULL,
+	[parentorgid] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_db_user_organization]') AND type in (N'U'))
+DROP TABLE [r_db_user_organization]
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_db_user_organization]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_db_user_organization](
+	[orgid] [int] NOT NULL PRIMARY KEY,
+	[parentorgid] [int] NULL,
+	[orgname] [nvarchar](128) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_key_generator]') AND type in (N'U'))
+DROP TABLE [ref_key_generator]
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ref_key_generator]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [ref_key_generator](
+	[keyid] [int] NOT NULL PRIMARY KEY,
+	[nextid] [int] NULL,
+	[maxid] [int] NULL,
+	[name] [nvarchar](255) NULL,
+	[oilfieldid] [int] NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+insert into ref_key_generator (keyid, nextid, maxid, name, oilfieldid) values (1, 2, 10, 'default', 1)
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_geographic_coordinate_system]') AND type in (N'U'))
+DROP TABLE [r_gis_geographic_coordinate_system]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_geographic_coordinate_system]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_geographic_coordinate_system](
+	[geographicsystemid] [int] NOT NULL PRIMARY KEY,
+	[coordtype] [int] NULL,
+	[coordname] [nvarchar](255) NULL,
+	[datum] [nvarchar](255) NULL,
+	[ellps] [nvarchar](255) NULL,
+	[ellpsa] [float] NULL,
+	[ellpsb] [float] NULL,
+	[rf] [float] NULL,
+	[ellpsname] [nvarchar](255) NULL,
+	[deltax] [float] NULL,
+	[deltay] [float] NULL,
+	[deltaz] [float] NULL,
+	[rx] [float] NULL,
+	[ry] [float] NULL,
+	[rz] [float] NULL,
+	[towgs84scale] [float] NULL,
+	[iscurrent] [int] NULL,
+	[issystem] [int] NULL
+) ON [PRIMARY]
+END
+
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_projected_coordinate_system]') AND type in (N'U'))
+DROP TABLE [r_gis_projected_coordinate_system]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_projected_coordinate_system]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_projected_coordinate_system](
+	[projsystemid] [int] NOT NULL PRIMARY KEY,
+	[projtype] [int] NULL,
+	[projname] [nvarchar](255) NULL,
+	[proj] [nvarchar](255) NULL,
+	[lon0] [float] NULL,
+	[lat0] [float] NULL,
+	[lat1] [float] NULL,
+	[lat2] [float] NULL,
+	[x0] [float] NULL,
+	[y0] [float] NULL,
+	[projk] [float] NULL,
+	[projunits] [nvarchar](255) NULL,
+	[zonetype] [int] NULL,
+	[iscurrent] [int] NULL,
+	[issystem] [int] NULL
+) ON [PRIMARY]
+END
+
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_user_relation]') AND type in (N'U'))
+DROP TABLE [r_gis_maplayer_user_relation]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_user_relation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_maplayer_user_relation](
+	[relationid] [int] NOT NULL PRIMARY KEY,
+	[userid] [int] NULL,
+	[username] [nvarchar](127) NULL,
+	[categoryid] [int] NULL,
+	[themeid] [int] NULL,
+	[locking] [int] NULL,
+	[maplayerid] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_category]') AND type in (N'U'))
+DROP TABLE [r_gis_maplayer_category]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_category]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_maplayer_category](
+	[categoryid] [int] NOT NULL PRIMARY KEY,
+	[categoryname] [nvarchar](127) NULL,
+	[parentcategoryid] [int] NULL,
+	[geographicsystemid] [int] NULL,
+	[projectedsystemid] [int] NULL,
+	[geographicgridcode] [nvarchar](32) NULL,
+	[isactivated] [int] NULL,
+	[lockuser] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_theme]') AND type in (N'U'))
+DROP TABLE [r_gis_maplayer_theme]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_theme]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_maplayer_theme](
+	[themeid] [int] NOT NULL PRIMARY KEY,
+	[themename] [nvarchar](127) NULL,
+	[parentthemeid] [int] NULL,
+	[parentcategoryid] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer]') AND type in (N'U'))
+DROP TABLE [r_gis_maplayer]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_maplayer](
+	[layerid] [int] NOT NULL PRIMARY KEY,
+	[layername] [nvarchar](255) NULL,	
+	[parentlayerid] [int] NULL,	
+	[parentcategoryid] [int] NULL,
+	[parentthemeid] [int] NULL,
+	[geographicsystemid] [int] NULL,
+	[projectedsystemid] [int] NULL,	
+	[geographicgridcode] [nvarchar](32) NULL,
+	[datasource] [nvarchar](255) NULL,
+	[featuretype] [int] NULL,
+	[isshown] [int] NULL,
+	[canselect] [int] NULL,
+	[canedit] [int] NULL,	
+	[relatedlayers] [nvarchar](255) NULL,	
+	[renderfromscale] [float] NULL,	
+	[rendertoscale] [float] NULL,	
+	[lockuser] [nvarchar](255) NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_property]') AND type in (N'U'))
+DROP TABLE [r_gis_maplayer_property]
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[r_gis_maplayer_property]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [r_gis_maplayer_property](
+	[layerpropid] [int] NOT NULL PRIMARY KEY,
+	[relayerid] [int] NULL,
+	[remark] [nvarchar](255) NULL
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+

@@ -1,0 +1,15 @@
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Initial memory status(36572316K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(2074) : Leaving memory status(36572232K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1767) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1767) : Initial memory status(36572252K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\connectdatabasedlg.cpp(1767) : Leaving memory status(36575768K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1914) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1914) : Initial memory status(36562836K)
+Memory Monitor: e:\geological intelligence\app\gi_all_deprecated\framework\assessorlogsetupdlg.cpp(1914) : Leaving memory status(36562304K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(205) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(205) : Initial memory status(36567000K)
+Memory Monitor: e:\geological intelligence\any\db\src\anyaccessor.cpp(205) : Leaving memory status(36566496K)
+Memory Monitor: e:\geological intelligence\any\bridge\gis\anyshplayer.cpp(782) : Here find difference between initial and leaving memory status!
+Memory Monitor: e:\geological intelligence\any\bridge\gis\anyshplayer.cpp(782) : Initial memory status(36556600K)
+Memory Monitor: e:\geological intelligence\any\bridge\gis\anyshplayer.cpp(782) : Leaving memory status(36556504K)

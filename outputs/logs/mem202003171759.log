@@ -1,0 +1,9 @@
+Memory Monitor: d:\gi\any\db\src\anyaccessor.cpp(168) : Here find difference between initial and leaving memory status!
+Memory Monitor: d:\gi\any\db\src\anyaccessor.cpp(168) : Initial memory status(35180912K)
+Memory Monitor: d:\gi\any\db\src\anyaccessor.cpp(168) : Leaving memory status(35187132K)
+Memory Monitor: d:\gi\any\db\src\anyunitwork.cpp(208) : Here find difference between initial and leaving memory status!
+Memory Monitor: d:\gi\any\db\src\anyunitwork.cpp(208) : Initial memory status(35185772K)
+Memory Monitor: d:\gi\any\db\src\anyunitwork.cpp(208) : Leaving memory status(35185688K)
+Memory Monitor: d:\gi\any\db\src\anyaccessor.cpp(205) : Here find difference between initial and leaving memory status!
+Memory Monitor: d:\gi\any\db\src\anyaccessor.cpp(205) : Initial memory status(35185996K)
+Memory Monitor: d:\gi\any\db\src\anyaccessor.cpp(205) : Leaving memory status(35185788K)
